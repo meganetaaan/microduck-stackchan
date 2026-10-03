@@ -71,13 +71,15 @@ npm run test:browser -- http://127.0.0.1:8000/microduck-stackchan/
 
 1440×900 / 390×844 の画面、canvas 画素、動作前後の変化、操作部の重なり、モデル・方策読み込みを調べます。`test-results/browser/` に PNG と JSON を保存します。既存の Chromium を使う場合は `CHROMIUM_PATH` で実行ファイルを指定できます。
 
-準備環境では Chromium の起動が socket 権限により失敗したため、ブラウザー画面・実タッチ確認は未完了です。GitHub Actions には同じテストを組み込み、合格した場合のみ Pages を公開します。モバイル相当画面のエミュレーションは、実スマートフォンの性能検証とは異なります。
+準備環境では Chromium の起動に権限制約がありましたが、[GitHub Actions の初回公開試験](https://github.com/meganetaaan/microduck-stackchan/actions/runs/37109234224)で Chromium 1440×900 / 390×844 の画面・動作・操作領域・資産読み込み検査が合格しました。以後も同じテストの合格を公開条件にしています。モバイル相当画面のエミュレーションは、実スマートフォンの性能検証とは異なります。
 
 ## GitHub Pages
 
 リポジトリの `.github/workflows/pages.yml` が `web/` をビルド・検証し、`web/dist/` だけを Pages に配信します。リポジトリ設定の Pages → Source は **GitHub Actions** にします。`main` への push と手動実行が配信対象で、pull request は検証のみです。
 
-予定 URL: https://meganetaaan.github.io/microduck-stackchan/ （実際の公開成否は Actions / Pages の結果を確認してください）
+公開 URL: https://meganetaaan.github.io/microduck-stackchan/
+
+[現在配信中の検証記録](https://meganetaaan.github.io/microduck-stackchan/validation-report.json)と Actions の結果を確認できます。初期カメラは画面のある +X 側を向くよう修正しています。
 
 スクリプト・Worker・MuJoCo WASM・ORT・ONNX・モデル・画面画像はすべて相対 URL を使い、プロジェクト名のサブパスで動作します。別の静的ホストやプロジェクト名でもベース URL の書き換えは不要です。
 

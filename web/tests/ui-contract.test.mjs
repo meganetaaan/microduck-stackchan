@@ -2,8 +2,10 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
 const html=await readFile(new URL('../src/index.html',import.meta.url),'utf8');
+const viewer=await readFile(new URL('../src/viewer.js',import.meta.url),'utf8');
 const css=await readFile(new URL('../src/style.css',import.meta.url),'utf8');
-test('compact work surface keeps all established controls and unique IDs',()=>{
+test('compact work surface keeps controls, unique IDs and a front-facing camera',()=>{
+ assert.ok(viewer.includes('t.x+.58*scale'),'camera home must be on the +X screen side');
  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);assert.equal(new Set(ids).size,ids.length);
  for(const id of['viewport','joystick','stick','slow','normal','turn-left','turn-right','pause','stand','reset','camera-home','follow','loading','alert'])assert.ok(ids.includes(id),id);
  assert.ok(!/keyboard-hint|control-heading|model-tag|session-note|<footer|BROWSER PHYSICS/.test(html));
