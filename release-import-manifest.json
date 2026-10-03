@@ -1,0 +1,121 @@
+{
+  "purpose": "One-time import of reviewed source; workflow extracts and removes upload archives",
+  "parts": [
+    {
+      "name": "release-part-01.zip",
+      "sha256": "bccdd232f913573e76cfe1fd9565559b3e4e3e99beddb5bd9f61ec5126eb9b58",
+      "bytes": 7039468,
+      "entries": 261
+    },
+    {
+      "name": "release-part-02.zip",
+      "sha256": "2edf103e56e47d51a5c3102fd14bbbc860349c4a7875c7c9ed45df53979d5899",
+      "bytes": 7375619,
+      "entries": 27
+    },
+    {
+      "name": "release-part-03.zip",
+      "sha256": "d6048c5f3cdf3ee244d591b2da71e2786d41b7a88862ec7de7165252f478fdb7",
+      "bytes": 7398646,
+      "entries": 27
+    },
+    {
+      "name": "release-part-04.zip",
+      "sha256": "5f23293001c01f1110ae820c8e7fb6c40c57ebfd4701ff3998f9c91f03974c82",
+      "bytes": 8980263,
+      "entries": 100
+    },
+    {
+      "name": "release-part-05.zip",
+      "sha256": "09a01ec85fb767a08894e8836be95952bc6b36ec4e0a53a5a210c09ab5e68c38",
+      "bytes": 6049127,
+      "entries": 175
+    },
+    {
+      "name": "release-part-06.zip",
+      "sha256": "b6d22c6b00e4dc15e3003decde35f7dbd70daba5c2a84096ab6edbd65660defb",
+      "bytes": 7372981,
+      "entries": 27
+    },
+    {
+      "name": "release-part-07.zip",
+      "sha256": "a6afeb956d07d6cde4ec66d70ee45140dc679fc597a5957e7bea724c1ac90b40",
+      "bytes": 7406195,
+      "entries": 27
+    },
+    {
+      "name": "release-part-08.zip",
+      "sha256": "95204bb645f950e6c7241012f50243963484dc2a5cd2bb300470d9a8e66b132b",
+      "bytes": 7436309,
+      "entries": 27
+    },
+    {
+      "name": "release-part-09.zip",
+      "sha256": "dbf8c5dc463838b2363baa49a14f2de1a6949d8296772ce4e960144f0f8ec9ee",
+      "bytes": 8888953,
+      "entries": 597
+    },
+    {
+      "name": "release-part-10.zip",
+      "sha256": "c18e13d758a1d8dc10d61d023a459b55207c749e5882f99ad216f69d136c3e6c",
+      "bytes": 8523732,
+      "entries": 2389
+    },
+    {
+      "name": "release-part-11.zip",
+      "sha256": "6b95bf66b8afa03ff2981e893f345ab092115ed37cf459c8830d5199d65e70d2",
+      "bytes": 8686551,
+      "entries": 1447
+    },
+    {
+      "name": "release-part-12.zip",
+      "sha256": "6b6c374444904f45b7540939070f0d761846229581555c4d9a4c269a8ecc2c6f",
+      "bytes": 8499079,
+      "entries": 777
+    },
+    {
+      "name": "release-part-13.zip",
+      "sha256": "ae6bedb50b959dcc0a1546ebfade11e6ac1bfb36f72e794154ecb22327eebc36",
+      "bytes": 8961168,
+      "entries": 74
+    },
+    {
+      "name": "release-part-14.zip",
+      "sha256": "7c552f48cbe5eaa6dff1be3fc7eb477ba11aded17f13375c5fdc9f4d0d1fff7d",
+      "bytes": 5710253,
+      "entries": 92
+    },
+    {
+      "name": "release-part-15.zip",
+      "sha256": "31402d32f31a9e861505192da9f3838e64dc0336440c9232b1fbd86e57346731",
+      "bytes": 6319815,
+      "entries": 26
+    },
+    {
+      "name": "release-part-16.zip",
+      "sha256": "861d5f2fb96ce828fdf096eff4fb9cc5edf95b061750b5b1cb81db0e1eb6651f",
+      "bytes": 6616282,
+      "entries": 26
+    },
+    {
+      "name": "release-part-17.zip",
+      "sha256": "6795b53dd76808da8d6528f231d1bff410b3127eabea46b142099acf812749f9",
+      "bytes": 6611128,
+      "entries": 26
+    },
+    {
+      "name": "release-part-18.zip",
+      "sha256": "14180b80bc03080eb8f0f9a5fdd93869255413f5f7ff1596e4d8f9fe7797e20d",
+      "bytes": 7080381,
+      "entries": 28
+    },
+    {
+      "name": "release-part-19.zip",
+      "sha256": "0538e0c8a3c2e80846d16028f28803c49b2e79ba266c1b7a302bc5f9e602579e",
+      "bytes": 4410702,
+      "entries": 46
+    }
+  ],
+  "source_files": 5749,
+  "source_bytes": 290210914
+}
