@@ -1,0 +1,425 @@
+{
+  "parts": [
+    {
+      "part": "body_cage",
+      "OBJ_watertight": true,
+      "components": 1,
+      "STL": {
+        "units": "millimetres by 1:1 coordinate dimensions; STL has no embedded units",
+        "bounds_xyz_mm": [
+          [
+            -39.0,
+            -40.0,
+            46.0
+          ],
+          [
+            41.0,
+            40.0,
+            126.0
+          ]
+        ],
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 52812.34308307736,
+        "max_vertex_bounds_difference_from_metre_OBJ_mm": 0.0,
+        "volume_difference_from_metre_OBJ_mm3": 0.023951933726493735
+      },
+      "density_kg_m3": 1240.0,
+      "independent_mass_kg": 0.06548727572261806,
+      "compiled_mass_kg": 0.06548727446463098,
+      "mass_abs_error_kg": 1.2579870756201927e-09,
+      "COM_max_abs_error_m": 5.452999646878703e-10,
+      "full_inertia_max_abs_error_kg_m2": 3.2951295094200625e-12,
+      "positive_inertia": true,
+      "visual_file_sha256": "5d4aeaae779ce581caa11090cf2114854e33929cec0689af626e4dd115763961"
+    },
+    {
+      "part": "rear_cover",
+      "OBJ_watertight": true,
+      "components": 1,
+      "STL": {
+        "units": "millimetres by 1:1 coordinate dimensions; STL has no embedded units",
+        "bounds_xyz_mm": [
+          [
+            -39.0,
+            -29.75,
+            54.25
+          ],
+          [
+            -36.599998474121094,
+            29.75,
+            117.75
+          ]
+        ],
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 8862.540466473065,
+        "max_vertex_bounds_difference_from_metre_OBJ_mm": 1.5258789076710855e-06,
+        "volume_difference_from_metre_OBJ_mm3": 0.005411013853517943
+      },
+      "density_kg_m3": 1240.0,
+      "independent_mass_kg": 0.010989543468769328,
+      "compiled_mass_kg": 0.010989543137634353,
+      "mass_abs_error_kg": 3.311349753426507e-10,
+      "COM_max_abs_error_m": 1.0222010737859222e-11,
+      "full_inertia_max_abs_error_kg_m2": 5.408969264172436e-13,
+      "positive_inertia": true,
+      "visual_file_sha256": "32831eba1baf40de2fdd843877173a485b21bd9439d2ecf581f8d97a45a2de65"
+    },
+    {
+      "part": "central_mount",
+      "OBJ_watertight": true,
+      "components": 1,
+      "STL": {
+        "units": "millimetres by 1:1 coordinate dimensions; STL has no embedded units",
+        "bounds_xyz_mm": [
+          [
+            -12.0,
+            -6.0,
+            0.0
+          ],
+          [
+            12.0,
+            6.0,
+            46.0
+          ]
+        ],
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 5792.405942125574,
+        "max_vertex_bounds_difference_from_metre_OBJ_mm": 0.0,
+        "volume_difference_from_metre_OBJ_mm3": 0.0004246942617101013
+      },
+      "density_kg_m3": 1240.0,
+      "independent_mass_kg": 0.007182583894856595,
+      "compiled_mass_kg": 0.007182583401370606,
+      "mass_abs_error_kg": 4.934859890518006e-10,
+      "COM_max_abs_error_m": 1.3807396545550965e-10,
+      "full_inertia_max_abs_error_kg_m2": 2.7729064712577627e-13,
+      "positive_inertia": true,
+      "visual_file_sha256": "6b96d5c002006b02aa9c3d1e689a4da3eb30150c02db5d3b7bdcd703517404f0"
+    },
+    {
+      "part": "compute_pedestal",
+      "OBJ_watertight": true,
+      "components": 1,
+      "STL": {
+        "units": "millimetres by 1:1 coordinate dimensions; STL has no embedded units",
+        "bounds_xyz_mm": [
+          [
+            -24.0,
+            -8.0,
+            48.400001525878906
+          ],
+          [
+            -16.0,
+            8.0,
+            54.0
+          ]
+        ],
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 692.1611926352656,
+        "max_vertex_bounds_difference_from_metre_OBJ_mm": 1.5258789076710855e-06,
+        "volume_difference_from_metre_OBJ_mm3": 0.00037785993697525555
+      },
+      "density_kg_m3": 1240.0,
+      "independent_mass_kg": 0.0008582803474140516,
+      "compiled_mass_kg": 0.0008582800438606572,
+      "mass_abs_error_kg": 3.0355339444322615e-10,
+      "COM_max_abs_error_m": 4.85722573273506e-17,
+      "full_inertia_max_abs_error_kg_m2": 1.3891391838544186e-14,
+      "positive_inertia": true,
+      "visual_file_sha256": "26419e2a03d77e096f0c17453b53d2925c0fa102f7ffd48d083e09ad90e9a1d5"
+    },
+    {
+      "part": "under_saddle",
+      "OBJ_watertight": true,
+      "components": 1,
+      "STL": null,
+      "density_kg_m3": 7850.0,
+      "independent_mass_kg": 0.00027930661483833606,
+      "compiled_mass_kg": 0.00027930651806246825,
+      "mass_abs_error_kg": 9.677586780987985e-11,
+      "COM_max_abs_error_m": 4.336808689942018e-19,
+      "full_inertia_max_abs_error_kg_m2": 1.4251111176938848e-15,
+      "positive_inertia": true,
+      "visual_file_sha256": "1b64f5df64b5d0e7d19a207f2a106399ebfeedf70320b51fd9d7445f21117568"
+    },
+    {
+      "part": "rear_hardware",
+      "OBJ_watertight": true,
+      "components": 10,
+      "STL": null,
+      "density_kg_m3": 7850.0,
+      "independent_mass_kg": 0.001956500625247405,
+      "compiled_mass_kg": 0.001956501836751907,
+      "mass_abs_error_kg": 1.211504502187516e-09,
+      "COM_max_abs_error_m": 2.2785093020671887e-08,
+      "full_inertia_max_abs_error_kg_m2": 4.519215919691064e-12,
+      "positive_inertia": true,
+      "visual_file_sha256": "595a91327307cc38ea296b51b723ae58c1e4d40ba18b71b1b95a9667d09215d9"
+    }
+  ],
+  "fixed_original_CAD": [
+    {
+      "mesh": "seeed_bearing__configuration__22x16x4",
+      "geom_id": 1,
+      "volume_mm3": 492.97570861673415,
+      "bounds_xyz_mm": [
+        [
+          -4.999999723531224,
+          6.500000430824255,
+          -4.999999884800626
+        ],
+        [
+          17.000000157259546,
+          28.500000311615022,
+          -0.9999996948108214
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "right_shell",
+      "geom_id": 2,
+      "volume_mm3": 11216.908052877747,
+      "bounds_xyz_mm": [
+        [
+          -46.39785590038405,
+          -32.26448876141249,
+          0.3337016389295955
+        ],
+        [
+          34.50000027477325,
+          -0.49999913835887744,
+          42.026369519138825
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "banana_pcb_locker",
+      "geom_id": 3,
+      "volume_mm3": 459.6500377820703,
+      "bounds_xyz_mm": [
+        [
+          -32.29999944907149,
+          -27.025033013734685,
+          31.452317464602753
+        ],
+        [
+          -28.499998453673918,
+          27.02503256329563,
+          38.10468383456544
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "trunk_base",
+      "geom_id": 4,
+      "volume_mm3": 1415.119421663436,
+      "bounds_xyz_mm": [
+        [
+          -19.000000106943347,
+          -28.499999823657284,
+          -1.000000120198477
+        ],
+        [
+          17.000000581815133,
+          28.50000020614527,
+          2.0000005103608802
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "xl330",
+      "geom_id": 5,
+      "volume_mm3": 15676.038060858014,
+      "bounds_xyz_mm": [
+        [
+          -18.499999743823746,
+          7.500000223517409,
+          -3.000000040072365
+        ],
+        [
+          15.499999800404705,
+          27.499999776482593,
+          26.00000004622438
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "power_support",
+      "geom_id": 6,
+      "volume_mm3": 10493.928222277682,
+      "bounds_xyz_mm": [
+        [
+          -31.000000363481274,
+          -27.25000025215144,
+          -44.06763147879503
+        ],
+        [
+          -13.999998819019478,
+          27.249999066192906,
+          39.42214811182182
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "np_f970",
+      "geom_id": 8,
+      "volume_mm3": 51555.51478754488,
+      "bounds_xyz_mm": [
+        [
+          -46.8329362264209,
+          -19.308149143572194,
+          -39.37972824811312
+        ],
+        [
+          -25.075854217778456,
+          19.30033117189325,
+          31.671268035869062
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "xl330",
+      "geom_id": 10,
+      "volume_mm3": 15676.038060858014,
+      "bounds_xyz_mm": [
+        [
+          -18.499999743823746,
+          -27.499999776482593,
+          -3.000000040072365
+        ],
+        [
+          15.499999800404705,
+          -7.500000223517409,
+          26.00000004622438
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "left_shell",
+      "geom_id": 11,
+      "volume_mm3": 11388.33307285882,
+      "bounds_xyz_mm": [
+        [
+          -46.39006396702182,
+          -1.9500009709757133,
+          0.2573475766295269
+        ],
+        [
+          34.50000184373503,
+          31.7644884816089,
+          41.94786871128151
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "seeed_bearing__configuration__22x16x4",
+      "geom_id": 12,
+      "volume_mm3": 492.97570861673415,
+      "bounds_xyz_mm": [
+        [
+          -4.999999723531224,
+          -28.499999569175746,
+          -4.999999884800626
+        ],
+        [
+          17.000000157259546,
+          -6.499999688384978,
+          -0.9999996948108214
+        ]
+      ],
+      "watertight": true
+    }
+  ],
+  "fixed_CAD_solid_intersections_over_0p001_mm3": [],
+  "new_assembly_solid_intersections_over_0p001_mm3": [],
+  "nominal_face_contact_candidates": [
+    {
+      "a": "body_cage",
+      "b": "rear_cover",
+      "expanded_1micron_intersection_mm3": 0.24479681407472006
+    },
+    {
+      "a": "body_cage",
+      "b": "central_mount",
+      "expanded_1micron_intersection_mm3": 0.21277113779426401
+    },
+    {
+      "a": "body_cage",
+      "b": "compute_pedestal",
+      "expanded_1micron_intersection_mm3": 0.08420318171985179
+    },
+    {
+      "a": "body_cage",
+      "b": "rear_hardware",
+      "expanded_1micron_intersection_mm3": 0.037484471892674204
+    },
+    {
+      "a": "body_cage",
+      "b": "Tab5",
+      "expanded_1micron_intersection_mm3": 2.5567261104363586
+    },
+    {
+      "a": "rear_cover",
+      "b": "rear_hardware",
+      "expanded_1micron_intersection_mm3": 0.02953613422072479
+    },
+    {
+      "a": "central_mount",
+      "b": "rear_hardware",
+      "expanded_1micron_intersection_mm3": 0.006783109459996384
+    },
+    {
+      "a": "compute_pedestal",
+      "b": "compute",
+      "expanded_1micron_intersection_mm3": 0.08424322634236917
+    },
+    {
+      "a": "under_saddle",
+      "b": "rear_hardware",
+      "expanded_1micron_intersection_mm3": 0.008157981452211855
+    }
+  ],
+  "total_model_mass_kg": 0.701469269402311,
+  "printed_mass_kg": 0.08451768343365804,
+  "methods": "Independent reread of exported OBJ/STL and exact triangle-surface Manifold booleans. Physical printed-solid inertia uses stated uniform material density; compiled principal inertia is rotated back into body coordinates. STL files have no native unit metadata, coordinates checked against metre OBJ and dimension parameters. Face contact candidates use analytical 1 micron expansion and are not attachment/strength validation.",
+  "STL_inventory": {
+    "expected": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "compute_pedestal_mm.stl",
+      "rear_cover_mm.stl"
+    ],
+    "found": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "compute_pedestal_mm.stl",
+      "rear_cover_mm.stl"
+    ],
+    "missing": [],
+    "unexpected": []
+  },
+  "approximate_non_solid_mass_allowance": {
+    "mass_kg": 0.004,
+    "body": "mount_fastener_allowance",
+    "status": "Approximate unspecified mounting fastener mass and box inertia; no physical shape or collider is certified for this allowance."
+  },
+  "all_printed_parts_are_single_watertight_solids": true,
+  "all_density_mass_and_inertias_agree_with_export_precision": true
+}

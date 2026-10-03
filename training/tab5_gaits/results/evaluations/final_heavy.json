@@ -1,0 +1,940 @@
+{
+  "summary": {
+    "stand": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        6.250087439233958e-05,
+        -1.2247098691332779e-05,
+        1.3917282798502439e-05
+      ],
+      "max_tilt": 2.5862272936276405,
+      "mean_tracking_error": 6.607131395487964e-05,
+      "mean_yaw_error": 7.1804518922864e-05,
+      "mean_cross_track_drift_m": 0.0041328281623686965,
+      "max_cross_track_drift_m": 0.00445607428580782,
+      "mean_abs_heading_drift_rad": 0.004900686908513308
+    },
+    "forward_slow": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.08500501540283933,
+        0.005918987627312212,
+        -0.012944020118284532
+      ],
+      "max_tilt": 3.8713321341903493,
+      "mean_tracking_error": 0.011626459131912036,
+      "mean_yaw_error": 0.012944020118284532,
+      "mean_cross_track_drift_m": 0.2131273431981936,
+      "max_cross_track_drift_m": 0.23094873314252895,
+      "mean_abs_heading_drift_rad": 0.26866017282009125
+    },
+    "forward": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.1157750387212844,
+        0.00014757082668852872,
+        -0.011492313030572012
+      ],
+      "max_tilt": 3.8041502712924435,
+      "mean_tracking_error": 0.004230603575393067,
+      "mean_yaw_error": 0.011492313030572012,
+      "mean_cross_track_drift_m": 0.19497686176306478,
+      "max_cross_track_drift_m": 0.2664733146136446,
+      "mean_abs_heading_drift_rad": 0.164534542709589
+    },
+    "backward": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        -0.1515142836126418,
+        0.0002573666213063465,
+        0.007485741120850833
+      ],
+      "max_tilt": 7.763602285693859,
+      "mean_tracking_error": 0.001549254931981269,
+      "mean_yaw_error": 0.01452169170977683,
+      "mean_cross_track_drift_m": 0.4681367781492247,
+      "max_cross_track_drift_m": 0.6030997320195763,
+      "mean_abs_heading_drift_rad": 0.27733637765049934
+    },
+    "left": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.007796311675454326,
+        0.07786622630871817,
+        0.004523949869282758
+      ],
+      "max_tilt": 4.1692305128310805,
+      "mean_tracking_error": 0.011082386651134164,
+      "mean_yaw_error": 0.004523949869282758,
+      "mean_cross_track_drift_m": 0.1201089832269496,
+      "max_cross_track_drift_m": 0.1464644362406355,
+      "mean_abs_heading_drift_rad": 0.10256530530750751
+    },
+    "right": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.00389638618780972,
+        -0.05995813880278246,
+        0.03813485436338797
+      ],
+      "max_tilt": 4.474173621952842,
+      "mean_tracking_error": 0.006306172017012077,
+      "mean_yaw_error": 0.03813485436338797,
+      "mean_cross_track_drift_m": 0.4926590859333644,
+      "max_cross_track_drift_m": 0.5269644740609798,
+      "mean_abs_heading_drift_rad": 0.8369770050048828
+    },
+    "turn_left": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.002716721641713678,
+        -0.002543796664634458,
+        0.6607422076025862
+      ],
+      "max_tilt": 7.109150642026084,
+      "mean_tracking_error": 0.0037521847306954906,
+      "mean_yaw_error": 0.03925778047648487,
+      "mean_cross_track_drift_m": 0.007303246108258343,
+      "max_cross_track_drift_m": 0.007498420630865933,
+      "mean_abs_heading_drift_rad": 1.208223819732666
+    },
+    "turn_right": {
+      "successes": 2,
+      "falls": 0,
+      "trials": 2,
+      "mean_velocity": [
+        0.006984393450552431,
+        -0.00500135111975406,
+        -0.7388889047453722
+      ],
+      "max_tilt": 5.888083463071589,
+      "mean_tracking_error": 0.008614741781398427,
+      "mean_yaw_error": 0.038888916666301176,
+      "mean_cross_track_drift_m": 0.02237065319087989,
+      "max_cross_track_drift_m": 0.03282515179550842,
+      "mean_abs_heading_drift_rad": 0.16751909255981445
+    }
+  },
+  "trials": [
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 47.719424348305125,
+      "displacement": [
+        0.003746435643734214,
+        0.0006907497945657379,
+        -0.008675190175799097
+      ],
+      "mean_body_velocity": [
+        4.89620910503568e-05,
+        7.708402283165499e-06,
+        8.572180172136643e-05
+      ],
+      "linear_rmse": 0.00017056683038914913,
+      "yaw_rmse": 0.0005670236475608701,
+      "max_tilt_deg": 2.5107325862807133,
+      "max_torque_nm": 0.09959715659482866,
+      "yaw_change_rad": 0.004458630243915795,
+      "liftoffs": [
+        1,
+        1
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 4.9565167464485994e-05,
+      "mean_yaw_error": 8.572180172136643e-05,
+      "cross_track_drift_m": 0.0038095820389295733,
+      "heading_drift_rad": 0.004458630457520485,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "stand",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 47.699735700184085,
+      "displacement": [
+        0.004413407831563405,
+        -0.0006151661181603534,
+        -0.008703889490369904
+      ],
+      "mean_body_velocity": [
+        7.603965773432236e-05,
+        -3.220259966583106e-05,
+        -5.7887236124361556e-05
+      ],
+      "linear_rmse": 0.00022703505609515733,
+      "yaw_rmse": 0.0010450580796843552,
+      "max_tilt_deg": 2.5862272936276405,
+      "max_torque_nm": 0.10518580981292945,
+      "yaw_change_rad": -0.005342743445635456,
+      "liftoffs": [
+        1,
+        1
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 8.257746044527329e-05,
+      "mean_yaw_error": 5.7887236124361556e-05,
+      "cross_track_drift_m": 0.00445607428580782,
+      "heading_drift_rad": -0.00534274335950613,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "stand",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 43.93760663475666,
+      "displacement": [
+        1.529525143734146,
+        -0.23094873314252895,
+        -0.009650218288969115
+      ],
+      "mean_body_velocity": [
+        0.08519571481684203,
+        0.005799832448233078,
+        -0.012653352142183072
+      ],
+      "linear_rmse": 0.020890171505109086,
+      "yaw_rmse": 0.07349995899193616,
+      "max_tilt_deg": 3.8713321341903493,
+      "max_torque_nm": 0.42787974925242594,
+      "yaw_change_rad": -0.2563071091265914,
+      "liftoffs": [
+        54,
+        55
+      ],
+      "command": [
+        0.07500000298023224,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.01172990180192325,
+      "mean_yaw_error": 0.012653352142183072,
+      "cross_track_drift_m": 0.23094873314252895,
+      "heading_drift_rad": -0.25630709528923035,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "forward_slow",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.000756756387574,
+      "displacement": [
+        1.5294798430087406,
+        -0.19530595325385824,
+        -0.006386336560036079
+      ],
+      "mean_body_velocity": [
+        0.08481431598883665,
+        0.006038142806391347,
+        -0.01323468809438599
+      ],
+      "linear_rmse": 0.02055390718809634,
+      "yaw_rmse": 0.07498776427123012,
+      "max_tilt_deg": 3.8640557719472164,
+      "max_torque_nm": 0.4298694165265572,
+      "yaw_change_rad": -0.2810132613842429,
+      "liftoffs": [
+        54,
+        55
+      ],
+      "command": [
+        0.07500000298023224,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.011523016461900824,
+      "mean_yaw_error": 0.01323468809438599,
+      "cross_track_drift_m": 0.19530595325385824,
+      "heading_drift_rad": -0.28101325035095215,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "forward_slow",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.173837506851996,
+      "displacement": [
+        2.112795731772269,
+        -0.12348040891248493,
+        -0.01020731134168934
+      ],
+      "mean_body_velocity": [
+        0.11418992669929091,
+        0.0003522997729055462,
+        -0.00972501328625148
+      ],
+      "linear_rmse": 0.018181843435219256,
+      "yaw_rmse": 0.0799324633660994,
+      "max_tilt_deg": 3.8041502712924435,
+      "max_torque_nm": 0.44995389931587526,
+      "yaw_change_rad": -0.1089356053857391,
+      "liftoffs": [
+        55,
+        55
+      ],
+      "command": [
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.005820741853230316,
+      "mean_yaw_error": 0.00972501328625148,
+      "cross_track_drift_m": 0.12348040891248493,
+      "heading_drift_rad": -0.10893560200929642,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "forward",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.49691999270966,
+      "displacement": [
+        2.1756726319039266,
+        -0.2664733146136446,
+        -0.006539179255746735
+      ],
+      "mean_body_velocity": [
+        0.1173601507432779,
+        -5.715811952848876e-05,
+        -0.013259612774892545
+      ],
+      "linear_rmse": 0.01708688053341878,
+      "yaw_rmse": 0.07421964368409316,
+      "max_tilt_deg": 3.6714818665424422,
+      "max_torque_nm": 0.46726468338149085,
+      "yaw_change_rad": -0.22013349071368937,
+      "liftoffs": [
+        55,
+        56
+      ],
+      "command": [
+        0.11999999731779099,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.002640465297555818,
+      "mean_yaw_error": 0.013259612774892545,
+      "cross_track_drift_m": 0.2664733146136446,
+      "heading_drift_rad": -0.2201334834098816,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "forward",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 41.88899666861412,
+      "displacement": [
+        -2.80301103317867,
+        0.33317382427887304,
+        -0.0038856845563050024
+      ],
+      "mean_body_velocity": [
+        -0.15199232463916168,
+        0.00014236266264483884,
+        -0.007035950588925998
+      ],
+      "linear_rmse": 0.03356949000562612,
+      "yaw_rmse": 0.09839747612767555,
+      "max_tilt_deg": 7.763602285693859,
+      "max_torque_nm": 0.49586678052923094,
+      "yaw_change_rad": -0.08712036193781802,
+      "liftoffs": [
+        48,
+        47
+      ],
+      "command": [
+        -0.15000000596046448,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.001997398519374913,
+      "mean_yaw_error": 0.007035950588925998,
+      "cross_track_drift_m": 0.33317382427887304,
+      "heading_drift_rad": -0.08712036162614822,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "backward",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 41.90680965482947,
+      "displacement": [
+        -2.7309162811799808,
+        -0.6030997320195763,
+        -0.0029938488416500764
+      ],
+      "mean_body_velocity": [
+        -0.15103624258612194,
+        0.00037237057996785414,
+        0.022007432830627664
+      ],
+      "linear_rmse": 0.033947116575173124,
+      "yaw_rmse": 0.10021197660624102,
+      "max_tilt_deg": 7.582772933688666,
+      "max_torque_nm": 0.5083557513068621,
+      "yaw_change_rad": 0.4675524032752776,
+      "liftoffs": [
+        48,
+        48
+      ],
+      "command": [
+        -0.15000000596046448,
+        0.0,
+        0.0
+      ],
+      "mean_linear_error": 0.0011011113445876252,
+      "mean_yaw_error": 0.022007432830627664,
+      "cross_track_drift_m": 0.6030997320195763,
+      "heading_drift_rad": 0.46755239367485046,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "backward",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 43.19967601135603,
+      "displacement": [
+        0.1464644362406355,
+        1.5065898363323214,
+        -0.007099224384712638
+      ],
+      "mean_body_velocity": [
+        0.008134329040951087,
+        0.07764029403382613,
+        0.00161145109077545
+      ],
+      "linear_rmse": 0.024655690173976376,
+      "yaw_rmse": 0.030947154181961152,
+      "max_tilt_deg": 4.1692305128310805,
+      "max_torque_nm": 0.41044298368418275,
+      "yaw_change_rad": 0.059756923882583024,
+      "liftoffs": [
+        48,
+        47
+      ],
+      "command": [
+        0.0,
+        0.07000000029802322,
+        0.0
+      ],
+      "mean_linear_error": 0.011159811706109088,
+      "mean_yaw_error": 0.00161145109077545,
+      "cross_track_drift_m": 0.1464644362406355,
+      "heading_drift_rad": 0.05975692346692085,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "left",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 43.157856857424555,
+      "displacement": [
+        0.0937535302132637,
+        1.4912034355065904,
+        -0.004783387477418077
+      ],
+      "mean_body_velocity": [
+        0.007458294309957565,
+        0.07809215858361022,
+        0.0074364486477900655
+      ],
+      "linear_rmse": 0.024559557978765707,
+      "yaw_rmse": 0.034474116542331734,
+      "max_tilt_deg": 4.162672490185225,
+      "max_torque_nm": 0.4990389090604653,
+      "yaw_change_rad": 0.14537368775495896,
+      "liftoffs": [
+        47,
+        47
+      ],
+      "command": [
+        0.0,
+        0.07000000029802322,
+        0.0
+      ],
+      "mean_linear_error": 0.01100496159615924,
+      "mean_yaw_error": 0.0074364486477900655,
+      "cross_track_drift_m": 0.0937535302132637,
+      "heading_drift_rad": 0.14537368714809418,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "left",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.52117831918839,
+      "displacement": [
+        0.5269644740609798,
+        -1.0477095861859185,
+        -0.004169006504212355
+      ],
+      "mean_body_velocity": [
+        0.0038191113973747794,
+        -0.059946003027908284,
+        0.040378508230801406
+      ],
+      "linear_rmse": 0.020064515098501684,
+      "yaw_rmse": 0.045224978204725166,
+      "max_tilt_deg": 4.474173621952842,
+      "max_torque_nm": 0.3838112689041074,
+      "yaw_change_rad": 0.9243035452145354,
+      "liftoffs": [
+        50,
+        51
+      ],
+      "command": [
+        0.0,
+        -0.054999999701976776,
+        0.0
+      ],
+      "mean_linear_error": 0.006248884761754171,
+      "mean_yaw_error": 0.040378508230801406,
+      "cross_track_drift_m": 0.5269644740609798,
+      "heading_drift_rad": 0.9243035316467285,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "right",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.55262528708115,
+      "displacement": [
+        0.45835369780574897,
+        -1.08570721653877,
+        -0.004802773053182011
+      ],
+      "mean_body_velocity": [
+        0.003973660978244661,
+        -0.05997027457765664,
+        0.03589120049597454
+      ],
+      "linear_rmse": 0.020013030439380658,
+      "yaw_rmse": 0.04151112083755452,
+      "max_tilt_deg": 4.44647931450743,
+      "max_torque_nm": 0.35705245811580316,
+      "yaw_change_rad": 0.7496504915844362,
+      "liftoffs": [
+        50,
+        51
+      ],
+      "command": [
+        0.0,
+        -0.054999999701976776,
+        0.0
+      ],
+      "mean_linear_error": 0.006363459272269984,
+      "mean_yaw_error": 0.03589120049597454,
+      "cross_track_drift_m": 0.45835369780574897,
+      "heading_drift_rad": 0.7496504783630371,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "right",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.65567368986831,
+      "displacement": [
+        0.007072000619866129,
+        -0.0007151845211892398,
+        -0.003993504915179108
+      ],
+      "mean_body_velocity": [
+        0.002134066816703134,
+        -0.0026486163396169295,
+        0.657809371037405
+      ],
+      "linear_rmse": 0.018702546542455765,
+      "yaw_rmse": 0.08430695275056868,
+      "max_tilt_deg": 7.040944650333313,
+      "max_torque_nm": 0.41807744006535674,
+      "yaw_change_rad": 12.729531790911654,
+      "liftoffs": [
+        49,
+        48
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.699999988079071
+      ],
+      "mean_linear_error": 0.003401383496849367,
+      "mean_yaw_error": 0.042190617041666045,
+      "cross_track_drift_m": 0.007108071585650752,
+      "heading_drift_rad": -1.270467758178711,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "turn_left",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 44.66667748338662,
+      "displacement": [
+        0.0018433969519467978,
+        -0.007268301014332655,
+        -0.0030442510386100574
+      ],
+      "mean_body_velocity": [
+        0.003299376466724222,
+        -0.0024389769896519865,
+        0.6636750441677673
+      ],
+      "linear_rmse": 0.018813562622611985,
+      "yaw_rmse": 0.07612632367596774,
+      "max_tilt_deg": 7.109150642026084,
+      "max_torque_nm": 0.3534447143232249,
+      "yaw_change_rad": 12.854019969992144,
+      "liftoffs": [
+        49,
+        48
+      ],
+      "command": [
+        0.0,
+        0.0,
+        0.699999988079071
+      ],
+      "mean_linear_error": 0.004102985964541614,
+      "mean_yaw_error": 0.0363249439113037,
+      "cross_track_drift_m": 0.007498420630865933,
+      "heading_drift_rad": -1.145979881286621,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "turn_left",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 43.86023000030035,
+      "displacement": [
+        0.008892641117742215,
+        -0.00793194012045475,
+        -0.010297549138778062
+      ],
+      "mean_body_velocity": [
+        0.0072518694373600225,
+        -0.0043972995456682635,
+        -0.7387409022806716
+      ],
+      "linear_rmse": 0.021761626244835006,
+      "yaw_rmse": 0.09405440109908363,
+      "max_tilt_deg": 5.888083463071589,
+      "max_torque_nm": 0.48413528060906735,
+      "yaw_change_rad": -14.146091044445628,
+      "liftoffs": [
+        48,
+        48
+      ],
+      "command": [
+        0.0,
+        0.0,
+        -0.699999988079071
+      ],
+      "mean_linear_error": 0.008480911132116093,
+      "mean_yaw_error": 0.03874091420160053,
+      "cross_track_drift_m": 0.011916154586251356,
+      "heading_drift_rad": -0.14609146118164062,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7200,
+      "gait": "turn_right",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    },
+    {
+      "fall": false,
+      "seconds": 20.0,
+      "return": 43.94847673096241,
+      "displacement": [
+        0.022144323736775523,
+        -0.02423054924344576,
+        -0.006229458610171504
+      ],
+      "mean_body_velocity": [
+        0.00671691746374484,
+        -0.005605402693839856,
+        -0.7390369072100729
+      ],
+      "linear_rmse": 0.021690762079521964,
+      "yaw_rmse": 0.06530368456359203,
+      "max_tilt_deg": 5.669305756228855,
+      "max_torque_nm": 0.4787213762901934,
+      "yaw_change_rad": -14.188946954795052,
+      "liftoffs": [
+        48,
+        49
+      ],
+      "command": [
+        0.0,
+        0.0,
+        -0.699999988079071
+      ],
+      "mean_linear_error": 0.008748572430680763,
+      "mean_yaw_error": 0.039036919131001824,
+      "cross_track_drift_m": 0.03282515179550842,
+      "heading_drift_rad": -0.18894672393798828,
+      "command_frame": "body-local velocity; cross-track measured relative to initial heading; yaw may drift",
+      "self_contact_samples": 0,
+      "minimum_self_contact_distance_m": null,
+      "unsafe_self_contact": false,
+      "success": true,
+      "seed": 7201,
+      "gait": "turn_right",
+      "randomize": false,
+      "total_mass_kg": 0.7677123829600849,
+      "voltage_v": 7.4,
+      "floor_friction": 1.0,
+      "actuator_force_limit_nm": 0.9634015946604082,
+      "mass_randomization_kind": "interpolate_explicit_component_light_heavy_variants_preserve_original_legs_Tab5",
+      "body_mass_sha256": "28ecc23c7a0462845335c5c1d9b789f6d10f08ead5f6aac7f75a9ba0b81d11eb",
+      "compiled_model_sha256": "636adb30aab929ccc1456a9cd3ebc0de3bb612478c96d54085503499ef72efc9",
+      "scene_sha256": "386063579d9f18388292cc7ed00a832fc71186fddb072951da889c62abb75d16",
+      "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585"
+    }
+  ],
+  "elapsed_wall_s": 65.03875779600094,
+  "criteria": "No fall, tilt<20deg, mean linear tracking error<0.025m/s, mean yaw error<0.15rad/s; motion must reach >=50% commanded projection. For zero translation, mean drift speed<0.015m/s.",
+  "test_seeds": "7200+index; distinct from training seed stream and initial 1000-series development validation",
+  "physics": "Full assembly/BAM M6/XL330; free root; no external forces, no kinematic target overwrite",
+  "evaluation_code_sha256": "22999f1705d5c3fe0ea461cf1b80a780510a2184d53053ebf7aeffc4218da389",
+  "environment_code_sha256": "5525329781e7c4d4fe6afefa3b75e96f5ae91b92bdd59c805de5274b3648d501"
+}

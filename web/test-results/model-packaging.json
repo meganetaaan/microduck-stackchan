@@ -1,0 +1,25 @@
+{
+  "pass": true,
+  "change": "Two gzip chunks repacked into four chunks below 7 MB; no recompression or physics changes",
+  "concatenated_sha256_before": "2fd094db6bafd69aa32c46b87656756d0e9ba9a38b731f47a0a15c4eeee7f5b9",
+  "concatenated_sha256_after": "2fd094db6bafd69aa32c46b87656756d0e9ba9a38b731f47a0a15c4eeee7f5b9",
+  "uncompressed_model_sha256": "e7a6758b96fdc749fbf1560997a3dd8279d5fb4b64e4e5aa540ed896870bb586",
+  "parts": [
+    {
+      "asset": "model/model.mjb.gz.part1",
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part2",
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part3",
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part4",
+      "bytes": 6548966
+    }
+  ]
+}

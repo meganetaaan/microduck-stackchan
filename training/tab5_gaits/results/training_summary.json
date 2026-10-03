@@ -1,0 +1,317 @@
+{
+  "algorithm": "Native 39D/10D PPO warm-start fine-tuning + learned MuJoCo command calibration",
+  "trained_from_scratch": false,
+  "ppo_steps": 768000,
+  "command_calibration_steps": 105600,
+  "total_training_control_steps": 873600,
+  "aggregate_training_simulated_seconds": 17472.0,
+  "ppo_training_loop_wall_s": 1246.4410849619999,
+  "changed_ppo_actor_values": 186006,
+  "ppo_actor_parameter_l2_change": 0.24143631363217427,
+  "training_seeds": {
+    "PPO": 7,
+    "calibration": [
+      131,
+      132,
+      133
+    ]
+  },
+  "nominal_test_seeds": [
+    7000,
+    7001,
+    7002,
+    7003,
+    7004
+  ],
+  "randomized_test_seeds": [
+    8000,
+    8001,
+    8002,
+    8003,
+    8004
+  ],
+  "transition_test_seeds": [
+    9000,
+    9001,
+    9002,
+    9003,
+    9004
+  ],
+  "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+  "physical_nominal_model_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "steady_trials": 112,
+  "steady_successes": 112,
+  "falls": 0,
+  "body_leg_contact_samples": 0,
+  "max_tilt_deg": 8.264398438601772,
+  "max_torque_nm": 0.583029774126897,
+  "transition_runs": 5,
+  "transition_passes": 5,
+  "nominal": {
+    "stand": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        4.815961877787958e-05,
+        -2.0477589937772858e-05,
+        -0.0001894565053023914
+      ],
+      "max_tilt": 2.3159434005357293,
+      "mean_tracking_error": 5.3746680702193705e-05,
+      "mean_yaw_error": 0.00019351080972907362,
+      "mean_cross_track_drift_m": 0.0041835710118036705,
+      "max_cross_track_drift_m": 0.004433425258040474,
+      "mean_abs_heading_drift_rad": 0.003350610740017146
+    },
+    "forward_slow": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.08399367422775769,
+        0.005175221134664641,
+        -0.004684222753179157
+      ],
+      "max_tilt": 3.795373677310809,
+      "mean_tracking_error": 0.01037861756113532,
+      "mean_yaw_error": 0.004684222753179157,
+      "mean_cross_track_drift_m": 0.11011776374537355,
+      "max_cross_track_drift_m": 0.16314400375998803,
+      "mean_abs_heading_drift_rad": 0.130102925747633
+    },
+    "forward": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.11365072579052478,
+        -0.0005347832671263883,
+        -0.008059935679483415
+      ],
+      "max_tilt": 3.7192012860080226,
+      "mean_tracking_error": 0.006377772086414546,
+      "mean_yaw_error": 0.008059935679483415,
+      "mean_cross_track_drift_m": 0.06395443871097023,
+      "max_cross_track_drift_m": 0.11072430526326271,
+      "mean_abs_heading_drift_rad": 0.07546647898852825
+    },
+    "backward": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        -0.15192892977295294,
+        0.002083258092965642,
+        -0.007431150812772058
+      ],
+      "max_tilt": 7.614051595918897,
+      "mean_tracking_error": 0.002845313933166509,
+      "mean_yaw_error": 0.008321679789682407,
+      "mean_cross_track_drift_m": 0.19033632692563673,
+      "max_cross_track_drift_m": 0.3664613789540499,
+      "mean_abs_heading_drift_rad": 0.12803944963961839
+    },
+    "left": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.005121467554566713,
+        0.07990937604565523,
+        0.003591397654575957
+      ],
+      "max_tilt": 4.335455260812585,
+      "mean_tracking_error": 0.011161964948134324,
+      "mean_yaw_error": 0.003591397654575957,
+      "mean_cross_track_drift_m": 0.028048640644978202,
+      "max_cross_track_drift_m": 0.05629836054028757,
+      "mean_abs_heading_drift_rad": 0.08296808302402496
+    },
+    "right": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.00164139329573911,
+        -0.060846003665212624,
+        -0.0020818530812336754
+      ],
+      "max_tilt": 4.418165696910224,
+      "mean_tracking_error": 0.006073714749723107,
+      "mean_yaw_error": 0.005227270332979687,
+      "mean_cross_track_drift_m": 0.1001204404641464,
+      "max_cross_track_drift_m": 0.18690779206837352,
+      "mean_abs_heading_drift_rad": 0.08881895993836224
+    },
+    "turn_left": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        8.318546503856158e-05,
+        -0.0004474136645633433,
+        0.6643478551865534
+      ],
+      "max_tilt": 6.94284498932764,
+      "mean_tracking_error": 0.0007995573312809523,
+      "mean_yaw_error": 0.03565213289251763,
+      "mean_cross_track_drift_m": 0.01395202721718418,
+      "max_cross_track_drift_m": 0.021343791722635595,
+      "mean_abs_heading_drift_rad": 1.1436962127685546
+    },
+    "turn_right": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.00570599264200025,
+        -0.0066106871402641975,
+        -0.743945891866042
+      ],
+      "max_tilt": 5.64060226022341,
+      "mean_tracking_error": 0.008743448573528496,
+      "mean_yaw_error": 0.04394590378697101,
+      "mean_cross_track_drift_m": 0.022482164946314595,
+      "max_cross_track_drift_m": 0.02535578658380811,
+      "mean_abs_heading_drift_rad": 0.2507944107055664
+    }
+  },
+  "randomized": {
+    "stand": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        3.948331587413208e-05,
+        -5.2684076800248004e-06,
+        -0.00018630085128676068
+      ],
+      "max_tilt": 2.1668655872953893,
+      "mean_tracking_error": 3.985843830372341e-05,
+      "mean_yaw_error": 0.000193471084960036,
+      "mean_cross_track_drift_m": 0.003856140017209515,
+      "max_cross_track_drift_m": 0.0045166027126367905,
+      "mean_abs_heading_drift_rad": 0.006550230016000569
+    },
+    "forward_slow": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.083565232053165,
+        0.005275937252390338,
+        -0.014024468742713219
+      ],
+      "max_tilt": 3.6781123581209543,
+      "mean_tracking_error": 0.010096116166063887,
+      "mean_yaw_error": 0.014024468742713219,
+      "mean_cross_track_drift_m": 0.20810355787862145,
+      "max_cross_track_drift_m": 0.4752875913003233,
+      "mean_abs_heading_drift_rad": 0.3118247851729393
+    },
+    "forward": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.11361978978322398,
+        -0.0007633294203362907,
+        -0.011667878796830544
+      ],
+      "max_tilt": 3.636038574573559,
+      "mean_tracking_error": 0.006469283211052302,
+      "mean_yaw_error": 0.011667878796830544,
+      "mean_cross_track_drift_m": 0.07058347208208875,
+      "max_cross_track_drift_m": 0.11966467950182669,
+      "mean_abs_heading_drift_rad": 0.12713028118014336
+    },
+    "backward": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        -0.15454707286989303,
+        0.001355646189548343,
+        0.0034346944273078704
+      ],
+      "max_tilt": 8.098253289243484,
+      "mean_tracking_error": 0.007457209970822848,
+      "mean_yaw_error": 0.012464149810510024,
+      "mean_cross_track_drift_m": 0.401567764476875,
+      "max_cross_track_drift_m": 0.7211445171563553,
+      "mean_abs_heading_drift_rad": 0.24646550863981248
+    },
+    "left": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.003966240051098519,
+        0.08024092917477718,
+        0.00611525954111377
+      ],
+      "max_tilt": 4.9679403014617725,
+      "mean_tracking_error": 0.011045322849843765,
+      "mean_yaw_error": 0.00611525954111377,
+      "mean_cross_track_drift_m": 0.0640150341667445,
+      "max_cross_track_drift_m": 0.13916998568304292,
+      "mean_abs_heading_drift_rad": 0.13017425462603568
+    },
+    "right": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.0007739759461377765,
+        -0.06109475388224617,
+        0.00648579697620931
+      ],
+      "max_tilt": 4.4514501181467,
+      "mean_tracking_error": 0.006151342361847724,
+      "mean_yaw_error": 0.012951795206857564,
+      "mean_cross_track_drift_m": 0.16367984364460003,
+      "max_cross_track_drift_m": 0.34073353705397247,
+      "mean_abs_heading_drift_rad": 0.2900218263268471
+    },
+    "turn_left": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        -0.0006470132366411829,
+        -0.0007874232114163925,
+        0.6745635058794482
+      ],
+      "max_tilt": 7.030787734473698,
+      "mean_tracking_error": 0.0015117765101923242,
+      "mean_yaw_error": 0.02543648219962282,
+      "mean_cross_track_drift_m": 0.017391850848913704,
+      "max_cross_track_drift_m": 0.028767358344524145,
+      "mean_abs_heading_drift_rad": 0.9553882598876953
+    },
+    "turn_right": {
+      "successes": 5,
+      "falls": 0,
+      "trials": 5,
+      "mean_velocity": [
+        0.004282880214188706,
+        -0.006549042669522482,
+        -0.7377608716027803
+      ],
+      "max_tilt": 6.526418448268478,
+      "mean_tracking_error": 0.008225314462172817,
+      "mean_yaw_error": 0.04480245542036985,
+      "mean_cross_track_drift_m": 0.01584426677533892,
+      "max_cross_track_drift_m": 0.026214182026306116,
+      "mean_abs_heading_drift_rad": 0.526004409790039
+    }
+  },
+  "criteria": "No fall, tilt<20deg, mean linear tracking error<0.025m/s, mean yaw error<0.15rad/s; motion must reach >=50% commanded projection. For zero translation, mean drift speed<0.015m/s.",
+  "limitations": [
+    "Measured gait-velocity and balance criteria are not precise navigation criteria",
+    "Worst backward cross-track drift: 0.366 m nominal and 0.721 m randomized in 20 s",
+    "No hardware test, no learned sit/fold/standup, no roller mechanisms",
+    "No backlash/flexible-cable/thermal validation; real mass, current limits and IMU mounting require identification"
+  ]
+}

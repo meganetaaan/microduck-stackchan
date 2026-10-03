@@ -1,0 +1,28 @@
+{
+  "schema": "tab5-native10-v1",
+  "input_name": "obs",
+  "input_shape": [1, 39],
+  "output_name": "actions",
+  "output_shape": [1, 10],
+  "control_hz": 50,
+  "observation_normalization": "Included in ONNX; do not normalize a second time",
+  "observation_slices": [
+    {"slice": [0, 3], "name": "trunk-aligned gyroscope", "units": "rad/s"},
+    {"slice": [3, 6], "name": "projected gravity R_trunk_world transpose times [0,0,-1]", "units": "unit vector"},
+    {"slice": [6, 16], "name": "joint positions minus default_joint_pos", "units": "rad"},
+    {"slice": [16, 26], "name": "joint velocities", "units": "rad/s"},
+    {"slice": [26, 36], "name": "previous applied 10-action offset, zero at reset", "units": "rad"},
+    {"slice": [36, 39], "name": "body-local target vx, vy, yaw rate", "units": "m/s,m/s,rad/s"}
+  ],
+  "joint_order": ["left_hip_yaw", "left_hip_roll", "left_hip_pitch", "left_knee", "left_ankle", "right_hip_yaw", "right_hip_roll", "right_hip_pitch", "right_knee", "right_ankle"],
+  "default_joint_pos_rad": [0, -0.0873, -0.4579, -0.0049, 0.4530, 0, 0.0873, 0.4579, 0.0049, -0.4530],
+  "output_application": "q_target = default_joint_pos + clip(actions, -1.2, 1.2); BAM M6/XL330 finite-torque controller",
+  "action_low_pass": false,
+  "command_transition_ramp_s": 0.5,
+  "nominal_simulator_voltage_v": 7.4,
+  "nominal_bam_kp_fw": 200,
+  "nominal_simulator_current_limit": null,
+  "physical_root": "free-floating, full gravity, no external stabilization",
+  "compatibility": "Not compatible with an unmodified original 61D/14D MicroDuck daemon",
+  "hardware_warning": "Simulation only. Servo IDs, current/voltage limits and mounting/IMU frame calibration must be verified before any tethered hardware trial. Raw portrait-mounted Tab5 IMU readings must not be assumed trunk-aligned."
+}

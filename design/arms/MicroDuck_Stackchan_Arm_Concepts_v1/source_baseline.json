@@ -1,0 +1,7 @@
+{
+  "original_screen_model_sha256": "9833a3d2d67a20429369db975be53c5f94bad4bcc577f8042fee2aa355ec9e65",
+  "original_physical_model_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "original_screen_texture_sha256": "f2b49af349798c52cd9efa743daf8030a66339223731c4d1a544d14132ff6d98",
+  "original_physical_mass_g": 736.537,
+  "source_scope": "Separate static visual study; adopted assembly and training models are not modified."
+}

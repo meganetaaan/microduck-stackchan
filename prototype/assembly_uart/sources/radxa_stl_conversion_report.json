@@ -1,0 +1,24 @@
+{
+  "source": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_3d_stp.zip",
+  "coordinates": "Original official STEP coordinates, mm; PCB x=0..65,y=0..30,z=-1.6..0 nominal",
+  "conversion": "cadquery Shape.exportStl tolerance=0.08 mm, angularTolerance=0.25 rad, binary STL, original 22 solids/compound",
+  "occt_isValid": false,
+  "triangles": 208927,
+  "bytes": 10446434,
+  "mesh_min": [
+    -0.013122671283781528,
+    -1.5,
+    -4.484078407287598
+  ],
+  "mesh_max": [
+    65.00164794921875,
+    30.00552749633789,
+    8.5
+  ],
+  "weld_tolerance_mm": 1e-05,
+  "edge_incidence_counts": {
+    "1": 2533,
+    "2": 310534,
+    "4": 795
+  }
+}

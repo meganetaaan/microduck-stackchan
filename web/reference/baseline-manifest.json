@@ -1,0 +1,65 @@
+{
+  "baseline": "NOARMS",
+  "display_mass_g": 736.537,
+  "policy": "learned8-command",
+  "notes": "Exact validated no-arms baseline. Thin flap arms option 4 / A are a design selection only; no arms are added to this model.",
+  "files": {
+    "control.js": {
+      "sha256": "ac90e4188003110a6329deb04cb8d0972054a9ccac2c79172efbe927947364a7",
+      "bytes": 1178
+    },
+    "model/config.json": {
+      "sha256": "e0de0154fa1b8c033a8b2d6f47d81c59accfe2d734d11d293d31d91abc6d415e",
+      "bytes": 11146
+    },
+    "model/model.mjb.gz.part1": {
+      "sha256": "8250a7860d838fddd48e0263dccc1c1d5393ceb6608ee72730642c6a7f8924cb",
+      "bytes": 6548968
+    },
+    "model/model.mjb.gz.part2": {
+      "sha256": "94fd209b5a2b87d9f0cd1672c23b3ad55830e52fdeea5f4f1ab5b2ece87adcac",
+      "bytes": 6548968
+    },
+    "model/model.mjb.gz.part3": {
+      "sha256": "a99cd2f19ade24ba5042f7bdaac394bf17a2216848aa637463eaa98da565bc1c",
+      "bytes": 6548968
+    },
+    "model/model.mjb.gz.part4": {
+      "sha256": "d35d9f5c2750c3425a85f8f41d0e1bfc22a69e743c0fa9f2fc025ae31a58d188",
+      "bytes": 6548966
+    },
+    "model/policy.onnx": {
+      "sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+      "bytes": 754004
+    },
+    "model/screen.png": {
+      "sha256": "f2b49af349798c52cd9efa743daf8030a66339223731c4d1a544d14132ff6d98",
+      "bytes": 30713
+    },
+    "model/visual.bin.gz": {
+      "sha256": "4c1fe3060b7b4015cf68c52e72ffd36e56011d252a5c4bcba5ff26d20fcd3005",
+      "bytes": 4317099
+    },
+    "model/visual.json": {
+      "sha256": "8ae83a32c7c313ae1636dad6e53269a459d045a3d202639fe0e7656f8fbb8ec8",
+      "bytes": 102560
+    },
+    "physics.js": {
+      "sha256": "f76fa64c46836941718f8ddada4a7597965454e31b70708a61e191d3c169d819",
+      "bytes": 5308
+    }
+  },
+  "model_archive": {
+    "parts": [
+      "model/model.mjb.gz.part1",
+      "model/model.mjb.gz.part2",
+      "model/model.mjb.gz.part3",
+      "model/model.mjb.gz.part4"
+    ],
+    "bytes": 26195870,
+    "sha256": "2fd094db6bafd69aa32c46b87656756d0e9ba9a38b731f47a0a15c4eeee7f5b9",
+    "uncompressed_bytes": 84376088,
+    "uncompressed_sha256": "e7a6758b96fdc749fbf1560997a3dd8279d5fb4b64e4e5aa540ed896870bb586",
+    "note": "Repacked from the original two-part gzip without recompression or model changes; concatenation is byte-for-byte identical."
+  }
+}

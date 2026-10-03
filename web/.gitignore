@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.openai/
+*.zip
+*.log
+__pycache__/
+test-results/browser/

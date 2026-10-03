@@ -1,0 +1,61 @@
+{
+  "variant": "Portrait open-frame alternate; rounded design preserved",
+  "total_mass_g": 657.8729000000001,
+  "dimensions_mm": {
+    "open_frame_width_depth_height": [
+      80,
+      80,
+      83
+    ],
+    "upper_assembly_width_depth_height_including_Tab5": [
+      80,
+      92,
+      128
+    ]
+  },
+  "sample_count": 1486,
+  "minimum_added_part_leg_gap_lower_bound_mm": 2.8829749886643934,
+  "frame_minimum_gap_lower_bound_mm": 12.04094865458988,
+  "tab5_minimum_gap_lower_bound_mm": 16.300102658172,
+  "original_mechanism_exactly_equal": true,
+  "fixed_CAD_intersections": [],
+  "rollouts": {
+    "walk_10s": {
+      "simulated_s": 10.000000000000163,
+      "forward_displacement_m": 0.8912622185014668,
+      "lateral_displacement_m": -0.2604902228648272,
+      "max_tilt_deg": 3.687026928625942,
+      "fall_reason": null,
+      "shell_leg_contact_samples": 0
+    },
+    "idle_10s": {
+      "simulated_s": 10.000000000000163,
+      "forward_displacement_m": 0.0038872812771313654,
+      "lateral_displacement_m": -0.000539373093234783,
+      "max_tilt_deg": 1.6808596358311938,
+      "fall_reason": null,
+      "shell_leg_contact_samples": 0
+    },
+    "walk_seed1": {
+      "simulated_s": 10.000000000000163,
+      "forward_displacement_m": 0.9199187076310144,
+      "lateral_displacement_m": -0.1640483995502363,
+      "max_tilt_deg": 3.719993076968889,
+      "fall_reason": null,
+      "shell_leg_contact_samples": 0
+    },
+    "walking_demo": {
+      "simulated_s": 5.999999999999894,
+      "forward_displacement_m": 0.5386510769515658,
+      "lateral_displacement_m": -0.08410216602382006,
+      "max_tilt_deg": 3.687026928625942,
+      "fall_reason": null,
+      "shell_leg_contact_samples": 0
+    }
+  },
+  "limits": [
+    "2.883mm mounting-post clearance is the limit, not the larger frame gap.",
+    "Sampled geometry and short policy-transfer rollouts only; no balance-controlled SIT/FOLD or continuous all-configuration clearance guarantee.",
+    "Frame/mount/compute masses, fastening and real-hardware revision require physical engineering."
+  ]
+}

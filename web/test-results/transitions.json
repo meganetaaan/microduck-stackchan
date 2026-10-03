@@ -1,0 +1,48 @@
+{
+  "sequence": [
+    "stand",
+    "forward_slow",
+    "forward",
+    "stand",
+    "backward",
+    "stand",
+    "left",
+    "right",
+    "stand",
+    "turn_left",
+    "turn_right",
+    "stand"
+  ],
+  "segment_seconds": 5,
+  "command_ramp_seconds": 0.5,
+  "cases": [
+    {
+      "seed": 12340,
+      "segments": 12,
+      "seconds": 60.00000000001224,
+      "fall": false,
+      "unsafe_contact": false,
+      "max_tilt_deg": 7.61888823264826,
+      "pass": true
+    },
+    {
+      "seed": 12341,
+      "segments": 12,
+      "seconds": 60.00000000001224,
+      "fall": false,
+      "unsafe_contact": false,
+      "max_tilt_deg": 7.156156572245928,
+      "pass": true
+    },
+    {
+      "seed": 12342,
+      "segments": 12,
+      "seconds": 60.00000000001224,
+      "fall": false,
+      "unsafe_contact": false,
+      "max_tilt_deg": 7.748447089370212,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

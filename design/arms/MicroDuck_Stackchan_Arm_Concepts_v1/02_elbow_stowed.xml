@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="tab5_uart_assembly_v1">
+  <compiler angle="radian" autolimits="true" />
+  <default>
+    <default class="microduck">
+      <joint frictionloss="0.1" armature="0.005" />
+      <position kp="50" dampratio="1" />
+      <default class="visual">
+        <geom type="mesh" contype="0" conaffinity="0" group="2" />
+      </default>
+      <default class="collision">
+        <geom group="3" />
+      </default>
+    </default>
+  </default>
+  <default>
+    <default class="perfect_actuator">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.15" frictionloss="0.1" armature="0.001" />
+      <position kp="10.0" kv="0.1" forcerange="-20.0 20.0" />
+    </default>
+    <default class="chosen_actuator_old">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.048" frictionloss="0.006" armature="0.002" />
+      <position kp="0.52" kv="0.0" forcerange="-0.91 0.91" ctrlrange="-10.0 10.0" />
+    </default>
+    <default class="chosen_actuator_new">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.041" frictionloss="0.032" armature="0.002" />
+      <position kp="0.386" kv="0.0" forcerange="-0.67 0.67" ctrlrange="-10.0 10.0" />
+    </default>
+    <default class="chosen_actuator_antoine">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.044" frictionloss="0.013" armature="0.0017" />
+      <position kp="0.43" kv="0.0" forcerange="-0.75 0.75" ctrlrange="-10.0 10.0" />
+    </default>
+    <default class="chosen_actuator">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.053" frictionloss="0.0048" armature="0.0018" />
+      <position kp="0.55" kv="0.0" forcerange="-0.96 0.96" ctrlrange="-10.0 10.0" />
+    </default>
+    <default class="passive_wheel">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.0" frictionloss="0.0" armature="0.0001" />
+    </default>
+    <default class="passive_joint">
+      <geom contype="0" conaffinity="0" />
+      <joint damping="0.0" frictionloss="0.0" armature="0.0001" />
+    </default>
+  </default>
+  <sensor>
+    <framequat name="orientation" objtype="site" noise="0.001" objname="imu" />
+    <gyro name="angular-velocity" site="imu" noise="0.005" />
+    <gyro name="imu_ang_vel" site="imu" />
+    <velocimeter name="imu_lin_vel" site="imu" />
+    <accelerometer name="imu_accel" site="imu" />
+    <subtreeangmom name="root_angmom" body="trunk_base" />
+  </sensor>
+  <default>
+    <default class="self_collision_only">
+      <geom group="3" contype="2" conaffinity="2" />
+    </default>
+    <equality solref="0.002 1" solimp="0.99 0.999 0.0005 0.5 2" />
+  </default>
+  <worldbody>
+    <body name="trunk_base" pos="0 0 0.12" quat="1 0 0 0" childclass="microduck">
+      <freejoint name="trunk_base_freejoint" />
+      <inertial pos="-0.0226332 -2.70828e-05 0.00280064" mass="0.199224" fullinertia="0.000123975 0.000145931 0.000115351 7.1651e-08 -2.06915e-05 1.32429e-07" />
+      <geom type="mesh" class="visual" pos="0.006 0.0175 -0.005" quat="1 -0 -0 0" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" />
+      <geom type="mesh" class="visual" pos="0.004 -0.0005 -0.0175" quat="0.707107 0 0 0.707107" mesh="right_shell" material="right_shell_material" />
+      <geom type="mesh" class="visual" pos="0.0042 0 -0.0175215" quat="0.707107 -0 0 0.707107" mesh="banana_pcb_locker" material="banana_pcb_locker_material" />
+      <geom type="mesh" class="visual" pos="0.004 -0 -0.0175" quat="0.707107 -0 -0 0.707107" mesh="trunk_base" material="trunk_base_material" />
+      <geom type="mesh" class="visual" pos="0.006 0.0175 0.0115" quat="0 -0.707107 0 -0.707107" mesh="xl330" material="xl330_material" />
+      <geom type="mesh" class="visual" pos="0.004 -0 -0.0175215" quat="0.707107 -0 -0 0.707107" mesh="power_support" material="power_support_material" />
+      <geom type="mesh" class="self_collision_only" pos="0.004 -0 -0.0175215" quat="0.707107 -0 -0 0.707107" mesh="power_support" material="power_support_material" />
+      <geom type="mesh" class="visual" pos="-0.0359693 0 -0.00385049" quat="0.00617059 0.70708 -0.70708 -0.00617059" mesh="np_f970" material="np_f970_material" />
+      <geom type="mesh" class="collision" pos="-0.0359693 0 -0.00385049" quat="0.00617059 0.70708 -0.70708 -0.00617059" mesh="np_f970" material="np_f970_material" />
+      <geom type="mesh" class="visual" pos="0.006 -0.0175 0.0115" quat="0 -0.707107 0 -0.707107" mesh="xl330" material="xl330_material" />
+      <geom type="mesh" class="visual" pos="0.004 -0 -0.0175785" quat="0.707107 -0 -0 0.707107" mesh="left_shell" material="left_shell_material" />
+      <geom type="mesh" class="visual" pos="0.006 -0.0175 -0.005" quat="1 -0 -0 0" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" />
+      <site group="3" name="imu" pos="-0.021 6.64098e-05 -0.0146984" quat="1 -0 -0 -0" />
+      <body name="yaw2roll" pos="0.006 0.0175 -0.005" quat="0 -0.707107 -0.707107 -0">
+        <joint axis="0 0 1" name="left_hip_yaw" type="hinge" range="-0.4363323129985824 0.5235987755982988" class="chosen_actuator" />
+        <inertial pos="-8.8e-11 0.00099414 0.0168917" mass="0.0230406" fullinertia="4.1964e-06 3.41752e-06 2.3265e-06 -0 -0 -5.0881e-08" />
+        <geom type="mesh" class="visual" pos="-0.0175 -0.002 0.0125" quat="0 1 0 0" mesh="yaw2roll" material="yaw2roll_material" name="shell_guard_legmesh_000" />
+        <geom type="mesh" class="visual" pos="-0 -0 0.0125" quat="0 -0.707107 0.707107 -0" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_001" />
+        <geom type="mesh" class="visual" pos="-0 0.0165 0.0125" quat="0.5 0.5 0.5 -0.5" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_002" />
+        <geom type="mesh" class="visual" pos="-0.0175 -0.002 0.0125" quat="0 -1 -0 -0" mesh="bearing_roll" material="bearing_roll_material" name="shell_guard_legmesh_003" />
+        <body name="hip_l" pos="0 0.0165 0.0125" quat="0.707107 -0.707107 0 -0">
+          <joint axis="0 0 1" name="left_hip_roll" type="hinge" range="-0.3839724354386992 0.38397243543880577" class="chosen_actuator" />
+          <inertial pos="0.014815 1.6179e-08 -0.00829992" mass="0.00618934" fullinertia="8.60626e-07 1.15753e-06 6.51588e-07 1e-12 3.89882e-07 -1e-12" />
+          <geom type="mesh" class="visual" pos="0.021 0 -0.0185" quat="0.5 0.5 0.5 0.5" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_004" />
+          <geom type="mesh" class="visual" pos="-0.0175 0 -0.0185" quat="0.707107 -0.707107 0 0" mesh="hip_l" material="hip_l_material" name="shell_guard_legmesh_005" />
+          <geom type="mesh" class="collision" pos="-0.0175 0 -0.0185" quat="0.707107 -0.707107 0 0" mesh="hip_l" material="hip_l_material" />
+          <body name="upper_leg_left" pos="0.025 0 -0.0185" quat="0.5 -0.5 0.5 -0.5">
+            <joint axis="0 0 1" name="left_hip_pitch" type="hinge" range="-1.570796326794949 1.5707963267948442" class="chosen_actuator" />
+            <inertial pos="0.006766 0.0228838 0.0134531" mass="0.0482067" fullinertia="1.68753e-05 1.03691e-05 1.98269e-05 -4.41852e-06 2.27982e-07 3.89298e-07" />
+            <geom type="mesh" class="visual" pos="-0 -0 -0.0425" quat="0.5 -0.5 -0.5 -0.5" mesh="upper_leg_left" material="upper_leg_left_material" name="shell_guard_legmesh_006" />
+            <geom type="mesh" class="visual" pos="0.022 0.0357771 0.0125" quat="0 0.707107 0 0.707107" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_007" />
+            <geom type="mesh" class="visual" pos="0 0 -0.0425" quat="0.5 -0.5 -0.5 -0.5" mesh="upper_leg_rigidity_plate" material="upper_leg_rigidity_plate_material" name="shell_guard_legmesh_008" />
+            <geom type="mesh" class="visual" pos="0.022 0.0357771 -0.004" quat="0 0 -0 1" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_009" />
+            <geom type="mesh" class="visual" pos="0 -0 0.0125" quat="0.5 0.5 -0.5 0.5" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_010" />
+            <body name="leg" pos="0.022 0.0357771 -0.004" quat="0 0.707107 0.707107 0">
+              <joint axis="0 0 1" name="left_knee" type="hinge" range="-1.5707963267948983 1.5707963267948948" class="chosen_actuator" />
+              <inertial pos="-1.52e-10 0.0318937 -0.00953505" mass="0.0215844" fullinertia="5.25056e-06 2.15507e-06 4.33925e-06 -1e-12 0 7.65005e-07" />
+              <geom type="mesh" class="visual" pos="-0.022 0.0357771 0.0385" quat="0.5 0.5 0.5 -0.5" mesh="leg" material="leg_material" name="shell_guard_legmesh_011" />
+              <geom type="mesh" class="collision" pos="-0.022 0.0357771 0.0385" quat="0.5 0.5 0.5 -0.5" mesh="leg" material="leg_material" />
+              <geom type="mesh" class="visual" pos="-0 0.042 -0.0115" quat="0.5 -0.5 -0.5 -0.5" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_012" />
+              <body name="ankle_left" pos="-0 0.042 -0.026" quat="0 -1 -0 0">
+                <joint axis="0 0 1" name="left_ankle" type="hinge" range="-1.5707963267949063 1.5707963267948868" class="chosen_actuator" />
+                <inertial pos="-0.00615742 -0.0137483 -0.0156585" mass="0.0300246" fullinertia="5.91525e-06 1.11534e-05 7.74016e-06 -2.05354e-07 8.218e-08 5.6722e-08" />
+                <geom type="mesh" class="visual" pos="-0.022 0.00622291 -0.0647" quat="0.5 -0.5 -0.5 -0.5" mesh="sole_left" material="sole_left_material" name="shell_guard_legmesh_013" />
+                <geom type="mesh" name="left_foot_collision" class="collision" pos="-0.022 0.00622291 -0.0647" quat="0.5 -0.5 -0.5 -0.5" mesh="sole_left" material="sole_left_material" />
+                <geom type="mesh" class="visual" pos="-0.022 0.00622291 -0.0647" quat="0.5 -0.5 -0.5 -0.5" mesh="foot_left" material="foot_left_material" name="shell_guard_legmesh_014" />
+                <geom type="mesh" class="visual" pos="0 0 -0.0322" quat="0 0 0 1" mesh="seeed_bearing__configuration_default" material="seeed_bearing__configuration_default_material" name="shell_guard_legmesh_015" />
+                <geom type="mesh" class="visual" pos="-0.022 0.00622291 -0.0647" quat="0.5 -0.5 -0.5 -0.5" mesh="ankle_left" material="ankle_left_material" name="shell_guard_legmesh_016" />
+                <site group="3" name="left_foot" pos="-0 -0.0238146 -0.0140852" quat="0 -0 -0.707107 -0.707107" />
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="bearing_roll" pos="0.006 -0.0175 -0.005" quat="0 -0.707107 -0.707107 0">
+        <joint axis="0 0 1" name="right_hip_yaw" type="hinge" range="-0.523598775598297 0.43633231299858416" class="chosen_actuator" />
+        <inertial pos="-8.8e-11 0.00099414 0.0168917" mass="0.0230406" fullinertia="4.1964e-06 3.41752e-06 2.3265e-06 -0 -0 -5.0881e-08" />
+        <geom type="mesh" class="visual" pos="-0.0175 -0.002 0.0125" quat="0 1 0 0" mesh="yaw2roll" material="yaw2roll_material" name="shell_guard_legmesh_017" />
+        <geom type="mesh" class="visual" pos="-0 -0 0.0125" quat="0 -0.707107 0.707107 0" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_018" />
+        <geom type="mesh" class="visual" pos="-0.0175 -0.002 0.0125" quat="0 1 0 0" mesh="bearing_roll" material="bearing_roll_material" name="shell_guard_legmesh_019" />
+        <geom type="mesh" class="visual" pos="-0 0.0165 0.0125" quat="0.5 0.5 0.5 -0.5" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_020" />
+        <body name="hip_l_2" pos="-0 0.0165 0.0125" quat="0 0 0.707107 0.707107">
+          <joint axis="0 0 1" name="right_hip_roll" type="hinge" range="-0.3839724354387507 0.38397243543875426" class="chosen_actuator" />
+          <inertial pos="0.014815 1.6212e-08 -0.00829992" mass="0.00618934" fullinertia="8.60626e-07 1.15753e-06 6.51588e-07 1e-12 3.89882e-07 -1e-12" />
+          <geom type="mesh" class="visual" pos="-0.0175 0 -0.0185" quat="0.707107 -0.707107 -0 -0" mesh="hip_l" material="hip_l_material" name="shell_guard_legmesh_021" />
+          <geom type="mesh" class="collision" pos="-0.0175 0 -0.0185" quat="0.707107 -0.707107 -0 -0" mesh="hip_l" material="hip_l_material" />
+          <geom type="mesh" class="visual" pos="0.025 0 -0.0185" quat="0.5 0.5 -0.5 -0.5" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_022" />
+          <body name="upper_leg_right" pos="0.025 0 -0.0185" quat="0.5 -0.5 0.5 -0.5">
+            <joint axis="0 0 1" name="right_hip_pitch" type="hinge" range="-1.57079632679494 1.570796326794853" class="chosen_actuator" />
+            <inertial pos="-0.006766 0.0228838 0.0134531" mass="0.0482067" fullinertia="1.68753e-05 1.03691e-05 1.98269e-05 4.41852e-06 -2.27982e-07 3.89298e-07" />
+            <geom type="mesh" class="visual" pos="-0.022 0.0357771 0.0125" quat="0.707107 -0 -0.707107 -0" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_023" />
+            <geom type="mesh" class="visual" pos="-0.022 0.0357771 0" quat="0 1 -0 -0" mesh="seeed_bearing__configuration__22x16x4" material="seeed_bearing__configuration__22x16x4_material" name="shell_guard_legmesh_024" />
+            <geom type="mesh" class="visual" pos="-0 -0 0.0435" quat="0.5 -0.5 0.5 0.5" mesh="upper_leg_rigidity_plate" material="upper_leg_rigidity_plate_material" name="shell_guard_legmesh_025" />
+            <geom type="mesh" class="visual" pos="-0 -0 -0.0425" quat="0.5 -0.5 0.5 0.5" mesh="upper_leg_right" material="upper_leg_right_material" name="shell_guard_legmesh_026" />
+            <geom type="mesh" class="visual" pos="-0 -0 0.0125" quat="0.5 0.5 -0.5 0.5" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_027" />
+            <body name="leg_2" pos="-0.022 0.0357771 -0.004" quat="0 1 -0 -0">
+              <joint axis="0 0 1" name="right_knee" type="hinge" range="-1.5707963267949339 1.5707963267948593" class="chosen_actuator" />
+              <inertial pos="-0.0318937 -1.52e-10 -0.00953505" mass="0.0215844" fullinertia="2.15507e-06 5.25056e-06 4.33925e-06 1e-12 -7.65005e-07 0" />
+              <geom type="mesh" class="visual" pos="-0.042 0 -0.0115" quat="0.707107 -0 -0.707107 -0" mesh="xl330" material="xl330_material" name="shell_guard_legmesh_028" />
+              <geom type="mesh" class="visual" pos="-0.0357771 -0.022 0.0385" quat="0.707107 0 0.707107 -0" mesh="leg" material="leg_material" name="shell_guard_legmesh_029" />
+              <geom type="mesh" class="collision" pos="-0.0357771 -0.022 0.0385" quat="0.707107 0 0.707107 -0" mesh="leg" material="leg_material" />
+              <body name="ankle_right" pos="-0.042 0 -0.026" quat="0 -0.707107 -0.707107 0">
+                <joint axis="0 0 1" name="right_ankle" type="hinge" range="-1.5707963267949028 1.5707963267948903" class="chosen_actuator" />
+                <inertial pos="0.00615539 -0.0137482 -0.0156566" mass="0.0300251" fullinertia="5.91534e-06 1.11534e-05 7.74015e-06 2.04877e-07 -8.2467e-08 5.7017e-08" />
+                <geom type="mesh" class="visual" pos="0.022 0.00622291 -0.0647" quat="0.5 -0.5 0.5 0.5" mesh="ankle_right" material="ankle_right_material" name="shell_guard_legmesh_030" />
+                <geom type="mesh" class="visual" pos="0.022 0.00622291 -0.0647" quat="0.5 -0.5 0.5 0.5" mesh="sole_right" material="sole_right_material" name="shell_guard_legmesh_031" />
+                <geom type="mesh" name="right_foot_collision" class="collision" pos="0.022 0.00622291 -0.0647" quat="0.5 -0.5 0.5 0.5" mesh="sole_right" material="sole_right_material" />
+                <geom type="mesh" class="visual" pos="0 -0 -0.0292" quat="0 -1 -0 -0" mesh="seeed_bearing__configuration_default" material="seeed_bearing__configuration_default_material" name="shell_guard_legmesh_032" />
+                <geom type="mesh" class="visual" pos="0.022 0.00622291 -0.0647" quat="0.5 -0.5 0.5 0.5" mesh="foot_right" material="foot_right_material" name="shell_guard_legmesh_033" />
+                <site group="3" name="right_foot" pos="0 -0.0238146 -0.0140852" quat="0.707107 -0.707107 -0 0" />
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="tab5" pos="0.047 0 0.062">
+        <inertial pos="0 0 0" mass="0.1184" diaginertia="0.0002248021333 0.0001630762667 6.456746667e-05" />
+        <geom name="tab5_visual" type="mesh" mesh="portrait_tab5_visual" rgba=".94 .94 .91 1" contype="0" conaffinity="0" mass="0" group="0" />
+        <geom name="screen" type="mesh" pos=".00616 0 -.0024" rgba="1 1 1 1" contype="0" conaffinity="0" mass="0" group="0" mesh="stackchan_screen_surface" material="stackchan_screen_material" />
+        <geom name="eye_left" type="ellipsoid" pos="0.0064 -0.014 0.0252" size=".0001 .004 .009" rgba=".10 .95 .90 0" contype="0" conaffinity="0" mass="0" group="0" />
+        <geom name="eye_right" type="ellipsoid" pos="0.0064 0.014 0.0252" size=".0001 .004 .009" rgba=".10 .95 .90 0" contype="0" conaffinity="0" mass="0" group="0" />
+        <geom name="camera_rim" type="cylinder" size="0.0025 .00012" pos="0.00614 0 .05955" quat=".7071067812 0 .7071067812 0" rgba=".13 .15 .16 1" contype="0" conaffinity="0" mass="0" group="0" />
+        <geom name="camera_lens" type="cylinder" size="0.0018 .00012" pos="0.00634 0 .05955" quat=".7071067812 0 .7071067812 0" rgba=".015 .04 .06 1" contype="0" conaffinity="0" mass="0" group="0" />
+        <geom name="camera_glint" type="cylinder" size="0.0005 .00012" pos="0.00655 0 .05955" quat=".7071067812 0 .7071067812 0" rgba=".26 .45 .65 1" contype="0" conaffinity="0" mass="0" group="0" />
+      </body>
+      <body name="print_rear_cover" pos="0 0 0">
+        <inertial pos="-0.03779707105 -5.911187568e-19 0.086" mass="0.010989543137634353" fullinertia="6.698902362e-06 3.576230606e-06 3.133212945e-06 6.536518786e-21 -1.230844751e-19 -8.492828785e-22" />
+        <geom name="print_rear_cover_visual" type="mesh" mesh="print_rear_cover_visual" rgba=".91 .92 .89 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="print_under_saddle" pos="0 0 0">
+        <inertial pos="0 0 -0.0014" mass="0.00027930651806246825" fullinertia="1.257225136e-09 1.257225136e-09 2.484657577e-09 2.642158125e-26 2.642158125e-26 -0" />
+        <geom name="print_under_saddle_visual" type="mesh" mesh="print_under_saddle_visual" rgba=".25 .27 .28 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="print_rear_hardware" pos="0 0 0">
+        <inertial pos="-0.0267851888 0 0.06762225666" mass="0.001956501836751907" fullinertia="4.506795365e-06 3.860341695e-06 1.434809262e-06 -2.164455936e-22 9.630906213e-07 -0" />
+        <geom name="print_rear_hardware_visual" type="mesh" mesh="print_rear_hardware_visual" rgba=".25 .27 .28 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_body_cage" pos="0 0 0">
+        <inertial mass="0.06458247995941932" pos="0.001090541002 -4.559624374e-12 0.08646723613" fullinertia="0.0001262318403 0.0001228739864 0.0001022724309 3.592623078e-17 -8.68475275e-07 1.213810957e-14" />
+        <geom name="assembly_body_cage_visual" type="mesh" mesh="assembly_body_cage_visual" rgba=".91 .92 .89 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_central_mount" pos="0 0 0">
+        <inertial mass="0.007041088778670015" pos="-7.07630955e-13 -4.424397252e-05 0.02491465073" fullinertia="1.717820651e-06 2.030471712e-06 4.769258898e-07 -2.978996553e-17 -2.119966449e-17 5.447136234e-09" />
+        <geom name="assembly_central_mount_visual" type="mesh" mesh="assembly_central_mount_visual" rgba=".91 .92 .89 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_pcb" pos="0 0 0">
+        <inertial mass="0.006199999999999971" pos="-0.0238 1.604637557e-07 0.08299952148" fullinertia="2.585162185e-06 4.585731137e-07 2.129234404e-06 -1.692952003e-21 -6.852836449e-20 3.98856047e-11" />
+        <geom name="assembly_radxa_pcb_visual" type="mesh" mesh="assembly_radxa_pcb_visual" rgba=".08 .42 .23 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_under_components" pos="0 0 0">
+        <inertial mass="0.0018" pos="-0.02604205 0 0.0815" fullinertia="3.8895e-07 4.459770492e-08 3.468477049e-07 8.435505546e-23 -3.16331458e-21 -0" />
+        <geom name="assembly_radxa_under_components_visual" type="mesh" mesh="assembly_radxa_under_components_visual" rgba=".22 .24 .25 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_top_components" pos="0 0 0">
+        <inertial mass="0.0020000000000000013" pos="-0.02125 0.0015 0.0815" fullinertia="2.91e-07 3.954166667e-08 2.555416667e-07 1.514982807e-22 4.443949567e-21 -4.544948421e-22" />
+        <geom name="assembly_radxa_top_components_visual" type="mesh" mesh="assembly_radxa_top_components_visual" rgba=".12 .13 .15 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_gpio_header" pos="0 0 0">
+        <inertial mass="0.001100000000000002" pos="-0.02175 -5e-05 0.0946751" fullinertia="2.389242533e-07 2.938503333e-09 2.371315833e-07 1.07773004e-22 7.051728825e-22 5.646892224e-23" />
+        <geom name="assembly_radxa_gpio_header_visual" type="mesh" mesh="assembly_radxa_gpio_header_visual" rgba=".08 .09 .1 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_gpio_pins" pos="0 0 0">
+        <inertial mass="0.0009000000000000023" pos="-0.0175 -5e-05 0.0946751" fullinertia="1.9457718e-07 4.18233e-09 1.9579485e-07 -5.350233386e-23 1.538278765e-20 9.614242282e-23" />
+        <geom name="assembly_radxa_gpio_pins_visual" type="mesh" mesh="assembly_radxa_gpio_pins_visual" rgba=".71 .64 .31 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_robot_hat_pcb_proxy" pos="0 0 0">
+        <inertial mass="0.00900000000000001" pos="-0.0137 0 0.084" fullinertia="4.134e-06 8.6892e-07 3.26892e-06 -0 4.146961627e-21 -0" />
+        <geom name="assembly_robot_hat_pcb_proxy_visual" type="mesh" mesh="assembly_robot_hat_pcb_proxy_visual" rgba=".18 .35 .48 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_robot_hat_components_proxy" pos="0 0 0">
+        <inertial mass="0.009999999999999997" pos="-0.00795 0 0.083" fullinertia="3.653333333e-06 7.350083333e-07 3.081675e-06 -2.072261836e-23 -0 -0" />
+        <geom name="assembly_robot_hat_components_proxy_visual" type="mesh" mesh="assembly_robot_hat_components_proxy_visual" rgba=".52 .37 .18 .75" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_electronics_carrier" pos="0 0 0">
+        <inertial mass="0.017401934412209302" pos="-0.00738323161 -0.001221494134 0.05879537874" fullinertia="1.123348843e-05 1.191794862e-05 1.434173467e-05 4.882489217e-07 3.180102877e-06 3.060200465e-08" />
+        <geom name="assembly_electronics_carrier_visual" type="mesh" mesh="assembly_electronics_carrier_visual" rgba=".73 .78 .82 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_M2p5_0" pos="0 0 0">
+        <inertial mass="0.0010193302289231655" pos="-0.02770224973 -0.028950096 0.071599942" fullinertia="2.236049752e-09 2.470656649e-08 2.470656649e-08 -9.131298481e-22 -0 1.217506464e-21" />
+        <geom name="assembly_radxa_M2p5_0_visual" type="mesh" mesh="assembly_radxa_M2p5_0_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_M2p5_1" pos="0 0 0">
+        <inertial mass="0.0010193302289231668" pos="-0.02770224973 -0.028900058 0.094450036" fullinertia="2.236049752e-09 2.470656649e-08 2.470656649e-08 -1.623341952e-21 -8.116709761e-22 8.116709761e-22" />
+        <geom name="assembly_radxa_M2p5_1_visual" type="mesh" mesh="assembly_radxa_M2p5_1_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_M2p5_2" pos="0 0 0">
+        <inertial mass="0.001019330228923167" pos="-0.02770224973 0.028899928 0.094500074" fullinertia="2.236049752e-09 2.470656649e-08 2.470656649e-08 1.116047592e-21 -0 -4.05835488e-22" />
+        <geom name="assembly_radxa_M2p5_2_visual" type="mesh" mesh="assembly_radxa_M2p5_2_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_radxa_M2p5_3" pos="0 0 0">
+        <inertial mass="0.0010193302289231655" pos="-0.02770224973 0.028899928 0.071599942" fullinertia="2.236049752e-09 2.470656649e-08 2.470656649e-08 7.102121041e-22 4.05835488e-22 -0" />
+        <geom name="assembly_radxa_M2p5_3_visual" type="mesh" mesh="assembly_radxa_M2p5_3_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_carrier_M2_0" pos="0 0 0">
+        <inertial mass="0.0005076740031107144" pos="-0.008 8.327101594e-21 0.04654086701" fullinertia="8.378428381e-09 8.378428381e-09 7.291826752e-10 -1.923491115e-25 7.609415401e-23 1.042239928e-24" />
+        <geom name="assembly_carrier_M2_0_visual" type="mesh" mesh="assembly_carrier_M2_0_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_carrier_M2_1" pos="0 0 0">
+        <inertial mass="0.0005076740031107143" pos="0.008 2.498130478e-20 0.04654086701" fullinertia="8.378428381e-09 8.378428381e-09 7.291826752e-10 1.01458872e-25 2.5364718e-23 5.902479836e-25" />
+        <geom name="assembly_carrier_M2_1_visual" type="mesh" mesh="assembly_carrier_M2_1_visual" rgba=".32 .35 .38 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_M3_visible_0" pos="0 0 0">
+        <inertial mass="0.001045518502126669" pos="0.03330969992 -0.036 0.075" fullinertia="2.628605819e-09 1.440783902e-08 1.440783902e-08 2.02917744e-22 -4.05835488e-22 1.217506464e-21" />
+        <geom name="assembly_tab5_M3_visible_0_visual" type="mesh" mesh="assembly_tab5_M3_visible_0_visual" rgba=".35 .37 .4 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_M3_visible_1" pos="0 0 0">
+        <inertial mass="0.0010455185021266689" pos="0.03330969992 0.036 0.075" fullinertia="2.628605819e-09 1.440783902e-08 1.440783902e-08 2.02917744e-22 1.217506464e-21 -2.02917744e-21" />
+        <geom name="assembly_tab5_M3_visible_1_visual" type="mesh" mesh="assembly_tab5_M3_visible_1_visual" rgba=".35 .37 .4 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_M3_visible_2" pos="0 0 0">
+        <inertial mass="0.0010455185021266689" pos="0.03330969992 -0.036 0.122" fullinertia="2.628605819e-09 1.440783902e-08 1.440783902e-08 -2.02917744e-22 -6.493367809e-21 6.493367809e-21" />
+        <geom name="assembly_tab5_M3_visible_2_visual" type="mesh" mesh="assembly_tab5_M3_visible_2_visual" rgba=".35 .37 .4 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_M3_visible_3" pos="0 0 0">
+        <inertial mass="0.0010455185021266686" pos="0.03330969992 0.036 0.122" fullinertia="2.628605819e-09 1.440783902e-08 1.440783902e-08 6.087532321e-22 -3.246683904e-21 -4.05835488e-21" />
+        <geom name="assembly_tab5_M3_visible_3_visual" type="mesh" mesh="assembly_tab5_M3_visible_3_visual" rgba=".35 .37 .4 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_protection_mount_pad" pos="0 0 0">
+        <inertial mass="0.00045000000000000037" pos="0.0191027251 -3.723793938e-19 0.05105" fullinertia="4.379610455e-08 1.787278063e-08 6.165013518e-08 5.177478823e-24 4.084536475e-21 -1.693302198e-23" />
+        <geom name="assembly_protection_mount_pad_visual" type="mesh" mesh="assembly_protection_mount_pad_visual" rgba=".22 .24 .25 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_protection_tray" pos="0 0 0">
+        <inertial mass="0.0023460053869168948" pos="0.01909648815 -7.286882668e-20 0.05264268032" fullinertia="2.404884654e-07 9.859213924e-08 3.353618901e-07 1.810427524e-23 3.229736089e-11 3.821998554e-24" />
+        <geom name="assembly_protection_tray_visual" type="mesh" mesh="assembly_protection_tray_visual" rgba=".74 .78 .82 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_protection_pcb_proxy" pos="0 0 0">
+        <inertial mass="0.0018000000000000043" pos="0.019 0 0.0568" fullinertia="1.35384e-07 6.0384e-08 1.95e-07 -0 1.163222736e-21 -0" />
+        <geom name="assembly_protection_pcb_proxy_visual" type="mesh" mesh="assembly_protection_pcb_proxy_visual" rgba=".13 .45 .22 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_branch_protection_proxy" pos="0 0 0">
+        <inertial mass="0.002199999999999998" pos="0.0195 0.001 0.0611" fullinertia="2.731666667e-08 1.796666667e-08 2.731666667e-08 -5.077559564e-23 -9.284680345e-22 -8.704387823e-23" />
+        <geom name="assembly_branch_protection_proxy_visual" type="mesh" mesh="assembly_branch_protection_proxy_visual" rgba=".22 .23 .25 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_power_input_connector_proxy" pos="0 0 0">
+        <inertial mass="0.000799999999999999" pos="0.012 -0.009 0.0611" fullinertia="7.533333333e-09 5.666666667e-09 6.666666667e-09 1.538654413e-23 3.692770592e-22 6.154617653e-23" />
+        <geom name="assembly_power_input_connector_proxy_visual" type="mesh" mesh="assembly_power_input_connector_proxy_visual" rgba=".2 .43 .27 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_power_output_connector_proxy" pos="0 0 0">
+        <inertial mass="0.000799999999999999" pos="0.026 0.011 0.0611" fullinertia="7.533333333e-09 5.666666667e-09 6.666666667e-09 9.231926479e-23 4.923694122e-22 1.230923531e-22" />
+        <geom name="assembly_power_output_connector_proxy_visual" type="mesh" mesh="assembly_power_output_connector_proxy_visual" rgba=".2 .43 .27 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_power_feedthrough_grommet" pos="0 0 0">
+        <inertial mass="0.00035000000000000027" pos="-0.02 -1.313529643e-20 0.0484" fullinertia="2.813083661e-09 2.813083661e-09 3.172914654e-09 7.815501375e-25 2.2067298e-22 2.372234535e-25" />
+        <geom name="assembly_power_feedthrough_grommet_visual" type="mesh" mesh="assembly_power_feedthrough_grommet_visual" rgba=".08 .09 .1 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_m5bus_plug_proxy" pos="0 0 0">
+        <inertial mass="0.0019999999999999996" pos="0.0365 0 0.053" fullinertia="2.595e-07 1.95e-08 2.67e-07 1.047395521e-22 -0 -0" />
+        <geom name="assembly_tab5_m5bus_plug_proxy_visual" type="mesh" mesh="assembly_tab5_m5bus_plug_proxy_visual" rgba=".09 .1 .11 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_J7_plug_proxy" pos="0 0 0">
+        <inertial mass="0.0006999999999999992" pos="0.038 0 0.0613" fullinertia="9.158333333e-09 4.2e-09 9.158333333e-09 -0 1.279414458e-21 -0" />
+        <geom name="assembly_tab5_J7_plug_proxy_visual" type="mesh" mesh="assembly_tab5_J7_plug_proxy_visual" rgba=".88 .87 .81 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_uart_hat_takeoff_proxy" pos="0 0 0">
+        <inertial mass="0.0008000000000000009" pos="0 -0.006 0.0955" fullinertia="1.633333333e-08 5.666666667e-09 1.546666667e-08 -1.465385155e-25 -0 -3.516924373e-22" />
+        <geom name="assembly_uart_hat_takeoff_proxy_visual" type="mesh" mesh="assembly_uart_hat_takeoff_proxy_visual" rgba=".09 .1 .11 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_robot_power_pigtail" pos="0 0 0">
+        <inertial mass="0.0015000000000000002" pos="-0.01192191176 -0.01001012782 0.05252776312" fullinertia="9.925651707e-08 9.132868569e-08 1.653336764e-07 7.569840199e-08 -1.781921348e-08 2.166997739e-08" />
+        <geom name="assembly_robot_power_pigtail_visual" type="mesh" mesh="assembly_robot_power_pigtail_visual" rgba=".65 .1 .1 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_branch_input_loom" pos="0 0 0">
+        <inertial mass="0.0005500000000000005" pos="0.01100366095 -0.01865590904 0.05900366095" fullinertia="9.389404812e-09 2.420832406e-09 9.389404812e-09 -2.340555533e-09 -1.057580143e-09 -2.340555533e-09" />
+        <geom name="assembly_branch_input_loom_visual" type="mesh" mesh="assembly_branch_input_loom_visual" rgba=".65 .1 .1 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_tab5_power_loom" pos="0 0 0">
+        <inertial mass="0.000900000000000002" pos="0.03171920279 0.01257849444 0.06357641523" fullinertia="1.915681858e-08 1.083663905e-08 2.388410891e-08 5.990754066e-09 -2.670679136e-09 -2.322956938e-09" />
+        <geom name="assembly_tab5_power_loom_visual" type="mesh" mesh="assembly_tab5_power_loom_visual" rgba=".78 .16 .12 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_uart_loom" pos="0 0 0">
+        <inertial mass="0.0013999999999999993" pos="0.01663269761 -0.02147051143 0.07771594602" fullinertia="3.70196272e-07 4.696127691e-07 1.632105922e-07 3.909277446e-08 2.03930266e-07 -4.470786273e-08" />
+        <geom name="assembly_uart_loom_visual" type="mesh" mesh="assembly_uart_loom_visual" rgba=".13 .37 .79 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_robot_power_handoff_proxy" pos="0 0 0">
+        <inertial mass="0.0007000000000000005" pos="0.004 -0.024 0.056" fullinertia="5.833333333e-09 5.833333333e-09 7.466666667e-09 -3.534096855e-23 -2.35606457e-22 7.539406625e-22" />
+        <geom name="assembly_robot_power_handoff_proxy_visual" type="mesh" mesh="assembly_robot_power_handoff_proxy_visual" rgba=".11 .12 .13 1" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="assembly_unresolved_fastener_mass" pos="0 0 0">
+        <inertial mass="0.0009999999999999966" pos="0.036 0 0.102" fullinertia="6e-09 4.333333333e-09 4.333333333e-09 1.19673121e-23 -3.590193631e-21 -0" />
+        <geom name="assembly_unresolved_fastener_mass_visual" type="mesh" mesh="assembly_unresolved_fastener_mass_visual" rgba=".3 .32 .34 0" contype="0" conaffinity="0" group="0" mass="0" />
+      </body>
+      <body name="arm_concept_visual_only">
+        <geom name="02_elbow_stowed_R_mount" type="mesh" mesh="02_elbow_stowed_R_mount" rgba="0.68 0.72 0.7 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_shoulder" type="mesh" mesh="02_elbow_stowed_R_shoulder" rgba="0.28 0.32 0.32 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_orange_cap" type="mesh" mesh="02_elbow_stowed_R_orange_cap" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_cap_center" type="mesh" mesh="02_elbow_stowed_R_cap_center" rgba="0.68 0.72 0.7 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_upper" type="mesh" mesh="02_elbow_stowed_R_upper" rgba="0.84 0.86 0.83 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_elbow" type="mesh" mesh="02_elbow_stowed_R_elbow" rgba="0.28 0.32 0.32 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_elbow_cap" type="mesh" mesh="02_elbow_stowed_R_elbow_cap" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_forearm" type="mesh" mesh="02_elbow_stowed_R_forearm" rgba="0.84 0.86 0.83 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_R_hand" type="mesh" mesh="02_elbow_stowed_R_hand" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_mount" type="mesh" mesh="02_elbow_stowed_L_mount" rgba="0.68 0.72 0.7 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_shoulder" type="mesh" mesh="02_elbow_stowed_L_shoulder" rgba="0.28 0.32 0.32 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_orange_cap" type="mesh" mesh="02_elbow_stowed_L_orange_cap" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_cap_center" type="mesh" mesh="02_elbow_stowed_L_cap_center" rgba="0.68 0.72 0.7 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_upper" type="mesh" mesh="02_elbow_stowed_L_upper" rgba="0.84 0.86 0.83 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_elbow" type="mesh" mesh="02_elbow_stowed_L_elbow" rgba="0.28 0.32 0.32 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_elbow_cap" type="mesh" mesh="02_elbow_stowed_L_elbow_cap" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_forearm" type="mesh" mesh="02_elbow_stowed_L_forearm" rgba="0.84 0.86 0.83 1" group="2" contype="0" conaffinity="0" mass="0" />
+        <geom name="02_elbow_stowed_L_hand" type="mesh" mesh="02_elbow_stowed_L_hand" rgba="1 0.34 0.025 1" group="2" contype="0" conaffinity="0" mass="0" />
+      </body>
+    </body>
+  </worldbody>
+  <asset>
+    <mesh file="assets/base_000_leg.stl" name="leg" />
+    <mesh file="assets/base_001_upper_leg_rigidity_plate.stl" name="upper_leg_rigidity_plate" />
+    <mesh file="assets/base_002_right_shell.stl" name="right_shell" />
+    <mesh file="assets/base_003_foot_right.stl" name="foot_right" />
+    <mesh file="assets/base_004_ankle_left.stl" name="ankle_left" />
+    <mesh file="assets/base_005_trunk_base.stl" name="trunk_base" />
+    <mesh file="assets/base_006_bearing_roll.stl" name="bearing_roll" />
+    <mesh file="assets/base_007_upper_leg_left.stl" name="upper_leg_left" />
+    <mesh file="assets/base_008_seeed_bearing__configuration__22x16x4.stl" name="seeed_bearing__configuration__22x16x4" />
+    <mesh file="assets/base_009_yaw2roll.stl" name="yaw2roll" />
+    <mesh file="assets/base_010_hip_l.stl" name="hip_l" />
+    <mesh file="assets/base_011_xl330.stl" name="xl330" />
+    <mesh file="assets/base_012_seeed_bearing__configuration_default.stl" name="seeed_bearing__configuration_default" />
+    <mesh file="assets/base_013_ankle_right.stl" name="ankle_right" />
+    <mesh file="assets/base_014_np_f970.stl" name="np_f970" />
+    <mesh file="assets/base_015_banana_pcb_locker.stl" name="banana_pcb_locker" />
+    <mesh file="assets/base_016_upper_leg_right.stl" name="upper_leg_right" />
+    <mesh file="assets/base_017_left_shell.stl" name="left_shell" />
+    <mesh file="assets/base_018_foot_left.stl" name="foot_left" />
+    <mesh file="assets/base_019_sole_left.stl" name="sole_left" />
+    <mesh file="assets/base_020_sole_right.stl" name="sole_right" />
+    <mesh file="assets/base_021_power_support.stl" name="power_support" />
+    <material name="seeed_bearing__configuration__22x16x4_material" rgba="0.811765 0.858824 0.898039 1" />
+    <material name="right_shell_material" rgba="0.85098 0.85098 0.839216 1" />
+    <material name="banana_pcb_locker_material" rgba="0.647059 0.647059 0.647059 1" />
+    <material name="trunk_base_material" rgba="0.129412 0.152941 0.129412 1" />
+    <material name="xl330_material" rgba="0.286275 0.286275 0.286275 1" />
+    <material name="power_support_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="np_f970_material" rgba="0.301961 0.301961 0.301961 1" />
+    <material name="left_shell_material" rgba="0.8 0.8 0.8 1" />
+    <material name="yaw2roll_material" rgba="0.129412 0.152941 0.129412 1" />
+    <material name="bearing_roll_material" rgba="0.129412 0.152941 0.129412 1" />
+    <material name="hip_l_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="upper_leg_left_material" rgba="0.85098 0.85098 0.839216 1" />
+    <material name="upper_leg_rigidity_plate_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="leg_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="sole_left_material" rgba="0.956863 0.686275 0.137255 1" />
+    <material name="foot_left_material" rgba="1 0.403922 0.121569 1" />
+    <material name="seeed_bearing__configuration_default_material" rgba="0.811765 0.858824 0.898039 1" />
+    <material name="ankle_left_material" rgba="1 0.403922 0.121569 1" />
+    <material name="neck_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="neck_pitch_material" rgba="0.34902 0.376471 0.4 1" />
+    <material name="yaw_roll_motion_material" rgba="0.129412 0.152941 0.129412 1" />
+    <material name="lens_material" rgba="0.262745 0.282353 0.301961 1" />
+    <material name="face_part_material" rgba="0.67451 0.639216 0.603922 1" />
+    <material name="jaw_soft_material" rgba="0.85098 0.756863 0.866667 1" />
+    <material name="motor_support_material" rgba="0.129412 0.152941 0.129412 1" />
+    <material name="top_head_shell_material" rgba="0.85098 0.85098 0.839216 1" />
+    <material name="elec_rpi_robot_hat_pcb_material" rgba="0.313725 0.486275 0.411765 1" />
+    <material name="soft_mouth_top_material" rgba="0.85098 0.756863 0.866667 1" />
+    <material name="noenoeil_material" rgba="0.956863 0.686275 0.137255 1" />
+    <material name="jaw_material" rgba="1 0.403922 0.121569 1" />
+    <material name="bottom_head_shell_material" rgba="1 0.403922 0.121569 1" />
+    <material name="m12_lens_holder_material" rgba="0.262745 0.282353 0.301961 1" />
+    <material name="pcb__raspberry_pi_zero_2_w_material" rgba="0.498039 0.498039 0.498039 1" />
+    <material name="speaker_material" rgba="0.294118 0.290196 0.290196 1" />
+    <material name="upper_leg_right_material" rgba="0.85098 0.85098 0.839216 1" />
+    <material name="ankle_right_material" rgba="1 0.403922 0.121569 1" />
+    <material name="sole_right_material" rgba="0.956863 0.686275 0.137255 1" />
+    <material name="foot_right_material" rgba="1 0.403922 0.121569 1" />
+    <mesh name="portrait_tab5_visual" file="assets/base_060_tab5_rounded.obj" />
+    <mesh name="print_rear_cover_visual" file="assets/base_061_rear_cover.obj" />
+    <mesh name="print_under_saddle_visual" file="assets/base_098_under_saddle.obj" />
+    <mesh name="print_rear_hardware_visual" file="assets/base_103_rear_hardware.obj" />
+    <mesh name="assembly_body_cage_visual" file="assets/base_164_body_cage.obj" />
+    <mesh name="assembly_central_mount_visual" file="assets/base_1309_central_mount.obj" />
+    <mesh name="assembly_radxa_pcb_visual" file="assets/base_1364_radxa_pcb.obj" />
+    <mesh name="assembly_radxa_under_components_visual" file="assets/base_1366_radxa_under_components.obj" />
+    <mesh name="assembly_radxa_top_components_visual" file="assets/base_1368_radxa_top_components.obj" />
+    <mesh name="assembly_radxa_gpio_header_visual" file="assets/base_1370_radxa_gpio_header.obj" />
+    <mesh name="assembly_radxa_gpio_pins_visual" file="assets/base_1372_radxa_gpio_pins.obj" />
+    <mesh name="assembly_robot_hat_pcb_proxy_visual" file="assets/base_1374_robot_hat_pcb_proxy.obj" />
+    <mesh name="assembly_robot_hat_components_proxy_visual" file="assets/base_1376_robot_hat_components_proxy.obj" />
+    <mesh name="assembly_electronics_carrier_visual" file="assets/base_1378_electronics_carrier.obj" />
+    <mesh name="assembly_radxa_M2p5_0_visual" file="assets/base_1604_radxa_M2p5_0.obj" />
+    <mesh name="assembly_radxa_M2p5_1_visual" file="assets/base_1606_radxa_M2p5_1.obj" />
+    <mesh name="assembly_radxa_M2p5_2_visual" file="assets/base_1608_radxa_M2p5_2.obj" />
+    <mesh name="assembly_radxa_M2p5_3_visual" file="assets/base_1610_radxa_M2p5_3.obj" />
+    <mesh name="assembly_carrier_M2_0_visual" file="assets/base_1612_carrier_M2_0.obj" />
+    <mesh name="assembly_carrier_M2_1_visual" file="assets/base_1614_carrier_M2_1.obj" />
+    <mesh name="assembly_tab5_M3_visible_0_visual" file="assets/base_1616_tab5_M3_visible_0.obj" />
+    <mesh name="assembly_tab5_M3_visible_1_visual" file="assets/base_1618_tab5_M3_visible_1.obj" />
+    <mesh name="assembly_tab5_M3_visible_2_visual" file="assets/base_1620_tab5_M3_visible_2.obj" />
+    <mesh name="assembly_tab5_M3_visible_3_visual" file="assets/base_1622_tab5_M3_visible_3.obj" />
+    <mesh name="assembly_protection_mount_pad_visual" file="assets/base_1624_protection_mount_pad.obj" />
+    <mesh name="assembly_protection_tray_visual" file="assets/base_1626_protection_tray.obj" />
+    <mesh name="assembly_protection_pcb_proxy_visual" file="assets/base_1628_protection_pcb_proxy.obj" />
+    <mesh name="assembly_branch_protection_proxy_visual" file="assets/base_1630_branch_protection_proxy.obj" />
+    <mesh name="assembly_power_input_connector_proxy_visual" file="assets/base_1632_power_input_connector_proxy.obj" />
+    <mesh name="assembly_power_output_connector_proxy_visual" file="assets/base_1634_power_output_connector_proxy.obj" />
+    <mesh name="assembly_power_feedthrough_grommet_visual" file="assets/base_1636_power_feedthrough_grommet.obj" />
+    <mesh name="assembly_tab5_m5bus_plug_proxy_visual" file="assets/base_1649_tab5_m5bus_plug_proxy.obj" />
+    <mesh name="assembly_tab5_J7_plug_proxy_visual" file="assets/base_1651_tab5_J7_plug_proxy.obj" />
+    <mesh name="assembly_uart_hat_takeoff_proxy_visual" file="assets/base_1653_uart_hat_takeoff_proxy.obj" />
+    <mesh name="assembly_robot_power_pigtail_visual" file="assets/base_1655_robot_power_pigtail.obj" />
+    <mesh name="assembly_branch_input_loom_visual" file="assets/base_1665_branch_input_loom.obj" />
+    <mesh name="assembly_tab5_power_loom_visual" file="assets/base_1668_tab5_power_loom.obj" />
+    <mesh name="assembly_uart_loom_visual" file="assets/base_1673_uart_loom.obj" />
+    <mesh name="assembly_robot_power_handoff_proxy_visual" file="assets/base_1682_robot_power_handoff_proxy.obj" />
+    <mesh name="assembly_unresolved_fastener_mass_visual" file="assets/base_1684_unresolved_fastener_mass.obj" />
+    <mesh name="stackchan_screen_surface" file="assets/base_1686_screen_surface.obj" />
+    <texture name="stackchan_screen_texture" type="2d" file="assets/base_1687_stackchan_microduck_screen_720x1280.png" />
+    <material name="stackchan_screen_material" texture="stackchan_screen_texture" texuniform="false" rgba="1 1 1 1" emission="1" specular="0" shininess="0" reflectance="0" />
+    <mesh name="02_elbow_stowed_R_mount" file="assets/02_elbow_stowed_R_mount.obj" />
+    <mesh name="02_elbow_stowed_R_shoulder" file="assets/02_elbow_stowed_R_shoulder.obj" />
+    <mesh name="02_elbow_stowed_R_orange_cap" file="assets/02_elbow_stowed_R_orange_cap.obj" />
+    <mesh name="02_elbow_stowed_R_cap_center" file="assets/02_elbow_stowed_R_cap_center.obj" />
+    <mesh name="02_elbow_stowed_R_upper" file="assets/02_elbow_stowed_R_upper.obj" />
+    <mesh name="02_elbow_stowed_R_elbow" file="assets/02_elbow_stowed_R_elbow.obj" />
+    <mesh name="02_elbow_stowed_R_elbow_cap" file="assets/02_elbow_stowed_R_elbow_cap.obj" />
+    <mesh name="02_elbow_stowed_R_forearm" file="assets/02_elbow_stowed_R_forearm.obj" />
+    <mesh name="02_elbow_stowed_R_hand" file="assets/02_elbow_stowed_R_hand.obj" />
+    <mesh name="02_elbow_stowed_L_mount" file="assets/02_elbow_stowed_L_mount.obj" />
+    <mesh name="02_elbow_stowed_L_shoulder" file="assets/02_elbow_stowed_L_shoulder.obj" />
+    <mesh name="02_elbow_stowed_L_orange_cap" file="assets/02_elbow_stowed_L_orange_cap.obj" />
+    <mesh name="02_elbow_stowed_L_cap_center" file="assets/02_elbow_stowed_L_cap_center.obj" />
+    <mesh name="02_elbow_stowed_L_upper" file="assets/02_elbow_stowed_L_upper.obj" />
+    <mesh name="02_elbow_stowed_L_elbow" file="assets/02_elbow_stowed_L_elbow.obj" />
+    <mesh name="02_elbow_stowed_L_elbow_cap" file="assets/02_elbow_stowed_L_elbow_cap.obj" />
+    <mesh name="02_elbow_stowed_L_forearm" file="assets/02_elbow_stowed_L_forearm.obj" />
+    <mesh name="02_elbow_stowed_L_hand" file="assets/02_elbow_stowed_L_hand.obj" />
+  </asset>
+  <actuator>
+    <position class="chosen_actuator" name="left_hip_yaw" joint="left_hip_yaw" />
+    <position class="chosen_actuator" name="left_hip_roll" joint="left_hip_roll" />
+    <position class="chosen_actuator" name="left_hip_pitch" joint="left_hip_pitch" />
+    <position class="chosen_actuator" name="left_knee" joint="left_knee" />
+    <position class="chosen_actuator" name="left_ankle" joint="left_ankle" />
+    <position class="chosen_actuator" name="right_hip_yaw" joint="right_hip_yaw" />
+    <position class="chosen_actuator" name="right_hip_roll" joint="right_hip_roll" />
+    <position class="chosen_actuator" name="right_hip_pitch" joint="right_hip_pitch" />
+    <position class="chosen_actuator" name="right_knee" joint="right_knee" />
+    <position class="chosen_actuator" name="right_ankle" joint="right_ankle" />
+  </actuator>
+  <equality />
+</mujoco>

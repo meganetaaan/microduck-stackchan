@@ -1,0 +1,31 @@
+{
+  "status": "Diagnostic only; not selected or replacing final model",
+  "unchanged": "Tab5 size and location, case exterior bounds, all leg mechanics",
+  "front_arches_trunk_mm": {
+    "left_y": [
+      25,
+      66
+    ],
+    "right_y": [
+      -66,
+      -25
+    ],
+    "z": [
+      -45,
+      -15
+    ],
+    "depth_x": [
+      39.5,
+      41
+    ]
+  },
+  "center_chin_width_mm": 50,
+  "remaining_chin_top_band_height_mm": 6,
+  "side_window_top_z_mm": 35,
+  "side_upper_notch_x_mm": [
+    -50,
+    25
+  ],
+  "previous_side_window_top_z_mm": 10,
+  "clearance_target_mm": 3
+}

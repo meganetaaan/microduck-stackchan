@@ -1,0 +1,256 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "name": "body_cage",
+      "file": "stl_print_oriented/body_cage_print_mm.stl",
+      "rotation": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -86.0,
+        -0.0,
+        41.0
+      ],
+      "bounds_mm": [
+        [
+          -40.0,
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          80.0
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "note": "Suggested only; slice/support/fit check required. Carrier base and protection tray toward bed."
+    },
+    {
+      "name": "central_mount",
+      "file": "stl_print_oriented/central_mount_print_mm.stl",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -0.0,
+        23.0,
+        6.0
+      ],
+      "bounds_mm": [
+        [
+          -12.0,
+          -23.0,
+          0.0
+        ],
+        [
+          12.0,
+          23.0,
+          12.000000000000004
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "note": "Suggested only; slice/support/fit check required. Carrier base and protection tray toward bed."
+    },
+    {
+      "name": "electronics_carrier",
+      "file": "stl_print_oriented/electronics_carrier_print_mm.stl",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        0.3000001907348633,
+        -0.0,
+        -48.400001525878906
+      ],
+      "bounds_mm": [
+        [
+          -31.300000190734863,
+          -34.0,
+          0.0
+        ],
+        [
+          31.300000190734863,
+          34.0,
+          53.599998474121094
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "note": "Suggested only; slice/support/fit check required. Carrier base and protection tray toward bed."
+    },
+    {
+      "name": "protection_tray",
+      "file": "stl_print_oriented/protection_tray_print_mm.stl",
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -19.0,
+        -0.0,
+        -51.29999923706055
+      ],
+      "bounds_mm": [
+        [
+          -11.0,
+          -17.0,
+          0.0
+        ],
+        [
+          11.0,
+          17.0,
+          4.700000762939453
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "note": "Suggested only; slice/support/fit check required. Carrier base and protection tray toward bed."
+    },
+    {
+      "name": "rear_cover",
+      "file": "stl_print_oriented/rear_cover_print_mm.stl",
+      "rotation": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -86.0,
+        -0.0,
+        -36.599998474121094
+      ],
+      "bounds_mm": [
+        [
+          -31.75,
+          -29.75,
+          0.0
+        ],
+        [
+          31.75,
+          29.75,
+          2.4000015258789134
+        ]
+      ],
+      "watertight": true,
+      "components": 1,
+      "note": "Suggested only; slice/support/fit check required. Carrier base and protection tray toward bed."
+    }
+  ],
+  "note": "Five printableparts; rigid rotations/translations only. NotG-code or printer-certified orientations."
+}

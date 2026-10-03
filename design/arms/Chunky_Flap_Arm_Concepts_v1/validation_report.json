@@ -1,0 +1,167 @@
+{
+  "scope": "VISUAL CONCEPTS ONLY",
+  "baseline_visual_hash": "7f7325534417bec29aebe63cdf5919d70bccd020667dfaaa84fbcea2abf6da98",
+  "base_visual_unchanged": true,
+  "existing_adopted_assembly_and_site": "Not accessed or modified; these assets are recovered copies from the prior concept deliverable.",
+  "slim_original": "Same original #4 arm geometry, placement, colors and 60-degree display opening.",
+  "new_variants": [
+    "B: thicker rounded panel and reinforced-looking hinge",
+    "C: bulkier rounded armor, layered edges and a chunky end block"
+  ],
+  "physics_clearance_printability_validated": false,
+  "models": [
+    {
+      "id": "A_slim_flap_display",
+      "scene": "scene_A_slim_flap_display.xml",
+      "glb": {
+        "geometry_count": 101,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.0935999309015692
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.09359993090156925
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "67289c75af2abb4af741d7cf34112fa41ec67384cd2c81708565da658fe362a7"
+      },
+      "arm_parts": 14,
+      "nq": 17,
+      "nu": 10
+    },
+    {
+      "id": "A_slim_flap_stowed",
+      "scene": "scene_A_slim_flap_stowed.xml",
+      "glb": {
+        "geometry_count": 101,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.07102830764668967
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.07102830818134372
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "3bcb638c243b43a5108b9278c98ea2b40700a4f2797f61ee5136b047e560184e"
+      },
+      "arm_parts": 14,
+      "nq": 17,
+      "nu": 10
+    },
+    {
+      "id": "B_rounded_armor_display",
+      "scene": "scene_B_rounded_armor_display.xml",
+      "glb": {
+        "geometry_count": 113,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.09987249975345845
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.0998724997534583
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "5332539e8334757e4f4f9b5345cb1209cb79b81f31b0c61ed9f31aa347bc3747"
+      },
+      "arm_parts": 26,
+      "nq": 17,
+      "nu": 10
+    },
+    {
+      "id": "B_rounded_armor_stowed",
+      "scene": "scene_B_rounded_armor_stowed.xml",
+      "glb": {
+        "geometry_count": 113,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.07102830764668967
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.07102830818134372
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "cccb21d4efe332db92e23c8567a6a8f4de77cf1987875e53f9aea6202e267fae"
+      },
+      "arm_parts": 26,
+      "nq": 17,
+      "nu": 10
+    },
+    {
+      "id": "C_chunky_armor_display",
+      "scene": "scene_C_chunky_armor_display.xml",
+      "glb": {
+        "geometry_count": 119,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.11343546224127919
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.11343546224127925
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "e6ed1b71e0d04755d955b35c63e37031c9b97ca67a211448b4e3098b5f141fc3"
+      },
+      "arm_parts": 32,
+      "nq": 17,
+      "nu": 10
+    },
+    {
+      "id": "C_chunky_armor_stowed",
+      "scene": "scene_C_chunky_armor_stowed.xml",
+      "glb": {
+        "geometry_count": 119,
+        "bounds_m": [
+          [
+            -0.0468329362264209,
+            0.002818000276470298,
+            -0.07102830764668967
+          ],
+          [
+            0.05367,
+            0.24600000303983688,
+            0.07102830818134372
+          ]
+        ],
+        "embedded_screen_texture": true,
+        "file_sha256": "e07b45c1ceb1e114fb1c8e0b2f438695c6b348e3a493d1a68c4e89fc5edddb3b"
+      },
+      "arm_parts": 32,
+      "nq": 17,
+      "nu": 10
+    }
+  ],
+  "render_pixel_inspection": "Actual oblique and stowed/display pixels inspected: full head and both feet; three different thickness silhouettes; base appearance preserved.",
+  "original_A_exact_comparison": {
+    "states": [
+      "display",
+      "stowed"
+    ],
+    "mesh_vertices_faces_world_transforms_colors": "identical to prior #4"
+  },
+  "GLB_checks": "All six reloaded, complete robot geometry and embedded 720x1280 screen texture confirmed."
+}

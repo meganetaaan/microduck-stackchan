@@ -1,0 +1,368 @@
+{
+  "parts": [
+    {
+      "part": "body_cage",
+      "collider_count": 1144,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 52082.61504200134,
+      "union_volume_mm3": 57931.443150550986,
+      "uncovered_volume_mm3": 0.0016311374758629816,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 7.283988395806152e-11,
+      "conservative_extra_volume_mm3": 5848.829739687108
+    },
+    {
+      "part": "central_mount",
+      "collider_count": 54,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 5678.297923642028,
+      "union_volume_mm3": 5757.081506987789,
+      "uncovered_volume_mm3": 0.0004817131561420285,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 78.7840650589178
+    },
+    {
+      "part": "radxa_pcb",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 3068.354433342084,
+      "union_volume_mm3": 3107.5098540928025,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 39.15542075072003
+    },
+    {
+      "part": "radxa_under_components",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 2353.4256,
+      "union_volume_mm3": 2353.4256,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "radxa_top_components",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 2047.5,
+      "union_volume_mm3": 2047.5,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "radxa_gpio_header",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 645.1600000000002,
+      "union_volume_mm3": 645.1600000000004,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "radxa_gpio_pins",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 98.30400000000134,
+      "union_volume_mm3": 933.0120000000003,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 834.7080000000009
+    },
+    {
+      "part": "robot_hat_pcb_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 3590.3999999999987,
+      "union_volume_mm3": 3590.3999999999987,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "robot_hat_components_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 16632.0,
+      "union_volume_mm3": 16632.0,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "electronics_carrier",
+      "collider_count": 225,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 14033.817911411552,
+      "union_volume_mm3": 14709.367100978912,
+      "uncovered_volume_mm3": 6.354092742308271e-05,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 675.5492531082939
+    },
+    {
+      "part": "radxa_M2p5_0",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 129.85096465180007,
+      "union_volume_mm3": 271.2184135559248,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 141.36744890412479
+    },
+    {
+      "part": "radxa_M2p5_1",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 129.8510146518003,
+      "union_volume_mm3": 271.2186355912171,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 141.36762093941675
+    },
+    {
+      "part": "radxa_M2p5_2",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 129.85101465179994,
+      "union_volume_mm3": 271.2186355912164,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 141.3676209394165
+    },
+    {
+      "part": "radxa_M2p5_3",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 129.8509397502001,
+      "union_volume_mm3": 271.21846093630484,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 141.3675211861048
+    },
+    {
+      "part": "carrier_M2_0",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 64.67176714160007,
+      "union_volume_mm3": 145.8326958162667,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 81.16092867466664
+    },
+    {
+      "part": "carrier_M2_1",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 64.67176714160006,
+      "union_volume_mm3": 145.83269581626666,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 81.16092867466664
+    },
+    {
+      "part": "tab5_M3_visible_0",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 133.18706909880012,
+      "union_volume_mm3": 200.79567712740015,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 67.60860802860003
+    },
+    {
+      "part": "tab5_M3_visible_1",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 133.1870690988001,
+      "union_volume_mm3": 200.79568113870013,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 67.60861203990002
+    },
+    {
+      "part": "tab5_M3_visible_2",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 133.18706909880015,
+      "union_volume_mm3": 200.7956820300001,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 67.60861293120004
+    },
+    {
+      "part": "tab5_M3_visible_3",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 133.1870690988001,
+      "union_volume_mm3": 200.79567947550015,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 67.60861037670003
+    },
+    {
+      "part": "protection_mount_pad",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 370.22306163610057,
+      "union_volume_mm3": 374.0000000000009,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 3.7769383639000065
+    },
+    {
+      "part": "protection_tray",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 1891.9398560550378,
+      "union_volume_mm3": 3339.639096683479,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 1447.6992406284435
+    },
+    {
+      "part": "protection_pcb_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 960.0000000000002,
+      "union_volume_mm3": 960.0000000000005,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "branch_protection_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 490.00000000000074,
+      "union_volume_mm3": 490.0000000000006,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "power_input_connector_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 336.0000000000004,
+      "union_volume_mm3": 336.0000000000004,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "power_output_connector_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 336.0000000000003,
+      "union_volume_mm3": 336.0000000000003,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "power_feedthrough_grommet",
+      "collider_count": 12,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 163.99450008359997,
+      "union_volume_mm3": 291.3370139548799,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 127.3425138712799
+    },
+    {
+      "part": "tab5_m5bus_plug_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 2106.0,
+      "union_volume_mm3": 2106.0,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "tab5_J7_plug_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 396.0000000000002,
+      "union_volume_mm3": 396.0000000000002,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "uart_hat_takeoff_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 588.0,
+      "union_volume_mm3": 588.0,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "robot_power_pigtail",
+      "collider_count": 9,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 175.56651251861135,
+      "union_volume_mm3": 175.5665947220766,
+      "uncovered_volume_mm3": 2.694488336419326e-05,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.00010914834853435638
+    },
+    {
+      "part": "branch_input_loom",
+      "collider_count": 2,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 57.7276697587419,
+      "union_volume_mm3": 57.72771565692146,
+      "uncovered_volume_mm3": 4.5332344900117505e-06,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 5.0431413999061546e-05
+    },
+    {
+      "part": "tab5_power_loom",
+      "collider_count": 4,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 63.923312712354516,
+      "union_volume_mm3": 63.92336219296229,
+      "uncovered_volume_mm3": 2.6214007069463203e-05,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 7.569461475501573e-05
+    },
+    {
+      "part": "uart_loom",
+      "collider_count": 8,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 211.51258648171532,
+      "union_volume_mm3": 211.51277819674053,
+      "uncovered_volume_mm3": 3.0624460077974284e-05,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.00022233948492969812
+    },
+    {
+      "part": "robot_power_handoff_proxy",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 384.0,
+      "union_volume_mm3": 384.0,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    },
+    {
+      "part": "unresolved_fastener_mass",
+      "collider_count": 1,
+      "nonconvex_hulls": [],
+      "physical_volume_mm3": 144.0,
+      "union_volume_mm3": 144.0,
+      "uncovered_volume_mm3": 0.0,
+      "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+      "conservative_extra_volume_mm3": 0.0
+    }
+  ],
+  "complete": true,
+  "analytical_linf_tolerance_mm": 1e-05,
+  "method": "Union of exported per-part convex pieces minus exported physical solid. The 10 nanometre diagnostic inflation addresses independently rounded export coordinates and does not alter actual physics.",
+  "assembly_report_sha256": "c596c567cb9e095171434f9143a94b3c4d695ee66cf0fed3ba02fc117757f16c"
+}

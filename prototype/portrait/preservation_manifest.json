@@ -1,0 +1,3303 @@
+{
+  "baseline_zip_sha256": "7d79c1a41197654fd1a287515f923a9c76ee82e1c5c59906bcb3c85309dd3fee",
+  "preserved_original_file_count": 824,
+  "all_original_files_byte_identical": true,
+  "original_files": [
+    {
+      "path": "microduck-stackchan/README.md",
+      "sha256": "42664eaab2125f9b65b3aad1e844dd4c940933c2424dd8cdf573e9df7167820d"
+    },
+    {
+      "path": "microduck-stackchan/bootstrap.sh",
+      "sha256": "65040de49edd6e058b852edb6a55e64f143656b6b553495d5dfbaf2bacfa7936"
+    },
+    {
+      "path": "microduck-stackchan/cpu-requirements.txt",
+      "sha256": "e3e6b291e6bfd69fd681a6127c32febbcb7265e15b31e18c5743a2e7da2899bc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/audit_lowcube_clearance.py",
+      "sha256": "0b00b4cf2c4242fa4de15e81714f0f0c03d6a03d602a5fb17ff87bf46a0e74b7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/build_lowcube.py",
+      "sha256": "f494a35534cce8dc5d19bb8b5a0b46e1b8fcddfe8655557936de88f54715ca23"
+    },
+    {
+      "path": "microduck-stackchan/prototype/build_models.py",
+      "sha256": "5bb2547be737dc53cc4ae1ec8f52b8deab396caf5fcb9e8c728e228822921a07"
+    },
+    {
+      "path": "microduck-stackchan/prototype/build_rounded_shell.py",
+      "sha256": "3ecf26012fa8e147583281bf49b9b32d4ac80abb38e8580e83f98cf43262f82c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/analyze_posture_sweeps.py",
+      "sha256": "e8af9debb2f8d673ff6a76be8146721c6c6adf6a29a0a4a0b841027044284dd0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/audit_candidate_crouch.py",
+      "sha256": "9355a706bb08b6264df0a2873e841ac70b98016322a323c06dbd866087c9489a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/audit_candidate_paths.py",
+      "sha256": "179b8d9995d20b0037d76e189ec842ae14e149a4ee736097c634c7b6f4aec235"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/audit_crouch_pose_paths.py",
+      "sha256": "25612c26116885a9d23e5a5ba52c924c56c5eda1918599697e43e0c0ac57987d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/build_cutout_candidate.py",
+      "sha256": "90006193cc41d74cc664ba49021d717c534a1d71813b11840b74c305e0a97b57"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/candidate_crouch_clearance.json",
+      "sha256": "96258133cc5b0b86cf9656ad4dfff54e76e05707099073f47ea0837d50b6d9d1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/candidate_path_clearance.json",
+      "sha256": "b72e677512d828b928d7ce92db720b2d7fd16738da78a6e2b485ead2c737d6a0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/candidate_walk_probe.csv",
+      "sha256": "0d3f62cb5a29676c8386247bf0f8042f5229ff14205200b021b0ff76052c1c6a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/candidate_walk_probe.json",
+      "sha256": "a100bcbb8ba70a04b5d627c20bbcbc57db18d5e2fc13b4818cda60b735130f6a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/crouch_pose_report.json",
+      "sha256": "2b8f8a790cbd73cf765611255d7897d913f62a87e3ecc50c86205fc702df64ad"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/crouch_pose_verification.json",
+      "sha256": "4be47a44a4c33c150c2a16c349271aa20890d6c4ddb9dea3dd6682ab1892e42a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/cutout_candidate_comparison.png",
+      "sha256": "72b326644abede54e867ca26249c3c339f98430587652a1f101a2b95ec93a649"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/cutout_candidate_parameters.json",
+      "sha256": "597b759ad976d270742bbe079a4987559cc77a2f55cdb86bc258c8a032bcac89"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/design_recommendation.json",
+      "sha256": "3179053e9eb4401a7b6f821186e69d110ad36d4b781850646ee3c15ff68564a1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/feet_flat_crouch_comparison.png",
+      "sha256": "063534a7797c736a93660a829acc38e3cec3cf85a67fcb6fc4c6edd5951d91c2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/feet_flat_crouch_paths.npz",
+      "sha256": "7c463ae445ef6553bc8de335227c2acec65a6cfdf312ba9e4fd3d1a08f8e2afa"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/lowcube_cutout_candidate.xml",
+      "sha256": "794df89ffe070f78f9262a7f44e9e09f0e8437d8e11462249dca5b985f28d03c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/posture_sweep_contacts.json",
+      "sha256": "d8f0021cb8607b067a3bb31da79cfe88f7a234c240eac807d57a0cbccd645a07"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/posture_sweeps.npz",
+      "sha256": "e76a58285d562263946a276bb24cddaa3598576c089ba538dfb7790b65542d11"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/render_cutout_options.py",
+      "sha256": "72e7e47564981924341c0d3bbe545fc8fa4d45a01df7cbdeb1660836a9182934"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/render_feet_flat_crouch.py",
+      "sha256": "47737a73f2198f976a0e19434213f947186d2e03b37428c45789508f4976360f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/diagnostics/scene_lowcube_cutout_candidate.xml",
+      "sha256": "26feab0e6c1ae4c88b767beeb9d4e7219821524acad939064069bfd20be1c1d9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/scene_tab5_bare.xml",
+      "sha256": "6ba797bbb068ea00c9d2e76386cd84681263620621d435c9074f63ca1c2fb5b3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/scene_tab5_kit.xml",
+      "sha256": "6b1b0a40a0474cac29243f311b95fd51f54ef9f49324da643044f6c9659548ff"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/scene_tab5_lowcube.xml",
+      "sha256": "f0294ace616d24b0259d4d80a8a7d7414ad33e0c8e2899cafbe6ed34e615d697"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/tab5_bare.xml",
+      "sha256": "c81e0cec3985098d27f51748cbf79e0671d2288ab4996ab19db8fe7e674aa87e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/tab5_kit.xml",
+      "sha256": "11397bb7497a3b2a18eba04fbd4ba31f84ba8555bb9c3182391ea359bd012064"
+    },
+    {
+      "path": "microduck-stackchan/prototype/models/tab5_lowcube.xml",
+      "sha256": "164f91d50c7cafed9b851c33bbff02a3f4e678b7e932f523d1b65cc30a247e09"
+    },
+    {
+      "path": "microduck-stackchan/prototype/parameters.json",
+      "sha256": "492936e8c794b739e4e95e4656f42ebd05e74aad781f3d724cf8ee632bc26e75"
+    },
+    {
+      "path": "microduck-stackchan/prototype/parameters_lowcube.json",
+      "sha256": "3602454c35258f463ad6ee3253babab01bfd1d58ed43cafdee9161ceedb6b566"
+    },
+    {
+      "path": "microduck-stackchan/prototype/render_lowcube_comparison.py",
+      "sha256": "adb43d01cdf5ad5db26450ce499c4f070af698b8932f6593c4a8ea9dd0ef822d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/render_rounded_comparison.py",
+      "sha256": "ddf503b5a054b7c0ba164f55dced99e743c4ac9b25532d7a687b71330dcaccb2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_velstand_030.csv",
+      "sha256": "ec603cab4e3617e14ac779de47e1f7b13140858351dd3fd746c0b591034638f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_velstand_030.json",
+      "sha256": "e2f49aaa8255f5e93faa335a2eb9f5bd49b6936829d0c3a750178ec1d143e69f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk.csv",
+      "sha256": "1beb3900b7f94dc428600b424e3afc6ab66c5e79d119e443c53b27a764c880e9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk.json",
+      "sha256": "e5c81c9ec304f0acb27ecc2d25c5b55f68b4b96d47e3bf46c6a0ad4abef9aaa9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk_030.csv",
+      "sha256": "1f83726c719dde5e97ae8284a913e10a011165db99c60dba21eedc47e537f31b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk_030.json",
+      "sha256": "6044f1eee40293ae82551302c2236d8550948a9346740be17ea8dcbba658d1a5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk_fastcheck.csv",
+      "sha256": "fca71eadd106de680860f7db958ac23855c77fd98c17ecf0ca4a00f818566cbd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/baseline_walk_fastcheck.json",
+      "sha256": "09a44bcd3526b8b9fd48cc95607a1cffda7d1d9d0fff5932da160d0746748897"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed1.csv",
+      "sha256": "42e821235527f213bba7bd9fbf24be94b8e3335e27dfb8b583a3d30ffb43e8df"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed1.json",
+      "sha256": "5a8cffddcc33ca3e2eadc15dd90cef85a5a28ce2b458076663f39fa9147f974e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed2.csv",
+      "sha256": "375835f4c41e2f5ee750145de493ee8b38eda3780ff30267ba783ed85466175e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed2.json",
+      "sha256": "428835c6846ddff8c405c612d44666939def8a31f1095f0fe93cbd7ad8f0834f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed3.csv",
+      "sha256": "895d3af661edd1144e70d61cf67b7a0f28c5a5d4c0a7d0103ab46ce2ff84a1eb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_bare_seed3.json",
+      "sha256": "b659f6c5178a419e6b5daec31838c9ba4014814ffc5838dcb78d779889a7e19d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed1.csv",
+      "sha256": "025903f3fd8b901eeefa4e0ba008c4d8265095a6dd1ff0e337c874ffda0d696a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed1.json",
+      "sha256": "8539266174045e70fb3b4e0f0b286cd92b4090733d42e33f3a30f4aede201b05"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed2.csv",
+      "sha256": "eb25b7d29ff6eb09b47d5a7af9bc5fc6490be52e31741c205014d38bf332a662"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed2.json",
+      "sha256": "65da8ff1b62d934ba5089ae9311cb70828130b40eda8fd8889428bd6e6ed71a7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed3.csv",
+      "sha256": "16684d6149da610e0752f7e458a14ebc9542a5fd3a6032465ab4d61346526d94"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_baseline_seed3.json",
+      "sha256": "e47f04b974e1c015f34e8a9b1032c00f7e0b184a912b8da1003af6839c04c0b4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed1.csv",
+      "sha256": "7c86bf8ba0e355eb115c744ea2c6f923f2ef2d91e4eec94f521c44cbe5ff9d7b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed1.json",
+      "sha256": "084ed935365f029e4486e6b8501c294024871f29c32cbb865f3900c2fcb31182"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed2.csv",
+      "sha256": "a75745482acbc2ac33c54484914d750f6ce6e3bb6616bc8dba86408c961ec7da"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed2.json",
+      "sha256": "3c03a7ad0df0932d8dd07f75b07720e33e94a193a3d96f0396f9d3a435e01b4f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed3.csv",
+      "sha256": "76445f31608e508ea0e4254190fc9f2a1ac7a3fc7311c3e1d69c801428018b8c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/hold_kit_seed3.json",
+      "sha256": "bf35ea6a348536824a20158d75481b29a2a06c59a70be2127800f7c40f032581"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_bare_front.png",
+      "sha256": "f4ddb13582e00d6cb0e41df6dc1df385175a92d18f043d4a6a2d854224fc9be4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_bare_side.png",
+      "sha256": "3bff7f453d5b643d680b485cc2509c50c09dbd42c9387152c18182044b66a6f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_bare_threequarter.png",
+      "sha256": "23f1adbaec7cd976204dbba5e8fd5b40c170c907be4de66e0432a6591a044d80"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_before_after.png",
+      "sha256": "002b7d2827a07d2009fad2abddefcb783c8e62990866903a298737d23b325fca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_build.txt",
+      "sha256": "83c9274458d426dafab0c2f5b0e45c5b56de470b89b4c990ebb48217f3572eb2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_check.png",
+      "sha256": "6347fb80ffb4317ed43960de2d1d9ac887df3b350151693296b71d5b0cde82a3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_clearance_audit.json",
+      "sha256": "57c8a2cc7cab2593ebbc062e9e85248f6a34a7cfeaec3dc0b1afea5929b24605"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_geometry.json",
+      "sha256": "cc2a496ac599062a7651786b92394338a09a0b8496eecce4f91ad7cc91b66d55"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed1.csv",
+      "sha256": "e0157968cd40760a2695de395653b13a30004c515149b0d129ba8f87d5e4b546"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed1.json",
+      "sha256": "a69215cdfca551a00f35e3d430ed8fd920db1f7c2294b2da7a0b392e983d5265"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed2.csv",
+      "sha256": "d2698ae78e4e7d51c49302ed357a196e639c4964cddbb4e5591545b06c32ba63"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed2.json",
+      "sha256": "b4c6c975c7b26fc5dc249b2a69963cafc058da5b9f55a76394fb7e9f787d2350"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed3.csv",
+      "sha256": "9af90981a0a524460747cce19c5911ceccd8f7af82a0b1d93dd85c19a6348097"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_hold_seed3.json",
+      "sha256": "91989fcfa0a70c09d03dcae38ff9cfb6ec1198cc87e45e4f6d00f8fdab406a12"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_idle_policy.csv",
+      "sha256": "673f121b6be009eee787fb2149dda0d849b56d7e8731f9d7616003712b3c538d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_idle_policy.json",
+      "sha256": "a48f590c8bfea1175276c76c531a58348a79357f882b7932197b953278d3d64f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_lowcube_front.png",
+      "sha256": "160ff075b9e6015b11c140988eb2f8e5331c034f117c5ea1a4e439c9a11b2cdd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_lowcube_side.png",
+      "sha256": "e5919e5e35b9aeebbe825561df365bd032ab576d1af0eb8c90eba1c099617162"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_lowcube_threequarter.png",
+      "sha256": "a744bd642239c47a818d5d75d3c9b42004f9d81947ab5d2ab687dc16dd2ed481"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_log.txt",
+      "sha256": "9a740b7c370005b81c437fc7fd35f6f146ae3a33f3d3c9a8ea410007697fde0b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed1.csv",
+      "sha256": "7c1ae52d9b8bb55b37e6850161c2df618632a096d33c43ee7e01e076f09dec68"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed1.json",
+      "sha256": "b000574312677aed3b5b7f724b01a86e8f5e79c4690d6b286b52f22a2f7ebc75"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed1_states.npz",
+      "sha256": "1a94eade7c3e98810572e79d95bb91da48ec9033f5a5de9d58a36d66b7c64ba7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed2.csv",
+      "sha256": "1b2239683467f476dc29788743d3b7665bd5bce704c8457b4a64c2b4a7a6f790"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed2.json",
+      "sha256": "a5bc30262edc2576694d5d5c91e4a02b4ba31a5d4f6091809702860bde2b1899"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed2_states.npz",
+      "sha256": "6cc81a4842587e6533f25075529e58b6eab5ff3a4fd215c58d52e9dfaa654c78"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed3.csv",
+      "sha256": "0d1d2a44a74d6dba5dc019aefd3cbdd2ee71d497a7d46ef40643eacbda136a8a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed3.json",
+      "sha256": "5d96c7cd73f2842f88274b3e4b8b1414d0783b3d4df68274374c3e1948c73979"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_seed3_states.npz",
+      "sha256": "7a127cbca278595e88dda3bca2503e889b343b7d89adcf1cd29682c766030ca2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_validation_summary.json",
+      "sha256": "b9b178feea98a9e5cfcac28333a5cc147cf3815cd6b616520681f0f11de70afc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walk_030.csv",
+      "sha256": "c266df06178bc9a32a756e354a7e594c11a0885b5e72b8008b6795a1c278432e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walk_030.json",
+      "sha256": "7bb290124089695fd1a912b375a3a72b818b59cda60c6599b5b633dc15a63c3d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walk_030_states.npz",
+      "sha256": "b22a2e944bb9537ed5a666a6ffa838d8050e399fd3b6aaf0a2fddf84e578bfc5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walking_demo.csv",
+      "sha256": "a5f7eab1be6e265bfcff47d97dccdb49001871ab7439201d9a56d26c904cd2fb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walking_demo.json",
+      "sha256": "eb98ae0401a29a0408e16573ce700f221cb76ae48e5ca4408db94990517df7cc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walking_demo.mp4",
+      "sha256": "dcac6c2d8d93ac50470226c34527527dfd0c2c0d8083ee0085d978745d76e7d9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walking_demo_initial.png",
+      "sha256": "00eca4b8583ac8dfce62cf68991a520b635af569ad1b6f9973b6e2734a7f5148"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/lowcube_walking_frame3s.png",
+      "sha256": "e982a27201f0fba9f3524b86821ba9b5a61dd492b80a69fb940a5dd078557cbe"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_30s.csv",
+      "sha256": "15d303f481a5d71ce1940012c66219c9efadfb05ba326902f7ce94c89547768e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_30s.json",
+      "sha256": "cc5fdabf885a3ec9cc73739dc2bf16378ba568fa587d13bc6571fca292b18725"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_current_limited.csv",
+      "sha256": "676eb489eaf084ff86eb85e02b7e0598a94b9bf2177be3b6bc9bb2797e8e25ea"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_current_limited.json",
+      "sha256": "b73c49fde8bf8ed7af96658b8d2e0526950b5f59fd84d7ffd2e3a712e275dd13"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_velstand_030.csv",
+      "sha256": "0d3420e70841e176e6f85517d63cfcf12b6edf50d642859af640ae625ab33c63"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_velstand_030.json",
+      "sha256": "25a274cc96d462c84818e6e7a7d80b9fd39f8ac5340c58de851b4846b72b4dea"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk.csv",
+      "sha256": "ff1eed46c31e19e03ee12595a408a49c93736a92429646eff35d531f2acb9075"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk.json",
+      "sha256": "6f2fd81995dc61e56a0775659afcef931919c4d7a06dc7748e179c43dae04c38"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk_030.csv",
+      "sha256": "676eb489eaf084ff86eb85e02b7e0598a94b9bf2177be3b6bc9bb2797e8e25ea"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk_030.json",
+      "sha256": "19b915e4b0989aab2202d657a6afd566db5057d2e11b9d47ce905b4a5e71251a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk_fastcheck.csv",
+      "sha256": "c365fe502207c0e10de13decbca366d2d0089a7d42c7b7de9926d96788aac41c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walk_fastcheck.json",
+      "sha256": "fdc9b207e40b0a4172d42d39f2f34878c580597d21d955aa610ea705732f146a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walking_demo.csv",
+      "sha256": "1983795061e613c4fc8b33cb9ea2432baae7ffa5af0fb04eab6895b8c633c2f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walking_demo.json",
+      "sha256": "ff21514dbd08b0bdfb5f7f4cf079b4f36e58cb7546e072419bcadc6c2eeb7ee9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walking_demo.mp4",
+      "sha256": "9f1e107a615e180f494a43843610f8ca75d401a28a4c3a4b044976962a08f7c7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_bare_walking_demo_initial.png",
+      "sha256": "bc4b305245a7adda4aaad2c2eb4ef289d3eb092dd3cfc4775d0490746e23ea47"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_kit_walk.csv",
+      "sha256": "4da8ed09d76b62d0a33a45ce68d900979cdaa324aaf367aec1b48e1cda3f0210"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_kit_walk.json",
+      "sha256": "ad8f31dd8fcf82ebd4426b8cb5040e649791934865af3184b8bb7bdbb63016ca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_kit_walk_030.csv",
+      "sha256": "9707e7cbb5fc8dc0d04553ffb150904179ed24bc7d944b90aedbebee5980f3ab"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/tab5_kit_walk_030.json",
+      "sha256": "c07de042ed23383b26f08d1d3e99ea893627d69e11973ab2680b173abb3cced6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed1.csv",
+      "sha256": "6b07a525685cb30f8cfcbbba943578b6fd042a32c6383c351fe293f49a398002"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed1.json",
+      "sha256": "fdbbe466928d3ecb1f9700508b2b3c9ada4a5375ebdc9786b5a148c40aaf8e6d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed2.csv",
+      "sha256": "d1cf09097d70060c821a3154edb692bf04f23e751d8af1d1d22ea0ae2c9727ca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed2.json",
+      "sha256": "59b9d45fecc3b73849d2dcdbed6572d5faa609b7a184dde6bf187991360f0c4f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed3.csv",
+      "sha256": "474d588a953fba8f12e100f789ccd76504db231ed5537aa15d7814775d664673"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_bare_seed3.json",
+      "sha256": "d510bdf52c2a309072adf9e152e11b13028b0d1e185f90d8ab977e7892d29f80"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed1.csv",
+      "sha256": "9765e1dbff8deb0de259914ac1308268fba67f3de5a57c2db4d3ccbc14c9eab9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed1.json",
+      "sha256": "0542757924198c6083bdc979287fea0c8becaaf424d123552b9ccdf0ce20175c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed2.csv",
+      "sha256": "8bee7174cddaec2c92d0b5ec6042548cfb6591132a910eb2417dd54688643a17"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed2.json",
+      "sha256": "670525f6e52f129245f257f5192e5095150be3ff04e1af5e8307a4ca21984b14"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed3.csv",
+      "sha256": "34467d886008765ae0f7e4eafcebb0023a071377d1d7380d5356feaad519e2ef"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_baseline_seed3.json",
+      "sha256": "c5fae6a0a166e5417d0001ae4a01476be4df641f85db2ef2eb2f4f50c571dc78"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed1.csv",
+      "sha256": "9fac2db27a8a05daaa6f687c2bfdb8b322e5100b1017f5b3b7473911d242a2be"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed1.json",
+      "sha256": "a97a2c3292d29006d6dcea1ab59e8142a25ed9fa84c2fe3cc4ae2004662bcd5d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed2.csv",
+      "sha256": "3e665b3794028bc2e2ca7a46b606f42f44a163e0d3a74a48184af44497a54d43"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed2.json",
+      "sha256": "a4ca25bfd36dcde75b4dec1d791386a5d311d2d4ee1a2bbc98258409bb6fccdc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed3.csv",
+      "sha256": "785e5662ef2a71c47371764fd1af2b69893d85fae63e3f9e8b94b0e91f51eeb5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_kit_seed3.json",
+      "sha256": "8a91bb28f53fcf44cd4f80dfc3b7fcf822350529bb220278cb6d853e990b9bbd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/validation_summary.json",
+      "sha256": "b53fe4811a70addf67392bac1b6f9b0da3a5a940f689c8331d12ab9e55c359ca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/results/walking_contact_sheet.png",
+      "sha256": "8f0780bf4d50f36690fe35d79da845e0772fcaf10499914a16ecc54f68f68d3d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/0_front.png",
+      "sha256": "0ab336b9152b2cf406adbeb1d06968f4bf4315a85af80f071be73e53da634b85"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/0_side.png",
+      "sha256": "bb5a0fdbeb0b85a2ba86274a64427a31aafa12687755f321a453ec778efb09c4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/0_three-quarter.png",
+      "sha256": "ba49259fec3ccdc8e935f9df8964588d4a351442d2f409f647ad526ec5b2d5f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/1_front.png",
+      "sha256": "f4947728c1b1898c2dcbe14eca81e64fad55c80918a450a3dfa6314c6573778e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/1_side.png",
+      "sha256": "1f3175ad8a105b77e34ea2e9cd94658d08c9f45d7f3febb2fff8e65e16060a2c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/1_three-quarter.png",
+      "sha256": "830f55c8bcde82e11e6d42f4727685e89472b576e71fde38648b28ed342fd7c4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_000.obj",
+      "sha256": "fe26f0a162a6d063d9ae75208878f9248043d48eabc182a7ffda54a639d4b486"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_001.obj",
+      "sha256": "650bc822f8c5315f67b6b3d1c7c9ab4719434072b7f4608ff9f1066478d0b35f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_002.obj",
+      "sha256": "0cc6b5d9e8aa568ec2906846894baeec455d33c75801e41f5ae3e50fbbbe8ace"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_003.obj",
+      "sha256": "950f3139b99f3c35b2ba0c18f0e926fb2d9803b02c9acb18212bd1954e0ee375"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_004.obj",
+      "sha256": "5043ac1b14dc3c96f144a157a6d31de4dad7061c6d3ec84834552eaee53d4697"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_005.obj",
+      "sha256": "1898fe45a3e253bcb8a3dab0431ab3caf73bdd1e8cf05eaeda3c6a173a43c6d8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_006.obj",
+      "sha256": "5cdb97be6d0c927e7b42a71b2424bcc87e9d22f87cd629d485444a3a640e8f6d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_007.obj",
+      "sha256": "918e7b70492b2f841fbb6a4a404e9c3d6a8aa8e26fac0a5c828f443fdb01e1ea"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_008.obj",
+      "sha256": "5a43b7a316ea29eecd5047119935df650044a541cefaa5e196d933c14b96efcc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_009.obj",
+      "sha256": "2c401e2b67a8fa0ff6a62b57881019308bd1a1f4e0bbd09acd22b4a554237feb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_010.obj",
+      "sha256": "d51aeb748b5041838c323eab16567133c5bcdbb75b4666ce842c6bc3b6515cbf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_011.obj",
+      "sha256": "5061d23f36040b06942b4e0cdcc250aa893c9c43debf6feffc196c8bb02438b3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_012.obj",
+      "sha256": "a685a8c7019190cf42f1d21149820802be9ff2140439e11f42e086ccb9d6ef31"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_013.obj",
+      "sha256": "260ab57ab39b4252a51355e4cd40c872ce9ec3c2f3367b695ac6f78abe713585"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_014.obj",
+      "sha256": "4d2026f9dfe8aa9bb78a82ba5d7de782900e22f14f193d95502903d462418ade"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_015.obj",
+      "sha256": "13d6b90888d8de30695b8b39e1e75e7747e7cffa792350ef469e3938c6571390"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_016.obj",
+      "sha256": "7d9ac552fd1c5f305382fc92931673877e0297aa3527914066da3f0a6862a9cb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_017.obj",
+      "sha256": "dfccb720e427201e9a2b5f059a33750789de0b098e782506268ef69f18863dce"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_018.obj",
+      "sha256": "8bd1e583c4f0ca66b886e30105ad4e41c5a28267c0d4464b382ebdc323ab8505"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_019.obj",
+      "sha256": "c81367df87bcd6e705eddfbba0221d4195e76acbd9340bd530652c787be3c13f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_020.obj",
+      "sha256": "1942c5587b53df6f0500a4715ddd196f8c789da1aebd77fb707cb26c3507f5d6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_021.obj",
+      "sha256": "34203f9a58cecf6215cad7892c8625228ab5b3fd37432b8978d931f8f33fbc98"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_022.obj",
+      "sha256": "13b20212c4fe06d330a2df9b778890295a298b0ff88bf7a041e0191aa7c6e1c6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_023.obj",
+      "sha256": "ad1583bfafe053cce69745a145acb58a6a68fa79f773acb72b2914e0f827fd6d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_024.obj",
+      "sha256": "3e94e61d1dc2a986d8ae0669718567ac4d2f00aea0de800d1f45331fa982b430"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_025.obj",
+      "sha256": "1e43ebb00ed021931e54f7855455748d4191c6dbe8096c1f7d8f581979809829"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_026.obj",
+      "sha256": "fbe6bf2f1d0cb3c8273351f12f54442532596d949518151365a06cf54c25e15b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_027.obj",
+      "sha256": "0da7f588f6013ba117ef97f8541b27c7433fe58f47b6f4b39f5c1823be80883c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_028.obj",
+      "sha256": "938402bdf9e029de7c4d5b385b3866bd1e6e4eaa6062c9c1f9c20ae400149823"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_029.obj",
+      "sha256": "9346f06f3f97c82b76ca6cf304be29575ab53ca27b32a0cc47b036bccfcb6478"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_030.obj",
+      "sha256": "60f709ef62898cf1da468608d3198bc548b7cee59081465ef31bc02c1cc8eb22"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_031.obj",
+      "sha256": "3deac95639903bec3ae5b7312ada5eb8d82ff4905682c53fc8fbc5e21d009490"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_032.obj",
+      "sha256": "47ebcf6e5335f1b2b867c7f3054b8d3a29a2e5eb70705da3e8d06d36194fba40"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_033.obj",
+      "sha256": "8c3f80cf4f081bbe88f4b486dfbb88df7ef5e13a6edec186e9597db5767e89e2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_034.obj",
+      "sha256": "e2a4861bf3a6427333f62a6b2cb2d0ee727740c0e40b0a4e3b9f10780d54fe1a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_035.obj",
+      "sha256": "b44c437c51ec4db863c6d2f220be8101e0ff61fe3a6bb72f1c39c9dd7f3bb52c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_036.obj",
+      "sha256": "116dc872d1173dcd59f94591b3760d93cb3d0dc2cb272d582a1e561448455622"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_037.obj",
+      "sha256": "766d86ec6d85482c01e7f5b3f55c9587dbcea906ab895ed0df1ccbceddd1a77a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_038.obj",
+      "sha256": "8bb5f0c1b68d76226285c1e90f89c09c5300c3a25bdeaf431fc0dd14559aa565"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_039.obj",
+      "sha256": "6b1b406272c2595e52252a63aaa2bae899e0ad615ce9f996a3a21c851dffcc66"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_040.obj",
+      "sha256": "d8d88f5e396765f0d5e200b57ef0879f9e57d9ccc7b14e18601d7fb07789d075"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_041.obj",
+      "sha256": "275c6f5732a81e94860fb5afcf3cf22596d6ea40f5522bb7255bf21b91149446"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_042.obj",
+      "sha256": "3c1b990226431db1c7dea49e1ea12fe003290fad74fd7efdb4230acaf5f3020c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_043.obj",
+      "sha256": "0a66312a6a172cd88ac4d624f700505087672a321f741b5bc589c40ad5f39658"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_044.obj",
+      "sha256": "eecebc25b44079a451efc0249bb6175c60d1c1f7fd25fe909157a3b0fa99b71c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_045.obj",
+      "sha256": "eb46656019ffb404aa4f3b9fd28754a1e94d92df1d1198b2ad7c6439486a5a0b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_046.obj",
+      "sha256": "2cf21324701717db07ebec26597811b329f7db06ba82cbb9d627d81e40fdccb4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_047.obj",
+      "sha256": "e75e00fc88998fff82649d48ed370dd2acf1add236a639057555b2955309fb17"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_048.obj",
+      "sha256": "4d76ea02927bbc1e65e784ff755ce3bbfca47458673a0a100cc0de8aaafd66d4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_049.obj",
+      "sha256": "1fe734647bf9ee1e7e9acd0355ce31f26ed77db01e0dbfd3f4277463fd9a08de"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_050.obj",
+      "sha256": "2c14a70f8166f5f0b516e4748a35217f6f713053aa5ea0fa7b4f287956ffa4cd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_051.obj",
+      "sha256": "a988818ee03b7fe9d6ec2583ea3b8ada3aaf423f2afd735728d2a281c0944798"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_052.obj",
+      "sha256": "503820bdb8d5c22822b5a2ebeb0235c8173fe851bb320ff2973c5bec067b6cb4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_053.obj",
+      "sha256": "fa983524b1fcb8bcec34895adadd43842947ad18975b4ad6147ee1f17521810f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_054.obj",
+      "sha256": "ed17360fc8497a8bcd95220c7bd62d313f679032a5281842280527aeca0dd99e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_055.obj",
+      "sha256": "42ae0a3348929c5a7a8236b7b793003c7f918b8a3f15630085d89d87b65f61b2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_056.obj",
+      "sha256": "7f6c026066abe955cac3611243d514b1bd1f335699ece227b4efa6c4e7225723"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_057.obj",
+      "sha256": "9ef020ce78a98aac9b39e227e45ede0dba4b137764c34d4549288ef655438899"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_058.obj",
+      "sha256": "1e13b17474e7c4b0b643fa013e10dbd4097a7c5ec70411b22d5d70f053043866"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_059.obj",
+      "sha256": "9e7d1129c510a21b69b78dd55628881224bbd90631bbb50991aa9c288ad79055"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_060.obj",
+      "sha256": "5ebb5a7c2b8fceb944638dd3197c927b60822a37a47e6e912dc9b71dd4ae57ca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_061.obj",
+      "sha256": "4e5b631e1d4222a3b4732344c17f2ea04bae3e3bd2885c6efe91544bc1fa4006"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_062.obj",
+      "sha256": "6195308cd1399c0ee4a52f0d85c25ec6abfac38548f9e7abf6e6933a3cbbc53a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_063.obj",
+      "sha256": "46a782d758e9dadf6bf5161bcf37138f2fd93580d4edbd38c328f81d7a622a35"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_064.obj",
+      "sha256": "2ff345b11a4c6f8933a7b1de681ae94be24e6c50e9ed4a4ffec8cf5922b88008"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_065.obj",
+      "sha256": "5acdd5bd0144670c05769ca84b79decfdf7c742b278a298b71275ddf0d7deccf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_066.obj",
+      "sha256": "092fdcd5f0c88c9cc53ead729f4aeef0e85d308632c23f935e5bbec1e0374d10"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_067.obj",
+      "sha256": "0cd748f699d516c337bfb46791ab4737e32aad5dfcee523a97f8d8d848b60603"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_068.obj",
+      "sha256": "0b704d3834a1babf32084cd16ba0384bb12ebfdcf4b8ba1c20cf4655f4d79b9f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_069.obj",
+      "sha256": "435c15cc8f5d156c04b37a21bccf0da6c9ac7ff5e97b4f73d8fa88f7c8ab07bf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_070.obj",
+      "sha256": "9db517b5450699f5c5f0c62b80e82a4f3d0f54ca57c726cd9b8b75dee5fd7780"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_071.obj",
+      "sha256": "345077ed02a39be9a21dfa0e9ee388034d023e5200d095f86ae8d8dc136d381d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_072.obj",
+      "sha256": "096162da053f20c5486acf790c32eb6dd41ca23e0e4abf85f964801e90b36667"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_073.obj",
+      "sha256": "777c120f7ca831038eb832f15e69630049c9ada9bd9cb2181c26518543204f07"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_074.obj",
+      "sha256": "e7b8f15b5b3b497986273c3cf08b9dc9aff794d3e013ad431d209cea4bbd63b3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_075.obj",
+      "sha256": "3f8b5974fe48e1a2714c55a2554ed4f52f2d28ec16f781fa2eba506133d4c142"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_076.obj",
+      "sha256": "06e76929e51173dc1e1fbd98507cefae9f8fce5e6ab29c0b9c87a807b550a605"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_077.obj",
+      "sha256": "e832934476b9fdf6ee624f02e628e6303c7f65b12ff1e130df116d951575ded9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_078.obj",
+      "sha256": "6b1ba859b0eb3bd02231770cda31d3b2c2416c40fc66dd6a581286875d6c463a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_079.obj",
+      "sha256": "dfc6a0e380114ced17c7c7bf267971852a362bc205bdab75a3e6e36536329a7c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_080.obj",
+      "sha256": "d9518ef29f852882834362b754b2ff52085c6fb6e535cb1cdcfec779e3b6416d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_081.obj",
+      "sha256": "8883b852097a11ef63e9e76350bf3fb8664fd8e5c6765be590235d8731c747ad"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_082.obj",
+      "sha256": "6a227600c382afdfa88d381234e8ef29f2cd609e7f8917644ca3231929f252f7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_083.obj",
+      "sha256": "7ff944d7f9d1c0f9cd24f6c731d7fd5fa0e11f763d6f2579af6b0e330ec834a3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_084.obj",
+      "sha256": "8f7834ad631bcd804fa91f1ee6a35e06f1444593f4a591364b9807bbcb9cad92"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_085.obj",
+      "sha256": "f53fdec587dc47ba3333cbb0b8e1124a3caa6a9b6a52d3a0c5844dfca1a8c3fe"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_086.obj",
+      "sha256": "f455f733077043ac393092ae74d5320672f68cf2ed1cac3d483875c5afc68172"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_087.obj",
+      "sha256": "4ac8c847fd0e979655822c810460ef30a645158f6a60cb5d428696a1c0250278"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_088.obj",
+      "sha256": "a6026af92019566dda3d1552b67d5c7a6687b95758be66b44bc5bf54444c14d7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_089.obj",
+      "sha256": "926afe88c5a164916445c82400656d6704e511e48cb69bb88e09dce4736c1e26"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_090.obj",
+      "sha256": "1107f388933c39be856fed58650d7f2d0e7c2af071ec439a1a679c0fe7bc67a5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_091.obj",
+      "sha256": "d15c53f55b04a1dee28ce9973ce11352af6f33652ba6c8d43c91c826ca716aa6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_092.obj",
+      "sha256": "3e6c5e085f5e8bfdd4c13cc8603a6c85f5c3eedaecb0a8354bdc9cf4dc4ece71"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_093.obj",
+      "sha256": "fd9b95314d698a0da0d10036a615b15beb064fab2e3c94e11b7930245c3a15a5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_094.obj",
+      "sha256": "b529d3040ba98ea7c2eefa16c01d3056025e171eed234d74e855b3e48e8e9c09"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_095.obj",
+      "sha256": "799240941b51c9d9ceb794df900ea0a03f05867cd9ced5bc6bbaceaeaa61e42b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_096.obj",
+      "sha256": "7ac38648ef984a0d78df4760e86465186be71229bb0a9461528661bd615e4326"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_097.obj",
+      "sha256": "9f67a63df26ddce7fb1121e4ffefd2b9161176e87746b8687802f6ad85b8704f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_098.obj",
+      "sha256": "e95cd3a72d96be4217c372f5a137b5f25afc4c447b1823b2d06873d1c19a7fc8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_099.obj",
+      "sha256": "9f57abd887768225946aee5aad2022422dc00d0b075887ec0e479cc5417d30e0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_100.obj",
+      "sha256": "fd416af2fda188520f7da42c6663acb847497b599a7a27799605513145990b75"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_101.obj",
+      "sha256": "d5cd2dc4ac6e709b0005eb5ad102566c154f812d23ca0dc5b5ddee3ae2a5e7e4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_102.obj",
+      "sha256": "2adb18aa92a5a415aaf21432de1cc54d9957eae2b375ec3022bf55909f91c186"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_103.obj",
+      "sha256": "ee5c7d794ee4295323ff55308d48c3b4841de26bc7ff2903e794310f90985725"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_104.obj",
+      "sha256": "920911d58eb21be717deef4447736ac392c5f32670d136899372f51f8721ae0d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_105.obj",
+      "sha256": "f1456384446e3f8a39b7b0bfcbf2cf9fb3781d7f435c41b0f46b519e493e2aee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_106.obj",
+      "sha256": "9f8d16651552a35cf00c4a340875986e3b4e2ff76d9639ca6d81ef1c25bc7c09"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_107.obj",
+      "sha256": "9facc3754508d34340780ec5a6a63f000fe2aace903344cbce51ac8e35a431cd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_108.obj",
+      "sha256": "911bfce527dadbb39c29b7dbb1d3c52dd604b1f2b477a9d2471b0d4dec85d62e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_109.obj",
+      "sha256": "ddb1236b680609eb3acfbf398d9da7399ec4e552e3d54aff861debb3b7cf90c4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_110.obj",
+      "sha256": "34d3173ffa58fa651c918f002c4ff37a89f162e3485a899dc927ef927fe96819"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_111.obj",
+      "sha256": "554ddfedfd8ee533d72552e48e3f10fbd6684b7f3b5b5bd5293112ccf601c60c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_112.obj",
+      "sha256": "2f857a412916a1d67d0e97b6905adb86c8c7bc855f354d1aab9de08673d8ae9f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_113.obj",
+      "sha256": "f305f16a17f0d38a429021a815c4254c3a428a145aa9b624d14a227fd7d5bc38"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_114.obj",
+      "sha256": "2ee6acaccec7b710fe50a04542f02ff8c7b17b502f15c2d477de0d5759858e2b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_115.obj",
+      "sha256": "52b46bf711acb2b1b8f931898754282e49a9f49c7bb21cba223747dcebdfc4d5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_116.obj",
+      "sha256": "16d298eda81b76cd200c99a11bd0af1f72218c8f6ac37874ac6c229c81d410dc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_117.obj",
+      "sha256": "e43086ef5cc38c84c2c6fd19e58a8dc7ef23a62aa4a2461e7209d0a60606ea7b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_118.obj",
+      "sha256": "ed0e41bedf3d894c09929b99ceeb2e273610f9a2a5b89432b3453d38de50d744"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_119.obj",
+      "sha256": "41fb9e21be7754142c304c16cabb253b895b394dbf26b2f221fc85f2be1d4931"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_120.obj",
+      "sha256": "42cbcc0f0ba3592391631533db995bc656460bea83d18dad14628dbf5ba9414b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_121.obj",
+      "sha256": "f6fab6c0bcfc157d74b2d6454b7f8d6e880d7fa85c3d91092dca4670c566d189"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_122.obj",
+      "sha256": "98257df8e7d955ba7cc10b3277d7c05f4d4f9ec1184cacd8fc3415986f57b2c7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_123.obj",
+      "sha256": "04a585197f0762474cd4e0701a77200d7b3ee5c148512b792531a549bb76f9ec"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_124.obj",
+      "sha256": "80d698ce766f0aabf4d40a2294d643364981eeb584ddcef9ea99487fe2d1c2ae"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_125.obj",
+      "sha256": "67dd841c075ce67548274a780890c1fd1b39bd2f610545ddbb92117e0cc5a91b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_126.obj",
+      "sha256": "6dace47ccb8e43afcabfb8d90dea7059df3d7ee0badec3ebf36c8fb7c27e5553"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_127.obj",
+      "sha256": "6e27c2f5b726817ec74d3651f84d152115bd435259bc7e86ee13994b53386787"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_128.obj",
+      "sha256": "6b695d95423ba0ef274af852f5a452de195f85cf1587d6b506de29641ca15000"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_129.obj",
+      "sha256": "19573da1ed3e6b58fef06638dc62a4cdeb86ffcf1472a7b59da44ffed249e397"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_130.obj",
+      "sha256": "18dc17216cbeaa9ec4aabce8510efd7f3b1e01373f29f5fb9bfe4c6e9aa580f1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_131.obj",
+      "sha256": "39929e809632825a4ff63b6f092362f221b0ca4581a52a42db5d7a6a45ae8024"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_132.obj",
+      "sha256": "d60209f05d9844e5357719af2bb55356a2faf368a4c485f173f18e06e119a0ac"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_133.obj",
+      "sha256": "8592b1752b89841221901d32f0c18f13253f48ed01354aef0e638819e29f11b2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_134.obj",
+      "sha256": "f8d168ae149efd236bc03133a8c9975facc06a56af740c1da3463ba6e0812d64"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_135.obj",
+      "sha256": "da713ae127704a0b8e84abf9dd4cd07a46fa9e67bf9442d9058fcc4e3d1fd0a1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_136.obj",
+      "sha256": "51789d8cc26314c5d2f84fbac6b1711193b4c06c23dbb1558c0aa3d7a6edf9f4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_137.obj",
+      "sha256": "fda5e32dd3109b7c3bf7d683c7c2d6a49be35109444644e08c7fa5c0c58853d1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_138.obj",
+      "sha256": "801be546ad74bb64d50f692fc5f7d260fb7619e3a9f5a76b0e7f1562e3413ab8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_139.obj",
+      "sha256": "171c2d3cfcb0fbee70e6fa0b37b73f72bbe0648af6ed34f7ed64a67da60b23ba"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_140.obj",
+      "sha256": "4eae2131d73a5e73b0c73994343a082107882f310dec29fa1003094f13efc8dd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_141.obj",
+      "sha256": "bafa28aa94e92086171b68a86515d8a3b62ea6a28be53034a451c53176a3c50e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_142.obj",
+      "sha256": "4a89c11ffa88d017251b35844dd5511ea09d9d43e56cbda79ed2c3fed89fc165"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_143.obj",
+      "sha256": "5bf60d00b94a2bfe5d181a373bf0ca34bb859822b95242d69fe6ff0c47db2b5b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_144.obj",
+      "sha256": "db703c0c713e6d646941f493aa75eef82d31f62e3a49cfb9831b2b6c07780cbd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_145.obj",
+      "sha256": "b3bc7dc3066fac7775aa5cd34b4d43350e801a91a6462339e866e928ed7f3026"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_146.obj",
+      "sha256": "bdc82b190650f8ecfc756bfb4d916084cc56e361147bb24e5caeea1f773ca140"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_147.obj",
+      "sha256": "a3efbc89be41bc5c5800ef16104ff7adef9c0214c5d23490ac2028874696d946"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_148.obj",
+      "sha256": "4dd8aead38c449df82d86b64da2d45ded96d918959b556340419e4711c0fe082"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_149.obj",
+      "sha256": "68c8ab7621291392857a6d0ea3c14a08df06b77dd6bfbb75fe976221c556d3c4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_150.obj",
+      "sha256": "25dcb30b6d4a0f6558b8212a1f09d6cb83b6633f241fe9d0e6a165fe8b9da0fc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_151.obj",
+      "sha256": "e47c25f72fb48c4d0ad0249b248fefd3920a0e667df827a48a1e4061ddb4fda7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_152.obj",
+      "sha256": "53a96c5912b39da41a79c0f4a9ccbfee078185ab556338c1c2245ed3aa725fb8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_153.obj",
+      "sha256": "88cfa6ed2d655ccf0494ac47093e1feddbd59f9ddc12a1ce84c60a7d0cd59d70"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_154.obj",
+      "sha256": "ad06d636b318991347f131df9cacdd8129bc438cfd751c496bc484a6ba99a4db"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_155.obj",
+      "sha256": "056357876dacacd90734e4ab3d1cdb5f29205658724357884e4fc715d9c383f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_156.obj",
+      "sha256": "db92b7c36bd516b891907b92a1cc37380551279bd1840def8c81a910409ce401"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_157.obj",
+      "sha256": "32d023c96ed130b41028489a252df968a21a1aad04ac6df5d930ce70da9a9e84"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_158.obj",
+      "sha256": "aa63841c2c3685733d48ca9fdd3d6c6b07296b85a6baf4aa923347b6fc29d573"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_159.obj",
+      "sha256": "eebffab8599bde64e6e78dee0dbf3be2c28a878e8cc70d490075a928d83a4247"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_160.obj",
+      "sha256": "c0c061b21736292146c8a7ae9339cca655cdc5d65443591a711a1f7aa6676ecd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_161.obj",
+      "sha256": "a0b5efe87cdf0ac070a7ddfd5b393a7ec63d76e480a470d05a895c818bd6c224"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_162.obj",
+      "sha256": "64e1ee334ba03040a970536564512ad65d03664e12edf609e4e5795e6aa1d37d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_163.obj",
+      "sha256": "a33422c17c1ec0b581c118d0650adff2155819341a3a66dff0a9da655b4de6fb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_164.obj",
+      "sha256": "17ac8d9a137339a235a6b16f68c58c7a3422a51b6a9e7c711a53774b44405d65"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_165.obj",
+      "sha256": "9fa0a72f82f4cb42098f3f4ea3db0cc4dc1a7c1f9bef07445cad1a8cb4b3fddb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_166.obj",
+      "sha256": "846eef2aae10ba719f57de0acf3f39eb7a84d3e6271c020901352eddb73f1e79"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_167.obj",
+      "sha256": "7124cd979c61383359cf247c5b224367134754bc88643ba6fbee2dca3aec2097"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_168.obj",
+      "sha256": "090315e431b26ba29e79e279bf6bf246bf4d6609848fdf55896b159fc3e0cc60"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_169.obj",
+      "sha256": "68ab7635606bc43745d574dd3c5de52272aadd1eec80346d75af6c01a12c865e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_170.obj",
+      "sha256": "5133005243b39d6d7b5a25cde2a1fffde90b42f433dd5fe6cd8b2c09f06defb5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_171.obj",
+      "sha256": "302f47491c337da53397f53d1acf3818624ce992b523690151402bdddbd71b38"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_172.obj",
+      "sha256": "ceb44c6b4b6fc3f7f8c145199e364fb1d7fdc7f2075d220096967b186d93ecb1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_173.obj",
+      "sha256": "8c1d6c32a09d7930b550853e9de3cfb80e08e73b0464ec56481b999e2e097b3c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_174.obj",
+      "sha256": "0bfe6c50d04998064e4a0a072f1c668ec4e467c604ee2586d9e1dc37863fb7b9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_175.obj",
+      "sha256": "5b961198b69dfdfa1038fc735a5051135df46e72d0ba2ac6438f752350e3f3ab"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_176.obj",
+      "sha256": "213a369c404041b2eed4002a7da881a13bce1e87049649cd8d02600b1ec92d80"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_177.obj",
+      "sha256": "12920b1aed06d04a0500a8fd6e26f95117e33266f43a57518ca9d16dd14deb75"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_178.obj",
+      "sha256": "d1e3e3fa47e8824bf6a2ad289551d2b17bcf06214c7a7d253c13f01841eb769a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_179.obj",
+      "sha256": "2e033e1c5007f019d4697143d859ba4c783966a37161db760d4486cb2fff5178"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_180.obj",
+      "sha256": "ac8c23ecedc67507b9ff7b3cb0496889244b78bec958b176a0bcf64d55ad00ec"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_181.obj",
+      "sha256": "98f7e21415cc5ee0b57c46aee0a9cc5b73e69c5edb58c797b8fd8e7e7dbd3d25"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_182.obj",
+      "sha256": "8f2ef6943c75d29b9896d6cf13123b073442925e99a6d12d6e9aa99857cac121"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_183.obj",
+      "sha256": "6c135605f61bee37795e7127c0a72496b091e166adf16c57d9c3fe49c72c5707"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_184.obj",
+      "sha256": "5aafaa21855ceca53a14974dbae6f04b0989ee496a8df39cc18331b35c849711"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_185.obj",
+      "sha256": "d56dd1aef95935255448709402f4e1bb49fc6bd234fef68e223b81ec4d2efb6e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_186.obj",
+      "sha256": "9c651c016c3a604cb9e2e1a3636437f37def32e646cbbea55fafec36a7c0e750"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_187.obj",
+      "sha256": "8f2bab453299d82462d73bf3d3e5d04e278b652e28f7b032f22937b78be19ff1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_188.obj",
+      "sha256": "389222206bccfd5446b6f3511606f422a7e4d6d461aaba7d2fd36ef0093e8b7c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_189.obj",
+      "sha256": "7bf1b481b4231181f14a94f791b61b33e1e71598319b64ab71abc33e58cd32b0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_190.obj",
+      "sha256": "7b9a36b8850397083c09e425549b3b84599e2dbc6d8fd0d0f14ea7e0278dfe93"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_191.obj",
+      "sha256": "5d617e1e018544a447bf7b202dcf12b81b8a818b263da0bbd479fd003717b19a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_192.obj",
+      "sha256": "38e0fd93cd557129f9927da04acc5898e75149dffe34a3075280e7bef0568131"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_193.obj",
+      "sha256": "4c965613931a2eb0a55f99ca6c364dc7ac5e4b1f9f13c3da56352f7d4a241577"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_194.obj",
+      "sha256": "74d2f8f69ed836f326690a0b25bc07dbc67c071f635cf6194171485ef219a64d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_195.obj",
+      "sha256": "83e2811409969048d5e368085e217c09f55a46f8da995682e72892bcf5e257c0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_196.obj",
+      "sha256": "8a14f7ca265a08145be05b12fedc3399934174091ca7618d84132957756fa350"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_197.obj",
+      "sha256": "8a5e815dfda0558031b3ae22cd1186c2a96576b1c4f2ac8cc0ac5826eb577d55"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_198.obj",
+      "sha256": "84ee40b004f87a69ff4b3f8e6dc501faad8d79ce4547f73b5dde5c604ce60df2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_199.obj",
+      "sha256": "81141d4444b3d5de8853a1bdbfdb58662bcfe447f1e1f141e3fc677db0e8852c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_200.obj",
+      "sha256": "1ef31c5f56671a42fe0a964f9881d2f764928c000bd1bc16049d591c2f47ac61"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_201.obj",
+      "sha256": "314f6ce039bad5b065cb8e4b350e22f711dcef7a15c481e83b4980bfde69f192"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_202.obj",
+      "sha256": "ad9776c5ec96ce34661dfdd656a43255e1afb4bcccf5ba1ad2b99a38cdd6b115"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_203.obj",
+      "sha256": "eeda86f6f00315facdd34538451643b3480156361fa7f163dbf3cca8b0851678"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_204.obj",
+      "sha256": "6eb8cf5459beb9111ad2df53cfebdd2d252800f6528cdc0efb165a23ea5cbe61"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_205.obj",
+      "sha256": "d4329874cd897e2324a099cd6dc644f647e43ff172a038e61dc5930d24bf43c8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_206.obj",
+      "sha256": "97c61e592dc4dbee0854115eb0a239a31e43cee1c1072b25008be5da4ec8a9a8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_207.obj",
+      "sha256": "121dc01196faa4dbada09956c12232e3efbe06131e0c43c42d2625840329c660"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_208.obj",
+      "sha256": "f69a78f444779c8422c368004e5ff789466206b697b781856529e2782d4e34c1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_209.obj",
+      "sha256": "22ffe4384315cc6fbb018c1765bcc5e56115c1cf03cf5fed35951328c0e7be08"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_210.obj",
+      "sha256": "69977c04b182d11b8abdcc8e9ecc564547b12889d6eb3346992f2acc32a2b652"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_211.obj",
+      "sha256": "88263207f34a1b84572420a2feb476a6965f04e22985f35be856e89aca1d57bb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_212.obj",
+      "sha256": "bab85ee13e4cc67d0b134e3b7ccd0cafe3a0cce307d76d9e23ce2618a01149c8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_213.obj",
+      "sha256": "2bbfe121c73ee1c0feaadfbdd2f8512f64cb4db44defc9f873d730e17a26f1c8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_214.obj",
+      "sha256": "31df574cd9d1774d1a03e4c4871090dd1745d83774613964660493af04b56a13"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_215.obj",
+      "sha256": "0de40c9b1a0e2a095b369655bb0a2763129d04ab51571cf89de2146626504696"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_216.obj",
+      "sha256": "59729676a5adfb368fc728c2356808e2485c926c70abb4fcf331f45b9f03c174"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_217.obj",
+      "sha256": "ea71be1e1b3b698c99dd6da1f0c1f5f91d88b12f67b77852dec08c2606872bd0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_218.obj",
+      "sha256": "05d2d2c661cdb8740028fd68731ba1e59cee34234bda6a8fa9a0bd6c8e4cd54e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_219.obj",
+      "sha256": "0608e43d6ab99fd4c18156ec2f3654f44259dcd1f0cafe9e3576d865c060806b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_220.obj",
+      "sha256": "5e8af8c5c24a6555777d1b4eae516e9c19edd142c2463ef14126cc1fdeb33024"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_221.obj",
+      "sha256": "92688cb31ef58eed82ac9b2845d5aa55008ab1c8ffef1ddf0ffb5f356fd7d51b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_222.obj",
+      "sha256": "9decdfb4d3e75a331d01873a81d5220536f39d56464653e568ed8aebcc2dbb9c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_223.obj",
+      "sha256": "7f053bbf8abbad7e6310cf4e2bcee0802156fe090e1fa5ebc391a125d548ec7b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_224.obj",
+      "sha256": "9a847a3cc0f7b9e4a744e91393eebdcf2a7b8fbb012f242ca9f496267f30a607"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_225.obj",
+      "sha256": "30542ad147a9f859e47b489181dd348ba8fdaaaaaa1d6e8495f3fd532405b9c2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_226.obj",
+      "sha256": "c15272658688e182e5b319edec7c60183605e413f39e2949b414c46ccd596110"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_227.obj",
+      "sha256": "ea6ec1852c8380f0bbe5b55ddca1c0eca5cb697f5127405e27757d016269da7e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_228.obj",
+      "sha256": "c066f538870a5c0c03a1ab59fec81800326a64263c71d8333b5e0dc71222144e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_229.obj",
+      "sha256": "a21ce492dae5792c25122b9a84969f6c92eac76468003257f9a615f547c7c935"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_230.obj",
+      "sha256": "2741fd2d9f62b150f078c6a5341803f6771eaa6f5392add310cf8a1e50ac1471"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_231.obj",
+      "sha256": "0121fd9f0ea2574f54282c80afd3303a407f16883af6c22084215deee90cd350"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_232.obj",
+      "sha256": "d432d503e5d2f4f3687d79df20014f6d7581789643239a37bd4c9c72b4ee5e7a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_233.obj",
+      "sha256": "46ab09f2245a573d6c43a5852ac1c20969db15a980887fbf245d4804041fa0e4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_234.obj",
+      "sha256": "67aa705f58470f757c8e20b214551c1e63e134bae25d520b08b80dea6e7cfd22"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_235.obj",
+      "sha256": "8e70a470f83d584be788598888002c40eb2090237543f06e2cb12cfa49596338"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_236.obj",
+      "sha256": "64568c6312352178a2ca2b3ee33e6f85853f0f9dbf9067ed2c71ad2d614528c9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_237.obj",
+      "sha256": "012af560e38961e769da3d0a9069b34d7dd3e3ecf358db5198769d9edfe280e5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_238.obj",
+      "sha256": "46522d9eca3f74dc324528933badb5ea1d550cf4bdf0cd1b251c2bae7952abfc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_239.obj",
+      "sha256": "9e0d33a9d98f81d5a4151b59ff1fa6a05ed138aacae71952df2c3955f1711839"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_240.obj",
+      "sha256": "f8cd93c51db2831192102aced7b9841f8304a18345807574ccf0019a917f5747"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_241.obj",
+      "sha256": "23c3e0d71addb00e99c1cbad5c6c475ad1616077118cc169a8233e6a754adefb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_242.obj",
+      "sha256": "9df2d80d9fdf6e187d864a855d60acc297e38808702c7890cbf513d02a90f88a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_243.obj",
+      "sha256": "a057fd954ccbc6e9ec5e0dc2d1c0d1af8e4c86ea948b58de040c0b51288c4643"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_244.obj",
+      "sha256": "0dad5d7d9c840ff051705bb9e6f5c08ea075c783834406d013c9e39bb9cd3b93"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_245.obj",
+      "sha256": "a3bba168d0faf7e30f9560aa15a94372280f25067649bd2d061d0bb386af4a4e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_246.obj",
+      "sha256": "734cfd818ec1100e96e6e2a295019f0405f07ca64b2148f544fb82efd5d81000"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_247.obj",
+      "sha256": "40cf45525b4f7f6ad2af572c60683e403670d0acd0bd32cb85c2b61eea346616"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_248.obj",
+      "sha256": "48cc2be1050ac00bc83da9bd8a8d24335c15c2c258a88b3a4323067c19ac770f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_249.obj",
+      "sha256": "d1f4e44920d4c4db28eb17cc456f3c78e19c4849d277673d7f18a1aeca75d569"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_250.obj",
+      "sha256": "b2596bbe99595d8e27fe3358fd9befed15b2026b12a23b413d7e187e16c27d1c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_251.obj",
+      "sha256": "887980cde72dc07c97eb8f19b365ee5dba093b0749011d4240868840aac4c620"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_252.obj",
+      "sha256": "533f63fcaa7a808b0d5330482f03cca35335fb2b3f17435a5d63ba2a1de11014"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_253.obj",
+      "sha256": "44ed6d6fbcf68d632a97f5bdd5fae6b8dee1cc044d9f370c6fd50327ce56f7a7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_254.obj",
+      "sha256": "f4152cdb2b28b3a2ac6aeba5ea0a64cec76b3743f877f61795c17542da6ab4ce"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_255.obj",
+      "sha256": "47f77c5671186fef3407aa7ca3e457ba4c7123cb1e347c10c989295cfcc25b62"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_256.obj",
+      "sha256": "b2e6934f5b3a0788bed08ad92839326fcc9363f5a4ae87a63f31a7dff1e03af3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_257.obj",
+      "sha256": "0ec9a8e06bd5007355f1af64919027faacd05c063b00ea0dfa8c6bc38f74f092"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_258.obj",
+      "sha256": "6b8d4b3556c9dd4b3f0df3a663af5f88c823c477cc92a58e4d2f53782fe2f49b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_259.obj",
+      "sha256": "f16950d50907902c7adfde8341751ed3bf1222b0df423b8f3ec7dd4ce9c93781"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_260.obj",
+      "sha256": "58c795a0377fd878ca099eb6540f61341954f63cd7dabb4d914f8e7721d0b9d1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_261.obj",
+      "sha256": "416b8880542c636112ebc06b8002f67907450cbe2c71af15edd30c27e4ebb9ee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_262.obj",
+      "sha256": "07f5d8369718aba9bf5fc819604fa9a0a001c7f9b2ac7ed6d369959ca2438707"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_263.obj",
+      "sha256": "a09d0e6ae12b24e3ace698e082158656787de1bd8814a0a327e70db9da954b2b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_264.obj",
+      "sha256": "b56b3261d67f6535750a845d38411c7d6c2cf889182b5b755b7b7f14e2586f8d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_265.obj",
+      "sha256": "69cd2db6664d69c53663723196012d3707c74b627113e93ee569fde52913eaf6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_266.obj",
+      "sha256": "f95a7b52ad47c8f11271ef1d4cc3886b5432e39ac573ae6dcb9df25108d9d3e7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_267.obj",
+      "sha256": "b029849496e0988e295fe2c6d314dfc00373d43ae47dc715077f856cacd44a29"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_268.obj",
+      "sha256": "45d9ab4139b643a4ddbecacb4a83715322f5b983dd5b4020d2a6e1dc62d7e5e2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_269.obj",
+      "sha256": "bd35f646ffd7ae56e6e17b670592beb6a80d06d96dba1f13be14f102f89f84b4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_270.obj",
+      "sha256": "385955148ddc7ac168f43080254883b91532c06a5a7994b2da12496d68c63521"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_271.obj",
+      "sha256": "29b494c4f15aba7a84b64110bf4503ee2640003c9e9f27f6f662b4574d30ebec"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_272.obj",
+      "sha256": "9c21117a2de28f0b5fdf1469243749fd4a0dafc04ec1dbbbabf0b1d88ee9d252"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_273.obj",
+      "sha256": "2386183db24920cd2898084cac7f29d123ae4713f9e89e3d165c01299336b9ea"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_274.obj",
+      "sha256": "755d8e52ed575d570e52dbde01c774b2324ac68f8aea8172e278bd7c478c3121"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_275.obj",
+      "sha256": "1019fe27aa12ee653de73957b6b1bc4b719d4775c93971eca5283ddf6b9bc4ae"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_276.obj",
+      "sha256": "aaa423e9e87dab0a9ecfcf66d2c63e3a3102fdbb6d5b6bf8dfc54773de0472fb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_277.obj",
+      "sha256": "3de34bb3acce9c47c96cd4623c2326ece108c2b65bc2cdf9777c215ebd666c55"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_278.obj",
+      "sha256": "be1a2af85229594de7adbe704564261b4123dea98082e63a2d8befc5fcf35137"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_279.obj",
+      "sha256": "dbe89324b595368cefea46286cdb6d9c2aa8400ace3588d067fa23e4167bb0bc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_280.obj",
+      "sha256": "60a05856c5928a818d3863a2ff9e3ee336011ce773f59277423eb77716e553ac"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_281.obj",
+      "sha256": "68e881c55d5750bedc00a00bc91d236e98e9430e455ef84481fd639ab3a2e601"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_282.obj",
+      "sha256": "9db5fe8e4fbddd6c2f94eb95b5b4b9b6f244f4685883be03d6a9a059b85beca3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_283.obj",
+      "sha256": "fc148ea290b9f4bfcf65a172e79b4fb279ff4ac90236a7a36fba6c2888f22344"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_284.obj",
+      "sha256": "5c60ea30c25caf728bce3da583755a7bc3967df7022f4a959cb5ab6b3d76ec67"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_285.obj",
+      "sha256": "641ed485d718fe12b44f276ced012e08280d54f33afbc3010ef4e5fc8750ff0c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_286.obj",
+      "sha256": "2ccd63f86ec125a47a9bbe29369765bb4455262043ebf731c66771140a469839"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_287.obj",
+      "sha256": "c4f0b0ae5cf956e0e2cb4e699b492a8de669cc2f713afd509cc93780e2882620"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_288.obj",
+      "sha256": "1063a39ad20c3572ce94f4cbdfa3df96bfc6a1dc385c5f6a3934343087898550"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_289.obj",
+      "sha256": "d5d71aaf834a3dad6b13378e5f3cedd947c28dafa05e4343637090cf92b8d518"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_290.obj",
+      "sha256": "c43bf0e36c51355bb8e41cfac363283c0b41939598b76163a976c8daf156f904"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_291.obj",
+      "sha256": "3d37fd69a06daa72651aa575a49bab87ecf89186872750aa365421b46df0f41b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_292.obj",
+      "sha256": "4093d812cd224c4d4a3c4fe9a8b6a59b7f1dd66332a201159dab867b53ac88a6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_293.obj",
+      "sha256": "f08760690a8a667890426a0ac7a4c0afd02ab79c267cc0f2d379156ad5e18eb7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_294.obj",
+      "sha256": "550777e6d2e751d3ccfc028a90399b756d657a6deb6c90fc89a3bcc222707718"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_295.obj",
+      "sha256": "1be085a11a2a62358998ed4d1e2b99351f68a77ec8e0ac756a1bb04fe6420f81"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_296.obj",
+      "sha256": "aaee50724d663df9abfb04b9be752140c38e990e68dd6c667c2c0c16dc3a4b20"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_297.obj",
+      "sha256": "34e7d63dc5317ccac4e1d83dc4440ad2eb64e46bfb7cbd59ce02321392113e6b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_298.obj",
+      "sha256": "f5bf3a059579afa363c4c8e567b9968d7724c81f8dac9dea1b6a78471f41946d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_299.obj",
+      "sha256": "9f7f1ddc8e30ece3e4e449ea434bfb5c8f56dd91c9d4d45d89438c2de39a158c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_300.obj",
+      "sha256": "82950396439b3e2a890bc4a9ca39ae5c656f19f667c26afa5ba5896795816844"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_301.obj",
+      "sha256": "8c6bc709d37ef97186c5da134b5a040b1928eb3ff78db2e96e7b5db0c621661f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_302.obj",
+      "sha256": "4c39f2350c4798702c5115da51a70e3c7d05fa38b23917e91345e3db28c6a9a1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_303.obj",
+      "sha256": "372480f72c38be903562860a04f970c405e69b15f92115ccbed63b3ed41d27af"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_304.obj",
+      "sha256": "0cb5005f91d2ec1407ab44901c35f835533c15c4ca2ed8f71e0a0f66032c2428"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_305.obj",
+      "sha256": "5d6a5f012051c4b694aac6fd8afe1c8f7ca76a2d1ffd047c6ebdc86d61b0ac6a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_306.obj",
+      "sha256": "c30b2d1415313481c0a64b0853d3940d0f3e097d96cbff3d17ff4ebae31f42e1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_307.obj",
+      "sha256": "ef6f3635db39fb4b6a8c7ad20248684034d43aa151311c1d10ff6ff520a52f8a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_308.obj",
+      "sha256": "8dde1e4ade3cadc7184d8db5a5bad2090befc001d644cc92c950f0cebe2c31e2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_309.obj",
+      "sha256": "1d1dcee44447a7a7abeda51e16f4267dc5e449ea4018b1718f030176103cb264"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_310.obj",
+      "sha256": "b2ff1a4703cb093e97245960b387bef380ca15b4595ed52451da0c9defdec982"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_311.obj",
+      "sha256": "6dc16810708d4860d00e6aea56992fc77fb0a4f78ac92d0ddf95d9390f880a5b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_312.obj",
+      "sha256": "9fa330f96f79cbe4e86293d2b571468e23f23f52acaba938832b5c29f5558e93"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_313.obj",
+      "sha256": "be49c4db16f11694fdff2c4a8cbcc4bd9ea7faa7ad628886748c5d2559a1033e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_314.obj",
+      "sha256": "ecbe46f423996406772d92d16cd6297ae790c2e1c106bd882cbf15a3b2338052"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_315.obj",
+      "sha256": "cd20feb958fb926457fc0b5f62c10dbf9ca656ed9554e9caa75026b6da8e0ea6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_316.obj",
+      "sha256": "cc38aa6dd2a04b84b764176114c1e00fecf0f354083cb00da204af9341a99efb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_317.obj",
+      "sha256": "6abf53518476ab64e99cf296fc062b24ba59300d648fc0f557c78cb1882a135d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_318.obj",
+      "sha256": "e14352fcdbf6a277161b857fdb571b4766a855b5e1e4c063f8f5ff991e07982d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_319.obj",
+      "sha256": "1aa2e30c940d022ab029893c37b3d504a01648acce409acee3156866c4bfb4cf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_320.obj",
+      "sha256": "27c26a61a11065a21e11daf0fbe46bba72f1da1ca589917d9cbf7826c9859809"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_321.obj",
+      "sha256": "38e503873bfb554b4f3e4aeb6fb7dc098beb87254eb5d9fee0793fd6d77bf7b7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_322.obj",
+      "sha256": "3d96bcc18da765c8c42ed72a60094ae89860f0497f104f4f65263a834852a496"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_323.obj",
+      "sha256": "56c6691c91175dd0ec90c974fb6fa1b02ba82e2cbdb1a72df729903bc64b1f85"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_324.obj",
+      "sha256": "4cca7931364d4387f713c85c6b7fd9acd97ce8613fa28172a75d9f403c43c742"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_325.obj",
+      "sha256": "927313602bf6194d2e7db8740d01afff62c07ac1c391d9fba58903e87d3e7afb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_326.obj",
+      "sha256": "80c54a2062daf40a455c59ac91595bd44d084cd0d5182e0217b334fe1119910f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_327.obj",
+      "sha256": "441efd56bb476d36ced50485bdfc546e1ea998bfd0e14419f7596377529413eb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_328.obj",
+      "sha256": "386f2bd46606ac1b1f07a351a5721e641c7a4949314a83bbd050f491786399d1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_329.obj",
+      "sha256": "6b25c45514ccfcc4b78454cfb47e9ee29c84fb271f24843603cd9104833323d5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_330.obj",
+      "sha256": "64e7760178680fb67cab5d26a1aaef3c25bd866d257cb8322f1612d6907b2adf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_331.obj",
+      "sha256": "21ca1f424c901b1e75e20db8db6cac24fbdfecd7a3dc11708b660095c9160768"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_332.obj",
+      "sha256": "ea8dbe4554e3f3ae18d122da1254e6f1eb95e8976c2b4acf6385617e8aff60a8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_333.obj",
+      "sha256": "89e9f73024909f6174da6972e88afa0936de4fc018a300b4faf0e7aafe11e3c1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_334.obj",
+      "sha256": "833718682e9f23a3cfd36510d39f35de1ce590f017537bf701b930987c30e26c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_335.obj",
+      "sha256": "189eaa83f6b213a400f76e4bf7ab630a90249dfdf7cfb0614d2e1fdbcbff2f0e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_336.obj",
+      "sha256": "0dc224875cf02ad7b14293bc0a36a8ea8f6296fff8ce79efe3ff0aacb014c327"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_337.obj",
+      "sha256": "d6b032d1d5c6d8e64188967456d15464173cb0b67ab276855ec57e16eefec626"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_338.obj",
+      "sha256": "69b6abd9be28c557fe25bd93532074013244f7c5f620daa1ce4364a24997c486"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_339.obj",
+      "sha256": "37176ac09a60755a9c59b152145cc3c2f2b1122ad3c7e9d01ca67be2456b693f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_340.obj",
+      "sha256": "6f5081585e6293e538cd5fe4aa728a2120eb193a738a4631ba85268e45279a74"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_341.obj",
+      "sha256": "d1516d62db8d9fbb084f6da6d5ee554a16b5f311edace0dbf6dbc1e8ed80baf4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_342.obj",
+      "sha256": "4d321cc635c96861efcad2e9ccb070505004902ca4c04f09254d1e328b4250cf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_343.obj",
+      "sha256": "0575b7ee9ca611968e6ae6291604ff1d5236eeb4ff2673956311a37635eca155"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_344.obj",
+      "sha256": "7556dd75b8ca3c615a2a2c51d1331884bfafeba20f2ca5173ec2a945f00496de"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_345.obj",
+      "sha256": "c442899e1826070e7c93d16073d3ff64622249e7d0b7db5cd4ef0ee116c2077f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_346.obj",
+      "sha256": "cc423ffbba5e78925beee70e157202c29ff0563c44e02d725c26a60bad5ee191"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_347.obj",
+      "sha256": "919ce9941a12b658e5b341c8ac6fdc85f35f1a19199be9054daa14d164f24c8b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_348.obj",
+      "sha256": "3cf7a5f3a883f9a6c91111bb9559386d59e05d7340aca0d1569a3674adbde630"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_349.obj",
+      "sha256": "ebcb4cb2aa7579b7a13916dea4c0ab5c8f5a61cb45f888d3cf63ca9612fa319d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_350.obj",
+      "sha256": "c9695468fbefcbfa044a9f11217a7bd920ff985f59dc2e72f635f75e436ef78b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_351.obj",
+      "sha256": "ae31154e0e5996af1143bc357ea87531d115d66416f68f2299950924686eb27d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_352.obj",
+      "sha256": "6a6d0a2f371c2b91a142a0add29573c7114ae2c6fe670fe2e816c305ac2ff69f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_353.obj",
+      "sha256": "b82f93844ef18ca1c5f390638b546f00ef70079105fbabc98f05287d788cbf46"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_354.obj",
+      "sha256": "cb162a97748d7d52ce138dbe3fbfc3e4d880c786191084fd2c544f4c062c8928"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_355.obj",
+      "sha256": "f4e0ce1ac9eac7d065b11bae0d81e3990573cc0b5cc8a3ca6e878db36b32c504"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_356.obj",
+      "sha256": "0ef9447847f5d61e3249d0db409d5856a82b99682352d210ace1194ff9dbb639"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_357.obj",
+      "sha256": "76588e1a37d99355bf6b3fb8e82dc17419aaf3f3fec9015741abfbc9865c0702"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_358.obj",
+      "sha256": "aaa69a5accd674d9cd3e0aa8843aacb907aa9da31ada363962a52c6e26b2ded6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_359.obj",
+      "sha256": "f752d8bbb525fb2a7c6502106f997f72689d06c93d3b3a7f8f1fe043ccd44147"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_360.obj",
+      "sha256": "b08dc411240b112d39ae94dc018dc7815e4db7e7e10f6962a93e9453dd9fad8e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_361.obj",
+      "sha256": "9829896ce4727a98306294f2adc0066fa922c6cd7789bf90e1d5f4bada799005"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_362.obj",
+      "sha256": "4ec13d265e46b0799bc2a70c206b95be27297f9a30b9d9e070c65ba5b674a75a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_363.obj",
+      "sha256": "05777382703d9ea8fed3cbb45317ee0f91f764660ea7344ea6b78efee71d1b84"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_364.obj",
+      "sha256": "756fb91c8dd0e4d5ac6c0656b00d5a6b71979736d7e6722791c2bd16900d4068"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_365.obj",
+      "sha256": "f7bb3197aff30082cdd1e875c8a9c56292ef1aefd7c06d4f0af91ea19506682c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_366.obj",
+      "sha256": "c9b62d4ef3d5bf05ce24ce9033d20a8506d8ee34824b4db0e12edd3b8a13ff5c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_367.obj",
+      "sha256": "1a0b9068f302fe71746d8558e69aa45911a77f7291f0e0b591e2063bf9ea9db1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_368.obj",
+      "sha256": "1fb4a95b0e457edde0260f094d02cf1e1087cedddce611763f380855fcea02cc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_369.obj",
+      "sha256": "0c4cfc5181177127f68ea149849c61f1179999e872ac2447528b71d5d4d845b6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_370.obj",
+      "sha256": "70bc6972f6349041c1d3aafeaae33dc140da23f80f4ea6d640ff41ce92a84620"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_371.obj",
+      "sha256": "addf5c31df2daedc203a1ae648b1ff62838673ca8c415425c3a4f87417912db9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_372.obj",
+      "sha256": "da8eb8aa52af0d0dcf4d190e455068f0151878a1ca490d6c31a6af6b44d67640"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_373.obj",
+      "sha256": "78e48d7f40ad7081ed112996bf9074d931f90b45478062e95df6480449644d0c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_374.obj",
+      "sha256": "4ac1dda8b11e4b5380fcc6173e514a0a09c579766bf24edc0613d7b261985e33"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_375.obj",
+      "sha256": "09347ca24d5d077e48d7a96a67336e696bd52666d0ca264a697e42318e62e5f5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_376.obj",
+      "sha256": "66a72043d16d9f8ce2bbdb951ea97f7e72eef7592199bcd0d006854ce45314e5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_377.obj",
+      "sha256": "f91e47e408ecc1d81275e25018b9e438cd5c76bba1cb3066273608d77dfce966"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_378.obj",
+      "sha256": "0fc4be41609187660aa72532aef79bfc13531d71c3c83bfa257f8ddadb3be3ec"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_379.obj",
+      "sha256": "f6c8b796fa2f3e209bfaaf5d791f3722c9e9034256522b379994474155ac57ef"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_380.obj",
+      "sha256": "0312597dd738160e6e61cbea9d015b458ba36275679f8717391c9711746b0cad"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_381.obj",
+      "sha256": "7c3a2ad7ea255d0443a33eff3e4a6decb88acf2d7d55f9bf993240843b32e0e6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_382.obj",
+      "sha256": "34222d31304d83284608a484b63aa681a047a5da6b9586cd72fc05a0acd0ea9a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_383.obj",
+      "sha256": "8e9c79ccd90d6b20c0663b0bf72bea53b679934ef21739db9bda6638a0c85955"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_384.obj",
+      "sha256": "c7b85cfac0f68508b6b2428d10a21533884cbb09555e00999a387a071055908f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_385.obj",
+      "sha256": "e803e2b3e0cfc02c88f930e13f620ce4d5de9a2366682a2626d84796976d1b86"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_386.obj",
+      "sha256": "a7c4cb3cb54d08fdde59b0480de8d13018def6991101a0c001889a2d2be9d91c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_387.obj",
+      "sha256": "5a919ab7625c1fdbdfeaabaac7c442ed164a757c7eb7c809239a478b7a08e14a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_388.obj",
+      "sha256": "54d3d20b6af3d914e12f9094e774802b55bc8613701f2df632ecb35b4cea2e54"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_389.obj",
+      "sha256": "d4e3652048614f3db6dff716e4010041adb127107699738ff10b0c3ea58a4bdd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_390.obj",
+      "sha256": "bf6b8615335fc0b08580759031a8967a69e2ad37ba829577d3e1a0c330ce28ef"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_391.obj",
+      "sha256": "1bfdbc25dab2215253009d434ee424fcc7558e46a431b4c958eb78667924cb52"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_392.obj",
+      "sha256": "8e27fd9a7fa86b3dc7c397215ae00d86697690e311540c7b98eab5512b9b2224"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_393.obj",
+      "sha256": "07406aeb265eab20b5a0eb79b33a9e8118886ed2c270749e4c21f2cf50c649f0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_394.obj",
+      "sha256": "016e58562b51c9c65ee36b013841ac82af2f9b8637180a50f87ebfb2d24bf0da"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_395.obj",
+      "sha256": "90d2f3162ef104a740c35301457f434af52784c4a5dc3332e83269a8f720540c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_396.obj",
+      "sha256": "dec6759bb4c7faf23edf9ba78d6c1787fa04af88e88df9da1bf80821263663a9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_397.obj",
+      "sha256": "9c09576ffaad9613d2bd43de111d808b8f8fc813f311f3240ad2970b3c7d0bc1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_398.obj",
+      "sha256": "e8c14b34b34c1f9a9c32c8f55b0d626f66422c95d3f1a9c9bbc560a193d23412"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_399.obj",
+      "sha256": "fffc35248b4996c56a8e631b3e6b5b77be00a546fb29a16b38e67ca59b4e1345"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_400.obj",
+      "sha256": "e245d80ee49eebf9b2d2b98422485d1fefca48cf5c7a3da005c7a5c2ff8bfc6a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_401.obj",
+      "sha256": "da36038d2f8562166a9e395c6fcf340775fcd41fcbbcbcfd1a721bd5fecba9ff"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_402.obj",
+      "sha256": "83481280832d59c4809d43b9fd0d4e503332843399696afff3a1be6d786169f0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_403.obj",
+      "sha256": "1524409aaf6b0beea7a1d15dcb1d0e45193cc9de61fbae30c99d56fa493e1c6e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_404.obj",
+      "sha256": "a3b1e5dc5469af3027e141e804a2675df96bd14e0d05f104e759ae0ceb5843d1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_405.obj",
+      "sha256": "5826aba79ce065463fb069f8750534f2d98591fb478c869a5682e8d2e5ab8e5d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_406.obj",
+      "sha256": "5b148e7570483d44a47e9afdc40d461d63f1f7be47e92356ffeb190a047eab0a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_407.obj",
+      "sha256": "be5b7f3cf438065b1f78d860295485a1f331f3fc9de6f69a8d6c9f453358e056"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_408.obj",
+      "sha256": "11161931968f3400100f542effad14406edc65655f20914491f7bd5ee4e52825"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_409.obj",
+      "sha256": "6530a953d608eabc4ffda74a36409680cb90945b3532b7490dd5c9dbd32a296a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_410.obj",
+      "sha256": "6b3af65f9a399fb622cfd109217eaf61e588bf90eefe2576f25d6cb43116164e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_411.obj",
+      "sha256": "c3c09ddfce42d14a721608cc49ef6a7a51df9276a0d81281dafa3106a95ce02c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_412.obj",
+      "sha256": "b8416e1aac80d822fd051b6f062b12e502c9b2ba3e1dcf7a6867c11fe0d23a50"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_413.obj",
+      "sha256": "2335f6d6f16a824bfb737a6dd39adf0b259d53bda4fe70bfe3d09778c2daec77"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_414.obj",
+      "sha256": "bed36edf1ff45ed8a946bad3809b7804f50d3d09d316daf381217c57b64bf837"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_415.obj",
+      "sha256": "ffd9cc7aa82eb46ed962c33f73fcd2b227b599e21f86ee8af4e49821c3956327"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_416.obj",
+      "sha256": "3d036b9875a22a389f48cfcfbf76d02ac600916fe14eea3436878e4840bf3d9a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_417.obj",
+      "sha256": "11f8036147dda402d665bd78931a507d42b1c0c9da4a8b21b783b1f9a7957d4b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_418.obj",
+      "sha256": "38aef4c45b129cf002ea2fcaa71199ce2257c4e7fb8d3305f2e5acb94ba402ee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_419.obj",
+      "sha256": "e68c4cd34afa1edcb8b724f3fcec00fd8040d16db41bc247859e2a16e5d0edc2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_420.obj",
+      "sha256": "783a4dfacfd6866ed6bac9839dc5f681bddc917a72ca30d265b4d04929aa4520"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_421.obj",
+      "sha256": "baa69c95b6d2b6a00a56e4d5d3f91a90ca28c32b8b1733fa903219cbad37cf93"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_422.obj",
+      "sha256": "08759115e0b2c6ddcfded3ea0cba845a11922ddb09ddc57fa2d0c1082533e02e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_423.obj",
+      "sha256": "7129b96d065f62c8c1f5904c6f62a7530e2e3afa226271fd3a72aa196c601710"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_424.obj",
+      "sha256": "883752d346b9db9571f76553deaf0c5daee8aeb09aaa28af219e423937d12f2a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_425.obj",
+      "sha256": "4de273ac1a1110a0124527973ee40e9b46221c98a54f6034f9f1b2f9c8460af3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_426.obj",
+      "sha256": "0abf1102af7519c7b8cbaff84387e5ad9fee75e2e4797d98bf10c304802a53e9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_427.obj",
+      "sha256": "ce95f147bde2dfcf2af2d508e303f25f9cb3ccdbfca161bdf58be5ba4b8edff7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_428.obj",
+      "sha256": "8cd86827acc2f0862600ed6271932ba1cf4d70048d10c6d27f914fc5aa43d6a4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_429.obj",
+      "sha256": "d9984ec36588f9f9f7f2b9a62f2fc269f577555b8cadd5c5c17815197d5bb385"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_430.obj",
+      "sha256": "455693eb298b719d8343a3050f5bcc4eb7aa25aa004e05700efbb6d2d614ddca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_431.obj",
+      "sha256": "3c178b2d6ea44ec6e181c001402e7b348dac69f80342ac1edbbfa0481ae7b695"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_432.obj",
+      "sha256": "cebbbe6c2023593f88b258e570e2817d688b442978c2f5a99fdce97e0db4ec32"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_433.obj",
+      "sha256": "9e34b805fdbab473632ff9d3e3d2ba4b967f51eebe4decae9b44d586daf73b8d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_434.obj",
+      "sha256": "ddbd1a9ecc390b9552f6b987b7b4e729dae2e62dba520a6124a37e95ec3003d3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_435.obj",
+      "sha256": "6665a22c43630d02fb2c8a32c07675374ed4ba221ffda5d3caa07c7a6517df4a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_436.obj",
+      "sha256": "7a283f65d16de709f5d4420b62d33c50aad3ac7373c2fd640b4c47b208a7d400"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_437.obj",
+      "sha256": "f38facbf9cc5ed14379ae340f95f9cc45ad1af2db817ba727762411a710141e4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_438.obj",
+      "sha256": "fab98e25f36737e7f01bb7036822915a205d4f11f61911a4afb02db8066a6d99"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_439.obj",
+      "sha256": "c0e2eff1ebe327ec3dc6b6bf1234c25ae4e8711346749834e968332e461d0e89"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_440.obj",
+      "sha256": "2afc3729a462d10a0e999695eda662bd7b6fd698b0f4fd4050cf73e384a36417"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_441.obj",
+      "sha256": "64fd1aefad0499388c6a8ea5c4efcbd2ae1492965eeea9556f6162a7b5b6b379"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_442.obj",
+      "sha256": "19d98cb74e3c10a03c5e22c989728b4d458b4216909f4728a36ebb0e65516592"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_443.obj",
+      "sha256": "54d361aa41c629a146e72b205d91beafda4e2cb241838269633e1a5a8b0e086b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_444.obj",
+      "sha256": "47076efab7c84fadc8224356e98502a937bd264adb5d178bd3b29e07c410b64b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_445.obj",
+      "sha256": "e2c60ef644053fb40dd77e9ccbcfa700fa916cdd66a5803c875cc24557511e64"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_446.obj",
+      "sha256": "f00c6e65fb6e8b7f07c48a8ae4ffc25b2adcfd0b338ca88bd111fb55315cbde1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_447.obj",
+      "sha256": "c881025fb5c29019c477977a75a5ddff31c45c4e179dfbe913e6cd58ba693c24"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_448.obj",
+      "sha256": "1c3bd1244685b20fb674f63b807b64d799495d407bc412e5fbd1f1772e73482c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_449.obj",
+      "sha256": "acb3e69a2a035403400bdac3898e056a84ab2a469b50a6ebb90d588d6fa9f346"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_450.obj",
+      "sha256": "9f21d1fb6c24b8556245f39406fb952a696a7f085fe822fb01a904ac4d977fdf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_451.obj",
+      "sha256": "884e5e8f6b649d8b14b16fb099c7c6075436195f32609d1a33ed571a54ef0f2f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_452.obj",
+      "sha256": "5a70d1a9d115e7663402e40d432c2ba9ed023c758c1d66ad9c83fd52f1e5710e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_453.obj",
+      "sha256": "c90c7da1ba0effd6be452bfa87be7abd201b49d97cfdb8b848a47615f494bcc4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_454.obj",
+      "sha256": "80efd6821aea86d52bcb108d7aecd0a441a447d65bad688eb33e366d4e5d2b02"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_455.obj",
+      "sha256": "b86535044699c62c251cfa6dfc2dfea3ee72315584873e4c476ae7fbe60c4472"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_456.obj",
+      "sha256": "4452a9781b2df4a0b6f4cb95ba646c572d8882a79043cc11edb974cc438e1f3e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_457.obj",
+      "sha256": "1ff9cb46cf96ddf9f9ecc0554865bfcf14f654d1805bb57910d9d9aebb9fb80a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_458.obj",
+      "sha256": "416e563b7e4ea3b616f13564ec8c8037d4cbad4f890b93fe9de58714af15e144"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_459.obj",
+      "sha256": "ca4d5bb753bb5f12a5b30036fc2ad7d86e7f6abfefb750448101f6af9cda3780"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_460.obj",
+      "sha256": "556f4a382f968704caa027a1b5814823000f6918dd8dcedf589e29831a579407"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_461.obj",
+      "sha256": "11a79fbdb4efed8f46bc8efaa12a1bfa99c998347930a3707bd7172c03abe718"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_462.obj",
+      "sha256": "8e5c6665c854e397cd626ccc4b896c335baf8775b148b842f6ef9c2c93abe2c8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_463.obj",
+      "sha256": "f1b535ac44c991fc1c7865cefadf1ff3a31d58f3a4a05190af5b64ce0ce71ca7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_464.obj",
+      "sha256": "c28d80a9109d5d8bac77db8226ef9d2b910390937cbd94a910bb9ebc3bcc9efe"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_465.obj",
+      "sha256": "1e84a55350cbffe2e0e1b61543168854649b926dee4936871758b93b4fcf9d45"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_466.obj",
+      "sha256": "a04d28b9d7bf98ac2b92c0d558ee5f38b1c2f4fb486cf054bd3d1103d187a503"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_467.obj",
+      "sha256": "574fa112f5d6b79fae0f23403ec226a3fe44b54cb214ad007e38db5547c22aa4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_468.obj",
+      "sha256": "526c0e917d742e7c1bb7f43e775fbdb6a4121f8cf8040d99877388d07d99cb5b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_469.obj",
+      "sha256": "f6b6f947ed26c7e9148b976cc18d45e3f6439e430c72652fc13b0624364f802a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_470.obj",
+      "sha256": "13a3e82099b99c254fb6bf0bea93a305f87736ffd0f00ef7a5a24dedeab70987"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_471.obj",
+      "sha256": "16e98af9d301b99e1ad083ef1352fd5fbee4e2ba9a6e870a5e742ae6771daa1b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_472.obj",
+      "sha256": "4f43c58413d1e6b6f038153104bd23e15cd84ee070fd5eedc39f0978758578c0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_473.obj",
+      "sha256": "98d62f62bfc67a454ae80f51d7a8525ec4ac5c33d59803253f956a40f331978d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_474.obj",
+      "sha256": "3a60f4bc78d67bb9a9246239512f619af9f87231b281cba9296f386f8477d326"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_475.obj",
+      "sha256": "51fc6313c35802ad90161d8aea3a1e47a5e71f1ea583aab74c5c63a5bac50f14"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_476.obj",
+      "sha256": "46d5f0cad169b75ff584afae4a11d003ad35e60eb9c971f3faba50e8e39116a2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_477.obj",
+      "sha256": "12faa7ad97c4d53667fbf99ee2baadaf235f47fa2c0895704366eb78460a42c6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_478.obj",
+      "sha256": "969b19237e13fed2bd2afa984d1736537c1590d2ae5841feecb4398481bdc9ca"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_479.obj",
+      "sha256": "171e1bed3b5974b4f48f5a987597525ada4fe8960f1893443311d9504a683baa"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_480.obj",
+      "sha256": "4b9439e819b8e49fa8a29ae087591112c6c464b579a21411a31d0f0a5acdf508"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_481.obj",
+      "sha256": "e756a0f259bdc56c2268de7c6ec0204fc7ce047b2a6d9272b3fd6a4cb6e49631"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_482.obj",
+      "sha256": "14aa4c58c82d4a628801114f86824ee427e480326fbd1b6bff24e93fbfd3c494"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_483.obj",
+      "sha256": "e49be94efc4192502cfe4a75b5a1d0d6ca280c10b077e6669c7c4f2f43b57fa3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_484.obj",
+      "sha256": "f222d6ee22a4c3b3a3ad9bd00bffc890e285662014822cffa1a5119b02ab4be6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_485.obj",
+      "sha256": "98af515a42e2e544b7b96f3fd40f3c19b39cee18d952f925056f2c3e968d38f6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_486.obj",
+      "sha256": "a7b542f1cdcdcec9283b6d3802dcc17b14dbaeb41b923a2a3d79f435256cf872"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_487.obj",
+      "sha256": "dfb9d58873d8d0da2718fa577e7ab3e40d9bca774a9169f623d0d719ba01f6f5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_488.obj",
+      "sha256": "e342836e5bb2919fb26d99fc0563ac154c390ecfe950584b7a007a3e0685272b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_489.obj",
+      "sha256": "bbb5ddf8d966f82a22b6375f432b29ae89333d336654126eb0d781241409bb7c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_490.obj",
+      "sha256": "b61ff2c68d70c6f9aab69cc7b6c76ffee8a2a3c3184eb9f4856a4fde6a8a496c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_491.obj",
+      "sha256": "1394718910308f5cc356c6ff44936e0eb525d6ec49db370717664e8d10cd77f8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_492.obj",
+      "sha256": "09f1986b28d50ed3b2dfb145ab8430d3e22d8b7cca6c8bf3da1d030f066437bf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_493.obj",
+      "sha256": "f9448f183c14034138bde07faa092f54953e8dfa2c74b2a6268ba3092a15c100"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_494.obj",
+      "sha256": "074fb1da0b07a059d3e596c7cc9d678f928dda27ac43cde76d2e282f34b67d6f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_495.obj",
+      "sha256": "bdbcd755ca5d5b65df78baf86c7253943a2b53b3a96d37c38129b7919c6f5eb7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_496.obj",
+      "sha256": "fb53d19c077df9818068546633f4971a1a4fdda0ab0f4597e536f6471a9f1445"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_497.obj",
+      "sha256": "7edac66444feb065c3acbec21a650b35b5066db237f72f2f57f7889a33af8316"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_498.obj",
+      "sha256": "5ebc929980ff63924a80fb80ab8c4cda599b704a276fff5876a3e3746bb6b2f3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_499.obj",
+      "sha256": "2115a1585f1e5c8f51055782fa40a787c404288bdeef10905cc7c48319af5388"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_500.obj",
+      "sha256": "1ac18316cce28fad9851518d19f3669b4409bf005a69f91ab5121f7383dcde62"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_501.obj",
+      "sha256": "3fd57a6419dc61e172b0bce37b48ced09d3c27e07b6fd04009c4bd516d63361c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_502.obj",
+      "sha256": "77a8782d7f2ce1b31258cf53bfeaf43c205383aa80357715cc0f71994608e17d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_503.obj",
+      "sha256": "5d465f1b8a6152ebe718609bc488fb159cf9ec5082d13a74e27d40758109b3fe"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_504.obj",
+      "sha256": "193f7562f60661a93eb4d9a0a1be7e3d476a7fc9d4db6679cb3f0e7768cd0096"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_505.obj",
+      "sha256": "47721503c60b2604794d6b69f0558914afd8e7c7bf3e8921ed4328ae07604b6c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_506.obj",
+      "sha256": "d971865b996514cf5d70a06f70a3ef95d163343843e825bf9e7f0c4dea0990ee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_507.obj",
+      "sha256": "03078849f55f4c9ea08985680f214390c0c1a716fd8ade39399d100a15f615de"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_508.obj",
+      "sha256": "209d4bb459d6e677da896acce4c7a4b16dc8d993e590b7881a1c2ac65caceb7d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_509.obj",
+      "sha256": "98e38d660925eeb55e9d9be842aca86d3c5a3804c72e6b157ad2316fa8d37bae"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_510.obj",
+      "sha256": "d82ed0db668895eb5d6bfc77c226c397871e8ba717747e7256620e29544776a3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_511.obj",
+      "sha256": "8951ee15ccccf955467080411bdd1e5cc5994d13e113d337851d7f16f95239c7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_512.obj",
+      "sha256": "606ee3b7a53eb68fe5ef010290c16be16e70a8f93abb71be9ae353067edf97ff"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_513.obj",
+      "sha256": "b6f10048f973c4299b3cacc98fd385d7c8891e79c6c7fc0cb351d561ad073986"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_514.obj",
+      "sha256": "29609f6d14211149802d58e3cac6bea33ea67d2c37e6d804922c65cd2515b79e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_515.obj",
+      "sha256": "0aa574f4d8119187251aed69383f05398c703084dcd456ba9aaf935677d3f251"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_516.obj",
+      "sha256": "cc6ba7df7006e6fd8a0acb1cc409d416cfd426326b7e4df74f29c217f4d9f31d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_517.obj",
+      "sha256": "1556309f2f857f6974a181d1bda7b856c0ace685289724a061e9c7f641f49de3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_518.obj",
+      "sha256": "d113d88a9192134eb6f8c4cde9a1d8970d16cc53ab61f078f8ab73f964fc2ea2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_519.obj",
+      "sha256": "376822ba8a43609b2ccb53152cb5f2fe6d86a576211641b6665651935a733d7e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_520.obj",
+      "sha256": "835029c34f505da6b77790ee57ed04ec73afbe6d7acf6fd2679e16a9786ecda0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_521.obj",
+      "sha256": "4c61cae156ae140b1bc91c73288fd2e169fd9db2fa11dd646a827333a2336f47"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_522.obj",
+      "sha256": "362bd9e4f50a44864abbd56702fb637b690521c73dc2515b1b529e98c0fa4446"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_523.obj",
+      "sha256": "e2619ebeb80c2427c3631b0af8c131e325e7bcdd2268e55014add1ad1e14abbb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_524.obj",
+      "sha256": "72d8dadf66e0779a7b952d26e121caef336528e8768ec8b0fdefd39adc8f8d3f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_525.obj",
+      "sha256": "e446ad52b864c99e36a0bb226cc1a5bfe4dfd4c951d6fb96704da030ac63befb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_526.obj",
+      "sha256": "1db924eba005d81a0e29d26933c5683e1ae3e398d98d90bb861f92cf84deac34"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_527.obj",
+      "sha256": "3b5461a5ec91e7ba5f950ed59451273db95c26f77e098f951c006fc1353b9325"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_528.obj",
+      "sha256": "19d01b5c87e2e830e4d5200856af9c46cd83d80e261c62cada558b504aae66a9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_529.obj",
+      "sha256": "c37ce3bda1135cb2945360e43880c2e7c54ed19a5c93072e3835f4df4ef75f88"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_530.obj",
+      "sha256": "ae293e377fd5b861b07954c9becac20dbfb4968a9a899e9361a401f8a2999e1f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_531.obj",
+      "sha256": "27f873feaaf27578d315d566ac90688771d0c44b20b3080c14f27e6b74b729aa"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_532.obj",
+      "sha256": "9579b52f73cd040ec7df9e3dbf97ba1fa0e41182be2d9997144d937f64ce7398"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_533.obj",
+      "sha256": "aae08863f44360225a2604a51b5ebdf43443512d65c6762e1dd85a8acfe78587"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_534.obj",
+      "sha256": "f0c0bd2c2cf3e9cb4013d859a4949786a2dc23b18d3ead532b36e65b85adae18"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_535.obj",
+      "sha256": "f232fe208331c97e268b374c6a3a7c15df972a2fe125354e306331a971a614a1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_536.obj",
+      "sha256": "ee86a84922a2fa1b1d86fb9b11f321c727a8fc7a313a2d17bd6dbb2b4378acee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_537.obj",
+      "sha256": "0a9cbb2fe0756e414a59f1c773f51965d9b4c174e16adb936a2e9605b3416887"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_538.obj",
+      "sha256": "8e7f8e29264b7c553d35c2e43503c5529249fb6b783412551954c7684463d8f3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_539.obj",
+      "sha256": "28399926f0ec6cc31d65f64eb3732717161c5c8bcb8d80269070d58608d82366"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_540.obj",
+      "sha256": "ad30c277a20becf72e237901b56a88f70518a3e938f9065bc463f7bf2897afac"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_541.obj",
+      "sha256": "508004ac22ab309f19bd84bb7bf170988773d500d31e178af218bf0d90fea2b9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_542.obj",
+      "sha256": "c3f2f7bc5cfba23615528217ff7c341c0687d134a937de386800f23a65893bc6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_543.obj",
+      "sha256": "39404b119f999855ffe2fd56e4dd25d65af30c5c675e15f3ce04a309f4963fe8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_544.obj",
+      "sha256": "93f2e3f49d80506887579ce1f29e17ea8beb19e2bb50325332d9bc42bcf0342b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_545.obj",
+      "sha256": "4411826becc4ed77470dc4c023b262f090e73edc63339f4487c723fb467baf8b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_546.obj",
+      "sha256": "76b1b9c80191e1ee133dfedb530a5cb4df04566af52245d3ad85b2b9523be88d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_547.obj",
+      "sha256": "262e8c3cc3391e65d5450bbbfce91a643deb8d034dabb2f694f2155d53736691"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_548.obj",
+      "sha256": "cf8feb74e693d34ccb5819dd24e80d6d0dfc8c6bbf8dbea513fc52e6360a488a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_549.obj",
+      "sha256": "36eae9e65ebfe98d569c6a14016decca18853155225f7d8e9a53ee2b19f31288"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_550.obj",
+      "sha256": "adb36b15fc0cc9a8f03091c65280e60bca46653cd45b0a5c226dc781f31721c8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_551.obj",
+      "sha256": "91c59c5df4a3a250eaeeb52d5abd485e425ffdc91080b54a8715d67984416cdc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_552.obj",
+      "sha256": "07b8d904bd99ca3391dda9a6cb781b20b9df8e8eb892717b87e8a5711209570d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_553.obj",
+      "sha256": "a3ca595463cbe571e324c1779750c396348319eff9c995f5f6ba764045a0e87e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_554.obj",
+      "sha256": "b9cbaff528772cbd2c091b63480355eea421051c24ef1184df974006750970df"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_555.obj",
+      "sha256": "b954243866f9ef84f4a86a2ad7a9b12abb887a3393eafc0afab28e7c6f9acb82"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_556.obj",
+      "sha256": "feafc18c7187d92a2d31d88d83cc2a6632ed435d9cf1ea9134739b02d3bb49fa"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_557.obj",
+      "sha256": "370de4c29706842047db2306b57dbf5f82365f979632149dd2fa25da6e90b111"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_558.obj",
+      "sha256": "4d7d5108d0df3ab778a31199491cdd40e5e2b8ccf3b9fe7804178cb88967ecfe"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_559.obj",
+      "sha256": "2317e15638aa20cd1c23116fb2096faf974119b9869467f26b76bf4c5a65b94c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_560.obj",
+      "sha256": "0ee7c4590b96cbd03a3478e64d0bfac8e2dd67803c97bad48b9024df18484451"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_561.obj",
+      "sha256": "9a552060f7a74816797fa47892a389d006b13ff0a584d1c5b44de377e8da8a02"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_562.obj",
+      "sha256": "579e3414d611c7ccc455290c86068e6c687e9d9e1cf0c96d15b8995cf1c1892a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_563.obj",
+      "sha256": "911f2ef7829cbb9f59f15f570329b4a6a4415574d674ee7b8134fa198b1bc7cf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_564.obj",
+      "sha256": "07721f2b08bc17ba1a53587bc1dad2e4f5efa11c59023be5bffc1cbb9be58898"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_565.obj",
+      "sha256": "971c0c336b6775485ee9f945ec62f5521af7982a4972dfc59d6f245a46fa066e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_566.obj",
+      "sha256": "18ddbaf9271db7d9fca81ddfe19962ef7d8f635b94bd155a396860b776e543e1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_567.obj",
+      "sha256": "9ee46737bf9ce184c366b2853fe38ab0719e20deda545d8f9b8745e221489f34"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_568.obj",
+      "sha256": "19189cdfcc62723b9ba46dc226145e312fd8a53d83592b14d51b006dc7d4b86f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_569.obj",
+      "sha256": "14a3a9f9757deeb187302212b2aae4d30c8e8fa74d8b2c425ad442b03eb136c4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_570.obj",
+      "sha256": "21f29199f852e51d388edbd9898f942c211621410e89f16e0150d31f3450615f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_571.obj",
+      "sha256": "0bee1fe5bc30e6e44412a41f59731cc7e9df1942e0defb9d5d0dca8a1b288d68"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_572.obj",
+      "sha256": "0bdb213783cb6bde2d3ad3652099c14bed02cb455360c89695d159bbc5819970"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_573.obj",
+      "sha256": "22ebab66fff137878a7d929658ad47fb36f9131f0103cb5cd57c28006caae024"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_574.obj",
+      "sha256": "e60c7dcd03093e5e8454d3fe6648ef98d66aed2b0d8948afe9cd984ccece7dc4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_575.obj",
+      "sha256": "7fcea95c5fe034624b2cefd04a1fa08523c58cb14889433f8e5e9f11e3227a87"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_576.obj",
+      "sha256": "cd5b5d77a623f25b2a5ef183e1a496fa4412d90ee5f7ccb17c4cb7f4da676504"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_577.obj",
+      "sha256": "43a8fa52ce3ea18e905b1823528ad9a91a4162d74399e460873b2075f9a29a4b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_578.obj",
+      "sha256": "6a3f7016c06d6ee82ae7d00dc9f658161e8aaa8617beb0bf2521ecf07f55d501"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_579.obj",
+      "sha256": "f0231e36db37ea8b065b190dab9f3f40e16a2d4f9e8192d7c457b1db685bedfa"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_580.obj",
+      "sha256": "5009b0612e37cfa0290224fcd850a5bc06fb9b4ff1f51e350357bd8d652cf167"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_581.obj",
+      "sha256": "670611c68027570d52db18156f4ce955f7d09ca07836ec04079030b477621334"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_582.obj",
+      "sha256": "608b940d6ee7d9af9a921ce961754df8b00bd32b0555f9de2c9eefca77e454e1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_583.obj",
+      "sha256": "ea63a7e875ddac62a3ec36bbf74955a1bc8e41893e076e80ef524034a9113f18"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_584.obj",
+      "sha256": "fb114e6eb5d8adbabcb3d835d83ed2bdcccb623a5cf400de677eebf8c804ea09"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_585.obj",
+      "sha256": "a6750f8cedbca21af6aeb520a6141057ce92c0c19dfc59800a7f620c82b65b82"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_586.obj",
+      "sha256": "19cda70819aeeae67047843a3a3c1a3dfd4521a3e6fe221c291567b36b066e21"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_587.obj",
+      "sha256": "54e8ce9ea255633f4d7ed07d0a9f68a4945f4fba0ca65cc64b08572106e2811a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_588.obj",
+      "sha256": "60f5c6bd8555d13ede8e6908e465a2324771d0865a8b9cf14b21af409bb28ec5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_589.obj",
+      "sha256": "6334a3d14430ac4c49e0320fe91f7d277d3a048682eef5ab62ca6d69253ade53"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_590.obj",
+      "sha256": "55c2fef18dcb1c371c870d0b673ccedfeec734e850913a222a4fd528a816c2a2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_591.obj",
+      "sha256": "2e3e3a6960cd01785ba019a63b9237e2353dee99cf760380b8704bf5a5a428e6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_592.obj",
+      "sha256": "7ddeccfd0dc9a1a2013e0a6a09d58369e1dddd1683cec5fa1f6354dcdf9798b8"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_593.obj",
+      "sha256": "c9104a32ebabf2ff2eda8699a9eb4c2b7cb248868ff4395bc0dbdf690a60b926"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_594.obj",
+      "sha256": "03e5675dab50b108fab975119c48ae433733608f9c19301105835d266dcd9fb4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_595.obj",
+      "sha256": "b60f88d8a9279561a5c8187ef91e79c596b483aba9bbefa6ef589e02755b8b88"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_596.obj",
+      "sha256": "32532a6b245f935c7dd261704cb59143b4968f4b4df46d665581a68774236fa4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_597.obj",
+      "sha256": "66ca9a64ed55d058eb83c363f9b0381288083c6537cb7a726a73fb74f5d6d5b2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_598.obj",
+      "sha256": "473c93853f37a0893dfcd7413c6b41cbcafcab4d3380be3411467ee0d8acfa68"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_599.obj",
+      "sha256": "45b9147db538c9f1c4146d5fd9a8fd77144330ef072825ce045157193c41aeb4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_600.obj",
+      "sha256": "80ca3eb5bf1438836b67f5a055197ad5d09c43363f725afafc53f93e7f704f8a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_601.obj",
+      "sha256": "a7035141db15e42a7d174612cba889153fddfca2ef0504e4d7b067efd0a854b4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_602.obj",
+      "sha256": "f7edc3fe5d4697c357bfb30f53b4eb8b2bce5f11fc4a47f8a7e0b9df1f4e05f3"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_603.obj",
+      "sha256": "298900585e43c290c662fded80fa70f0f42f07104787251430a633c178cd297c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_604.obj",
+      "sha256": "2c298c49d35b76a4ac30d3965709b52050ccaca6c6092f52919a165ff4b581f5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_605.obj",
+      "sha256": "7683491158541dc95adc2647d7bab750cc5ae07961158cc9ef237bdf4e77dd2a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_606.obj",
+      "sha256": "ffde7e5ab741c6fd609b29e26f6cb4dcaf0e225ced4aa70221fa348bcb9aa6a2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_607.obj",
+      "sha256": "a3dd06578231e7bad7c4a8e03b03a6fbe111472eb7cba736633405f9ff2a3760"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_608.obj",
+      "sha256": "c038b9738401227e03aedbf9ce7ec8bc87577c7193da2a35ce35d42100b2192d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_609.obj",
+      "sha256": "52c1b5d2df42042b1705870bee514ed503c953e9ef65b9af77122808ca4d0f64"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_610.obj",
+      "sha256": "f52e0c0d47c19a8c6fbf8fa4ccc3831ddda0b736e7d08bd69a00569130d36647"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_611.obj",
+      "sha256": "4e0274f5c5df808de90b23e3751cf51392e63c8bd91c4f1c829c6512c3de8b88"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_612.obj",
+      "sha256": "e2e2758c159f449fdd667e3087a95442f3e111956e9726a2777bbae0fc403a75"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_613.obj",
+      "sha256": "764dd7a7efef05b5d5fae5abbadc3c59422f056d1f6745c12e7a165f56f5db05"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_614.obj",
+      "sha256": "2d0cb211a416eca803479dd9f7c2c12dcaf7d154323106ccef522cd915056ad4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_615.obj",
+      "sha256": "04beb029270938ceaeca24bfa8efc860561b6279963e45f597a88ff7e372a015"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_616.obj",
+      "sha256": "76efe457825a52b9f1eb03416bc77662df4a39edf0b431ceb06993e8b1a310ed"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_617.obj",
+      "sha256": "a8fd921a230c60ad61d02f48dea23cef71966c9c19d7e3f3c6bca471f7149fb6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_618.obj",
+      "sha256": "c21bb26bbf43f38ba71aab14256dbeb2920ab8281d27fb0585d9df550c92be82"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_619.obj",
+      "sha256": "db9696db7abf69cdd5e77a737a44492f86132e48ef29da5bff2f3453dbee98a7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_620.obj",
+      "sha256": "83c37ab51d335bc81758e2a7b3d522eadcddd7d9f456ee80e3282a0fd1c051e6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_621.obj",
+      "sha256": "146f15249f0244c2a8dd8058aceaa5f288f715f992e14197d5d55d7c5a7d285f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_622.obj",
+      "sha256": "c917d7ba3b374f6f39e5cdf657cb0a160c1493ee145914764490541fb185b944"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_623.obj",
+      "sha256": "4e3fcd63c795d621acf973ee87e32507241253ec4f72f028b7d877da04405ae6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_624.obj",
+      "sha256": "7ce23fe6704ad5e0f098a006238b445059f8048eedb790ea02aaa16109a4cea1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_625.obj",
+      "sha256": "b750776f4e79a4100b328282884fc82b75fe22b9fdf328d7c812951f578b963b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_626.obj",
+      "sha256": "b61a3c6064b79358e7c1b25f1370f74e869fb9a3fbf53d498caa47bec99f33e0"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_627.obj",
+      "sha256": "8aa7f3077192ae028b7d6d3c3cae9626204a26ee7306da9426f9e10d46ec9330"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_628.obj",
+      "sha256": "b00ad3b73b13b8a2b5c7758b737b1a59337ea2483836b08dea2c1f885545a5cd"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_629.obj",
+      "sha256": "7d857b40566a3f451d56096792a463614d5bb0009e26379503a88bf5c563d6a6"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_630.obj",
+      "sha256": "bb811e279fbf80f63c121f7f82273e20dd5b6b3310918445c7b5a33533344174"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_631.obj",
+      "sha256": "dab3bd057b91f50ff19521b41a79ca02332a40fb13c400688b3a7d7c4db8b1b2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_632.obj",
+      "sha256": "aaa8a418c9420b6c62fc52e3a8151261863c7701a55beea3d900fd29a97f3f0a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_633.obj",
+      "sha256": "e86ed31476817cd5e6fd0066d7d5ef49bf504006f68efa435ff2c948dc91fa53"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_634.obj",
+      "sha256": "3cc8f99111f12f7a43a86116ff1c83fcc5f49698d17e5c5c5c2c053e8824a11d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_635.obj",
+      "sha256": "127442c5e384f2328126b6756e2b7da1bd383ebcce93148a653309682f5ad522"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_636.obj",
+      "sha256": "d762a781bb1dd56c503f77f51d9a7bea1df83d1654a5293d1152598795f649ee"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_637.obj",
+      "sha256": "af1e1f31ace660069c674dffd9b3febd024cb49d555c91cebadb01c1b8dad82d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_638.obj",
+      "sha256": "1511894a8449a7d13fbb9f21237ea8aac894b62d64fc26b3c54f3d2818e730f9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_639.obj",
+      "sha256": "75b39d5f1765bba566c1a5859a0f3e12c6dd82886015a0db2fcfcb7310727c0a"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_640.obj",
+      "sha256": "c3a7c56f97e3882d4bdab8b1da69cc9553d0a4c559f3bfd39caad4b640d55231"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_641.obj",
+      "sha256": "25423e0fd7e21671fc464a69be6464b12567e1a7f26beefbc3909d11392b8357"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_642.obj",
+      "sha256": "b1ae35ff5b6f95db1c1d6e63e1c620d6f4bb5524b8a3d8cc9657f38c455dbc82"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_643.obj",
+      "sha256": "6de28fd9f54741478c16fd3bf67d74db415feb966089aa8ab7e94070bec26561"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_644.obj",
+      "sha256": "1105d6ac8848236e2a3674736b4e8b3c131df3a6db0d78435713577221e8fa3d"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_645.obj",
+      "sha256": "155d9b4d3c01daab6cddd38eb246f23cdcfaf975b1691d73859a5837642898d9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_646.obj",
+      "sha256": "4cae307792301146658ed43808a3355191f4c895e0aa5bf934095fb34210bf4b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/collision_647.obj",
+      "sha256": "f02ee2e6ebe3747db37e9bf7e3c255abcb782d30f7ad589d26cac6b14df20bb7"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/assets/rounded_shell.obj",
+      "sha256": "66c11761d83051d6493e55e175baf5c9b2666a3839615c33e671955e01b3e06c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/geometry_report.json",
+      "sha256": "de8777897b5d71e72c3cde44145e9319bc20f3de4a28f668ee96e6a05d15c256"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/idle_10s.csv",
+      "sha256": "a7809928c1446485a1926db376853f33d214be11e4e4a49478e9d877b69bfbfb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/idle_10s.json",
+      "sha256": "f119a7c0e69a9b42ce1ab0d63d173f858ab21ad16bc694cc01149f42cc3e494c"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/preview_threequarter.png",
+      "sha256": "08d1f091fa1b910bbbb4d14ad59dad0ac4d9b28ba867e667930b36c22938e119"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/rollout_summary.json",
+      "sha256": "1c4c92cdf0316baf37d58cfc3efd829fb88c83d626f89fc4e05b37ec62cafee4"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/rounded_before_after.png",
+      "sha256": "95c791fbd2dc2bb22f290260fcebdee9043430f6b899f3c0938b08f9005a33e9"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/rounded_closeup.png",
+      "sha256": "d33c8e1047f3dd35f958734fa27378c2e0a1c83eeb3f01732ed0c783b1518dd1"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/scene_tab5_lowcube_rounded.xml",
+      "sha256": "f5e22108b7108d1c105e1df7c767311b88af570bd06eca80c9a51f1e9382865b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/tab5_lowcube_rounded.xml",
+      "sha256": "e0fbdb3040f943811ce1676154549e28faf00963600a146c50b28d13336c5149"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/validate_rounded.py",
+      "sha256": "e9ac414a43b31023cb300c2ef539e29d78235012827e06e719abd090fbb52b07"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/validation_report.json",
+      "sha256": "08bcdb3b88ccd84620c9e08fdac431c081d0919ee06fe001cbfeb62f40ae115b"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walk_10s.csv",
+      "sha256": "da3407517e6a5a22e314e0d6f4263f7127306219f8bfc9b6905829c1133580bf"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walk_10s.json",
+      "sha256": "60d03d208b321c3d0d15119314978c7d58776e47045cadc8d4cb8b0db5104dcc"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walk_10s_states.npz",
+      "sha256": "59559f64459361f29af9eadbb0ec67587923ec6da0a50757c4f48cee28a5a39f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walk_seed1.csv",
+      "sha256": "e0239e8b89d22d83bf6862958abbfec69fa0755e2e7b951d7c23b348d59a80af"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walk_seed1.json",
+      "sha256": "517838288478e214dc84fd9ef7740bf3deabe801af8c30c066c50356344d51cb"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_demo.csv",
+      "sha256": "acf9fd57d0660b62be46daf6bb340d06cb5f0002f04fe012ff5df97279e1df5e"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_demo.json",
+      "sha256": "fda9f9492b5838f95fb9b07f8318d3cc09fc66cba028f138e91c8276485700f5"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_demo.mp4",
+      "sha256": "7850025bccb307b6255c44d2646ce30f13977e127f35fcd4f5343f9b67447434"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_demo_initial.png",
+      "sha256": "6b846493db54581dcfbe4ea37befa95ffc2129efb0f968cffd1895cfd65dab6f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_demo_states.npz",
+      "sha256": "9117d538dc6885458ec400a02c46f1f0cc85c86f2e33dcd09cd386dc8ce68459"
+    },
+    {
+      "path": "microduck-stackchan/prototype/rounded/walking_frame3s.png",
+      "sha256": "8c6ca5509c31b7f84833af3b1a69aa1101fc8672835556cbb24013a60a5d19e2"
+    },
+    {
+      "path": "microduck-stackchan/prototype/run_probe.py",
+      "sha256": "073306e01b705edbb8a59800b50a3b0aca090685ea9f8cbab2aca1abae4a171f"
+    },
+    {
+      "path": "microduck-stackchan/prototype/test_models.py",
+      "sha256": "88a5f0928028bc748d675996df7575faf42b21d11a8fbdf57d43418da6f662d6"
+    },
+    {
+      "path": "microduck-stackchan/third_party_licenses/bam_APACHE_2.txt",
+      "sha256": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd"
+    },
+    {
+      "path": "microduck-stackchan/third_party_licenses/microduck_rl_APACHE_2.txt",
+      "sha256": "2d3fd9ffffa70a4307498ec630b14a6b4731e010f8ddda92686eaf65733c2dfe"
+    }
+  ]
+}

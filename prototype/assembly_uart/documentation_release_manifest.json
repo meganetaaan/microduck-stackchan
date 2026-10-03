@@ -1,0 +1,26 @@
+{
+  "date_utc": "2026-10-02",
+  "base_release_library_version": 4,
+  "base_release_zip_sha256": "21519e1ec155693c409f3ea34eafbf1694d683a8acfcd7ff635a37180db11c15",
+  "purpose": "Documentation-only update linking the separately delivered native 39-observation / 10-action gait training results.",
+  "changed_documents": {
+    "README.md": {
+      "old_sha256": "42664eaab2125f9b65b3aad1e844dd4c940933c2424dd8cdf573e9df7167820d",
+      "new_sha256": "753bc26cf58422300e86fe4f081ac1257c046fbbc905afc200c8d25e98c0cc1f",
+      "prior_copy": "docs/history/v4-assembly/README.md"
+    },
+    "README-ASSEMBLY-UART-ja.md": {
+      "old_sha256": "84751affe060fc1e15d82fce5d68373c19804e15695b3e239d1541472172216d",
+      "new_sha256": "14d3d0182eab31df0be35e3d142a84ddc51becd0f5992ef80c802e306644f6e6",
+      "prior_copy": "docs/history/v4-assembly/README-ASSEMBLY-UART-ja.md"
+    }
+  },
+  "frozen_physics_file_count": 1654,
+  "frozen_physics_all_hashes_unchanged": true,
+  "training_addon_destination": "training/tab5_gaits/",
+  "training_addon_included": false,
+  "training_readme_sha256": "83124f0eb0781cf8b8c1487a3787471edac658bd64eecb60c94593aadd0d86cc",
+  "training_summary_sha256": "141e82d6ef794fa6bd5be80be2a74bc45e06f33f00106bd536142e4a28d3686c",
+  "training_addon_extract_at": "Project root; ZIP entries already include training/tab5_gaits/. Do not extract inside that subfolder.",
+  "training_worker_confirmation": "Final metrics and extraction layout confirmed on 2026-10-02."
+}

@@ -1,0 +1,115 @@
+{
+  "expected_parts": [
+    "body_cage",
+    "central_mount",
+    "compute_pedestal",
+    "rear_cover"
+  ],
+  "found_parts": [
+    "body_cage",
+    "central_mount",
+    "compute_pedestal",
+    "rear_cover"
+  ],
+  "exactly_expected_inventory": true,
+  "parts": [
+    {
+      "name": "body_cage",
+      "sha256": "61eb63a3302b9ef0600da128142bd8990a31081e736cfc8b848ea6d679d7f26e",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -40.0,
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          80.0
+        ]
+      ],
+      "minimum_Z_mm": 0.0,
+      "rigid_transform_determinant": 1.0,
+      "bidirectional_nearest_vertex_error_mm": 3.814697265625e-06,
+      "volume_change_mm3": 0.00016427561058662832,
+      "pass": true
+    },
+    {
+      "name": "rear_cover",
+      "sha256": "368b9b15a5bf4de25286fd17ad3ba3022d6455f565fbb8d97c26655587bbd80b",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -31.75,
+          -29.75,
+          0.0
+        ],
+        [
+          31.75,
+          29.75,
+          2.4000015258789062
+        ]
+      ],
+      "minimum_Z_mm": 0.0,
+      "rigid_transform_determinant": 1.0,
+      "bidirectional_nearest_vertex_error_mm": 7.105427357601002e-15,
+      "volume_change_mm3": 2.1827872842550278e-11,
+      "pass": true
+    },
+    {
+      "name": "central_mount",
+      "sha256": "6d8634b132c430a9826251422e37c43c7f2b1b0ec3dfc39aeca3619d3d58740f",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -12.0,
+          -23.0,
+          0.0
+        ],
+        [
+          12.0,
+          23.0,
+          12.0
+        ]
+      ],
+      "minimum_Z_mm": 0.0,
+      "rigid_transform_determinant": 1.0,
+      "bidirectional_nearest_vertex_error_mm": 1.066240299940009e-06,
+      "volume_change_mm3": 3.812746490439167e-05,
+      "pass": true
+    },
+    {
+      "name": "compute_pedestal",
+      "sha256": "4ddfefbc366091cc519f246645ae585edcd34684c74d04ebe6c9a130627f0bb0",
+      "watertight": true,
+      "winding_consistent": true,
+      "connected_components": 1,
+      "bounds_mm": [
+        [
+          -4.0,
+          -8.0,
+          0.0
+        ],
+        [
+          4.0,
+          8.0,
+          5.599998474121094
+        ]
+      ],
+      "minimum_Z_mm": 0.0,
+      "rigid_transform_determinant": 1.0,
+      "bidirectional_nearest_vertex_error_mm": 0.0,
+      "volume_change_mm3": 1.1368683772161603e-13,
+      "pass": true
+    }
+  ],
+  "all_pass": true,
+  "scope": "Rigid transform, unit scale, triangle-surface integrity and placement on Z=0 only. These tests do not prove support strategy or printer/slicer compatibility."
+}

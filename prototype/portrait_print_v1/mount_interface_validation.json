@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "part": "central_mount",
+      "exact_solid_overlap_mm3": 8.973971461401848e-06,
+      "expanded_1micron_intersection_mm3": 0.1117990692487916,
+      "bearing_contact_candidate": true
+    },
+    {
+      "part": "under_saddle",
+      "exact_solid_overlap_mm3": 7.258262716460759e-07,
+      "expanded_1micron_intersection_mm3": 0.0072315155292637275,
+      "bearing_contact_candidate": true
+    },
+    {
+      "part": "rear_hardware",
+      "exact_solid_overlap_mm3": 0.0,
+      "expanded_1micron_intersection_mm3": 0.0,
+      "bearing_contact_candidate": false
+    }
+  ],
+  "scope": "Geometric bearing contact with original stock trunk plate only; bolt preload, frictional anti-rotation, fatigue, layer adhesion and strength are unverified. Existing slot is also a potential cable route."
+}

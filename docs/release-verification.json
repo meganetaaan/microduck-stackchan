@@ -1,0 +1,9 @@
+{
+  "python_syntax_files": 80,
+  "xml_well_formed_files": 56,
+  "frozen_local_files_verified": 1632,
+  "pinned_upstream_files_available_after_bootstrap": 22,
+  "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+  "selected_arm": "original option 4 / comparison A, visual concept only",
+  "physics_policy_scope": "no-arms 736.537 g baseline"
+}

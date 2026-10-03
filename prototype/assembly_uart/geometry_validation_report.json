@@ -1,0 +1,1353 @@
+{
+  "parts": [
+    {
+      "part": "body_cage",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 52082.61504200134,
+      "bounds_mm": [
+        [
+          -39.0,
+          -40.0,
+          46.0
+        ],
+        [
+          41.0,
+          40.0,
+          126.0
+        ]
+      ],
+      "density_kg_m3": 1240.0007163107625,
+      "mass_kg": 0.06458247995941932,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.213744493799851e-09,
+      "inertia_max_abs_error_kg_m2": 3.880971797187369e-12,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "selected flush-front shell; actual M5-Bus relief and power feedthrough added",
+      "asset_sha256": "3b54b2d1ebfc080479eb49366a8c1c23c6ae225417b1ebbd84bccf3d3e8b5bee",
+      "STL": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "bounds_mm": [
+          [
+            -39.0,
+            -40.0,
+            46.0
+          ],
+          [
+            41.0,
+            40.0,
+            126.0
+          ]
+        ],
+        "OBJ_bounds_max_difference_mm": 0.0,
+        "OBJ_volume_difference_mm3": 0.030234569538151845
+      }
+    },
+    {
+      "part": "central_mount",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 5678.297923642028,
+      "bounds_mm": [
+        [
+          -12.0,
+          -6.0,
+          0.0
+        ],
+        [
+          12.0,
+          6.0,
+          46.0
+        ]
+      ],
+      "density_kg_m3": 1239.9998861197303,
+      "mass_kg": 0.007041088778670015,
+      "mass_abs_error_kg": 8.673617379884035e-19,
+      "COM_max_abs_error_m": 3.181542876373733e-10,
+      "inertia_max_abs_error_kg_m2": 1.5489657243956674e-13,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "original printed mount with two M2 captive-nut slots and clearance bores",
+      "asset_sha256": "3e1c1fde2465887d9b7e8986bebcc74d5671f709a151e1216d0a2e8d98f5183c",
+      "STL": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "bounds_mm": [
+          [
+            -12.0,
+            -6.0,
+            0.0
+          ],
+          [
+            12.0,
+            6.0,
+            46.0
+          ]
+        ],
+        "OBJ_bounds_max_difference_mm": 0.0,
+        "OBJ_volume_difference_mm3": 0.0004654436015698593
+      }
+    },
+    {
+      "part": "radxa_pcb",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 3068.354433342084,
+      "bounds_mm": [
+        [
+          -24.6,
+          -32.5,
+          68.0
+        ],
+        [
+          -23.0,
+          32.5,
+          98.0
+        ]
+      ],
+      "density_kg_m3": 2020.6270607554543,
+      "mass_kg": 0.006199999999999971,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.9083797509579004e-11,
+      "inertia_max_abs_error_kg_m2": 1.99505867115059e-14,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "Radxa Zero3W official CAD v1.11:65x30x1.6mm; four exact CAD-derived \u00d82.8 holes",
+      "asset_sha256": "0da6d01f936845b23f3840fae2be6e003d6525f1c3c63dbb8b9727dd8f45178b"
+    },
+    {
+      "part": "radxa_under_components",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 2353.4256,
+      "bounds_mm": [
+        [
+          -27.4841,
+          -24.0,
+          73.0
+        ],
+        [
+          -24.6,
+          24.0,
+          90.0
+        ]
+      ],
+      "density_kg_m3": 764.8425342190549,
+      "mass_kg": 0.0018,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 5.551115123125783e-17,
+      "inertia_max_abs_error_kg_m2": 2.1497749140873346e-17,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "official CAD overall underside depth; component grouping is a proxy",
+      "asset_sha256": "773b9ff9583f13ae18ebae300849b505b87d4172ab35be262d222e853ae81d21"
+    },
+    {
+      "part": "radxa_top_components",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 2047.5,
+      "bounds_mm": [
+        [
+          -23.0,
+          -18.0,
+          74.0
+        ],
+        [
+          -19.5,
+          21.0,
+          89.0
+        ]
+      ],
+      "density_kg_m3": 976.8009768009767,
+      "mass_kg": 0.0020000000000000013,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 5.551115123125783e-17,
+      "inertia_max_abs_error_kg_m2": 3.3333658150212905e-17,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "provisional grouped top-component shape within official CAD bound",
+      "asset_sha256": "3bc7afaba6a7c465c9ee2d5563caef62efb310fa377e8fd9d3879cbc01631b77"
+    },
+    {
+      "part": "radxa_gpio_header",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 645.1600000000002,
+      "bounds_mm": [
+        [
+          -23.0,
+          -25.45,
+          92.1351
+        ],
+        [
+          -20.5,
+          25.35,
+          97.21509999999999
+        ]
+      ],
+      "density_kg_m3": 1705.0034100068196,
+      "mass_kg": 0.001100000000000002,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.249000902703301e-16,
+      "inertia_max_abs_error_kg_m2": 3.3351922298138076e-17,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "official CAD40pin grid2.54mm; simplified insulating body",
+      "asset_sha256": "5bd51517360836111f2a283d634429b9fa0a156333bb1c8e58d5c37a2c192746"
+    },
+    {
+      "part": "radxa_gpio_pins",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 40,
+      "volume_mm3": 98.30400000000134,
+      "bounds_mm": [
+        [
+          -20.5,
+          -24.5,
+          93.0851
+        ],
+        [
+          -14.5,
+          24.400000000000002,
+          96.2651
+        ]
+      ],
+      "density_kg_m3": 9155.273437499905,
+      "mass_kg": 0.0009000000000000023,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.3183898417423734e-15,
+      "inertia_max_abs_error_kg_m2": 2.7745622978498675e-19,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "official CAD40pin grid and8.5mmtopextent; squarepins simplified",
+      "asset_sha256": "9e6c4b268656e7357a49814c12bf7bfa6d6cb5aa7bb1cbd8a928f588cda5a051"
+    },
+    {
+      "part": "robot_hat_pcb_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 3590.3999999999987,
+      "bounds_mm": [
+        [
+          -14.5,
+          -33.0,
+          67.0
+        ],
+        [
+          -12.9,
+          33.0,
+          101.0
+        ]
+      ],
+      "density_kg_m3": 2506.68449197861,
+      "mass_kg": 0.00900000000000001,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.3877787807814457e-17,
+      "inertia_max_abs_error_kg_m2": 2.371692252312041e-20,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "MicroDuck Robot HAT retained; exact mechanical files unavailable,66x34mm provisional",
+      "asset_sha256": "acc79bbcfe5d9bf2a2a01541a98babcc326b57af8649fadb52cdb636eae42682"
+    },
+    {
+      "part": "robot_hat_components_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 16632.0,
+      "bounds_mm": [
+        [
+          -12.9,
+          -30.0,
+          69.0
+        ],
+        [
+          -3.0,
+          30.0,
+          97.0
+        ]
+      ],
+      "density_kg_m3": 601.2506012506012,
+      "mass_kg": 0.009999999999999997,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.3877787807814457e-17,
+      "inertia_max_abs_error_kg_m2": 3.3336336891908597e-16,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "provisional controller/component keepout; not actual CAD",
+      "asset_sha256": "e707750b4fbc9de04cdc31e871f4d4485ff454424f58c137f156ea43cfeb8963"
+    },
+    {
+      "part": "electronics_carrier",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 14033.817911411552,
+      "bounds_mm": [
+        [
+          -31.6,
+          -34.0,
+          48.4
+        ],
+        [
+          31.0,
+          34.0,
+          102.0
+        ]
+      ],
+      "density_kg_m3": 1240.0000143980049,
+      "mass_kg": 0.017401934412209302,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.1755254177069647e-10,
+      "inertia_max_abs_error_kg_m2": 3.834097176845432e-14,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "new parametric carrier, nominal hardware fit pending print coupon",
+      "asset_sha256": "e07e14edd1e888198dd5129a8484bc0be908750a835dbc22b7bef055f9a58679",
+      "STL": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "bounds_mm": [
+          [
+            -31.600000381469727,
+            -34.0,
+            48.400001525878906
+          ],
+          [
+            31.0,
+            34.0,
+            102.0
+          ]
+        ],
+        "OBJ_bounds_max_difference_mm": 1.5258789076710855e-06,
+        "OBJ_volume_difference_mm3": 0.008691639590324485
+      }
+    },
+    {
+      "part": "radxa_M2p5_0",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 129.85096465180007,
+      "bounds_mm": [
+        [
+          -35.0,
+          -31.450100000000003,
+          68.71319
+        ],
+        [
+          -20.5,
+          -26.4501,
+          74.48669
+        ]
+      ],
+      "density_kg_m3": 7850.001204508059,
+      "mass_kg": 0.0010193302289231655,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.5777378743753179e-09,
+      "inertia_max_abs_error_kg_m2": 6.3172548886700805e-15,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+      "asset_sha256": "7f442442cff546ec35a83eada3cbc60187ec4401eceb22bc6c35db4e625d7e03"
+    },
+    {
+      "part": "radxa_M2p5_1",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 129.8510146518003,
+      "bounds_mm": [
+        [
+          -35.0,
+          -31.40006,
+          91.56327999999999
+        ],
+        [
+          -20.5,
+          -26.40006,
+          97.33679000000001
+        ]
+      ],
+      "density_kg_m3": 7849.998181812699,
+      "mass_kg": 0.0010193302289231668,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8129196992521255e-09,
+      "inertia_max_abs_error_kg_m2": 5.325437626977202e-15,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+      "asset_sha256": "bbdffc5825d0aa2771f176b79a8d925e5bb85cec7411e81c32a796d49ec068c1"
+    },
+    {
+      "part": "radxa_M2p5_2",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 129.85101465179994,
+      "bounds_mm": [
+        [
+          -35.0,
+          26.399929999999998,
+          91.61332
+        ],
+        [
+          -20.5,
+          31.39993,
+          97.38682999999999
+        ]
+      ],
+      "density_kg_m3": 7849.9981818127135,
+      "mass_kg": 0.001019330228923167,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8129196888437846e-09,
+      "inertia_max_abs_error_kg_m2": 5.32543859643288e-15,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+      "asset_sha256": "5b23f8aac083088f80d1c0bd7d526f017c0432bf4ff633ea0f60a1792ff73021"
+    },
+    {
+      "part": "radxa_M2p5_3",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 129.8509397502001,
+      "bounds_mm": [
+        [
+          -35.0,
+          26.399929999999998,
+          68.71319
+        ],
+        [
+          -20.5,
+          31.39993,
+          74.48669
+        ]
+      ],
+      "density_kg_m3": 7850.002709907945,
+      "mass_kg": 0.0010193302289231655,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.128055419907792e-09,
+      "inertia_max_abs_error_kg_m2": 4.344111741925116e-15,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+      "asset_sha256": "c254830507cdb5135edea5fb974338ed85fef8001cd76725f03e9335ca7ce0b6"
+    },
+    {
+      "part": "carrier_M2_0",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 64.67176714160007,
+      "bounds_mm": [
+        [
+          -10.3094,
+          -2.0,
+          40.800000000000004
+        ],
+        [
+          -5.6906,
+          2.0,
+          52.400000000000006
+        ]
+      ],
+      "density_kg_m3": 7850.009757722448,
+      "mass_kg": 0.0005076740031107144,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.73056385088999e-09,
+      "inertia_max_abs_error_kg_m2": 7.903263703182125e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominalM2x10body/carrierbolt andcaptivenut; printfit unverified",
+      "asset_sha256": "9b4243a0951c3cf84f1dd90c0eb3eec012f2d5a03102e170e4aed3fb74634f6e"
+    },
+    {
+      "part": "carrier_M2_1",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 2,
+      "volume_mm3": 64.67176714160006,
+      "bounds_mm": [
+        [
+          5.6906,
+          -2.0,
+          40.800000000000004
+        ],
+        [
+          10.3094,
+          2.0,
+          52.400000000000006
+        ]
+      ],
+      "density_kg_m3": 7850.009757722446,
+      "mass_kg": 0.0005076740031107143,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.73056385088999e-09,
+      "inertia_max_abs_error_kg_m2": 7.9032635780710575e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "nominalM2x10body/carrierbolt andcaptivenut; printfit unverified",
+      "asset_sha256": "1f935d7c75d35b072bd91063e960f93b2e29d8cbe3257d269e51d7264f81253a"
+    },
+    {
+      "part": "tab5_M3_visible_0",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 133.18706909880012,
+      "bounds_mm": [
+        [
+          29.0,
+          -38.75,
+          72.25
+        ],
+        [
+          41.0,
+          -33.25,
+          77.75
+        ]
+      ],
+      "density_kg_m3": 7850.000072838067,
+      "mass_kg": 0.001045518502126669,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8897150644580094e-10,
+      "inertia_max_abs_error_kg_m2": 2.934508124849938e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+      "asset_sha256": "c64f042c31ce7dd439b92df7d8655fa037be82d91ac24225075253544ca77241"
+    },
+    {
+      "part": "tab5_M3_visible_1",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 133.1870690988001,
+      "bounds_mm": [
+        [
+          29.0,
+          33.25,
+          72.25
+        ],
+        [
+          41.0,
+          38.75,
+          77.75
+        ]
+      ],
+      "density_kg_m3": 7850.000072838071,
+      "mass_kg": 0.0010455185021266689,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8897152032358875e-10,
+      "inertia_max_abs_error_kg_m2": 2.934556812700793e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+      "asset_sha256": "0c21abcdf91f10b914e512ac4b976fa9e013321ed79c678e893dc5d6f7c00c5a"
+    },
+    {
+      "part": "tab5_M3_visible_2",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 133.18706909880015,
+      "bounds_mm": [
+        [
+          29.0,
+          -38.75,
+          119.25
+        ],
+        [
+          41.0,
+          -33.25,
+          124.75
+        ]
+      ],
+      "density_kg_m3": 7850.000072838065,
+      "mass_kg": 0.0010455185021266689,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8897150644580094e-10,
+      "inertia_max_abs_error_kg_m2": 2.934508133121744e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+      "asset_sha256": "43271fb3cf23febcf947026d4e05d1bf2390581ad8e63a9cc5cb587ed5cd6509"
+    },
+    {
+      "part": "tab5_M3_visible_3",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 133.1870690988001,
+      "bounds_mm": [
+        [
+          29.0,
+          33.25,
+          119.25
+        ],
+        [
+          41.0,
+          38.75,
+          124.75
+        ]
+      ],
+      "density_kg_m3": 7850.000072838067,
+      "mass_kg": 0.0010455185021266686,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.8897152032358875e-10,
+      "inertia_max_abs_error_kg_m2": 2.934183456459511e-16,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+      "asset_sha256": "f4bbba2407660b924f6df4914e1f942a82a3ac13b6af5947179e28762bfa51c8"
+    },
+    {
+      "part": "protection_mount_pad",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 370.22306163610057,
+      "bounds_mm": [
+        [
+          8.0,
+          -17.0,
+          50.8
+        ],
+        [
+          30.0,
+          17.0,
+          51.3
+        ]
+      ],
+      "density_kg_m3": 1215.4834385825332,
+      "mass_kg": 0.00045000000000000037,
+      "mass_abs_error_kg": 5.421010862427522e-20,
+      "COM_max_abs_error_m": 2.617641832458606e-10,
+      "inertia_max_abs_error_kg_m2": 1.1842918934897027e-15,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "provisional insulated adhesive mountingpad; retention/temperatureunverified",
+      "asset_sha256": "2d30c8f5d51676dd9f8838f0f00fe297617e726a22ec12192e8fdd3cd58b60dc"
+    },
+    {
+      "part": "protection_tray",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 1891.9398560550378,
+      "bounds_mm": [
+        [
+          8.0,
+          -17.0,
+          51.3
+        ],
+        [
+          30.0,
+          17.0,
+          56.0
+        ]
+      ],
+      "density_kg_m3": 1239.999981716462,
+      "mass_kg": 0.0023460053869168948,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.5204652601140687e-10,
+      "inertia_max_abs_error_kg_m2": 8.095829736782276e-15,
+      "positive_inertia": true,
+      "proxy": false,
+      "source": "provisional modular protection-board support; no fixedconnectorcutout",
+      "asset_sha256": "fe50056124bbf2bb5e5892fdf467877901bb8088fa92c89e49301bb103229d81",
+      "STL": {
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "bounds_mm": [
+          [
+            8.0,
+            -17.0,
+            51.29999923706055
+          ],
+          [
+            30.0,
+            17.0,
+            56.0
+          ]
+        ],
+        "OBJ_bounds_max_difference_mm": 7.629394502828291e-07,
+        "OBJ_volume_difference_mm3": 0.0010629995035742468
+      }
+    },
+    {
+      "part": "protection_pcb_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 960.0000000000002,
+      "bounds_mm": [
+        [
+          9.0,
+          -15.0,
+          56.0
+        ],
+        [
+          29.0,
+          15.0,
+          57.6
+        ]
+      ],
+      "density_kg_m3": 1874.9999999999993,
+      "mass_kg": 0.0018000000000000043,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.6653345369377348e-16,
+      "inertia_max_abs_error_kg_m2": 2.337281538829835e-20,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "20x30mm board allocation; source-side fuse/rating/circuit TBD",
+      "asset_sha256": "f615139e68325eaf9fd3b5c68053252f0d66ff6560af89e38fb1053160a6ba70"
+    },
+    {
+      "part": "branch_protection_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 490.00000000000074,
+      "bounds_mm": [
+        [
+          16.0,
+          -4.0,
+          57.6
+        ],
+        [
+          23.0,
+          6.0,
+          64.60000000000001
+        ]
+      ],
+      "density_kg_m3": 4489.79591836734,
+      "mass_kg": 0.002199999999999998,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 2.0816681711721685e-17,
+      "inertia_max_abs_error_kg_m2": 3.332657748416945e-18,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "protectioncomponentallocation; no electricalratingsselected",
+      "asset_sha256": "0e7643b42b81d26488c431f3c812082e0dc31eff90625d2bec7ff61d8f5b0457"
+    },
+    {
+      "part": "power_input_connector_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 336.0000000000004,
+      "bounds_mm": [
+        [
+          9.0,
+          -13.0,
+          57.6
+        ],
+        [
+          15.0,
+          -5.0,
+          64.60000000000001
+        ]
+      ],
+      "density_kg_m3": 2380.9523809523785,
+      "mass_kg": 0.000799999999999999,
+      "mass_abs_error_kg": 1.0842021724855044e-19,
+      "COM_max_abs_error_m": 2.0816681711721685e-17,
+      "inertia_max_abs_error_kg_m2": 3.349643075115109e-19,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "modular2poleadapterenvelope; family/pitchnotselected",
+      "asset_sha256": "a03ff5ce5d21b81e335b93fd67d874cbf005dc2731213f4dcd946bf3f6bdd639"
+    },
+    {
+      "part": "power_output_connector_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 336.0000000000003,
+      "bounds_mm": [
+        [
+          23.0,
+          7.0,
+          57.6
+        ],
+        [
+          29.0,
+          15.0,
+          64.60000000000001
+        ]
+      ],
+      "density_kg_m3": 2380.952380952377,
+      "mass_kg": 0.000799999999999999,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.469446951953614e-17,
+      "inertia_max_abs_error_kg_m2": 3.359519611628992e-19,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "modular2poleadapterenvelope; family/pitchnotselected",
+      "asset_sha256": "611ce4139b399cfc459bcc132070831e5c808fcfb1768da8fa8c656ef1a9e29a"
+    },
+    {
+      "part": "power_feedthrough_grommet",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 163.99450008359997,
+      "bounds_mm": [
+        [
+          -24.5,
+          -4.5,
+          45.5
+        ],
+        [
+          -15.5,
+          4.5,
+          51.3
+        ]
+      ],
+      "density_kg_m3": 2134.2179147567713,
+      "mass_kg": 0.00035000000000000027,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 4.163336342344337e-17,
+      "inertia_max_abs_error_kg_m2": 1.6477501164091233e-16,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "nominal\u00d87feedthrough with\u00d84bore, flexiblegrommet rigidproxy; fitTBD",
+      "asset_sha256": "20c27f01065453c8f4ea3ae59826445fff67ac40bc7bf3fd7054fcc69cdfae43"
+    },
+    {
+      "part": "tab5_m5bus_plug_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 2106.0,
+      "bounds_mm": [
+        [
+          32.0,
+          -19.5,
+          50.0
+        ],
+        [
+          41.0,
+          19.5,
+          56.0
+        ]
+      ],
+      "density_kg_m3": 949.6676163342829,
+      "mass_kg": 0.0019999999999999996,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.3877787807814457e-17,
+      "inertia_max_abs_error_kg_m2": 3.0704944337968387e-21,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "rear drawing-scaledM5Bus2x15plug allocation; housing/engagementTBD",
+      "asset_sha256": "28b69ff25f6ae06f6cfb6ecc3e6e923b9d4c03f73c607bfc43c2e8994079cece"
+    },
+    {
+      "part": "tab5_J7_plug_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 396.0000000000002,
+      "bounds_mm": [
+        [
+          35.0,
+          -5.5,
+          58.3
+        ],
+        [
+          41.0,
+          5.5,
+          64.3
+        ]
+      ],
+      "density_kg_m3": 1767.6767676767665,
+      "mass_kg": 0.0006999999999999992,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 4.85722573273506e-17,
+      "inertia_max_abs_error_kg_m2": 3.3272843831578006e-19,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "J7 approximate drawingposition, supplied1.25mm6Pplug; exacthousingTBD",
+      "asset_sha256": "790cad5db367c6ea7a98eac4b3a6d22aa8f69f16da57dc32086f018c47b72165"
+    },
+    {
+      "part": "uart_hat_takeoff_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 588.0,
+      "bounds_mm": [
+        [
+          -3.0,
+          -13.0,
+          92.0
+        ],
+        [
+          3.0,
+          1.0,
+          99.0
+        ]
+      ],
+      "density_kg_m3": 1360.544217687075,
+      "mass_kg": 0.0008000000000000009,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.1102230246251565e-16,
+      "inertia_max_abs_error_kg_m2": 3.3333360365192386e-18,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "GPIO16/18/GNDtakeoff orinterposer allocation; HATaccessnotconfirmed",
+      "asset_sha256": "ff864268ec0dca93416884c24d91dda7ce05ffd40032c90f31858b8e0b4962ca"
+    },
+    {
+      "part": "robot_power_pigtail",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 175.56651251861135,
+      "bounds_mm": [
+        [
+          -21.1,
+          -25.1,
+          42.2
+        ],
+        [
+          1.1,
+          1.1,
+          57.1
+        ]
+      ],
+      "density_kg_m3": 8543.77055442728,
+      "mass_kg": 0.0015000000000000002,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 1.1381640786095604e-09,
+      "inertia_max_abs_error_kg_m2": 2.990878854909888e-13,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "2wirepowerloom envelope; robot-end matinglocationTBD, no actual batteryterminal claimed",
+      "asset_sha256": "226757b5b5691e4c3f10341e239ba19d494e204b50ec0f42080a0b367b4bf0db"
+    },
+    {
+      "part": "branch_input_loom",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 57.7276697587419,
+      "bounds_mm": [
+        [
+          6.8999999999999995,
+          -25.1,
+          54.9
+        ],
+        [
+          13.100000000000001,
+          -10.9,
+          61.1
+        ]
+      ],
+      "density_kg_m3": 9527.493527775943,
+      "mass_kg": 0.0005500000000000005,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 5.106482563188575e-09,
+      "inertia_max_abs_error_kg_m2": 4.774721517272283e-13,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "short protectedbranchinput frominternalreplaceableadapter toprotectionmodule",
+      "asset_sha256": "384c82bdde2f441e6bd712988ddd0e1e524354a83763ddf1b921cf5f09157082"
+    },
+    {
+      "part": "tab5_power_loom",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 63.923312712354516,
+      "bounds_mm": [
+        [
+          25.1,
+          3.1,
+          59.1
+        ],
+        [
+          35.9,
+          18.9,
+          66.9
+        ]
+      ],
+      "density_kg_m3": 14079.37044892947,
+      "mass_kg": 0.000900000000000002,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 3.872913392766186e-09,
+      "inertia_max_abs_error_kg_m2": 5.025998578533026e-13,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "J7powerpair route; supplied6Punused4wireendsindividuallyinsulated, ratingTBD",
+      "asset_sha256": "f5ab4696a0a04334dbe430a13ca3ba9514363e0fdd21b9bef3e53dcc83140851"
+    },
+    {
+      "part": "uart_loom",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 211.51258648171532,
+      "bounds_mm": [
+        [
+          -1.0,
+          -26.0,
+          52.0
+        ],
+        [
+          33.0,
+          -6.0,
+          97.0
+        ]
+      ],
+      "density_kg_m3": 6618.991442956155,
+      "mass_kg": 0.0013999999999999993,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 6.0377582516979444e-09,
+      "inertia_max_abs_error_kg_m2": 1.6592353602633956e-13,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "3wire3.3VUART+GND loom; keepawayfrommotorleadroute, no RS232voltage",
+      "asset_sha256": "c42cd15636b9bd9980d088c4c5b48ed062dcce4e55d75a310e3ebe607d6344eb"
+    },
+    {
+      "part": "robot_power_handoff_proxy",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 384.0,
+      "bounds_mm": [
+        [
+          0.0,
+          -28.0,
+          53.0
+        ],
+        [
+          8.0,
+          -20.0,
+          59.0
+        ]
+      ],
+      "density_kg_m3": 1822.9166666666665,
+      "mass_kg": 0.0007000000000000005,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 6.245004513516506e-17,
+      "inertia_max_abs_error_kg_m2": 3.3772957229927567e-19,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "removable source-side pigtail endpoint allocation, actual branchconnectorlocationTBD",
+      "asset_sha256": "607133484571a28f57d69015aa09317fc534a516a8050f21d0fc2cb9df10dc13"
+    },
+    {
+      "part": "unresolved_fastener_mass",
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1,
+      "volume_mm3": 144.0,
+      "bounds_mm": [
+        [
+          34.0,
+          -3.0,
+          99.0
+        ],
+        [
+          38.0,
+          3.0,
+          105.0
+        ]
+      ],
+      "density_kg_m3": 6944.444444444443,
+      "mass_kg": 0.0009999999999999966,
+      "mass_abs_error_kg": 0.0,
+      "COM_max_abs_error_m": 4.163336342344337e-17,
+      "inertia_max_abs_error_kg_m2": 3.4034842611861855e-19,
+      "positive_inertia": true,
+      "proxy": true,
+      "source": "1g allowanceforunknowninternalM3engagement andsmallclips, nofitclaim",
+      "asset_sha256": "d1b4bacf021e0c2a6ba7ddaf217b93b272d2112be6907d331af7416f1d3d0529"
+    }
+  ],
+  "fixed_original_CAD": [
+    {
+      "mesh": "seeed_bearing__configuration__22x16x4",
+      "geom": 1,
+      "volume_mm3": 492.97570861673415,
+      "bounds_mm": [
+        [
+          -4.999999723531224,
+          6.500000430824255,
+          -4.999999884800626
+        ],
+        [
+          17.000000157259546,
+          28.500000311615022,
+          -0.9999996948108214
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "right_shell",
+      "geom": 2,
+      "volume_mm3": 11216.908052877747,
+      "bounds_mm": [
+        [
+          -46.39785590038405,
+          -32.26448876141249,
+          0.3337016389295955
+        ],
+        [
+          34.50000027477325,
+          -0.49999913835887744,
+          42.026369519138825
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "banana_pcb_locker",
+      "geom": 3,
+      "volume_mm3": 459.6500377820703,
+      "bounds_mm": [
+        [
+          -32.29999944907149,
+          -27.025033013734685,
+          31.452317464602753
+        ],
+        [
+          -28.499998453673918,
+          27.02503256329563,
+          38.10468383456544
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "trunk_base",
+      "geom": 4,
+      "volume_mm3": 1415.119421663436,
+      "bounds_mm": [
+        [
+          -19.000000106943347,
+          -28.499999823657284,
+          -1.000000120198477
+        ],
+        [
+          17.000000581815133,
+          28.50000020614527,
+          2.0000005103608802
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "xl330",
+      "geom": 5,
+      "volume_mm3": 15676.038060858014,
+      "bounds_mm": [
+        [
+          -18.499999743823746,
+          7.500000223517409,
+          -3.000000040072365
+        ],
+        [
+          15.499999800404705,
+          27.499999776482593,
+          26.00000004622438
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "power_support",
+      "geom": 6,
+      "volume_mm3": 10493.928222277682,
+      "bounds_mm": [
+        [
+          -31.000000363481274,
+          -27.25000025215144,
+          -44.06763147879503
+        ],
+        [
+          -13.999998819019478,
+          27.249999066192906,
+          39.42214811182182
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "np_f970",
+      "geom": 8,
+      "volume_mm3": 51555.51478754488,
+      "bounds_mm": [
+        [
+          -46.8329362264209,
+          -19.308149143572194,
+          -39.37972824811312
+        ],
+        [
+          -25.075854217778456,
+          19.30033117189325,
+          31.671268035869062
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "xl330",
+      "geom": 10,
+      "volume_mm3": 15676.038060858014,
+      "bounds_mm": [
+        [
+          -18.499999743823746,
+          -27.499999776482593,
+          -3.000000040072365
+        ],
+        [
+          15.499999800404705,
+          -7.500000223517409,
+          26.00000004622438
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "left_shell",
+      "geom": 11,
+      "volume_mm3": 11388.33307285882,
+      "bounds_mm": [
+        [
+          -46.39006396702182,
+          -1.9500009709757133,
+          0.2573475766295269
+        ],
+        [
+          34.50000184373503,
+          31.7644884816089,
+          41.94786871128151
+        ]
+      ],
+      "watertight": true
+    },
+    {
+      "mesh": "seeed_bearing__configuration__22x16x4",
+      "geom": 12,
+      "volume_mm3": 492.97570861673415,
+      "bounds_mm": [
+        [
+          -4.999999723531224,
+          -28.499999569175746,
+          -4.999999884800626
+        ],
+        [
+          17.000000157259546,
+          -6.499999688384978,
+          -0.9999996948108214
+        ]
+      ],
+      "watertight": true
+    }
+  ],
+  "fixed_CAD_intersections_over_0p001_mm3": [],
+  "assembly_solid_intersections_over_0p001_mm3": [
+    {
+      "a": "power_input_connector_proxy",
+      "b": "branch_input_loom",
+      "intersection_mm3": 6.0107550767091595,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "power_output_connector_proxy",
+      "b": "tab5_power_loom",
+      "intersection_mm3": 10.885699019304381,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "tab5_m5bus_plug_proxy",
+      "b": "uart_loom",
+      "intersection_mm3": 2.5355692404418955,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "tab5_J7_plug_proxy",
+      "b": "tab5_power_loom",
+      "intersection_mm3": 2.3295321346634594,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "uart_hat_takeoff_proxy",
+      "b": "uart_loom",
+      "intersection_mm3": 20.08216278088721,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "robot_power_pigtail",
+      "b": "robot_power_handoff_proxy",
+      "intersection_mm3": 4.223533279331485,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    },
+    {
+      "a": "branch_input_loom",
+      "b": "robot_power_handoff_proxy",
+      "intersection_mm3": 2.747820155342055,
+      "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+    }
+  ],
+  "total_model_mass_kg": 0.736537382960085,
+  "method": "Independent exported OBJ/STL reread plus Manifold exact triangle-surface booleans in millimetres; fixed original geometry uses transformed compiled meshes. Colliders are not substituted for physical solids. Overlaps <=0.001 mm3 treated as numerical residue. Masses use declared component density or lumped mass, not weighed hardware.",
+  "STL_inventory": {
+    "expected": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "electronics_carrier_mm.stl",
+      "protection_tray_mm.stl",
+      "rear_cover_mm.stl"
+    ],
+    "missing": [],
+    "unexpected": [],
+    "expected_new": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "electronics_carrier_mm.stl",
+      "protection_tray_mm.stl"
+    ],
+    "expected_retained": [
+      "rear_cover_mm.stl"
+    ]
+  },
+  "all_printed_STLs_single_watertight_solids": true,
+  "all_mass_inertia_agree_with_export_precision": true,
+  "retained_STL_copies": [
+    {
+      "part": "rear_cover",
+      "status": "retained unmodified original printed cover",
+      "path": "stl/rear_cover_mm.stl",
+      "source": "../portrait_print/stl/rear_cover_mm.stl",
+      "sha256": "59ec60e518641424f237225f25acfb9c3240130d01795a192e4f4ab176ac0a25",
+      "source_sha256": "59ec60e518641424f237225f25acfb9c3240130d01795a192e4f4ab176ac0a25",
+      "byte_identical_to_prior": true,
+      "watertight": true,
+      "winding_consistent": true,
+      "components": 1
+    }
+  ]
+}

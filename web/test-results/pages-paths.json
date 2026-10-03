@@ -1,0 +1,152 @@
+{
+  "pass": true,
+  "base": "/microduck-stackchan/",
+  "assets": [
+    {
+      "asset": "index.html",
+      "status": 200,
+      "bytes": 5075
+    },
+    {
+      "asset": "app.js",
+      "status": 200,
+      "bytes": 7792
+    },
+    {
+      "asset": "style.css",
+      "status": 200,
+      "bytes": 8999
+    },
+    {
+      "asset": "viewer.js",
+      "status": 200,
+      "bytes": 6456
+    },
+    {
+      "asset": "sim-worker.js",
+      "status": 200,
+      "bytes": 4343
+    },
+    {
+      "asset": "physics.js",
+      "status": 200,
+      "bytes": 5308
+    },
+    {
+      "asset": "control.js",
+      "status": 200,
+      "bytes": 1178
+    },
+    {
+      "asset": "icons.js",
+      "status": 200,
+      "bytes": 6802
+    },
+    {
+      "asset": "screen-texture.js",
+      "status": 200,
+      "bytes": 268
+    },
+    {
+      "asset": "validation-report.json",
+      "status": 200,
+      "bytes": 31479
+    },
+    {
+      "asset": "baseline-manifest.json",
+      "status": 200,
+      "bytes": 2353
+    },
+    {
+      "asset": "NOTICE.txt",
+      "status": 200,
+      "bytes": 3433
+    },
+    {
+      "asset": "vendor/mujoco/mujoco.js",
+      "status": 200,
+      "bytes": 292374
+    },
+    {
+      "asset": "vendor/mujoco/mujoco.wasm",
+      "status": 200,
+      "bytes": 10143561
+    },
+    {
+      "asset": "vendor/ort/ort.wasm.min.mjs",
+      "status": 200,
+      "bytes": 50126
+    },
+    {
+      "asset": "vendor/ort/ort-wasm-simd-threaded.mjs",
+      "status": 200,
+      "bytes": 24381
+    },
+    {
+      "asset": "vendor/ort/ort-wasm-simd-threaded.wasm",
+      "status": 200,
+      "bytes": 14239897
+    },
+    {
+      "asset": "vendor/three/three.module.js",
+      "status": 200,
+      "bytes": 603113
+    },
+    {
+      "asset": "vendor/three/three.core.js",
+      "status": 200,
+      "bytes": 1403455
+    },
+    {
+      "asset": "vendor/three/OrbitControls.js",
+      "status": 200,
+      "bytes": 38703
+    },
+    {
+      "asset": "model/config.json",
+      "status": 200,
+      "bytes": 11146
+    },
+    {
+      "asset": "model/model.mjb.gz.part1",
+      "status": 200,
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part2",
+      "status": 200,
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part3",
+      "status": 200,
+      "bytes": 6548968
+    },
+    {
+      "asset": "model/model.mjb.gz.part4",
+      "status": 200,
+      "bytes": 6548966
+    },
+    {
+      "asset": "model/policy.onnx",
+      "status": 200,
+      "bytes": 754004
+    },
+    {
+      "asset": "model/screen.png",
+      "status": 200,
+      "bytes": 30713
+    },
+    {
+      "asset": "model/visual.bin.gz",
+      "status": 200,
+      "bytes": 4317099
+    },
+    {
+      "asset": "model/visual.json",
+      "status": 200,
+      "bytes": 102560
+    }
+  ],
+  "note": "HTTP asset-path and byte-integrity check, not browser execution"
+}

@@ -1,0 +1,219 @@
+{
+  "mujoco_native_version": "3.10.0",
+  "mujoco_wasm_version": "3.10.0",
+  "onnx_native_version": "1.30.0",
+  "onnx_web_version": "1.30.0",
+  "model_counts": {
+    "nq": 17,
+    "nv": 16,
+    "nu": 10,
+    "na": 0,
+    "nbody": 52,
+    "njnt": 11,
+    "ngeom": 1687,
+    "nsite": 3,
+    "ncam": 0,
+    "nlight": 1,
+    "nmesh": 1649,
+    "nmeshvert": 173689,
+    "nmeshface": 341442,
+    "npair": 53992,
+    "nexclude": 0,
+    "neq": 0,
+    "nsensor": 6,
+    "nsensordata": 19,
+    "nkey": 4,
+    "nmocap": 0,
+    "ntendon": 0,
+    "nwrap": 0,
+    "ntex": 3,
+    "nmat": 40,
+    "nconmax": -1,
+    "njmax": -1
+  },
+  "compiled_array_checks": [
+    {
+      "key": "body_mass",
+      "match": true
+    },
+    {
+      "key": "body_inertia",
+      "match": true
+    },
+    {
+      "key": "body_ipos",
+      "match": true
+    },
+    {
+      "key": "body_iquat",
+      "match": true
+    },
+    {
+      "key": "jnt_range",
+      "match": true
+    },
+    {
+      "key": "jnt_axis",
+      "match": true
+    },
+    {
+      "key": "jnt_pos",
+      "match": true
+    },
+    {
+      "key": "dof_armature",
+      "match": true
+    },
+    {
+      "key": "dof_solref",
+      "match": true
+    },
+    {
+      "key": "dof_solimp",
+      "match": true
+    },
+    {
+      "key": "actuator_gainprm",
+      "match": true
+    },
+    {
+      "key": "actuator_biasprm",
+      "match": true
+    },
+    {
+      "key": "actuator_forcerange",
+      "match": true
+    },
+    {
+      "key": "actuator_gear",
+      "match": true
+    },
+    {
+      "key": "actuator_trnid",
+      "match": true
+    },
+    {
+      "key": "geom_type",
+      "match": true
+    },
+    {
+      "key": "geom_contype",
+      "match": true
+    },
+    {
+      "key": "geom_conaffinity",
+      "match": true
+    },
+    {
+      "key": "geom_friction",
+      "match": true
+    },
+    {
+      "key": "geom_solref",
+      "match": true
+    },
+    {
+      "key": "geom_solimp",
+      "match": true
+    },
+    {
+      "key": "geom_pos",
+      "match": true
+    },
+    {
+      "key": "geom_quat",
+      "match": true
+    },
+    {
+      "key": "geom_size",
+      "match": true
+    },
+    {
+      "key": "pair_geom1",
+      "match": true
+    },
+    {
+      "key": "pair_geom2",
+      "match": true
+    },
+    {
+      "key": "pair_dim",
+      "match": true
+    },
+    {
+      "key": "pair_friction",
+      "match": true
+    },
+    {
+      "key": "pair_solref",
+      "match": true
+    },
+    {
+      "key": "pair_solimp",
+      "match": true
+    },
+    {
+      "key": "pair_margin",
+      "match": true
+    },
+    {
+      "key": "pair_gap",
+      "match": true
+    },
+    {
+      "key": "mesh_vert",
+      "match": true
+    },
+    {
+      "key": "mesh_face",
+      "match": true
+    },
+    {
+      "key": "mesh_pos",
+      "match": true
+    },
+    {
+      "key": "mesh_quat",
+      "match": true
+    },
+    {
+      "key": "sensor_type",
+      "match": true
+    },
+    {
+      "key": "sensor_adr",
+      "match": true
+    }
+  ],
+  "open_loop_controls": 50,
+  "open_loop_substeps": 200,
+  "open_loop_seconds": 1,
+  "max_errors": {
+    "initial_qpos": 0,
+    "initial_qvel": 0,
+    "initial_ctrl": 0,
+    "initial_qfrc_actuator": 0,
+    "initial_qfrc_bias": 0,
+    "initial_qfrc_constraint": 0,
+    "initial_obs": 0,
+    "obs": 0,
+    "target": 0,
+    "pre_qpos": 1.061650767297806e-15,
+    "pre_qvel": 3.5860203695392556e-14,
+    "pre_ctrl": 1.915134717478395e-15,
+    "pre_qfrc_actuator": 1.915134717478395e-15,
+    "pre_qfrc_bias": 2.6645352591003757e-15,
+    "pre_qfrc_constraint": 4.2454928461665986e-13,
+    "ctrl": 1.915134717478395e-15,
+    "friction": 1.394717674685353e-15,
+    "damping": 0,
+    "post_qpos": 1.061650767297806e-15,
+    "post_qvel": 2.248201624865942e-14,
+    "post_ctrl": 1.915134717478395e-15,
+    "post_qfrc_actuator": 1.915134717478395e-15,
+    "post_qfrc_bias": 8.881784197001252e-16,
+    "post_qfrc_constraint": 2.2726265314076954e-13
+  },
+  "onnx_max_action_error": 1.7881393432617188e-7,
+  "pass": true
+}

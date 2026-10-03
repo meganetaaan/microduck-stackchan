@@ -1,0 +1,1155 @@
+{
+  "status": "Physics, Worker and project-path checks passed; browser visual QA remains unverified",
+  "browser_visual_qa": {
+    "completed": false,
+    "reason": "Headless Chromium could not start in the preparation environment (socket permission). Browser screenshot, touch and visual layout checks remain unverified; the GitHub workflow includes the reproducible test."
+  },
+  "versions": {
+    "mujoco": "3.10.0",
+    "onnxruntime-web": "1.30.0",
+    "three": "0.180.0"
+  },
+  "physics_parity": {
+    "mujoco_native_version": "3.10.0",
+    "mujoco_wasm_version": "3.10.0",
+    "onnx_native_version": "1.30.0",
+    "onnx_web_version": "1.30.0",
+    "model_counts": {
+      "nq": 17,
+      "nv": 16,
+      "nu": 10,
+      "na": 0,
+      "nbody": 52,
+      "njnt": 11,
+      "ngeom": 1687,
+      "nsite": 3,
+      "ncam": 0,
+      "nlight": 1,
+      "nmesh": 1649,
+      "nmeshvert": 173689,
+      "nmeshface": 341442,
+      "npair": 53992,
+      "nexclude": 0,
+      "neq": 0,
+      "nsensor": 6,
+      "nsensordata": 19,
+      "nkey": 4,
+      "nmocap": 0,
+      "ntendon": 0,
+      "nwrap": 0,
+      "ntex": 3,
+      "nmat": 40,
+      "nconmax": -1,
+      "njmax": -1
+    },
+    "compiled_array_checks": [
+      {
+        "key": "body_mass",
+        "match": true
+      },
+      {
+        "key": "body_inertia",
+        "match": true
+      },
+      {
+        "key": "body_ipos",
+        "match": true
+      },
+      {
+        "key": "body_iquat",
+        "match": true
+      },
+      {
+        "key": "jnt_range",
+        "match": true
+      },
+      {
+        "key": "jnt_axis",
+        "match": true
+      },
+      {
+        "key": "jnt_pos",
+        "match": true
+      },
+      {
+        "key": "dof_armature",
+        "match": true
+      },
+      {
+        "key": "dof_solref",
+        "match": true
+      },
+      {
+        "key": "dof_solimp",
+        "match": true
+      },
+      {
+        "key": "actuator_gainprm",
+        "match": true
+      },
+      {
+        "key": "actuator_biasprm",
+        "match": true
+      },
+      {
+        "key": "actuator_forcerange",
+        "match": true
+      },
+      {
+        "key": "actuator_gear",
+        "match": true
+      },
+      {
+        "key": "actuator_trnid",
+        "match": true
+      },
+      {
+        "key": "geom_type",
+        "match": true
+      },
+      {
+        "key": "geom_contype",
+        "match": true
+      },
+      {
+        "key": "geom_conaffinity",
+        "match": true
+      },
+      {
+        "key": "geom_friction",
+        "match": true
+      },
+      {
+        "key": "geom_solref",
+        "match": true
+      },
+      {
+        "key": "geom_solimp",
+        "match": true
+      },
+      {
+        "key": "geom_pos",
+        "match": true
+      },
+      {
+        "key": "geom_quat",
+        "match": true
+      },
+      {
+        "key": "geom_size",
+        "match": true
+      },
+      {
+        "key": "pair_geom1",
+        "match": true
+      },
+      {
+        "key": "pair_geom2",
+        "match": true
+      },
+      {
+        "key": "pair_dim",
+        "match": true
+      },
+      {
+        "key": "pair_friction",
+        "match": true
+      },
+      {
+        "key": "pair_solref",
+        "match": true
+      },
+      {
+        "key": "pair_solimp",
+        "match": true
+      },
+      {
+        "key": "pair_margin",
+        "match": true
+      },
+      {
+        "key": "pair_gap",
+        "match": true
+      },
+      {
+        "key": "mesh_vert",
+        "match": true
+      },
+      {
+        "key": "mesh_face",
+        "match": true
+      },
+      {
+        "key": "mesh_pos",
+        "match": true
+      },
+      {
+        "key": "mesh_quat",
+        "match": true
+      },
+      {
+        "key": "sensor_type",
+        "match": true
+      },
+      {
+        "key": "sensor_adr",
+        "match": true
+      }
+    ],
+    "open_loop_controls": 50,
+    "open_loop_substeps": 200,
+    "open_loop_seconds": 1,
+    "max_errors": {
+      "initial_qpos": 0,
+      "initial_qvel": 0,
+      "initial_ctrl": 0,
+      "initial_qfrc_actuator": 0,
+      "initial_qfrc_bias": 0,
+      "initial_qfrc_constraint": 0,
+      "initial_obs": 0,
+      "obs": 0,
+      "target": 0,
+      "pre_qpos": 1.061650767297806e-15,
+      "pre_qvel": 3.5860203695392556e-14,
+      "pre_ctrl": 1.915134717478395e-15,
+      "pre_qfrc_actuator": 1.915134717478395e-15,
+      "pre_qfrc_bias": 2.6645352591003757e-15,
+      "pre_qfrc_constraint": 4.2454928461665986e-13,
+      "ctrl": 1.915134717478395e-15,
+      "friction": 1.394717674685353e-15,
+      "damping": 0,
+      "post_qpos": 1.061650767297806e-15,
+      "post_qvel": 2.248201624865942e-14,
+      "post_ctrl": 1.915134717478395e-15,
+      "post_qfrc_actuator": 1.915134717478395e-15,
+      "post_qfrc_bias": 8.881784197001252e-16,
+      "post_qfrc_constraint": 2.2726265314076954e-13
+    },
+    "onnx_max_action_error": 1.7881393432617188e-7,
+    "pass": true
+  },
+  "steady_gaits": {
+    "description": "MuJoCo3.10+ORTweb1.30 WASM closed-loop,8gaits×3noisyseeds×20s; independent native comparison",
+    "cases": [
+      {
+        "gait": "stand",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 2.1009211394411063,
+        "max_torque_nm": 0.10134924212979946,
+        "mean_body_velocity": [
+          0.00003624586436058816,
+          0.000005138037300836551,
+          -0.0002529832163295974
+        ],
+        "native_mean_body_velocity": [
+          0.00003624588224979173,
+          0.0000051380340993871575,
+          -0.000252983070848474
+        ],
+        "mean_velocity_difference": [
+          1.788920357334578e-11,
+          3.2014493934009493e-12,
+          1.454811234045776e-10
+        ],
+        "terminal_qpos_max_difference": 4.8931658256506916e-9,
+        "pass": true
+      },
+      {
+        "gait": "stand",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 2.328963823459578,
+        "max_torque_nm": 0.09629538398431575,
+        "mean_body_velocity": [
+          0.00005853647775141351,
+          -0.00002413593412666486,
+          -0.0001001612487724365
+        ],
+        "native_mean_body_velocity": [
+          0.0000585364819013782,
+          -0.000024135937868635857,
+          -0.00010016067852899704
+        ],
+        "mean_velocity_difference": [
+          4.149964693991957e-12,
+          3.741970996978166e-12,
+          5.702434394502147e-10
+        ],
+        "terminal_qpos_max_difference": 8.118626881881141e-9,
+        "pass": true
+      },
+      {
+        "gait": "stand",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 2.1863645444428106,
+        "max_torque_nm": 0.09255632010601988,
+        "mean_body_velocity": [
+          0.000042562364665902926,
+          -0.000004252439205042258,
+          -0.00010122349527556111
+        ],
+        "native_mean_body_velocity": [
+          0.00004256240830898596,
+          -0.000004252439307049732,
+          -0.00010122387589392745
+        ],
+        "mean_velocity_difference": [
+          4.364308303043008e-11,
+          1.0200747480048917e-13,
+          3.806183663330933e-10
+        ],
+        "terminal_qpos_max_difference": 8.776740185317822e-9,
+        "pass": true
+      },
+      {
+        "gait": "forward_slow",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 3.527589345050519,
+        "max_torque_nm": 0.43237881685512836,
+        "mean_body_velocity": [
+          0.08260694304022662,
+          0.005114983689716658,
+          -0.001440563931258615
+        ],
+        "native_mean_body_velocity": [
+          0.08369925408229076,
+          0.00493657482543289,
+          -0.001316325250609542
+        ],
+        "mean_velocity_difference": [
+          0.0010923110420641424,
+          0.00017840886428376838,
+          0.00012423868064907317
+        ],
+        "terminal_qpos_max_difference": 0.14146088886550445,
+        "pass": true
+      },
+      {
+        "gait": "forward_slow",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.215546462308716,
+        "max_torque_nm": 0.44324174527775084,
+        "mean_body_velocity": [
+          0.08278535806605952,
+          0.004547828100975312,
+          -0.005778429423328028
+        ],
+        "native_mean_body_velocity": [
+          0.08275502757898866,
+          0.005057533640380665,
+          -0.007235306874928499
+        ],
+        "mean_velocity_difference": [
+          0.00003033048707086483,
+          0.0005097055394053529,
+          0.001456877451600471
+        ],
+        "terminal_qpos_max_difference": 0.2478149776688269,
+        "pass": true
+      },
+      {
+        "gait": "forward_slow",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.295212357262369,
+        "max_torque_nm": 0.43349472458023725,
+        "mean_body_velocity": [
+          0.08417064765436305,
+          0.004858114335265737,
+          -0.004905121270108324
+        ],
+        "native_mean_body_velocity": [
+          0.08499170596509023,
+          0.005157751784335045,
+          -0.005693920422711453
+        ],
+        "mean_velocity_difference": [
+          0.0008210583107271796,
+          0.00029963744906930795,
+          0.0007887991526031295
+        ],
+        "terminal_qpos_max_difference": 0.25126090940475,
+        "pass": true
+      },
+      {
+        "gait": "forward",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 3.57319587943691,
+        "max_torque_nm": 0.45302590491878214,
+        "mean_body_velocity": [
+          0.11426957498892008,
+          -0.0006605167339941925,
+          -0.010779810886928566
+        ],
+        "native_mean_body_velocity": [
+          0.11394343992526218,
+          -0.00036910867919800566,
+          -0.006782454365847688
+        ],
+        "mean_velocity_difference": [
+          0.00032613506365790357,
+          0.0002914080547961868,
+          0.003997356521080878
+        ],
+        "terminal_qpos_max_difference": 0.0458561492712555,
+        "pass": true
+      },
+      {
+        "gait": "forward",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 3.7711026085967645,
+        "max_torque_nm": 0.4448782214668116,
+        "mean_body_velocity": [
+          0.11369811435404976,
+          -0.0006639040905228606,
+          -0.010827808547618438
+        ],
+        "native_mean_body_velocity": [
+          0.11307960296278213,
+          -0.0002634531193898132,
+          -0.014169055856124614
+        ],
+        "mean_velocity_difference": [
+          0.0006185113912676315,
+          0.00040045097113304735,
+          0.0033412473085061758
+        ],
+        "terminal_qpos_max_difference": 0.17564269980539537,
+        "pass": true
+      },
+      {
+        "gait": "forward",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 3.6394836475011334,
+        "max_torque_nm": 0.45919133297171655,
+        "mean_body_velocity": [
+          0.11412718252442575,
+          -0.0006020271057174666,
+          -0.012171982459293795
+        ],
+        "native_mean_body_velocity": [
+          0.11223876083520264,
+          -0.000139697093163723,
+          -0.005620508216074898
+        ],
+        "mean_velocity_difference": [
+          0.0018884216892231104,
+          0.0004623300125537436,
+          0.006551474243218897
+        ],
+        "terminal_qpos_max_difference": 0.21900372344609814,
+        "pass": true
+      },
+      {
+        "gait": "backward",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.660440174598622,
+        "max_torque_nm": 0.49095315728864397,
+        "mean_body_velocity": [
+          -0.15155673625917723,
+          0.002074819268038573,
+          -0.005934604417335838
+        ],
+        "native_mean_body_velocity": [
+          -0.15156018223074205,
+          0.002382660051382683,
+          -0.00006526286099764963
+        ],
+        "mean_velocity_difference": [
+          0.0000034459715648194056,
+          0.00030784078334410983,
+          0.005869341556338188
+        ],
+        "terminal_qpos_max_difference": 0.2726596107282592,
+        "pass": true
+      },
+      {
+        "gait": "backward",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.569632373495836,
+        "max_torque_nm": 0.4731724103127656,
+        "mean_body_velocity": [
+          -0.15210180783598978,
+          0.002321924475853172,
+          -0.002001178875655139
+        ],
+        "native_mean_body_velocity": [
+          -0.15227859512041828,
+          0.002559272835802496,
+          0.005420020789457283
+        ],
+        "mean_velocity_difference": [
+          0.00017678728442849234,
+          0.0002373483599493239,
+          0.007421199665112422
+        ],
+        "terminal_qpos_max_difference": 0.419189027097292,
+        "pass": true
+      },
+      {
+        "gait": "backward",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.786445811324013,
+        "max_torque_nm": 0.4985108133465123,
+        "mean_body_velocity": [
+          -0.15113736326579655,
+          0.0018709122905077476,
+          0.0014832708171522476
+        ],
+        "native_mean_body_velocity": [
+          -0.15049574963268883,
+          0.0016742219688988726,
+          -0.03876706652997668
+        ],
+        "mean_velocity_difference": [
+          0.0006416136331077182,
+          0.00019669032160887496,
+          0.040250337347128934
+        ],
+        "terminal_qpos_max_difference": 0.961374692992852,
+        "pass": true
+      },
+      {
+        "gait": "left",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.126988699345206,
+        "max_torque_nm": 0.40685395138030483,
+        "mean_body_velocity": [
+          0.004975432985308686,
+          0.0801581138716421,
+          0.003587563074743465
+        ],
+        "native_mean_body_velocity": [
+          0.00520635327271197,
+          0.08101553699368122,
+          -0.001319991498192073
+        ],
+        "mean_velocity_difference": [
+          0.00023092028740328337,
+          0.0008574231220391249,
+          0.004907554572935538
+        ],
+        "terminal_qpos_max_difference": 0.35276128151362807,
+        "pass": true
+      },
+      {
+        "gait": "left",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.162107982373164,
+        "max_torque_nm": 0.38670025436155786,
+        "mean_body_velocity": [
+          0.004832683133192114,
+          0.07918358626670932,
+          0.0048268315867522
+        ],
+        "native_mean_body_velocity": [
+          0.004883155215939208,
+          0.08005083657403597,
+          0.005169154677410698
+        ],
+        "mean_velocity_difference": [
+          0.00005047208274709322,
+          0.0008672503073266502,
+          0.00034232309065849835
+        ],
+        "terminal_qpos_max_difference": 0.32893935924976486,
+        "pass": true
+      },
+      {
+        "gait": "left",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.22434547456056,
+        "max_torque_nm": 0.39498347813655693,
+        "mean_body_velocity": [
+          0.004916906657315218,
+          0.07831645885220771,
+          0.005708738196118562
+        ],
+        "native_mean_body_velocity": [
+          0.005001085766571091,
+          0.07827160214064095,
+          0.002902776149517534
+        ],
+        "mean_velocity_difference": [
+          0.00008417910925587278,
+          0.000044856711566759744,
+          0.002805962046601028
+        ],
+        "terminal_qpos_max_difference": 0.20673408451295872,
+        "pass": true
+      },
+      {
+        "gait": "right",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.385146714754117,
+        "max_torque_nm": 0.37012034651067816,
+        "mean_body_velocity": [
+          0.0014275464279281068,
+          -0.060836837362958404,
+          0.0021384476359162887
+        ],
+        "native_mean_body_velocity": [
+          0.0015505114726082074,
+          -0.06020977870415776,
+          0.0023178654316275416
+        ],
+        "mean_velocity_difference": [
+          0.0001229650446801006,
+          0.0006270586588006458,
+          0.00017941779571125282
+        ],
+        "terminal_qpos_max_difference": 0.0956041880306086,
+        "pass": true
+      },
+      {
+        "gait": "right",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.44604035071373,
+        "max_torque_nm": 0.37119738785207695,
+        "mean_body_velocity": [
+          0.002190441233660876,
+          -0.060928440188273966,
+          0.002533942973878106
+        ],
+        "native_mean_body_velocity": [
+          0.0014045657158433826,
+          -0.06063078150061511,
+          -0.0005524059361230776
+        ],
+        "mean_velocity_difference": [
+          0.0007858755178174932,
+          0.00029765868765885967,
+          0.003086348910001184
+        ],
+        "terminal_qpos_max_difference": 0.17125106148984007,
+        "pass": true
+      },
+      {
+        "gait": "right",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.379247446115783,
+        "max_torque_nm": 0.36355277425020927,
+        "mean_body_velocity": [
+          0.0014613013378919747,
+          -0.06079777015482203,
+          -0.0061499324499263265
+        ],
+        "native_mean_body_velocity": [
+          0.0013386613773237338,
+          -0.06044569573331765,
+          0.0026501307099251704
+        ],
+        "mean_velocity_difference": [
+          0.00012263996056824096,
+          0.00035207442150438084,
+          0.008800063159851497
+        ],
+        "terminal_qpos_max_difference": 0.09894403927813664,
+        "pass": true
+      },
+      {
+        "gait": "turn_left",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 6.897181674668392,
+        "max_torque_nm": 0.4341326574590983,
+        "mean_body_velocity": [
+          -0.000326549492581906,
+          -0.0007834615520047471,
+          0.6571649162735866
+        ],
+        "native_mean_body_velocity": [
+          0.0003142646169058198,
+          -0.0008120535762026455,
+          0.667766651035181
+        ],
+        "mean_velocity_difference": [
+          0.0006408141094877258,
+          0.000028592024197898378,
+          0.010601734761594317
+        ],
+        "terminal_qpos_max_difference": 0.40648230133140884,
+        "pass": true
+      },
+      {
+        "gait": "turn_left",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 6.775026566859789,
+        "max_torque_nm": 0.3802464070655343,
+        "mean_body_velocity": [
+          0.00004855196133944312,
+          0.00010512135527246655,
+          0.6585174640012488
+        ],
+        "native_mean_body_velocity": [
+          -0.0006567960616181832,
+          0.000148016434495787,
+          0.6508549724410689
+        ],
+        "mean_velocity_difference": [
+          0.0007053480229576263,
+          0.00004289507922332045,
+          0.0076624915601798405
+        ],
+        "terminal_qpos_max_difference": 0.22749994274590704,
+        "pass": true
+      },
+      {
+        "gait": "turn_left",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 6.86142988505868,
+        "max_torque_nm": 0.408265066639776,
+        "mean_body_velocity": [
+          -0.0005309189733342854,
+          -0.0012674735392449697,
+          0.6637792249835706
+        ],
+        "native_mean_body_velocity": [
+          -0.00028937066734652787,
+          -0.0007677472742990692,
+          0.6520460947843834
+        ],
+        "mean_velocity_difference": [
+          0.0002415483059877575,
+          0.0004997262649459005,
+          0.011733130199187203
+        ],
+        "terminal_qpos_max_difference": 0.491765333378254,
+        "pass": true
+      },
+      {
+        "gait": "turn_right",
+        "seed": 12340,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 5.55294473541777,
+        "max_torque_nm": 0.4524156746305097,
+        "mean_body_velocity": [
+          0.005814777606094502,
+          -0.0057143825110939775,
+          -0.7505157742225868
+        ],
+        "native_mean_body_velocity": [
+          0.005792621149729844,
+          -0.006311066438529723,
+          -0.7452616518198744
+        ],
+        "mean_velocity_difference": [
+          0.000022156456364657608,
+          0.0005966839274357452,
+          0.005254122402712391
+        ],
+        "terminal_qpos_max_difference": 0.22494626662273487,
+        "pass": true
+      },
+      {
+        "gait": "turn_right",
+        "seed": 12341,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 4.604479379168042,
+        "max_torque_nm": 0.49150822178399883,
+        "mean_body_velocity": [
+          0.006179478508361062,
+          -0.0064233502267822895,
+          -0.7397781081802459
+        ],
+        "native_mean_body_velocity": [
+          0.005514064703579686,
+          -0.006842697904311418,
+          -0.73879074766111
+        ],
+        "mean_velocity_difference": [
+          0.0006654138047813762,
+          0.00041934767752912876,
+          0.0009873605191359491
+        ],
+        "terminal_qpos_max_difference": 0.05539517644260619,
+        "pass": true
+      },
+      {
+        "gait": "turn_right",
+        "seed": 12342,
+        "seconds": 20.000000000000306,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 5.727383013875302,
+        "max_torque_nm": 0.48859634374478633,
+        "mean_body_velocity": [
+          0.005427431561519475,
+          -0.006596794622240316,
+          -0.7404938365164426
+        ],
+        "native_mean_body_velocity": [
+          0.005894065525662009,
+          -0.0065977815455815145,
+          -0.7325788161697036
+        ],
+        "mean_velocity_difference": [
+          0.0004666339641425342,
+          9.869233411983341e-7,
+          0.007915020346739077
+        ],
+        "terminal_qpos_max_difference": 0.052125311575124345,
+        "pass": true
+      }
+    ],
+    "passed": 24,
+    "total": 24,
+    "wall_seconds": 87.15524393000001,
+    "simulated_seconds": 480.00000000000716,
+    "max_terminal_qpos_difference": 0.961374692992852,
+    "max_mean_linear_velocity_difference": 0.0018884216892231104,
+    "max_mean_yaw_velocity_difference": 0.040250337347128934,
+    "max_tilt_deg": 7.786445811324013,
+    "max_torque_nm": 0.4985108133465123
+  },
+  "transitions": {
+    "sequence": [
+      "stand",
+      "forward_slow",
+      "forward",
+      "stand",
+      "backward",
+      "stand",
+      "left",
+      "right",
+      "stand",
+      "turn_left",
+      "turn_right",
+      "stand"
+    ],
+    "segment_seconds": 5,
+    "command_ramp_seconds": 0.5,
+    "cases": [
+      {
+        "seed": 12340,
+        "segments": 12,
+        "seconds": 60.00000000001224,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.61888823264826,
+        "pass": true
+      },
+      {
+        "seed": 12341,
+        "segments": 12,
+        "seconds": 60.00000000001224,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.156156572245928,
+        "pass": true
+      },
+      {
+        "seed": 12342,
+        "segments": 12,
+        "seconds": 60.00000000001224,
+        "fall": false,
+        "unsafe_contact": false,
+        "max_tilt_deg": 7.748447089370212,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
+  "worker": {
+    "pass": true,
+    "tests": [
+      "worker initialization",
+      "release heartbeat timeout",
+      "pause freezes time",
+      "resume clears stale motion",
+      "reset returns paused standing state",
+      "unknown commands rejected"
+    ],
+    "runtime": "Node24 with actual browser worker module and ORT WASM; browser WebGL not exercised"
+  },
+  "limitations": [
+    "Exact equality is established for checked compiled arrays, not every browser implementation or long closed-loop trajectory",
+    "Closed-loop contact trajectories can diverge despite tiny inference differences; mean velocities and balance are separately tested",
+    "No physical robot, hardware safety, precision navigation or mobile performance certification",
+    "Thin flap arms option 4 / A are not represented in this model and require separate training and validation."
+  ],
+  "screen_orientation_fix": {
+    "method": "CPU orthographic UV sampling of actual compiled screen geometry and PNG, not a browser render",
+    "geom_id": 55,
+    "mesh_id": 1648,
+    "source_image_sha256": "f2b49af349798c52cd9efa743daf8030a66339223731c4d1a544d14132ff6d98",
+    "compiled_top_v": [
+      0
+    ],
+    "compiled_bottom_v": [
+      1
+    ],
+    "old_three_flipY": true,
+    "corrected_three_flipY": false,
+    "corrected_image_top_row_at_model_top": true,
+    "corrected_image_bottom_row_at_model_bottom": true,
+    "three_uv_regression_tests_passed": 3,
+    "physics_assets_modified": false
+  },
+  "ui_revision": {
+    "layout": "Full-width compact work surface with persistent NOARMS / 736.537 g label",
+    "icons": "Lucide 0.468.0 ISC",
+    "physics_policy_changed": false,
+    "screen_orientation_fix_preserved": true,
+    "browser_screenshots_completed": false,
+    "static_and_geometry_tests_passed": 12,
+    "dom_worker_mock_tests_passed": 18,
+    "actual_worker_integration_passed": true,
+    "dom_test_scope": "Mock DOM and queued Worker events; separate browser checks are reported above"
+  },
+  "baseline": {
+    "name": "NOARMS",
+    "mass_g": 736.537,
+    "policy": "learned8-command",
+    "arm_design": "Thin flap arms option 4 / A selected for future design; not included, retrained, or validated in this simulator"
+  },
+  "pages_paths": {
+    "pass": true,
+    "base": "/microduck-stackchan/",
+    "assets": [
+      {
+        "asset": "index.html",
+        "status": 200,
+        "bytes": 5075
+      },
+      {
+        "asset": "app.js",
+        "status": 200,
+        "bytes": 7792
+      },
+      {
+        "asset": "style.css",
+        "status": 200,
+        "bytes": 8999
+      },
+      {
+        "asset": "viewer.js",
+        "status": 200,
+        "bytes": 6456
+      },
+      {
+        "asset": "sim-worker.js",
+        "status": 200,
+        "bytes": 4343
+      },
+      {
+        "asset": "physics.js",
+        "status": 200,
+        "bytes": 5308
+      },
+      {
+        "asset": "control.js",
+        "status": 200,
+        "bytes": 1178
+      },
+      {
+        "asset": "icons.js",
+        "status": 200,
+        "bytes": 6802
+      },
+      {
+        "asset": "screen-texture.js",
+        "status": 200,
+        "bytes": 268
+      },
+      {
+        "asset": "validation-report.json",
+        "status": 200,
+        "bytes": 30436
+      },
+      {
+        "asset": "baseline-manifest.json",
+        "status": 200,
+        "bytes": 2353
+      },
+      {
+        "asset": "NOTICE.txt",
+        "status": 200,
+        "bytes": 3433
+      },
+      {
+        "asset": "vendor/mujoco/mujoco.js",
+        "status": 200,
+        "bytes": 292374
+      },
+      {
+        "asset": "vendor/mujoco/mujoco.wasm",
+        "status": 200,
+        "bytes": 10143561
+      },
+      {
+        "asset": "vendor/ort/ort.wasm.min.mjs",
+        "status": 200,
+        "bytes": 50126
+      },
+      {
+        "asset": "vendor/ort/ort-wasm-simd-threaded.mjs",
+        "status": 200,
+        "bytes": 24381
+      },
+      {
+        "asset": "vendor/ort/ort-wasm-simd-threaded.wasm",
+        "status": 200,
+        "bytes": 14239897
+      },
+      {
+        "asset": "vendor/three/three.module.js",
+        "status": 200,
+        "bytes": 603113
+      },
+      {
+        "asset": "vendor/three/three.core.js",
+        "status": 200,
+        "bytes": 1403455
+      },
+      {
+        "asset": "vendor/three/OrbitControls.js",
+        "status": 200,
+        "bytes": 38703
+      },
+      {
+        "asset": "model/config.json",
+        "status": 200,
+        "bytes": 11146
+      },
+      {
+        "asset": "model/model.mjb.gz.part1",
+        "status": 200,
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part2",
+        "status": 200,
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part3",
+        "status": 200,
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part4",
+        "status": 200,
+        "bytes": 6548966
+      },
+      {
+        "asset": "model/policy.onnx",
+        "status": 200,
+        "bytes": 754004
+      },
+      {
+        "asset": "model/screen.png",
+        "status": 200,
+        "bytes": 30713
+      },
+      {
+        "asset": "model/visual.bin.gz",
+        "status": 200,
+        "bytes": 4317099
+      },
+      {
+        "asset": "model/visual.json",
+        "status": 200,
+        "bytes": 102560
+      }
+    ],
+    "note": "HTTP asset-path and byte-integrity check, not browser execution"
+  },
+  "release_verification": {
+    "generated_at": "2026-10-03T04:33:21.289Z",
+    "node": "v24.19.0",
+    "unit_tests": 12,
+    "input_regressions": 18,
+    "source_integrity": "All model assets, physics.js and control.js match baseline-manifest.json SHA-256 values",
+    "note": "Emulated mobile browser checks do not establish real-device performance or real-robot safety"
+  },
+  "model_packaging": {
+    "pass": true,
+    "change": "Two gzip chunks repacked into four chunks below 7 MB; no recompression or physics changes",
+    "concatenated_sha256_before": "2fd094db6bafd69aa32c46b87656756d0e9ba9a38b731f47a0a15c4eeee7f5b9",
+    "concatenated_sha256_after": "2fd094db6bafd69aa32c46b87656756d0e9ba9a38b731f47a0a15c4eeee7f5b9",
+    "uncompressed_model_sha256": "e7a6758b96fdc749fbf1560997a3dd8279d5fb4b64e4e5aa540ed896870bb586",
+    "parts": [
+      {
+        "asset": "model/model.mjb.gz.part1",
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part2",
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part3",
+        "bytes": 6548968
+      },
+      {
+        "asset": "model/model.mjb.gz.part4",
+        "bytes": 6548966
+      }
+    ]
+  }
+}

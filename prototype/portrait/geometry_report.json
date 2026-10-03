@@ -1,0 +1,417 @@
+{
+  "parameters": {
+    "variant": "tab5_portrait_open_frame",
+    "body_bounds_xyz_mm": [
+      [
+        -39,
+        41
+      ],
+      [
+        -40,
+        40
+      ],
+      [
+        43,
+        126
+      ]
+    ],
+    "frame_bar_mm": 4,
+    "frame_density_kg_m3": 1240,
+    "tab5_center_xyz_mm": [
+      47,
+      0,
+      62
+    ],
+    "tab5_size_xyz_mm": [
+      12,
+      80,
+      128
+    ],
+    "tab5_mass_kg": 0.1184,
+    "mount_mass_kg": 0.02,
+    "compute_mass_kg": 0.035,
+    "compute_bounds_xyz_mm": [
+      [
+        -24,
+        -16
+      ],
+      [
+        -32.5,
+        32.5
+      ],
+      [
+        48,
+        78
+      ]
+    ],
+    "camera_center_tab5_xyz_mm": [
+      6.1,
+      0,
+      59.55
+    ],
+    "camera_aperture_diameter_mm": 5,
+    "display_size_yz_mm_approx": [
+      62.2,
+      110.4
+    ],
+    "display_center_z_mm_approx": -2.4,
+    "face_center_z_mm": 25.2,
+    "sources": [
+      "https://docs.m5stack.com/en/core/Tab5",
+      "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/C145_Model_Size_page_01.png",
+      "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/K145_01.webp"
+    ],
+    "assumptions": [
+      "Separate alternate design. All earlier model files are preserved unchanged.",
+      "The 80x80mm square footprint describes the open frame only; the mounted Tab5 adds 12mm front depth, giving 80mm wide x92mm deep overall upper assembly.",
+      "The old cosmetic cover and lower skirts are absent. Four corner posts and rectangular rails form an open cuboid with no hidden collision box filling its holes.",
+      "PLA density1240kg/m3, 4mm frame bars, mount20g and relocated compute35g are conceptual assumptions, not measured or structurally certified parts.",
+      "Tab5 rotated90deg counterclockwise from official landscape drawing as viewed from front, placing camera on top short edge. 128x80x12mm,118.4g body is physical-size input; uniform cuboid inertia is approximate. No additional Tab5 battery is included.",
+      "Camera aperture5mm and center4.45mm from top edge follow drawing. Display dimensions and bezel insets are estimates from the drawing. Face graphics remain strictly above display midpoint.",
+      "Retained original pelvis, base battery and leg mechanisms are unchanged. Mounting holes, fasteners, wiring, power conversion and strength remain undeveloped."
+    ],
+    "mount_posts_bounds_xyz_mm": [
+      [
+        [
+          -10,
+          -6
+        ],
+        [
+          -6,
+          6
+        ],
+        [
+          0,
+          43
+        ]
+      ],
+      [
+        [
+          6,
+          10
+        ],
+        [
+          -6,
+          6
+        ],
+        [
+          0,
+          43
+        ]
+      ]
+    ]
+  },
+  "frame_only_mass_kg": 0.018014720000000022,
+  "added_frame_mount_compute_mass_kg": 0.08215712000000003,
+  "parts": [
+    {
+      "name": "cube_portrait_bottom_left",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          41.0
+        ],
+        [
+          -40.0,
+          -36.0
+        ],
+        [
+          43.0,
+          47.0
+        ]
+      ],
+      "mass_kg": 0.001587200000000003
+    },
+    {
+      "name": "cube_portrait_bottom_right",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          41.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          43.0,
+          47.0
+        ]
+      ],
+      "mass_kg": 0.001587200000000003
+    },
+    {
+      "name": "cube_portrait_bottom_back",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          -35.0
+        ],
+        [
+          -36.0,
+          36.0
+        ],
+        [
+          43.0,
+          47.0
+        ]
+      ],
+      "mass_kg": 0.00142848
+    },
+    {
+      "name": "cube_portrait_bottom_front",
+      "bounds_xyz_mm": [
+        [
+          37.0,
+          41.0
+        ],
+        [
+          -36.0,
+          36.0
+        ],
+        [
+          43.0,
+          47.0
+        ]
+      ],
+      "mass_kg": 0.0014284800000000024
+    },
+    {
+      "name": "cube_portrait_top_left",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          41.0
+        ],
+        [
+          -40.0,
+          -36.0
+        ],
+        [
+          122.0,
+          126.0
+        ]
+      ],
+      "mass_kg": 0.001587200000000003
+    },
+    {
+      "name": "cube_portrait_top_right",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          41.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          122.0,
+          126.0
+        ]
+      ],
+      "mass_kg": 0.001587200000000003
+    },
+    {
+      "name": "cube_portrait_top_back",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          -35.0
+        ],
+        [
+          -36.0,
+          36.0
+        ],
+        [
+          122.0,
+          126.0
+        ]
+      ],
+      "mass_kg": 0.00142848
+    },
+    {
+      "name": "cube_portrait_top_front",
+      "bounds_xyz_mm": [
+        [
+          37.0,
+          41.0
+        ],
+        [
+          -36.0,
+          36.0
+        ],
+        [
+          122.0,
+          126.0
+        ]
+      ],
+      "mass_kg": 0.0014284800000000024
+    },
+    {
+      "name": "cube_portrait_post_back_left",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          -35.0
+        ],
+        [
+          -40.0,
+          -36.0
+        ],
+        [
+          47.0,
+          122.0
+        ]
+      ],
+      "mass_kg": 0.001488
+    },
+    {
+      "name": "cube_portrait_post_back_right",
+      "bounds_xyz_mm": [
+        [
+          -39.0,
+          -35.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          47.0,
+          122.0
+        ]
+      ],
+      "mass_kg": 0.001488
+    },
+    {
+      "name": "cube_portrait_post_front_left",
+      "bounds_xyz_mm": [
+        [
+          37.0,
+          41.0
+        ],
+        [
+          -40.0,
+          -36.0
+        ],
+        [
+          47.0,
+          122.0
+        ]
+      ],
+      "mass_kg": 0.0014880000000000028
+    },
+    {
+      "name": "cube_portrait_post_front_right",
+      "bounds_xyz_mm": [
+        [
+          37.0,
+          41.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          47.0,
+          122.0
+        ]
+      ],
+      "mass_kg": 0.0014880000000000028
+    },
+    {
+      "name": "cube_portrait_mount_0",
+      "bounds_xyz_mm": [
+        [
+          -10.0,
+          -6.0
+        ],
+        [
+          -6.0,
+          6.0
+        ],
+        [
+          0.0,
+          43.0
+        ]
+      ],
+      "mass_kg": 0.01
+    },
+    {
+      "name": "cube_portrait_mount_1",
+      "bounds_xyz_mm": [
+        [
+          6.0,
+          10.0
+        ],
+        [
+          -6.0,
+          6.0
+        ],
+        [
+          0.0,
+          43.0
+        ]
+      ],
+      "mass_kg": 0.01
+    },
+    {
+      "name": "cube_portrait_support_tray",
+      "bounds_xyz_mm": [
+        [
+          -20.0,
+          20.0
+        ],
+        [
+          -36.0,
+          36.0
+        ],
+        [
+          43.0,
+          45.0
+        ]
+      ],
+      "mass_kg": 0.007142400000000006
+    },
+    {
+      "name": "cube_portrait_compute",
+      "bounds_xyz_mm": [
+        [
+          -24.0,
+          -16.0
+        ],
+        [
+          -32.5,
+          32.5
+        ],
+        [
+          48.0,
+          78.0
+        ]
+      ],
+      "mass_kg": 0.035
+    },
+    {
+      "name": "cube_portrait_compute_standoff",
+      "bounds_xyz_mm": [
+        [
+          -24.0,
+          -16.0
+        ],
+        [
+          -8.0,
+          8.0
+        ],
+        [
+          45.0,
+          48.0
+        ]
+      ],
+      "mass_kg": 0.002
+    }
+  ],
+  "collision_pairs": 612,
+  "tab5_visual_collision_note": "R4 visible body, full12x80x128mm conservative bounding-box collision. Screen/lens/eyes are zero-mass graphics; device mass includes components.",
+  "model_mass_kg_expected": 0.6578729000000001
+}

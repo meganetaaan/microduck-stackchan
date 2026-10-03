@@ -1,0 +1,235 @@
+{
+  "light": {
+    "total_mass_kg": 0.7178149829600851,
+    "changes": [
+      {
+        "part": "radxa_pcb",
+        "nominal_mass_kg": 0.006199999999999971,
+        "scenario_mass_kg": 0.005
+      },
+      {
+        "part": "radxa_under_components",
+        "nominal_mass_kg": 0.0018,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "radxa_top_components",
+        "nominal_mass_kg": 0.0020000000000000013,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "radxa_gpio_header",
+        "nominal_mass_kg": 0.001100000000000002,
+        "scenario_mass_kg": 0.0007
+      },
+      {
+        "part": "radxa_gpio_pins",
+        "nominal_mass_kg": 0.0009000000000000023,
+        "scenario_mass_kg": 0.0006
+      },
+      {
+        "part": "robot_hat_pcb_proxy",
+        "nominal_mass_kg": 0.00900000000000001,
+        "scenario_mass_kg": 0.006
+      },
+      {
+        "part": "robot_hat_components_proxy",
+        "nominal_mass_kg": 0.009999999999999997,
+        "scenario_mass_kg": 0.006
+      },
+      {
+        "part": "protection_mount_pad",
+        "nominal_mass_kg": 0.00045000000000000037,
+        "scenario_mass_kg": 0.0002
+      },
+      {
+        "part": "protection_pcb_proxy",
+        "nominal_mass_kg": 0.0018000000000000043,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "branch_protection_proxy",
+        "nominal_mass_kg": 0.002199999999999998,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "power_input_connector_proxy",
+        "nominal_mass_kg": 0.000799999999999999,
+        "scenario_mass_kg": 0.0004
+      },
+      {
+        "part": "power_output_connector_proxy",
+        "nominal_mass_kg": 0.000799999999999999,
+        "scenario_mass_kg": 0.0004
+      },
+      {
+        "part": "power_feedthrough_grommet",
+        "nominal_mass_kg": 0.00035000000000000027,
+        "scenario_mass_kg": 0.0002
+      },
+      {
+        "part": "tab5_m5bus_plug_proxy",
+        "nominal_mass_kg": 0.0019999999999999996,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "tab5_J7_plug_proxy",
+        "nominal_mass_kg": 0.0006999999999999992,
+        "scenario_mass_kg": 0.0003
+      },
+      {
+        "part": "uart_hat_takeoff_proxy",
+        "nominal_mass_kg": 0.0008000000000000009,
+        "scenario_mass_kg": 0.0003
+      },
+      {
+        "part": "robot_power_pigtail",
+        "nominal_mass_kg": 0.0015000000000000002,
+        "scenario_mass_kg": 0.0009750000000000001
+      },
+      {
+        "part": "branch_input_loom",
+        "nominal_mass_kg": 0.0005500000000000005,
+        "scenario_mass_kg": 0.0003575
+      },
+      {
+        "part": "tab5_power_loom",
+        "nominal_mass_kg": 0.000900000000000002,
+        "scenario_mass_kg": 0.0005850000000000001
+      },
+      {
+        "part": "uart_loom",
+        "nominal_mass_kg": 0.0013999999999999993,
+        "scenario_mass_kg": 0.0009099999999999999
+      },
+      {
+        "part": "robot_power_handoff_proxy",
+        "nominal_mass_kg": 0.0007000000000000005,
+        "scenario_mass_kg": 0.0003
+      },
+      {
+        "part": "unresolved_fastener_mass",
+        "nominal_mass_kg": 0.0009999999999999966,
+        "scenario_mass_kg": 1e-07
+      }
+    ],
+    "model_sha256": "e729e766999a05528bd6f14860ddddc2b98b524ac992bbf776c38891f38d9aed"
+  },
+  "heavy": {
+    "total_mass_kg": 0.767712382960085,
+    "changes": [
+      {
+        "part": "radxa_pcb",
+        "nominal_mass_kg": 0.006199999999999971,
+        "scenario_mass_kg": 0.008
+      },
+      {
+        "part": "radxa_under_components",
+        "nominal_mass_kg": 0.0018,
+        "scenario_mass_kg": 0.003
+      },
+      {
+        "part": "radxa_top_components",
+        "nominal_mass_kg": 0.0020000000000000013,
+        "scenario_mass_kg": 0.003
+      },
+      {
+        "part": "radxa_gpio_header",
+        "nominal_mass_kg": 0.001100000000000002,
+        "scenario_mass_kg": 0.0015
+      },
+      {
+        "part": "radxa_gpio_pins",
+        "nominal_mass_kg": 0.0009000000000000023,
+        "scenario_mass_kg": 0.0012
+      },
+      {
+        "part": "robot_hat_pcb_proxy",
+        "nominal_mass_kg": 0.00900000000000001,
+        "scenario_mass_kg": 0.015
+      },
+      {
+        "part": "robot_hat_components_proxy",
+        "nominal_mass_kg": 0.009999999999999997,
+        "scenario_mass_kg": 0.018
+      },
+      {
+        "part": "protection_mount_pad",
+        "nominal_mass_kg": 0.00045000000000000037,
+        "scenario_mass_kg": 0.0008
+      },
+      {
+        "part": "protection_pcb_proxy",
+        "nominal_mass_kg": 0.0018000000000000043,
+        "scenario_mass_kg": 0.003
+      },
+      {
+        "part": "branch_protection_proxy",
+        "nominal_mass_kg": 0.002199999999999998,
+        "scenario_mass_kg": 0.005
+      },
+      {
+        "part": "power_input_connector_proxy",
+        "nominal_mass_kg": 0.000799999999999999,
+        "scenario_mass_kg": 0.0015
+      },
+      {
+        "part": "power_output_connector_proxy",
+        "nominal_mass_kg": 0.000799999999999999,
+        "scenario_mass_kg": 0.0015
+      },
+      {
+        "part": "power_feedthrough_grommet",
+        "nominal_mass_kg": 0.00035000000000000027,
+        "scenario_mass_kg": 0.0006
+      },
+      {
+        "part": "tab5_m5bus_plug_proxy",
+        "nominal_mass_kg": 0.0019999999999999996,
+        "scenario_mass_kg": 0.003
+      },
+      {
+        "part": "tab5_J7_plug_proxy",
+        "nominal_mass_kg": 0.0006999999999999992,
+        "scenario_mass_kg": 0.001
+      },
+      {
+        "part": "uart_hat_takeoff_proxy",
+        "nominal_mass_kg": 0.0008000000000000009,
+        "scenario_mass_kg": 0.002
+      },
+      {
+        "part": "robot_power_pigtail",
+        "nominal_mass_kg": 0.0015000000000000002,
+        "scenario_mass_kg": 0.00225
+      },
+      {
+        "part": "branch_input_loom",
+        "nominal_mass_kg": 0.0005500000000000005,
+        "scenario_mass_kg": 0.0008250000000000001
+      },
+      {
+        "part": "tab5_power_loom",
+        "nominal_mass_kg": 0.000900000000000002,
+        "scenario_mass_kg": 0.00135
+      },
+      {
+        "part": "uart_loom",
+        "nominal_mass_kg": 0.0013999999999999993,
+        "scenario_mass_kg": 0.0020999999999999994
+      },
+      {
+        "part": "robot_power_handoff_proxy",
+        "nominal_mass_kg": 0.0007000000000000005,
+        "scenario_mass_kg": 0.0015
+      },
+      {
+        "part": "unresolved_fastener_mass",
+        "nominal_mass_kg": 0.0009999999999999966,
+        "scenario_mass_kg": 0.002
+      }
+    ],
+    "model_sha256": "2a8b1de61634d57e696e9d647c451e26ed10d75cd0aaed578a6ccbe573cf0a46"
+  },
+  "note": "Assumed electronic/wiring/hardware mass bounds, not measured probabilities. Same shape/COM perpart; inertia scaled with mass. Printed density and original robot/Tab5 masses unchanged. Zero-lower-bound allowance uses1e\u22127kg numericalminimum. Nominaltrainingmodelnotmodified."
+}

@@ -1,0 +1,5223 @@
+{
+  "scene": "scene_tab5_assembly_uart.xml",
+  "source_hashes": {
+    "tab5_assembly_uart.xml": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+    "assembly_report.json": "c596c567cb9e095171434f9143a94b3c4d695ee66cf0fed3ba02fc117757f16c"
+  },
+  "mujoco_version": "3.10.0",
+  "scipy_version": "1.18.1",
+  "invariants": {
+    "all_exactly_equal": true,
+    "records": [
+      {
+        "kind": "body",
+        "name": "yaw2roll",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "yaw2roll:shell_guard_legmesh_000",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "yaw2roll:shell_guard_legmesh_001",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "yaw2roll:shell_guard_legmesh_002",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "yaw2roll:shell_guard_legmesh_003",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "hip_l",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l:shell_guard_legmesh_004",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l:shell_guard_legmesh_005",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l:2",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "upper_leg_left",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_left:shell_guard_legmesh_006",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_left:shell_guard_legmesh_007",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_left:shell_guard_legmesh_008",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_left:shell_guard_legmesh_009",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_left:shell_guard_legmesh_010",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "leg",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg:shell_guard_legmesh_011",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg:1",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg:shell_guard_legmesh_012",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "ankle_left",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_left:shell_guard_legmesh_013",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_left:left_foot_collision",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_left:shell_guard_legmesh_014",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_left:shell_guard_legmesh_015",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_left:shell_guard_legmesh_016",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "bearing_roll",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "bearing_roll:shell_guard_legmesh_017",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "bearing_roll:shell_guard_legmesh_018",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "bearing_roll:shell_guard_legmesh_019",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "bearing_roll:shell_guard_legmesh_020",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "hip_l_2",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l_2:shell_guard_legmesh_021",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l_2:1",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "hip_l_2:shell_guard_legmesh_022",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "upper_leg_right",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_right:shell_guard_legmesh_023",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_right:shell_guard_legmesh_024",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_right:shell_guard_legmesh_025",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_right:shell_guard_legmesh_026",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "upper_leg_right:shell_guard_legmesh_027",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "leg_2",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg_2:shell_guard_legmesh_028",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg_2:shell_guard_legmesh_029",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "leg_2:2",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "ankle_right",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true,
+          "same_parent": true,
+          "geom_count": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_right:shell_guard_legmesh_030",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_right:shell_guard_legmesh_031",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_right:right_foot_collision",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_right:shell_guard_legmesh_032",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "geom",
+        "name": "ankle_right:shell_guard_legmesh_033",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_rgba": true,
+          "geom_group": true,
+          "same_name": true,
+          "same_mesh": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "trunk_base_freejoint",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "left_hip_yaw",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "left_hip_roll",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "left_hip_pitch",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "left_knee",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "left_ankle",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "right_hip_yaw",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "right_hip_roll",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "right_hip_pitch",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "right_knee",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "joint",
+        "name": "right_ankle",
+        "checks": {
+          "jnt_type": true,
+          "jnt_axis": true,
+          "jnt_pos": true,
+          "jnt_range": true,
+          "jnt_limited": true,
+          "jnt_stiffness": true,
+          "jnt_margin": true,
+          "jnt_solref": true,
+          "jnt_solimp": true,
+          "jnt_actfrcrange": true,
+          "jnt_actfrclimited": true
+        }
+      },
+      {
+        "kind": "model",
+        "checks": {
+          "nq": true,
+          "nv": true,
+          "nu": true,
+          "neq": true,
+          "qpos0": true,
+          "key_qpos": true,
+          "actuator_ctrlrange": true,
+          "actuator_forcerange": true,
+          "actuator_gainprm": true,
+          "actuator_biasprm": true,
+          "actuator_gear": true
+        }
+      },
+      {
+        "kind": "body",
+        "name": "trunk_base",
+        "checks": {
+          "body_pos": true,
+          "body_quat": true,
+          "body_mass": true,
+          "body_inertia": true,
+          "body_ipos": true,
+          "body_iquat": true,
+          "body_gravcomp": true
+        }
+      },
+      {
+        "kind": "fixed_geom_count",
+        "checks": {
+          "equal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "seeed_bearing__configuration__22x16x4",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "right_shell",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "banana_pcb_locker",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "trunk_base",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "xl330",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "power_support",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "power_support",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "np_f970",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "np_f970",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "xl330",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "left_shell",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "fixed_geom",
+        "name": "seeed_bearing__configuration__22x16x4",
+        "checks": {
+          "geom_pos": true,
+          "geom_quat": true,
+          "geom_size": true,
+          "geom_type": true,
+          "geom_contype": true,
+          "geom_conaffinity": true,
+          "geom_condim": true,
+          "geom_friction": true,
+          "geom_solref": true,
+          "geom_solimp": true,
+          "geom_margin": true,
+          "geom_gap": true,
+          "geom_group": true,
+          "geom_rgba": true,
+          "mesh_name": true,
+          "mesh_vert": true,
+          "mesh_face": true,
+          "mesh_normal": true
+        }
+      },
+      {
+        "kind": "dynamics",
+        "checks": {
+          "dof_damping": true,
+          "dof_armature": true,
+          "dof_frictionloss": true,
+          "actuator_ctrlrange": true,
+          "actuator_forcerange": true,
+          "actuator_gainprm": true,
+          "actuator_biasprm": true,
+          "actuator_gear": true
+        }
+      },
+      {
+        "kind": "gravity",
+        "checks": {
+          "equal": true
+        }
+      }
+    ],
+    "intentional_exclusions": "Replaced printed body/mount/compute block with UART assembly; original leg mechanism, retained trunk CAD, Tab5 and actuators must remain unchanged.",
+    "Tab5_original_exactly_equal": true,
+    "actuator_names_unchanged": true
+  },
+  "physics": {
+    "nq": 17,
+    "nv": 16,
+    "nu": 10,
+    "neq": 0,
+    "gravity_m_s2": [
+      0.0,
+      0.0,
+      -9.81
+    ],
+    "free_joint_count": 1,
+    "max_gravity_compensation": 0.0,
+    "total_mass_kg": 0.736537382960085,
+    "full_gravity_free_robot_10_actuators": true
+  },
+  "physical_collider_count_including_Tab5": 1588,
+  "new_UART_collider_count": 1487,
+  "leg_hull_count": 34,
+  "missing_explicit_physical_leg_pairs": [],
+  "reports": [
+    {
+      "label": "STAND_to_SIT",
+      "sample_count": 101,
+      "assembly_to_moving_leg_contact_count": 0,
+      "contact_examples": [],
+      "groups": {
+        "Radxa_official_full_envelope": {
+          "minimum_gap_lower_bound_mm": 70.66436559888456,
+          "minimum_gap_upper_bound_mm": 70.66436559894788,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_radxa_official_envelope",
+            "part_body": "assembly_radxa_pcb",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 70.66436559888456,
+            "feasible_upper_bound_mm": 70.66436559894788,
+            "duality_gap_mm": 6.332356861094013e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              -1.9999999743923849,
+              -17.49999992548622,
+              -3.050000466260733
+            ],
+            "shell_closest_point_trunk_mm": [
+              -14.500000000009225,
+              -17.49999992548622,
+              66.5000000000322
+            ]
+          },
+          "AABB_candidate_pairs": 202,
+          "optimized_unique_pairs": 2,
+          "exact_byte_cached_pairs": 200,
+          "max_pair_duality_gap_mm": 3.161773065585294e-10,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "Tab5": {
+          "minimum_gap_lower_bound_mm": 16.30010397070133,
+          "minimum_gap_upper_bound_mm": 16.30010421760982,
+          "winner": {
+            "sample_index": 100,
+            "panel": "tab5_collision",
+            "part_body": "tab5",
+            "leg_geom": "shell_guard_legmesh_005",
+            "leg_body": "hip_l",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "lower_bound_mm": 16.30010397070133,
+            "feasible_upper_bound_mm": 16.30010421760982,
+            "duality_gap_mm": 2.469084918743647e-07,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              27.960583142272228,
+              19.202437208914134,
+              -11.780951155944477
+            ],
+            "shell_closest_point_trunk_mm": [
+              41.00000000000836,
+              19.20243708248861,
+              -1.9999999999919957
+            ]
+          },
+          "AABB_candidate_pairs": 202,
+          "optimized_unique_pairs": 202,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 0.00010346297877816824,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "cables_and_source_handoff": {
+          "minimum_gap_lower_bound_mm": 49.86287599861686,
+          "minimum_gap_upper_bound_mm": 49.862875998635644,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_robot_power_pigtail_seg_000",
+            "part_body": "assembly_robot_power_pigtail",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 49.86287599861686,
+            "feasible_upper_bound_mm": 49.862875998635644,
+            "duality_gap_mm": 1.878674993349705e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.418066161335446e-11,
+            "leg_closest_point_trunk_mm": [
+              -7.017638240267984,
+              6.000000282912108,
+              -5.568148263481929
+            ],
+            "shell_closest_point_trunk_mm": [
+              -19.829362665654664,
+              -1.7138313284041144e-11,
+              42.245721238035244
+            ]
+          },
+          "AABB_candidate_pairs": 202,
+          "optimized_unique_pairs": 2,
+          "exact_byte_cached_pairs": 200,
+          "max_pair_duality_gap_mm": 5.657341262121918e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "electronics_and_connectors": {
+          "minimum_gap_lower_bound_mm": 51.81019445546886,
+          "minimum_gap_upper_bound_mm": 51.81019445550237,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_power_feedthrough_grommet_0006",
+            "part_body": "assembly_power_feedthrough_grommet",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 51.81019445546886,
+            "feasible_upper_bound_mm": 51.81019445550237,
+            "duality_gap_mm": 3.3509195418446325e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.610267474916327e-11,
+            "leg_closest_point_trunk_mm": [
+              -4.202600982580484,
+              -9.46711620797594,
+              -4.404053391348096
+            ],
+            "shell_closest_point_trunk_mm": [
+              -16.258390649259834,
+              -2.5000700366689372,
+              45.499999076128255
+            ]
+          },
+          "AABB_candidate_pairs": 1616,
+          "optimized_unique_pairs": 16,
+          "exact_byte_cached_pairs": 1600,
+          "max_pair_duality_gap_mm": 7.446753727435862e-06,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "fasteners": {
+          "minimum_gap_lower_bound_mm": 43.670241557346095,
+          "minimum_gap_upper_bound_mm": 43.67024155735687,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_carrier_M2_1_0000",
+            "part_body": "assembly_carrier_M2_1",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 43.670241557346095,
+            "feasible_upper_bound_mm": 43.67024155735687,
+            "duality_gap_mm": 1.0771827874123119e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.2505552149377763e-12,
+            "leg_closest_point_trunk_mm": [
+              12.818782054352383,
+              7.887361801800928,
+              -2.081225407318578
+            ],
+            "shell_closest_point_trunk_mm": [
+              8.54445991354593,
+              0.8148400229389859,
+              40.800001296240566
+            ]
+          },
+          "AABB_candidate_pairs": 606,
+          "optimized_unique_pairs": 6,
+          "exact_byte_cached_pairs": 600,
+          "max_pair_duality_gap_mm": 9.145853141490079e-07,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "new_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.33268434886566,
+          "minimum_gap_upper_bound_mm": 3.33268677200586,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_central_mount_0042",
+            "part_body": "assembly_central_mount",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 3.33268434886566,
+            "feasible_upper_bound_mm": 3.33268677200586,
+            "duality_gap_mm": 2.4231402000474134e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.398081733190338e-14,
+            "leg_closest_point_trunk_mm": [
+              9.601552130606706,
+              6.956808604032675,
+              -2.813563712699977
+            ],
+            "shell_closest_point_trunk_mm": [
+              9.208460380463949,
+              5.408910132701757,
+              0.11155001478549464
+            ]
+          },
+          "AABB_candidate_pairs": 2020,
+          "optimized_unique_pairs": 8,
+          "exact_byte_cached_pairs": 800,
+          "max_pair_duality_gap_mm": 2.082330708930158e-05,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "retained_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.4842808222748634,
+          "minimum_gap_upper_bound_mm": 3.484280822274963,
+          "winner": {
+            "sample_index": 0,
+            "panel": "rounded_shell_collision_1176",
+            "part_body": "print_under_saddle",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 3.4842808222748634,
+            "feasible_upper_bound_mm": 3.484280822274963,
+            "duality_gap_mm": 9.947598300641403e-14,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              0.6907358748856446,
+              -6.307096794269423,
+              -4.37664039856598
+            ],
+            "shell_closest_point_trunk_mm": [
+              0.3920700117666983,
+              -3.9807400615607076,
+              -1.7999999690800703
+            ]
+          },
+          "AABB_candidate_pairs": 404,
+          "optimized_unique_pairs": 4,
+          "exact_byte_cached_pairs": 400,
+          "max_pair_duality_gap_mm": 2.6779023443168626e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        }
+      }
+    },
+    {
+      "label": "STAND_to_FOLD",
+      "sample_count": 101,
+      "assembly_to_moving_leg_contact_count": 0,
+      "contact_examples": [],
+      "groups": {
+        "Radxa_official_full_envelope": {
+          "minimum_gap_lower_bound_mm": 37.767319437127966,
+          "minimum_gap_upper_bound_mm": 37.767319437167345,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_radxa_official_envelope",
+            "part_body": "assembly_radxa_pcb",
+            "leg_geom": "shell_guard_legmesh_024",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 37.767319437127966,
+            "feasible_upper_bound_mm": 37.767319437167345,
+            "duality_gap_mm": 3.937827841582475e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.4704681916555273e-11,
+            "leg_closest_point_trunk_mm": [
+              -18.037242878330215,
+              -38.80000000010988,
+              29.259565549999365
+            ],
+            "shell_closest_point_trunk_mm": [
+              -18.037242878335856,
+              -32.513469999937165,
+              66.50000000001575
+            ]
+          },
+          "AABB_candidate_pairs": 24,
+          "optimized_unique_pairs": 22,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 3.304458573438751e-08,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "Tab5": {
+          "minimum_gap_lower_bound_mm": 16.300103970700924,
+          "minimum_gap_upper_bound_mm": 16.30010421759095,
+          "winner": {
+            "sample_index": 100,
+            "panel": "tab5_collision",
+            "part_body": "tab5",
+            "leg_geom": "shell_guard_legmesh_005",
+            "leg_body": "hip_l",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 16.300103970700924,
+            "feasible_upper_bound_mm": 16.30010421759095,
+            "duality_gap_mm": 2.468900248686623e-07,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              27.960583142281127,
+              19.20243504358073,
+              -11.780951155940912
+            ],
+            "shell_closest_point_trunk_mm": [
+              41.00000000000134,
+              19.20243491715515,
+              -1.999999999998662
+            ]
+          },
+          "AABB_candidate_pairs": 202,
+          "optimized_unique_pairs": 202,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 7.295725349720783e-05,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "cables_and_source_handoff": {
+          "minimum_gap_lower_bound_mm": 26.202394307351092,
+          "minimum_gap_upper_bound_mm": 26.202394307399622,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_robot_power_handoff_proxy_0000",
+            "part_body": "assembly_robot_power_handoff_proxy",
+            "leg_geom": "shell_guard_legmesh_026",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 26.202394307351092,
+            "feasible_upper_bound_mm": 26.202394307399622,
+            "duality_gap_mm": 4.853006885241484e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.815970093361102e-12,
+            "leg_closest_point_trunk_mm": [
+              -0.6887216326115357,
+              -42.500000482145694,
+              31.18621609306188
+            ],
+            "shell_closest_point_trunk_mm": [
+              1.2316370145981637e-11,
+              -28.000000864258112,
+              52.99999937415423
+            ]
+          },
+          "AABB_candidate_pairs": 1,
+          "optimized_unique_pairs": 1,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 4.853006885241484e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "electronics_and_connectors": {
+          "minimum_gap_lower_bound_mm": 30.156022934734207,
+          "minimum_gap_upper_bound_mm": 30.15602293477589,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_branch_input_loom_seg_000",
+            "part_body": "assembly_branch_input_loom",
+            "leg_geom": "shell_guard_legmesh_026",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 30.156022934734207,
+            "feasible_upper_bound_mm": 30.15602293477589,
+            "duality_gap_mm": 4.168398959336628e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.2079226507921703e-12,
+            "leg_closest_point_trunk_mm": [
+              5.544589610462553,
+              -42.50000023727941,
+              30.940231046080378
+            ],
+            "shell_closest_point_trunk_mm": [
+              8.000000430719304,
+              -24.55000009580399,
+              55.04737048375585
+            ]
+          },
+          "AABB_candidate_pairs": 9,
+          "optimized_unique_pairs": 9,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 2.919436248305374e-07,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "fasteners": {
+          "minimum_gap_lower_bound_mm": 36.902198558809076,
+          "minimum_gap_upper_bound_mm": 36.90219856258061,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_carrier_M2_0_0000",
+            "part_body": "assembly_carrier_M2_0",
+            "leg_geom": "shell_guard_legmesh_029",
+            "leg_body": "leg_2",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 36.902198558809076,
+            "feasible_upper_bound_mm": 36.90219856258061,
+            "duality_gap_mm": 3.771532419705181e-09,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.5699441746619414e-11,
+            "leg_closest_point_trunk_mm": [
+              -16.158547250725267,
+              -33.3592042827169,
+              23.452859886882273
+            ],
+            "shell_closest_point_trunk_mm": [
+              -9.154699775536828,
+              -2.0000000949929024,
+              41.59999993728846
+            ]
+          },
+          "AABB_candidate_pairs": 36,
+          "optimized_unique_pairs": 36,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 3.771532419705181e-09,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "new_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.33268434886566,
+          "minimum_gap_upper_bound_mm": 3.33268677200586,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_central_mount_0042",
+            "part_body": "assembly_central_mount",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 3.33268434886566,
+            "feasible_upper_bound_mm": 3.33268677200586,
+            "duality_gap_mm": 2.4231402000474134e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.398081733190338e-14,
+            "leg_closest_point_trunk_mm": [
+              9.601552130606706,
+              6.956808604032675,
+              -2.813563712699977
+            ],
+            "shell_closest_point_trunk_mm": [
+              9.208460380463949,
+              5.408910132701757,
+              0.11155001478549464
+            ]
+          },
+          "AABB_candidate_pairs": 2020,
+          "optimized_unique_pairs": 8,
+          "exact_byte_cached_pairs": 800,
+          "max_pair_duality_gap_mm": 2.082330708930158e-05,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "retained_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.4842808222748634,
+          "minimum_gap_upper_bound_mm": 3.484280822274963,
+          "winner": {
+            "sample_index": 0,
+            "panel": "rounded_shell_collision_1176",
+            "part_body": "print_under_saddle",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.12,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.0872664626,
+              -0.457924,
+              -0.00494,
+              0.452984,
+              0.0,
+              0.0872664626,
+              0.457924,
+              0.00494,
+              -0.452984
+            ],
+            "lower_bound_mm": 3.4842808222748634,
+            "feasible_upper_bound_mm": 3.484280822274963,
+            "duality_gap_mm": 9.947598300641403e-14,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              0.6907358748856446,
+              -6.307096794269423,
+              -4.37664039856598
+            ],
+            "shell_closest_point_trunk_mm": [
+              0.3920700117666983,
+              -3.9807400615607076,
+              -1.7999999690800703
+            ]
+          },
+          "AABB_candidate_pairs": 404,
+          "optimized_unique_pairs": 4,
+          "exact_byte_cached_pairs": 400,
+          "max_pair_duality_gap_mm": 2.6779023443168626e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        }
+      }
+    },
+    {
+      "label": "SIT_to_FOLD",
+      "sample_count": 101,
+      "assembly_to_moving_leg_contact_count": 0,
+      "contact_examples": [],
+      "groups": {
+        "Radxa_official_full_envelope": {
+          "minimum_gap_lower_bound_mm": 37.76731943712796,
+          "minimum_gap_upper_bound_mm": 37.76731943716738,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_radxa_official_envelope",
+            "part_body": "assembly_radxa_pcb",
+            "leg_geom": "shell_guard_legmesh_024",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 37.76731943712796,
+            "feasible_upper_bound_mm": 37.76731943716738,
+            "duality_gap_mm": 3.942091097997036e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.481481604059809e-11,
+            "leg_closest_point_trunk_mm": [
+              -18.03724287833022,
+              -38.800000000109875,
+              29.259565549999365
+            ],
+            "shell_closest_point_trunk_mm": [
+              -18.037242878335878,
+              -32.51346999993695,
+              66.50000000001575
+            ]
+          },
+          "AABB_candidate_pairs": 26,
+          "optimized_unique_pairs": 26,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 8.956139012639142e-07,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "Tab5": {
+          "minimum_gap_lower_bound_mm": 16.30010265817201,
+          "minimum_gap_upper_bound_mm": 16.300104216668938,
+          "winner": {
+            "sample_index": 0,
+            "panel": "tab5_collision",
+            "part_body": "tab5",
+            "leg_geom": "shell_guard_legmesh_005",
+            "leg_body": "hip_l",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "lower_bound_mm": 16.30010265817201,
+            "feasible_upper_bound_mm": 16.300104216668938,
+            "duality_gap_mm": 1.5584969297322004e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.130296353352605e-12,
+            "leg_closest_point_trunk_mm": [
+              27.96058313971203,
+              19.267246899054104,
+              -11.780951150860645
+            ],
+            "shell_closest_point_trunk_mm": [
+              41.000000000006,
+              19.267245750779207,
+              -1.9999999998861853
+            ]
+          },
+          "AABB_candidate_pairs": 202,
+          "optimized_unique_pairs": 2,
+          "exact_byte_cached_pairs": 200,
+          "max_pair_duality_gap_mm": 1.5584969297322004e-06,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "cables_and_source_handoff": {
+          "minimum_gap_lower_bound_mm": 26.202394307351092,
+          "minimum_gap_upper_bound_mm": 26.202394307399622,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_robot_power_handoff_proxy_0000",
+            "part_body": "assembly_robot_power_handoff_proxy",
+            "leg_geom": "shell_guard_legmesh_026",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 26.202394307351092,
+            "feasible_upper_bound_mm": 26.202394307399622,
+            "duality_gap_mm": 4.853006885241484e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.815970093361102e-12,
+            "leg_closest_point_trunk_mm": [
+              -0.6887216326115357,
+              -42.500000482145694,
+              31.18621609306188
+            ],
+            "shell_closest_point_trunk_mm": [
+              1.2316370145981637e-11,
+              -28.000000864258112,
+              52.99999937415423
+            ]
+          },
+          "AABB_candidate_pairs": 1,
+          "optimized_unique_pairs": 1,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 4.853006885241484e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "electronics_and_connectors": {
+          "minimum_gap_lower_bound_mm": 30.156022934734203,
+          "minimum_gap_upper_bound_mm": 30.15602293478546,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_branch_input_loom_seg_000",
+            "part_body": "assembly_branch_input_loom",
+            "leg_geom": "shell_guard_legmesh_026",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 30.156022934734203,
+            "feasible_upper_bound_mm": 30.15602293478546,
+            "duality_gap_mm": 5.125855295773363e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.9163337583449902e-11,
+            "leg_closest_point_trunk_mm": [
+              5.54458961045725,
+              -42.50000023728155,
+              30.940231046080655
+            ],
+            "shell_closest_point_trunk_mm": [
+              8.000000430735025,
+              -24.550000095798776,
+              55.04737048376048
+            ]
+          },
+          "AABB_candidate_pairs": 10,
+          "optimized_unique_pairs": 10,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 2.6984006851193953e-07,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "fasteners": {
+          "minimum_gap_lower_bound_mm": 36.90219856254991,
+          "minimum_gap_upper_bound_mm": 36.90219856256441,
+          "winner": {
+            "sample_index": 100,
+            "panel": "cube_uart_carrier_M2_0_0000",
+            "part_body": "assembly_carrier_M2_0",
+            "leg_geom": "shell_guard_legmesh_029",
+            "leg_body": "leg_2",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "lower_bound_mm": 36.90219856254991,
+            "feasible_upper_bound_mm": 36.90219856256441,
+            "duality_gap_mm": 1.4495071809506044e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.1529444893531036e-12,
+            "leg_closest_point_trunk_mm": [
+              -16.158547931646634,
+              -33.35920303634927,
+              23.452857995894398
+            ],
+            "shell_closest_point_trunk_mm": [
+              -9.154699775542579,
+              -2.0000000949929024,
+              41.599999937257905
+            ]
+          },
+          "AABB_candidate_pairs": 38,
+          "optimized_unique_pairs": 38,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 9.692951152828755e-08,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "new_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.33268434886566,
+          "minimum_gap_upper_bound_mm": 3.33268677200586,
+          "winner": {
+            "sample_index": 0,
+            "panel": "cube_uart_central_mount_0042",
+            "part_body": "assembly_central_mount",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "lower_bound_mm": 3.33268434886566,
+            "feasible_upper_bound_mm": 3.33268677200586,
+            "duality_gap_mm": 2.4231402000474134e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.398081733190338e-14,
+            "leg_closest_point_trunk_mm": [
+              9.601552130606706,
+              6.956808604032675,
+              -2.813563712699977
+            ],
+            "shell_closest_point_trunk_mm": [
+              9.208460380463949,
+              5.408910132701757,
+              0.11155001478549464
+            ]
+          },
+          "AABB_candidate_pairs": 2020,
+          "optimized_unique_pairs": 8,
+          "exact_byte_cached_pairs": 800,
+          "max_pair_duality_gap_mm": 2.082330708930158e-05,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "retained_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.4842808222748634,
+          "minimum_gap_upper_bound_mm": 3.484280822274963,
+          "winner": {
+            "sample_index": 0,
+            "panel": "rounded_shell_collision_1176",
+            "part_body": "print_under_saddle",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "lower_bound_mm": 3.4842808222748634,
+            "feasible_upper_bound_mm": 3.484280822274963,
+            "duality_gap_mm": 9.947598300641403e-14,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              0.6907358748856446,
+              -6.307096794269423,
+              -4.37664039856598
+            ],
+            "shell_closest_point_trunk_mm": [
+              0.3920700117666983,
+              -3.9807400615607076,
+              -1.7999999690800703
+            ]
+          },
+          "AABB_candidate_pairs": 404,
+          "optimized_unique_pairs": 4,
+          "exact_byte_cached_pairs": 400,
+          "max_pair_duality_gap_mm": 2.6779023443168626e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        }
+      }
+    },
+    {
+      "label": "feet_flat_crouch_181",
+      "sample_count": 181,
+      "assembly_to_moving_leg_contact_count": 0,
+      "contact_examples": [],
+      "groups": {
+        "Radxa_official_full_envelope": {
+          "minimum_gap_lower_bound_mm": 56.13209919712445,
+          "minimum_gap_upper_bound_mm": 56.1320991971983,
+          "winner": {
+            "sample_index": 180,
+            "panel": "cube_uart_radxa_official_envelope",
+            "part_body": "assembly_radxa_pcb",
+            "leg_geom": "shell_guard_legmesh_026",
+            "leg_body": "upper_leg_right",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06503716212216934,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.45151688637945026,
+              1.5707963267948966,
+              1.1192794404154462,
+              0.0,
+              0.0,
+              -0.45151688637945026,
+              -1.5707963267948966,
+              -1.1192794404154462
+            ],
+            "lower_bound_mm": 56.13209919712445,
+            "feasible_upper_bound_mm": 56.1320991971983,
+            "duality_gap_mm": 7.385381195490481e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 3.54418716597138e-11,
+            "leg_closest_point_trunk_mm": [
+              -27.2254385054882,
+              -42.50000032518393,
+              11.263401875707036
+            ],
+            "shell_closest_point_trunk_mm": [
+              -27.22543850550184,
+              -32.51346999996749,
+              66.50000000002713
+            ]
+          },
+          "AABB_candidate_pairs": 1,
+          "optimized_unique_pairs": 1,
+          "exact_byte_cached_pairs": 0,
+          "max_pair_duality_gap_mm": 7.385381195490481e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "Tab5": {
+          "minimum_gap_lower_bound_mm": 16.300102658172,
+          "minimum_gap_upper_bound_mm": 16.30010421666893,
+          "winner": {
+            "sample_index": 174,
+            "panel": "tab5_collision",
+            "part_body": "tab5",
+            "leg_geom": "shell_guard_legmesh_005",
+            "leg_body": "hip_l",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06718204148330661,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.41023054192772246,
+              1.5182717825684,
+              1.1080412406406777,
+              0.0,
+              0.0,
+              -0.41023054192772246,
+              -1.5182717825684,
+              -1.1080412406406777
+            ],
+            "lower_bound_mm": 16.300102658172,
+            "feasible_upper_bound_mm": 16.30010421666893,
+            "duality_gap_mm": 1.5584969297322004e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.126743639673805e-12,
+            "leg_closest_point_trunk_mm": [
+              27.960583139712035,
+              19.2672468990541,
+              -11.780951150860641
+            ],
+            "shell_closest_point_trunk_mm": [
+              41.000000000006,
+              19.267245750779207,
+              -1.9999999998861853
+            ]
+          },
+          "AABB_candidate_pairs": 362,
+          "optimized_unique_pairs": 4,
+          "exact_byte_cached_pairs": 358,
+          "max_pair_duality_gap_mm": 1.5584969297322004e-06,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "cables_and_source_handoff": {
+          "minimum_gap_lower_bound_mm": 49.862875998616836,
+          "minimum_gap_upper_bound_mm": 49.862875998635644,
+          "winner": {
+            "sample_index": 174,
+            "panel": "cube_uart_robot_power_pigtail_seg_000",
+            "part_body": "assembly_robot_power_pigtail",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06718204148330661,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.41023054192772246,
+              1.5182717825684,
+              1.1080412406406777,
+              0.0,
+              0.0,
+              -0.41023054192772246,
+              -1.5182717825684,
+              -1.1080412406406777
+            ],
+            "lower_bound_mm": 49.862875998616836,
+            "feasible_upper_bound_mm": 49.862875998635644,
+            "duality_gap_mm": 1.8808066215569852e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.418066161335446e-11,
+            "leg_closest_point_trunk_mm": [
+              -7.017638240268002,
+              6.000000282912092,
+              -5.568148263481927
+            ],
+            "shell_closest_point_trunk_mm": [
+              -19.829362665654664,
+              -1.7138313284041144e-11,
+              42.245721238035244
+            ]
+          },
+          "AABB_candidate_pairs": 972,
+          "optimized_unique_pairs": 210,
+          "exact_byte_cached_pairs": 358,
+          "max_pair_duality_gap_mm": 1.0092215518398007e-05,
+          "optimizer_failures": [
+            {
+              "sample": 180,
+              "panel": "cube_uart_uart_loom_seg_006",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 65.81536806852372,
+              "feasible_upper_bound_mm": 65.81536807266214,
+              "duality_gap_mm": 4.1384140558875515e-09,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 2.1752155632270842e-10,
+              "leg_closest_point_trunk_mm": [
+                0.6252066569995307,
+                -42.50000125169804,
+                -3.3426820817175305
+              ],
+              "shell_closest_point_trunk_mm": [
+                29.50000020862068,
+                -21.999999884875724,
+                52.133969906767994
+              ]
+            },
+            {
+              "sample": 171,
+              "panel": "cube_uart_uart_loom_seg_006",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 66.2374282490947,
+              "feasible_upper_bound_mm": 66.23742825401249,
+              "duality_gap_mm": 4.917779961033375e-09,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 2.1043700115797037e-10,
+              "leg_closest_point_trunk_mm": [
+                3.8782448885517518,
+                -42.50000125169804,
+                -5.404473763390323
+              ],
+              "shell_closest_point_trunk_mm": [
+                29.50000020860794,
+                -21.999999884832796,
+                52.13396990676073
+              ]
+            }
+          ],
+          "optimizer_status_flags_with_certified_tight_bounds": true,
+          "optimizer_status_note": "Raw solver status flags retained. Independently computed separating-plane lower bounds and repaired feasible upper bounds remain valid and agree within the reported duality gaps."
+        },
+        "electronics_and_connectors": {
+          "minimum_gap_lower_bound_mm": 51.526995227757496,
+          "minimum_gap_upper_bound_mm": 51.526995227805344,
+          "winner": {
+            "sample_index": 180,
+            "panel": "cube_uart_power_feedthrough_grommet_0003",
+            "part_body": "assembly_power_feedthrough_grommet",
+            "leg_geom": "shell_guard_legmesh_006",
+            "leg_body": "upper_leg_left",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06503716212216934,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.45151688637945026,
+              1.5707963267948966,
+              1.1192794404154462,
+              0.0,
+              0.0,
+              -0.45151688637945026,
+              -1.5707963267948966,
+              -1.1192794404154462
+            ],
+            "lower_bound_mm": 51.526995227757496,
+            "feasible_upper_bound_mm": 51.526995227805344,
+            "duality_gap_mm": 4.7847947826085147e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 3.1306512937590014e-11,
+            "leg_closest_point_trunk_mm": [
+              -26.07732000651259,
+              42.5000000643762,
+              11.186471130508647
+            ],
+            "shell_closest_point_trunk_mm": [
+              -20.877910741044584,
+              4.413530282817005,
+              45.499999076128255
+            ]
+          },
+          "AABB_candidate_pairs": 12764,
+          "optimized_unique_pairs": 247,
+          "exact_byte_cached_pairs": 2864,
+          "max_pair_duality_gap_mm": 2.0719426807147556e-05,
+          "optimizer_failures": [
+            {
+              "sample": 178,
+              "panel": "cube_uart_tab5_m5bus_plug_proxy_0000",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 66.0203495816196,
+              "feasible_upper_bound_mm": 66.02034958930803,
+              "duality_gap_mm": 7.688427672292164e-09,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 2.8813573749175703e-10,
+              "leg_closest_point_trunk_mm": [
+                4.2041394043550575,
+                -42.50000125169804,
+                -5.290837379908925
+              ],
+              "shell_closest_point_trunk_mm": [
+                32.00000019376865,
+                -19.500000402311905,
+                49.99999950829726
+              ]
+            },
+            {
+              "sample": 176,
+              "panel": "cube_uart_tab5_m5bus_plug_proxy_0000",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 66.0822315569589,
+              "feasible_upper_bound_mm": 66.08223158845477,
+              "duality_gap_mm": 3.149587257667008e-08,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 1.7004531116526778e-10,
+              "leg_closest_point_trunk_mm": [
+                4.938293072722818,
+                -42.500001251698045,
+                -5.727240691949278
+              ],
+              "shell_closest_point_trunk_mm": [
+                32.00000019374751,
+                -19.500000402311905,
+                49.999999508282144
+              ]
+            },
+            {
+              "sample": 168,
+              "panel": "cube_uart_protection_mount_pad_0000",
+              "leg": "shell_guard_legmesh_008",
+              "lower_bound_mm": 59.23996818577545,
+              "feasible_upper_bound_mm": 59.23996848260197,
+              "duality_gap_mm": 2.9682651359053125e-07,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 1.2949641359227826e-10,
+              "leg_closest_point_trunk_mm": [
+                -12.812531560183405,
+                42.50000044703532,
+                1.545939413886071
+              ],
+              "shell_closest_point_trunk_mm": [
+                7.999999914514687,
+                17.0000009236893,
+                50.79999938607241
+              ]
+            },
+            {
+              "sample": 168,
+              "panel": "cube_uart_protection_mount_pad_0000",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 59.23996853147733,
+              "feasible_upper_bound_mm": 59.23996882982297,
+              "duality_gap_mm": 2.9834563974873163e-07,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 1.570019669827616e-10,
+              "leg_closest_point_trunk_mm": [
+                -12.812531562145024,
+                -42.50000125169803,
+                1.5459394136970666
+              ],
+              "shell_closest_point_trunk_mm": [
+                7.999999914530935,
+                -17.00000092368975,
+                50.79999938607241
+              ]
+            },
+            {
+              "sample": 171,
+              "panel": "cube_uart_tab5_m5bus_plug_proxy_0000",
+              "leg": "shell_guard_legmesh_025",
+              "lower_bound_mm": 66.1782023106881,
+              "feasible_upper_bound_mm": 66.17820231522421,
+              "duality_gap_mm": 4.53610482509248e-09,
+              "optimizer_success": false,
+              "optimizer_status": 8,
+              "constraint_violation_mm": 1.8025003711841237e-10,
+              "leg_closest_point_trunk_mm": [
+                6.757557772049751,
+                -42.500001251698045,
+                -6.686626102968145
+              ],
+              "shell_closest_point_trunk_mm": [
+                32.00000019374909,
+                -19.50000040231191,
+                49.99999950828322
+              ]
+            }
+          ],
+          "optimizer_status_flags_with_certified_tight_bounds": true,
+          "optimizer_status_note": "Raw solver status flags retained. Independently computed separating-plane lower bounds and repaired feasible upper bounds remain valid and agree within the reported duality gaps."
+        },
+        "fasteners": {
+          "minimum_gap_lower_bound_mm": 43.67024155734609,
+          "minimum_gap_upper_bound_mm": 43.67024155735686,
+          "winner": {
+            "sample_index": 174,
+            "panel": "cube_uart_carrier_M2_1_0000",
+            "part_body": "assembly_carrier_M2_1",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06718204148330661,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.41023054192772246,
+              1.5182717825684,
+              1.1080412406406777,
+              0.0,
+              0.0,
+              -0.41023054192772246,
+              -1.5182717825684,
+              -1.1080412406406777
+            ],
+            "lower_bound_mm": 43.67024155734609,
+            "feasible_upper_bound_mm": 43.67024155735686,
+            "duality_gap_mm": 1.0771827874123119e-11,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 1.2647660696529783e-12,
+            "leg_closest_point_trunk_mm": [
+              12.818782054352361,
+              7.887361801800941,
+              -2.0812254073185725
+            ],
+            "shell_closest_point_trunk_mm": [
+              8.54445991354593,
+              0.8148400229389869,
+              40.800001296240566
+            ]
+          },
+          "AABB_candidate_pairs": 1086,
+          "optimized_unique_pairs": 10,
+          "exact_byte_cached_pairs": 1076,
+          "max_pair_duality_gap_mm": 9.145853212544353e-07,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "new_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.332684348865655,
+          "minimum_gap_upper_bound_mm": 3.3326867720058524,
+          "winner": {
+            "sample_index": 174,
+            "panel": "cube_uart_central_mount_0042",
+            "part_body": "assembly_central_mount",
+            "leg_geom": "shell_guard_legmesh_000",
+            "leg_body": "yaw2roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06718204148330661,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.41023054192772246,
+              1.5182717825684,
+              1.1080412406406777,
+              0.0,
+              0.0,
+              -0.41023054192772246,
+              -1.5182717825684,
+              -1.1080412406406777
+            ],
+            "lower_bound_mm": 3.332684348865655,
+            "feasible_upper_bound_mm": 3.3326867720058524,
+            "duality_gap_mm": 2.423140197382878e-06,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.398081733190338e-14,
+            "leg_closest_point_trunk_mm": [
+              9.60155213060671,
+              6.956808604032664,
+              -2.813563712699973
+            ],
+            "shell_closest_point_trunk_mm": [
+              9.208460380463949,
+              5.408910132701757,
+              0.11155001478549464
+            ]
+          },
+          "AABB_candidate_pairs": 3620,
+          "optimized_unique_pairs": 16,
+          "exact_byte_cached_pairs": 1432,
+          "max_pair_duality_gap_mm": 2.0823307096407007e-05,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        },
+        "retained_printed_parts": {
+          "minimum_gap_lower_bound_mm": 3.484280822274858,
+          "minimum_gap_upper_bound_mm": 3.484280822274963,
+          "winner": {
+            "sample_index": 174,
+            "panel": "rounded_shell_collision_1176",
+            "part_body": "print_under_saddle",
+            "leg_geom": "shell_guard_legmesh_017",
+            "leg_body": "bearing_roll",
+            "qpos": [
+              0.0,
+              0.0,
+              0.06718204148330661,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.41023054192772246,
+              1.5182717825684,
+              1.1080412406406777,
+              0.0,
+              0.0,
+              -0.41023054192772246,
+              -1.5182717825684,
+              -1.1080412406406777
+            ],
+            "lower_bound_mm": 3.484280822274858,
+            "feasible_upper_bound_mm": 3.484280822274963,
+            "duality_gap_mm": 1.0480505352461478e-13,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "leg_closest_point_trunk_mm": [
+              0.6907358748856446,
+              -6.307096794269423,
+              -4.37664039856598
+            ],
+            "shell_closest_point_trunk_mm": [
+              0.3920700117666983,
+              -3.9807400615607076,
+              -1.7999999690800703
+            ]
+          },
+          "AABB_candidate_pairs": 724,
+          "optimized_unique_pairs": 8,
+          "exact_byte_cached_pairs": 716,
+          "max_pair_duality_gap_mm": 2.6779023443168626e-11,
+          "optimizer_failures": [],
+          "optimizer_status_flags_with_certified_tight_bounds": true
+        }
+      }
+    }
+  ],
+  "scope": "Independent geometry/inertia/unchanged-mechanism and sampled-state audit. All 34 original moving leg CAD convex guards checked against every new UART collider, retained rounded shell collider and Tab5. No all-ROM, continuous-path, electrical, manufacturing, balance, strength, controller or hardware-safety claim. Radxa PCB datums are sourced; grouping, HAT, protection, connectors and cable routing remain provisional.",
+  "official_Radxa_envelope_coverage": {
+    "source_sha256": "5ce41a1d238d7bfd757c98b76e8b8a132f5bcd73d0c747d201345ccff9a815d4",
+    "source_bounds_trunk_mm": [
+      [
+        -27.484078407287598,
+        -32.51312267128378,
+        66.5
+      ],
+      [
+        -14.5,
+        32.50164794921875,
+        98.00552749633789
+      ]
+    ],
+    "collider_bounds_trunk_mm": [
+      [
+        -27.4841,
+        -32.51347,
+        66.5
+      ],
+      [
+        -14.500000000000002,
+        32.50165,
+        98.00553000000001
+      ]
+    ],
+    "maximum_vertex_excess_mm": 1.7763568394002505e-15,
+    "covers_all_imported_source_vertices_at_0p00001mm_tolerance": true,
+    "scope": "Guard covers full imported official CAD envelope, including omitted procedural component details. Original converted source has invalid/nonmanifold topology; no exact assembled-CAD boolean or connector-fit certification is made."
+  },
+  "geometry": {
+    "parts": [
+      {
+        "part": "body_cage",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 52082.61504200134,
+        "bounds_mm": [
+          [
+            -39.0,
+            -40.0,
+            46.0
+          ],
+          [
+            41.0,
+            40.0,
+            126.0
+          ]
+        ],
+        "density_kg_m3": 1240.0007163107625,
+        "mass_kg": 0.06458247995941932,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.213744493799851e-09,
+        "inertia_max_abs_error_kg_m2": 3.880971797187369e-12,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "selected flush-front shell; actual M5-Bus relief and power feedthrough added",
+        "asset_sha256": "3b54b2d1ebfc080479eb49366a8c1c23c6ae225417b1ebbd84bccf3d3e8b5bee",
+        "STL": {
+          "watertight": true,
+          "winding_consistent": true,
+          "components": 1,
+          "bounds_mm": [
+            [
+              -39.0,
+              -40.0,
+              46.0
+            ],
+            [
+              41.0,
+              40.0,
+              126.0
+            ]
+          ],
+          "OBJ_bounds_max_difference_mm": 0.0,
+          "OBJ_volume_difference_mm3": 0.030234569538151845
+        }
+      },
+      {
+        "part": "central_mount",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 5678.297923642028,
+        "bounds_mm": [
+          [
+            -12.0,
+            -6.0,
+            0.0
+          ],
+          [
+            12.0,
+            6.0,
+            46.0
+          ]
+        ],
+        "density_kg_m3": 1239.9998861197303,
+        "mass_kg": 0.007041088778670015,
+        "mass_abs_error_kg": 8.673617379884035e-19,
+        "COM_max_abs_error_m": 3.181542876373733e-10,
+        "inertia_max_abs_error_kg_m2": 1.5489657243956674e-13,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "original printed mount with two M2 captive-nut slots and clearance bores",
+        "asset_sha256": "3e1c1fde2465887d9b7e8986bebcc74d5671f709a151e1216d0a2e8d98f5183c",
+        "STL": {
+          "watertight": true,
+          "winding_consistent": true,
+          "components": 1,
+          "bounds_mm": [
+            [
+              -12.0,
+              -6.0,
+              0.0
+            ],
+            [
+              12.0,
+              6.0,
+              46.0
+            ]
+          ],
+          "OBJ_bounds_max_difference_mm": 0.0,
+          "OBJ_volume_difference_mm3": 0.0004654436015698593
+        }
+      },
+      {
+        "part": "radxa_pcb",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 3068.354433342084,
+        "bounds_mm": [
+          [
+            -24.6,
+            -32.5,
+            68.0
+          ],
+          [
+            -23.0,
+            32.5,
+            98.0
+          ]
+        ],
+        "density_kg_m3": 2020.6270607554543,
+        "mass_kg": 0.006199999999999971,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.9083797509579004e-11,
+        "inertia_max_abs_error_kg_m2": 1.99505867115059e-14,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "Radxa Zero3W official CAD v1.11:65x30x1.6mm; four exact CAD-derived \u00d82.8 holes",
+        "asset_sha256": "0da6d01f936845b23f3840fae2be6e003d6525f1c3c63dbb8b9727dd8f45178b"
+      },
+      {
+        "part": "radxa_under_components",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 2353.4256,
+        "bounds_mm": [
+          [
+            -27.4841,
+            -24.0,
+            73.0
+          ],
+          [
+            -24.6,
+            24.0,
+            90.0
+          ]
+        ],
+        "density_kg_m3": 764.8425342190549,
+        "mass_kg": 0.0018,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 5.551115123125783e-17,
+        "inertia_max_abs_error_kg_m2": 2.1497749140873346e-17,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "official CAD overall underside depth; component grouping is a proxy",
+        "asset_sha256": "773b9ff9583f13ae18ebae300849b505b87d4172ab35be262d222e853ae81d21"
+      },
+      {
+        "part": "radxa_top_components",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 2047.5,
+        "bounds_mm": [
+          [
+            -23.0,
+            -18.0,
+            74.0
+          ],
+          [
+            -19.5,
+            21.0,
+            89.0
+          ]
+        ],
+        "density_kg_m3": 976.8009768009767,
+        "mass_kg": 0.0020000000000000013,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 5.551115123125783e-17,
+        "inertia_max_abs_error_kg_m2": 3.3333658150212905e-17,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "provisional grouped top-component shape within official CAD bound",
+        "asset_sha256": "3bc7afaba6a7c465c9ee2d5563caef62efb310fa377e8fd9d3879cbc01631b77"
+      },
+      {
+        "part": "radxa_gpio_header",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 645.1600000000002,
+        "bounds_mm": [
+          [
+            -23.0,
+            -25.45,
+            92.1351
+          ],
+          [
+            -20.5,
+            25.35,
+            97.21509999999999
+          ]
+        ],
+        "density_kg_m3": 1705.0034100068196,
+        "mass_kg": 0.001100000000000002,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.249000902703301e-16,
+        "inertia_max_abs_error_kg_m2": 3.3351922298138076e-17,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "official CAD40pin grid2.54mm; simplified insulating body",
+        "asset_sha256": "5bd51517360836111f2a283d634429b9fa0a156333bb1c8e58d5c37a2c192746"
+      },
+      {
+        "part": "radxa_gpio_pins",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 40,
+        "volume_mm3": 98.30400000000134,
+        "bounds_mm": [
+          [
+            -20.5,
+            -24.5,
+            93.0851
+          ],
+          [
+            -14.5,
+            24.400000000000002,
+            96.2651
+          ]
+        ],
+        "density_kg_m3": 9155.273437499905,
+        "mass_kg": 0.0009000000000000023,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.3183898417423734e-15,
+        "inertia_max_abs_error_kg_m2": 2.7745622978498675e-19,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "official CAD40pin grid and8.5mmtopextent; squarepins simplified",
+        "asset_sha256": "9e6c4b268656e7357a49814c12bf7bfa6d6cb5aa7bb1cbd8a928f588cda5a051"
+      },
+      {
+        "part": "robot_hat_pcb_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 3590.3999999999987,
+        "bounds_mm": [
+          [
+            -14.5,
+            -33.0,
+            67.0
+          ],
+          [
+            -12.9,
+            33.0,
+            101.0
+          ]
+        ],
+        "density_kg_m3": 2506.68449197861,
+        "mass_kg": 0.00900000000000001,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.3877787807814457e-17,
+        "inertia_max_abs_error_kg_m2": 2.371692252312041e-20,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "MicroDuck Robot HAT retained; exact mechanical files unavailable,66x34mm provisional",
+        "asset_sha256": "acc79bbcfe5d9bf2a2a01541a98babcc326b57af8649fadb52cdb636eae42682"
+      },
+      {
+        "part": "robot_hat_components_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 16632.0,
+        "bounds_mm": [
+          [
+            -12.9,
+            -30.0,
+            69.0
+          ],
+          [
+            -3.0,
+            30.0,
+            97.0
+          ]
+        ],
+        "density_kg_m3": 601.2506012506012,
+        "mass_kg": 0.009999999999999997,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.3877787807814457e-17,
+        "inertia_max_abs_error_kg_m2": 3.3336336891908597e-16,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "provisional controller/component keepout; not actual CAD",
+        "asset_sha256": "e707750b4fbc9de04cdc31e871f4d4485ff454424f58c137f156ea43cfeb8963"
+      },
+      {
+        "part": "electronics_carrier",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 14033.817911411552,
+        "bounds_mm": [
+          [
+            -31.6,
+            -34.0,
+            48.4
+          ],
+          [
+            31.0,
+            34.0,
+            102.0
+          ]
+        ],
+        "density_kg_m3": 1240.0000143980049,
+        "mass_kg": 0.017401934412209302,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.1755254177069647e-10,
+        "inertia_max_abs_error_kg_m2": 3.834097176845432e-14,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "new parametric carrier, nominal hardware fit pending print coupon",
+        "asset_sha256": "e07e14edd1e888198dd5129a8484bc0be908750a835dbc22b7bef055f9a58679",
+        "STL": {
+          "watertight": true,
+          "winding_consistent": true,
+          "components": 1,
+          "bounds_mm": [
+            [
+              -31.600000381469727,
+              -34.0,
+              48.400001525878906
+            ],
+            [
+              31.0,
+              34.0,
+              102.0
+            ]
+          ],
+          "OBJ_bounds_max_difference_mm": 1.5258789076710855e-06,
+          "OBJ_volume_difference_mm3": 0.008691639590324485
+        }
+      },
+      {
+        "part": "radxa_M2p5_0",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 129.85096465180007,
+        "bounds_mm": [
+          [
+            -35.0,
+            -31.450100000000003,
+            68.71319
+          ],
+          [
+            -20.5,
+            -26.4501,
+            74.48669
+          ]
+        ],
+        "density_kg_m3": 7850.001204508059,
+        "mass_kg": 0.0010193302289231655,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.5777378743753179e-09,
+        "inertia_max_abs_error_kg_m2": 6.3172548886700805e-15,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+        "asset_sha256": "7f442442cff546ec35a83eada3cbc60187ec4401eceb22bc6c35db4e625d7e03"
+      },
+      {
+        "part": "radxa_M2p5_1",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 129.8510146518003,
+        "bounds_mm": [
+          [
+            -35.0,
+            -31.40006,
+            91.56327999999999
+          ],
+          [
+            -20.5,
+            -26.40006,
+            97.33679000000001
+          ]
+        ],
+        "density_kg_m3": 7849.998181812699,
+        "mass_kg": 0.0010193302289231668,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8129196992521255e-09,
+        "inertia_max_abs_error_kg_m2": 5.325437626977202e-15,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+        "asset_sha256": "bbdffc5825d0aa2771f176b79a8d925e5bb85cec7411e81c32a796d49ec068c1"
+      },
+      {
+        "part": "radxa_M2p5_2",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 129.85101465179994,
+        "bounds_mm": [
+          [
+            -35.0,
+            26.399929999999998,
+            91.61332
+          ],
+          [
+            -20.5,
+            31.39993,
+            97.38682999999999
+          ]
+        ],
+        "density_kg_m3": 7849.9981818127135,
+        "mass_kg": 0.001019330228923167,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8129196888437846e-09,
+        "inertia_max_abs_error_kg_m2": 5.32543859643288e-15,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+        "asset_sha256": "5b23f8aac083088f80d1c0bd7d526f017c0432bf4ff633ea0f60a1792ff73021"
+      },
+      {
+        "part": "radxa_M2p5_3",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 129.8509397502001,
+        "bounds_mm": [
+          [
+            -35.0,
+            26.399929999999998,
+            68.71319
+          ],
+          [
+            -20.5,
+            31.39993,
+            74.48669
+          ]
+        ],
+        "density_kg_m3": 7850.002709907945,
+        "mass_kg": 0.0010193302289231655,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.128055419907792e-09,
+        "inertia_max_abs_error_kg_m2": 4.344111741925116e-15,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominal M2.5x12 screw and2mmnut; verify actual head/engagement",
+        "asset_sha256": "c254830507cdb5135edea5fb974338ed85fef8001cd76725f03e9335ca7ce0b6"
+      },
+      {
+        "part": "carrier_M2_0",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 64.67176714160007,
+        "bounds_mm": [
+          [
+            -10.3094,
+            -2.0,
+            40.800000000000004
+          ],
+          [
+            -5.6906,
+            2.0,
+            52.400000000000006
+          ]
+        ],
+        "density_kg_m3": 7850.009757722448,
+        "mass_kg": 0.0005076740031107144,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.73056385088999e-09,
+        "inertia_max_abs_error_kg_m2": 7.903263703182125e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominalM2x10body/carrierbolt andcaptivenut; printfit unverified",
+        "asset_sha256": "9b4243a0951c3cf84f1dd90c0eb3eec012f2d5a03102e170e4aed3fb74634f6e"
+      },
+      {
+        "part": "carrier_M2_1",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 2,
+        "volume_mm3": 64.67176714160006,
+        "bounds_mm": [
+          [
+            5.6906,
+            -2.0,
+            40.800000000000004
+          ],
+          [
+            10.3094,
+            2.0,
+            52.400000000000006
+          ]
+        ],
+        "density_kg_m3": 7850.009757722446,
+        "mass_kg": 0.0005076740031107143,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.73056385088999e-09,
+        "inertia_max_abs_error_kg_m2": 7.9032635780710575e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "nominalM2x10body/carrierbolt andcaptivenut; printfit unverified",
+        "asset_sha256": "1f935d7c75d35b072bd91063e960f93b2e29d8cbe3257d269e51d7264f81253a"
+      },
+      {
+        "part": "tab5_M3_visible_0",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 133.18706909880012,
+        "bounds_mm": [
+          [
+            29.0,
+            -38.75,
+            72.25
+          ],
+          [
+            41.0,
+            -33.25,
+            77.75
+          ]
+        ],
+        "density_kg_m3": 7850.000072838067,
+        "mass_kg": 0.001045518502126669,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8897150644580094e-10,
+        "inertia_max_abs_error_kg_m2": 2.934508124849938e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+        "asset_sha256": "c64f042c31ce7dd439b92df7d8655fa037be82d91ac24225075253544ca77241"
+      },
+      {
+        "part": "tab5_M3_visible_1",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 133.1870690988001,
+        "bounds_mm": [
+          [
+            29.0,
+            33.25,
+            72.25
+          ],
+          [
+            41.0,
+            38.75,
+            77.75
+          ]
+        ],
+        "density_kg_m3": 7850.000072838071,
+        "mass_kg": 0.0010455185021266689,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8897152032358875e-10,
+        "inertia_max_abs_error_kg_m2": 2.934556812700793e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+        "asset_sha256": "0c21abcdf91f10b914e512ac4b976fa9e013321ed79c678e893dc5d6f7c00c5a"
+      },
+      {
+        "part": "tab5_M3_visible_2",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 133.18706909880015,
+        "bounds_mm": [
+          [
+            29.0,
+            -38.75,
+            119.25
+          ],
+          [
+            41.0,
+            -33.25,
+            124.75
+          ]
+        ],
+        "density_kg_m3": 7850.000072838065,
+        "mass_kg": 0.0010455185021266689,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8897150644580094e-10,
+        "inertia_max_abs_error_kg_m2": 2.934508133121744e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+        "asset_sha256": "43271fb3cf23febcf947026d4e05d1bf2390581ad8e63a9cc5cb587ed5cd6509"
+      },
+      {
+        "part": "tab5_M3_visible_3",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 133.1870690988001,
+        "bounds_mm": [
+          [
+            29.0,
+            33.25,
+            119.25
+          ],
+          [
+            41.0,
+            38.75,
+            124.75
+          ]
+        ],
+        "density_kg_m3": 7850.000072838067,
+        "mass_kg": 0.0010455185021266686,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.8897152032358875e-10,
+        "inertia_max_abs_error_kg_m2": 2.934183456459511e-16,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "M3head and9mmexternalshank only; internal engagementunknown, notcomplete screw length",
+        "asset_sha256": "f4bbba2407660b924f6df4914e1f942a82a3ac13b6af5947179e28762bfa51c8"
+      },
+      {
+        "part": "protection_mount_pad",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 370.22306163610057,
+        "bounds_mm": [
+          [
+            8.0,
+            -17.0,
+            50.8
+          ],
+          [
+            30.0,
+            17.0,
+            51.3
+          ]
+        ],
+        "density_kg_m3": 1215.4834385825332,
+        "mass_kg": 0.00045000000000000037,
+        "mass_abs_error_kg": 5.421010862427522e-20,
+        "COM_max_abs_error_m": 2.617641832458606e-10,
+        "inertia_max_abs_error_kg_m2": 1.1842918934897027e-15,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "provisional insulated adhesive mountingpad; retention/temperatureunverified",
+        "asset_sha256": "2d30c8f5d51676dd9f8838f0f00fe297617e726a22ec12192e8fdd3cd58b60dc"
+      },
+      {
+        "part": "protection_tray",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 1891.9398560550378,
+        "bounds_mm": [
+          [
+            8.0,
+            -17.0,
+            51.3
+          ],
+          [
+            30.0,
+            17.0,
+            56.0
+          ]
+        ],
+        "density_kg_m3": 1239.999981716462,
+        "mass_kg": 0.0023460053869168948,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.5204652601140687e-10,
+        "inertia_max_abs_error_kg_m2": 8.095829736782276e-15,
+        "positive_inertia": true,
+        "proxy": false,
+        "source": "provisional modular protection-board support; no fixedconnectorcutout",
+        "asset_sha256": "fe50056124bbf2bb5e5892fdf467877901bb8088fa92c89e49301bb103229d81",
+        "STL": {
+          "watertight": true,
+          "winding_consistent": true,
+          "components": 1,
+          "bounds_mm": [
+            [
+              8.0,
+              -17.0,
+              51.29999923706055
+            ],
+            [
+              30.0,
+              17.0,
+              56.0
+            ]
+          ],
+          "OBJ_bounds_max_difference_mm": 7.629394502828291e-07,
+          "OBJ_volume_difference_mm3": 0.0010629995035742468
+        }
+      },
+      {
+        "part": "protection_pcb_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 960.0000000000002,
+        "bounds_mm": [
+          [
+            9.0,
+            -15.0,
+            56.0
+          ],
+          [
+            29.0,
+            15.0,
+            57.6
+          ]
+        ],
+        "density_kg_m3": 1874.9999999999993,
+        "mass_kg": 0.0018000000000000043,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.6653345369377348e-16,
+        "inertia_max_abs_error_kg_m2": 2.337281538829835e-20,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "20x30mm board allocation; source-side fuse/rating/circuit TBD",
+        "asset_sha256": "f615139e68325eaf9fd3b5c68053252f0d66ff6560af89e38fb1053160a6ba70"
+      },
+      {
+        "part": "branch_protection_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 490.00000000000074,
+        "bounds_mm": [
+          [
+            16.0,
+            -4.0,
+            57.6
+          ],
+          [
+            23.0,
+            6.0,
+            64.60000000000001
+          ]
+        ],
+        "density_kg_m3": 4489.79591836734,
+        "mass_kg": 0.002199999999999998,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 2.0816681711721685e-17,
+        "inertia_max_abs_error_kg_m2": 3.332657748416945e-18,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "protectioncomponentallocation; no electricalratingsselected",
+        "asset_sha256": "0e7643b42b81d26488c431f3c812082e0dc31eff90625d2bec7ff61d8f5b0457"
+      },
+      {
+        "part": "power_input_connector_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 336.0000000000004,
+        "bounds_mm": [
+          [
+            9.0,
+            -13.0,
+            57.6
+          ],
+          [
+            15.0,
+            -5.0,
+            64.60000000000001
+          ]
+        ],
+        "density_kg_m3": 2380.9523809523785,
+        "mass_kg": 0.000799999999999999,
+        "mass_abs_error_kg": 1.0842021724855044e-19,
+        "COM_max_abs_error_m": 2.0816681711721685e-17,
+        "inertia_max_abs_error_kg_m2": 3.349643075115109e-19,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "modular2poleadapterenvelope; family/pitchnotselected",
+        "asset_sha256": "a03ff5ce5d21b81e335b93fd67d874cbf005dc2731213f4dcd946bf3f6bdd639"
+      },
+      {
+        "part": "power_output_connector_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 336.0000000000003,
+        "bounds_mm": [
+          [
+            23.0,
+            7.0,
+            57.6
+          ],
+          [
+            29.0,
+            15.0,
+            64.60000000000001
+          ]
+        ],
+        "density_kg_m3": 2380.952380952377,
+        "mass_kg": 0.000799999999999999,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.469446951953614e-17,
+        "inertia_max_abs_error_kg_m2": 3.359519611628992e-19,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "modular2poleadapterenvelope; family/pitchnotselected",
+        "asset_sha256": "611ce4139b399cfc459bcc132070831e5c808fcfb1768da8fa8c656ef1a9e29a"
+      },
+      {
+        "part": "power_feedthrough_grommet",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 163.99450008359997,
+        "bounds_mm": [
+          [
+            -24.5,
+            -4.5,
+            45.5
+          ],
+          [
+            -15.5,
+            4.5,
+            51.3
+          ]
+        ],
+        "density_kg_m3": 2134.2179147567713,
+        "mass_kg": 0.00035000000000000027,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 4.163336342344337e-17,
+        "inertia_max_abs_error_kg_m2": 1.6477501164091233e-16,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "nominal\u00d87feedthrough with\u00d84bore, flexiblegrommet rigidproxy; fitTBD",
+        "asset_sha256": "20c27f01065453c8f4ea3ae59826445fff67ac40bc7bf3fd7054fcc69cdfae43"
+      },
+      {
+        "part": "tab5_m5bus_plug_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 2106.0,
+        "bounds_mm": [
+          [
+            32.0,
+            -19.5,
+            50.0
+          ],
+          [
+            41.0,
+            19.5,
+            56.0
+          ]
+        ],
+        "density_kg_m3": 949.6676163342829,
+        "mass_kg": 0.0019999999999999996,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.3877787807814457e-17,
+        "inertia_max_abs_error_kg_m2": 3.0704944337968387e-21,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "rear drawing-scaledM5Bus2x15plug allocation; housing/engagementTBD",
+        "asset_sha256": "28b69ff25f6ae06f6cfb6ecc3e6e923b9d4c03f73c607bfc43c2e8994079cece"
+      },
+      {
+        "part": "tab5_J7_plug_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 396.0000000000002,
+        "bounds_mm": [
+          [
+            35.0,
+            -5.5,
+            58.3
+          ],
+          [
+            41.0,
+            5.5,
+            64.3
+          ]
+        ],
+        "density_kg_m3": 1767.6767676767665,
+        "mass_kg": 0.0006999999999999992,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 4.85722573273506e-17,
+        "inertia_max_abs_error_kg_m2": 3.3272843831578006e-19,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "J7 approximate drawingposition, supplied1.25mm6Pplug; exacthousingTBD",
+        "asset_sha256": "790cad5db367c6ea7a98eac4b3a6d22aa8f69f16da57dc32086f018c47b72165"
+      },
+      {
+        "part": "uart_hat_takeoff_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 588.0,
+        "bounds_mm": [
+          [
+            -3.0,
+            -13.0,
+            92.0
+          ],
+          [
+            3.0,
+            1.0,
+            99.0
+          ]
+        ],
+        "density_kg_m3": 1360.544217687075,
+        "mass_kg": 0.0008000000000000009,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.1102230246251565e-16,
+        "inertia_max_abs_error_kg_m2": 3.3333360365192386e-18,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "GPIO16/18/GNDtakeoff orinterposer allocation; HATaccessnotconfirmed",
+        "asset_sha256": "ff864268ec0dca93416884c24d91dda7ce05ffd40032c90f31858b8e0b4962ca"
+      },
+      {
+        "part": "robot_power_pigtail",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 175.56651251861135,
+        "bounds_mm": [
+          [
+            -21.1,
+            -25.1,
+            42.2
+          ],
+          [
+            1.1,
+            1.1,
+            57.1
+          ]
+        ],
+        "density_kg_m3": 8543.77055442728,
+        "mass_kg": 0.0015000000000000002,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 1.1381640786095604e-09,
+        "inertia_max_abs_error_kg_m2": 2.990878854909888e-13,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "2wirepowerloom envelope; robot-end matinglocationTBD, no actual batteryterminal claimed",
+        "asset_sha256": "226757b5b5691e4c3f10341e239ba19d494e204b50ec0f42080a0b367b4bf0db"
+      },
+      {
+        "part": "branch_input_loom",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 57.7276697587419,
+        "bounds_mm": [
+          [
+            6.8999999999999995,
+            -25.1,
+            54.9
+          ],
+          [
+            13.100000000000001,
+            -10.9,
+            61.1
+          ]
+        ],
+        "density_kg_m3": 9527.493527775943,
+        "mass_kg": 0.0005500000000000005,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 5.106482563188575e-09,
+        "inertia_max_abs_error_kg_m2": 4.774721517272283e-13,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "short protectedbranchinput frominternalreplaceableadapter toprotectionmodule",
+        "asset_sha256": "384c82bdde2f441e6bd712988ddd0e1e524354a83763ddf1b921cf5f09157082"
+      },
+      {
+        "part": "tab5_power_loom",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 63.923312712354516,
+        "bounds_mm": [
+          [
+            25.1,
+            3.1,
+            59.1
+          ],
+          [
+            35.9,
+            18.9,
+            66.9
+          ]
+        ],
+        "density_kg_m3": 14079.37044892947,
+        "mass_kg": 0.000900000000000002,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 3.872913392766186e-09,
+        "inertia_max_abs_error_kg_m2": 5.025998578533026e-13,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "J7powerpair route; supplied6Punused4wireendsindividuallyinsulated, ratingTBD",
+        "asset_sha256": "f5ab4696a0a04334dbe430a13ca3ba9514363e0fdd21b9bef3e53dcc83140851"
+      },
+      {
+        "part": "uart_loom",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 211.51258648171532,
+        "bounds_mm": [
+          [
+            -1.0,
+            -26.0,
+            52.0
+          ],
+          [
+            33.0,
+            -6.0,
+            97.0
+          ]
+        ],
+        "density_kg_m3": 6618.991442956155,
+        "mass_kg": 0.0013999999999999993,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 6.0377582516979444e-09,
+        "inertia_max_abs_error_kg_m2": 1.6592353602633956e-13,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "3wire3.3VUART+GND loom; keepawayfrommotorleadroute, no RS232voltage",
+        "asset_sha256": "c42cd15636b9bd9980d088c4c5b48ed062dcce4e55d75a310e3ebe607d6344eb"
+      },
+      {
+        "part": "robot_power_handoff_proxy",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 384.0,
+        "bounds_mm": [
+          [
+            0.0,
+            -28.0,
+            53.0
+          ],
+          [
+            8.0,
+            -20.0,
+            59.0
+          ]
+        ],
+        "density_kg_m3": 1822.9166666666665,
+        "mass_kg": 0.0007000000000000005,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 6.245004513516506e-17,
+        "inertia_max_abs_error_kg_m2": 3.3772957229927567e-19,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "removable source-side pigtail endpoint allocation, actual branchconnectorlocationTBD",
+        "asset_sha256": "607133484571a28f57d69015aa09317fc534a516a8050f21d0fc2cb9df10dc13"
+      },
+      {
+        "part": "unresolved_fastener_mass",
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1,
+        "volume_mm3": 144.0,
+        "bounds_mm": [
+          [
+            34.0,
+            -3.0,
+            99.0
+          ],
+          [
+            38.0,
+            3.0,
+            105.0
+          ]
+        ],
+        "density_kg_m3": 6944.444444444443,
+        "mass_kg": 0.0009999999999999966,
+        "mass_abs_error_kg": 0.0,
+        "COM_max_abs_error_m": 4.163336342344337e-17,
+        "inertia_max_abs_error_kg_m2": 3.4034842611861855e-19,
+        "positive_inertia": true,
+        "proxy": true,
+        "source": "1g allowanceforunknowninternalM3engagement andsmallclips, nofitclaim",
+        "asset_sha256": "d1b4bacf021e0c2a6ba7ddaf217b93b272d2112be6907d331af7416f1d3d0529"
+      }
+    ],
+    "fixed_original_CAD": [
+      {
+        "mesh": "seeed_bearing__configuration__22x16x4",
+        "geom": 1,
+        "volume_mm3": 492.97570861673415,
+        "bounds_mm": [
+          [
+            -4.999999723531224,
+            6.500000430824255,
+            -4.999999884800626
+          ],
+          [
+            17.000000157259546,
+            28.500000311615022,
+            -0.9999996948108214
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "right_shell",
+        "geom": 2,
+        "volume_mm3": 11216.908052877747,
+        "bounds_mm": [
+          [
+            -46.39785590038405,
+            -32.26448876141249,
+            0.3337016389295955
+          ],
+          [
+            34.50000027477325,
+            -0.49999913835887744,
+            42.026369519138825
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "banana_pcb_locker",
+        "geom": 3,
+        "volume_mm3": 459.6500377820703,
+        "bounds_mm": [
+          [
+            -32.29999944907149,
+            -27.025033013734685,
+            31.452317464602753
+          ],
+          [
+            -28.499998453673918,
+            27.02503256329563,
+            38.10468383456544
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "trunk_base",
+        "geom": 4,
+        "volume_mm3": 1415.119421663436,
+        "bounds_mm": [
+          [
+            -19.000000106943347,
+            -28.499999823657284,
+            -1.000000120198477
+          ],
+          [
+            17.000000581815133,
+            28.50000020614527,
+            2.0000005103608802
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "xl330",
+        "geom": 5,
+        "volume_mm3": 15676.038060858014,
+        "bounds_mm": [
+          [
+            -18.499999743823746,
+            7.500000223517409,
+            -3.000000040072365
+          ],
+          [
+            15.499999800404705,
+            27.499999776482593,
+            26.00000004622438
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "power_support",
+        "geom": 6,
+        "volume_mm3": 10493.928222277682,
+        "bounds_mm": [
+          [
+            -31.000000363481274,
+            -27.25000025215144,
+            -44.06763147879503
+          ],
+          [
+            -13.999998819019478,
+            27.249999066192906,
+            39.42214811182182
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "np_f970",
+        "geom": 8,
+        "volume_mm3": 51555.51478754488,
+        "bounds_mm": [
+          [
+            -46.8329362264209,
+            -19.308149143572194,
+            -39.37972824811312
+          ],
+          [
+            -25.075854217778456,
+            19.30033117189325,
+            31.671268035869062
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "xl330",
+        "geom": 10,
+        "volume_mm3": 15676.038060858014,
+        "bounds_mm": [
+          [
+            -18.499999743823746,
+            -27.499999776482593,
+            -3.000000040072365
+          ],
+          [
+            15.499999800404705,
+            -7.500000223517409,
+            26.00000004622438
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "left_shell",
+        "geom": 11,
+        "volume_mm3": 11388.33307285882,
+        "bounds_mm": [
+          [
+            -46.39006396702182,
+            -1.9500009709757133,
+            0.2573475766295269
+          ],
+          [
+            34.50000184373503,
+            31.7644884816089,
+            41.94786871128151
+          ]
+        ],
+        "watertight": true
+      },
+      {
+        "mesh": "seeed_bearing__configuration__22x16x4",
+        "geom": 12,
+        "volume_mm3": 492.97570861673415,
+        "bounds_mm": [
+          [
+            -4.999999723531224,
+            -28.499999569175746,
+            -4.999999884800626
+          ],
+          [
+            17.000000157259546,
+            -6.499999688384978,
+            -0.9999996948108214
+          ]
+        ],
+        "watertight": true
+      }
+    ],
+    "fixed_CAD_intersections_over_0p001_mm3": [],
+    "assembly_solid_intersections_over_0p001_mm3": [
+      {
+        "a": "power_input_connector_proxy",
+        "b": "branch_input_loom",
+        "intersection_mm3": 6.0107550767091595,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "power_output_connector_proxy",
+        "b": "tab5_power_loom",
+        "intersection_mm3": 10.885699019304381,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "tab5_m5bus_plug_proxy",
+        "b": "uart_loom",
+        "intersection_mm3": 2.5355692404418955,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "tab5_J7_plug_proxy",
+        "b": "tab5_power_loom",
+        "intersection_mm3": 2.3295321346634594,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "uart_hat_takeoff_proxy",
+        "b": "uart_loom",
+        "intersection_mm3": 20.08216278088721,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "robot_power_pigtail",
+        "b": "robot_power_handoff_proxy",
+        "intersection_mm3": 4.223533279331485,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      },
+      {
+        "a": "branch_input_loom",
+        "b": "robot_power_handoff_proxy",
+        "intersection_mm3": 2.747820155342055,
+        "classification": "intended connector/pin engagement; provisional internal detail, not fit certification"
+      }
+    ],
+    "total_model_mass_kg": 0.736537382960085,
+    "method": "Independent exported OBJ/STL reread plus Manifold exact triangle-surface booleans in millimetres; fixed original geometry uses transformed compiled meshes. Colliders are not substituted for physical solids. Overlaps <=0.001 mm3 treated as numerical residue. Masses use declared component density or lumped mass, not weighed hardware.",
+    "STL_inventory": {
+      "expected": [
+        "body_cage_mm.stl",
+        "central_mount_mm.stl",
+        "electronics_carrier_mm.stl",
+        "protection_tray_mm.stl",
+        "rear_cover_mm.stl"
+      ],
+      "missing": [],
+      "unexpected": [],
+      "expected_new": [
+        "body_cage_mm.stl",
+        "central_mount_mm.stl",
+        "electronics_carrier_mm.stl",
+        "protection_tray_mm.stl"
+      ],
+      "expected_retained": [
+        "rear_cover_mm.stl"
+      ]
+    },
+    "all_printed_STLs_single_watertight_solids": true,
+    "all_mass_inertia_agree_with_export_precision": true,
+    "retained_STL_copies": [
+      {
+        "part": "rear_cover",
+        "status": "retained unmodified original printed cover",
+        "path": "stl/rear_cover_mm.stl",
+        "source": "../portrait_print/stl/rear_cover_mm.stl",
+        "sha256": "59ec60e518641424f237225f25acfb9c3240130d01795a192e4f4ab176ac0a25",
+        "source_sha256": "59ec60e518641424f237225f25acfb9c3240130d01795a192e4f4ab176ac0a25",
+        "byte_identical_to_prior": true,
+        "watertight": true,
+        "winding_consistent": true,
+        "components": 1
+      }
+    ]
+  },
+  "total_sample_count": 484,
+  "elapsed_seconds": 93.88090561799982,
+  "independent_collision_coverage": {
+    "parts": [
+      {
+        "part": "body_cage",
+        "collider_count": 1144,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 52082.61504200134,
+        "union_volume_mm3": 57931.443150550986,
+        "uncovered_volume_mm3": 0.0016311374758629816,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 7.283988395806152e-11,
+        "conservative_extra_volume_mm3": 5848.829739687108
+      },
+      {
+        "part": "central_mount",
+        "collider_count": 54,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 5678.297923642028,
+        "union_volume_mm3": 5757.081506987789,
+        "uncovered_volume_mm3": 0.0004817131561420285,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 78.7840650589178
+      },
+      {
+        "part": "radxa_pcb",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 3068.354433342084,
+        "union_volume_mm3": 3107.5098540928025,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 39.15542075072003
+      },
+      {
+        "part": "radxa_under_components",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 2353.4256,
+        "union_volume_mm3": 2353.4256,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "radxa_top_components",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 2047.5,
+        "union_volume_mm3": 2047.5,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "radxa_gpio_header",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 645.1600000000002,
+        "union_volume_mm3": 645.1600000000004,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "radxa_gpio_pins",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 98.30400000000134,
+        "union_volume_mm3": 933.0120000000003,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 834.7080000000009
+      },
+      {
+        "part": "robot_hat_pcb_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 3590.3999999999987,
+        "union_volume_mm3": 3590.3999999999987,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "robot_hat_components_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 16632.0,
+        "union_volume_mm3": 16632.0,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "electronics_carrier",
+        "collider_count": 225,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 14033.817911411552,
+        "union_volume_mm3": 14709.367100978912,
+        "uncovered_volume_mm3": 6.354092742308271e-05,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 675.5492531082939
+      },
+      {
+        "part": "radxa_M2p5_0",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 129.85096465180007,
+        "union_volume_mm3": 271.2184135559248,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 141.36744890412479
+      },
+      {
+        "part": "radxa_M2p5_1",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 129.8510146518003,
+        "union_volume_mm3": 271.2186355912171,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 141.36762093941675
+      },
+      {
+        "part": "radxa_M2p5_2",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 129.85101465179994,
+        "union_volume_mm3": 271.2186355912164,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 141.3676209394165
+      },
+      {
+        "part": "radxa_M2p5_3",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 129.8509397502001,
+        "union_volume_mm3": 271.21846093630484,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 141.3675211861048
+      },
+      {
+        "part": "carrier_M2_0",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 64.67176714160007,
+        "union_volume_mm3": 145.8326958162667,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 81.16092867466664
+      },
+      {
+        "part": "carrier_M2_1",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 64.67176714160006,
+        "union_volume_mm3": 145.83269581626666,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 81.16092867466664
+      },
+      {
+        "part": "tab5_M3_visible_0",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 133.18706909880012,
+        "union_volume_mm3": 200.79567712740015,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 67.60860802860003
+      },
+      {
+        "part": "tab5_M3_visible_1",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 133.1870690988001,
+        "union_volume_mm3": 200.79568113870013,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 67.60861203990002
+      },
+      {
+        "part": "tab5_M3_visible_2",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 133.18706909880015,
+        "union_volume_mm3": 200.7956820300001,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 67.60861293120004
+      },
+      {
+        "part": "tab5_M3_visible_3",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 133.1870690988001,
+        "union_volume_mm3": 200.79567947550015,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 67.60861037670003
+      },
+      {
+        "part": "protection_mount_pad",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 370.22306163610057,
+        "union_volume_mm3": 374.0000000000009,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 3.7769383639000065
+      },
+      {
+        "part": "protection_tray",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 1891.9398560550378,
+        "union_volume_mm3": 3339.639096683479,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 1447.6992406284435
+      },
+      {
+        "part": "protection_pcb_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 960.0000000000002,
+        "union_volume_mm3": 960.0000000000005,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "branch_protection_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 490.00000000000074,
+        "union_volume_mm3": 490.0000000000006,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "power_input_connector_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 336.0000000000004,
+        "union_volume_mm3": 336.0000000000004,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "power_output_connector_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 336.0000000000003,
+        "union_volume_mm3": 336.0000000000003,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "power_feedthrough_grommet",
+        "collider_count": 12,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 163.99450008359997,
+        "union_volume_mm3": 291.3370139548799,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 127.3425138712799
+      },
+      {
+        "part": "tab5_m5bus_plug_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 2106.0,
+        "union_volume_mm3": 2106.0,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "tab5_J7_plug_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 396.0000000000002,
+        "union_volume_mm3": 396.0000000000002,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "uart_hat_takeoff_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 588.0,
+        "union_volume_mm3": 588.0,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "robot_power_pigtail",
+        "collider_count": 9,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 175.56651251861135,
+        "union_volume_mm3": 175.5665947220766,
+        "uncovered_volume_mm3": 2.694488336419326e-05,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.00010914834853435638
+      },
+      {
+        "part": "branch_input_loom",
+        "collider_count": 2,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 57.7276697587419,
+        "union_volume_mm3": 57.72771565692146,
+        "uncovered_volume_mm3": 4.5332344900117505e-06,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 5.0431413999061546e-05
+      },
+      {
+        "part": "tab5_power_loom",
+        "collider_count": 4,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 63.923312712354516,
+        "union_volume_mm3": 63.92336219296229,
+        "uncovered_volume_mm3": 2.6214007069463203e-05,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 7.569461475501573e-05
+      },
+      {
+        "part": "uart_loom",
+        "collider_count": 8,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 211.51258648171532,
+        "union_volume_mm3": 211.51277819674053,
+        "uncovered_volume_mm3": 3.0624460077974284e-05,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.00022233948492969812
+      },
+      {
+        "part": "robot_power_handoff_proxy",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 384.0,
+        "union_volume_mm3": 384.0,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      },
+      {
+        "part": "unresolved_fastener_mass",
+        "collider_count": 1,
+        "nonconvex_hulls": [],
+        "physical_volume_mm3": 144.0,
+        "union_volume_mm3": 144.0,
+        "uncovered_volume_mm3": 0.0,
+        "uncovered_after_0p00001mm_linf_tolerance_mm3": 0.0,
+        "conservative_extra_volume_mm3": 0.0
+      }
+    ],
+    "complete": true,
+    "analytical_linf_tolerance_mm": 1e-05,
+    "method": "Union of exported per-part convex pieces minus exported physical solid. The 10 nanometre diagnostic inflation addresses independently rounded export coordinates and does not alter actual physics.",
+    "assembly_report_sha256": "c596c567cb9e095171434f9143a94b3c4d695ee66cf0fed3ba02fc117757f16c"
+  },
+  "assembly_overlap_classification_note": "The corrected branch_input_loom terminates intentionally inside its source-side handoff and power-input connector proxies; these are the two additional named engagements classified after source review.",
+  "sample_group_note": "The branch_input_loom was conservatively included in electronics_and_connectors in this recorded pass; all of its collider segments were checked. The current script groups it with cables for future reruns.",
+  "summary": {
+    "sample_count": 484,
+    "assembly_to_moving_leg_contact_count": 0,
+    "minimum_sampled_gap_lower_bound_mm": 3.332684348865655,
+    "fixed_CAD_interference_count": 0,
+    "unresolved_assembly_interference_count": 0,
+    "scope": "Sampled states only; no hardware or full-range-of-motion certification",
+    "all_exported_solids_covered_after_numerical_tolerance": true
+  },
+  "baseline_pose_problems": {
+    "checks": {
+      "STAND": {
+        "original_leg_vertices_max_difference_vs_rounded_mm": 0.0,
+        "ground_penetrations": [],
+        "reproduced_established_original_nonadjacent_convex_overlaps": []
+      },
+      "SIT": {
+        "original_leg_vertices_max_difference_vs_rounded_mm": 0.0,
+        "ground_penetrations": [
+          {
+            "geom": "shell_guard_legmesh_013",
+            "minimum_world_z_mm": -4.440933268097041
+          },
+          {
+            "geom": "shell_guard_legmesh_014",
+            "minimum_world_z_mm": -4.440933874625429
+          },
+          {
+            "geom": "shell_guard_legmesh_031",
+            "minimum_world_z_mm": -4.440934506806954
+          },
+          {
+            "geom": "shell_guard_legmesh_033",
+            "minimum_world_z_mm": -4.440934468466722
+          }
+        ],
+        "reproduced_established_original_nonadjacent_convex_overlaps": []
+      },
+      "FOLD": {
+        "original_leg_vertices_max_difference_vs_rounded_mm": 0.0,
+        "ground_penetrations": [],
+        "reproduced_established_original_nonadjacent_convex_overlaps": [
+          {
+            "a": "shell_guard_legmesh_004",
+            "b": "shell_guard_legmesh_016",
+            "shared_convex_interior_radius_mm": 0.45307046945410306,
+            "prior_radius_mm": 0.45307046945402835,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_006",
+            "b": "shell_guard_legmesh_016",
+            "shared_convex_interior_radius_mm": 1.0198553484431763,
+            "prior_radius_mm": 1.0198553484431514,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_008",
+            "b": "shell_guard_legmesh_016",
+            "shared_convex_interior_radius_mm": 0.45388542191626147,
+            "prior_radius_mm": 0.4538854219162224,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_010",
+            "b": "shell_guard_legmesh_016",
+            "shared_convex_interior_radius_mm": 1.5172882243055763,
+            "prior_radius_mm": 1.5172882243055168,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_022",
+            "b": "shell_guard_legmesh_030",
+            "shared_convex_interior_radius_mm": 0.45307040631506895,
+            "prior_radius_mm": 0.4530704063149835,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_025",
+            "b": "shell_guard_legmesh_030",
+            "shared_convex_interior_radius_mm": 0.4538853452799143,
+            "prior_radius_mm": 0.453885345279868,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_026",
+            "b": "shell_guard_legmesh_030",
+            "shared_convex_interior_radius_mm": 1.019854439468336,
+            "prior_radius_mm": 1.0198544394682827,
+            "unchanged_within_1e_minus_7_mm": true
+          },
+          {
+            "a": "shell_guard_legmesh_027",
+            "b": "shell_guard_legmesh_030",
+            "shared_convex_interior_radius_mm": 1.5172880508632722,
+            "prior_radius_mm": 1.5172880508632076,
+            "unchanged_within_1e_minus_7_mm": true
+          }
+        ]
+      }
+    },
+    "source": "../diagnostics/crouch_pose_report.json",
+    "source_sha256": "2b8f8a790cbd73cf765611255d7897d913f62a87e3ecc50c86205fc702df64ad",
+    "note": "SIT sole/foot penetration and FOLD nonadjacent original-leg convex-hull overlaps predate this frame and are reproduced without new geometry. Convex-hull overlaps are conservative flags, not proof of concave CAD solid collision. Saved kinematic SIT/FOLD paths are not certified physically achievable motions.",
+    "model_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef"
+  },
+  "new_exported_assets": {
+    "asset_count": 1522,
+    "manifest_sha256": "3012e61846d7a44ba477d5489f9dbb06642d51cb8ffbe6360262416088760eb3",
+    "definition": "SHA256 of canonical sorted compact JSON mapping each assembly_report physical/collider asset relative path to its file SHA256."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "physical_baseline": "../tab5_assembly_uart.xml",
+  "physical_baseline_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "visual_variant_sha256": "9833a3d2d67a20429369db975be53c5f94bad4bcc577f8042fee2aa355ec9e65",
+  "texture_pixels": [
+    720,
+    1280
+  ],
+  "camera_orientation": "top",
+  "face_region_pixels": [
+    0,
+    0,
+    720,
+    640
+  ],
+  "panel_region_pixels": [
+    0,
+    640,
+    720,
+    1280
+  ],
+  "reference_observed": "Two small white circular eyes and a short rounded horizontal white mouth on charcoal. Redrawn as editable vector artwork; source photograph unmodified.",
+  "changes": [
+    "screen visual box becomes UV-mapped mesh with identical extents",
+    "old eye visuals alpha set to zero",
+    "texture and material assets added"
+  ],
+  "physics_claim": "No mass, inertia, joint, actuator, contact, observation, camera or physical envelope change; independent verifier required.",
+  "resolution_source": "https://docs.m5stack.com/en/core/Tab5"
+}

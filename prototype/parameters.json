@@ -1,0 +1,31 @@
+{
+  "description": "Concept only. Retain original pelvis, legs, base battery; remove complete neck/head subtree. All replacement parts fixed rigidly to pelvis.",
+  "body_center_m": [0.0, 0.0, 0.078],
+  "body_size_xyz_m": [0.07, 0.132, 0.084],
+  "shell_mass_kg": 0.05,
+  "shell_wall_thickness_m": 0.002,
+  "mount_mass_kg": 0.02,
+  "mount_center_m": [0.0, 0.0, 0.030],
+  "mount_size_xyz_m": [0.036, 0.04, 0.012],
+  "compute_mass_kg": 0.035,
+  "compute_center_m": [-0.012, 0.0, 0.078],
+  "compute_size_xyz_m": [0.008, 0.065, 0.030],
+  "tab5_mass_kg": 0.1184,
+  "tab5_size_xyz_m": [0.012, 0.128, 0.080],
+  "tab5_center_m": [0.041, 0.0, 0.078],
+  "tab5_battery_mass_kg": 0.0989,
+  "tab5_battery_center_m": [0.02765, 0.0, 0.078],
+  "tab5_battery_size_xyz_m": [0.0147, 0.060, 0.050],
+  "assumptions": [
+    "Shell 50 g, mount 20 g, relocated compute/cabling allowance 35 g are placeholders, not measurements.",
+    "Tab5 faces forward (+X), landscape orientation. Device dimensions and current doc masses are official; battery footprint, component COM and all uniform inertia approximations are assumed.",
+    "Tab5-battery variant adds a second battery; bare variant assumes suitable power regulation from retained base supply, which has NOT been electrically designed.",
+    "Original pelvis inertial and battery remain exactly as exported, even though hardware revision may differ.",
+    "All offsets are in original trunk_base frame. No physical neck actuator remains. Body design is a simulation concept, not manufacturing CAD."
+  ],
+  "sources": [
+    "https://docs.m5stack.com/en/core/Tab5",
+    "https://github.com/pollen-robotics/microduck_rl/tree/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
+    "https://github.com/pollen-robotics/microduck/tree/9060e81a6e598504003ff31f9f39e075e2c5290f"
+  ]
+}

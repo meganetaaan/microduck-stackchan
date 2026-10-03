@@ -1,0 +1,8 @@
+{
+  "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+  "model_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "compiled_model_sha256": "77186b8380086f5d4c88d4b1cab06254143e38bbf0059d6a43e049d59f04e842",
+  "ppo_steps": 768000,
+  "calibration_steps": 105600,
+  "source_checkpoint_sha256": "0600d67e699b56feac03fa8810577e2f22f77045a5ddabf6a7abecbdd1da04b3"
+}

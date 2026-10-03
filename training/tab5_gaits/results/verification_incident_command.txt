@@ -1,0 +1,14 @@
+OPENBLAS_NUM_THREADS=1 .venv/bin/python - <<'PY'
+from pathlib import Path
+import json,hashlib,sys,torch,numpy as np,onnxruntime as ort,os,imageio.v2 as imageio
+# ORT was configured before import by invocation below in future replays; current process receives env below via shell override.
+root=Path('training/tab5_gaits');sys.path.insert(0,str(root));from policy import Actor
+from calibrate_commands import CalibratedActor
+torch.set_num_threads(1);ck=torch.load(root/'delivery/results/policy.pt',weights_only=False);core=Actor();core.load_state_dict(ck['actor']);a=CalibratedActor(core);a.calibration.copy_(ck['command_calibration']);opt=ort.SessionOptions();opt.intra_op_num_threads=1;opt.inter_op_num_threads=1;s=ort.InferenceSession(str(root/'delivery/results/policy.onnx'),sess_options=opt,providers=['CPUExecutionProvider']);x=np.random.default_rng(919).normal(0,.1,(100,39)).astype(np.float32);x[:,5]=-1
+with torch.no_grad():expected=a(torch.from_numpy(x)).numpy()
+actual=s.run(None,{'obs':x})[0];err=float(np.max(np.abs(actual-expected)));assert err<2e-6
+m=json.loads((root/'frozen_model_manifest.json').read_text());assert all(hashlib.sha256(Path(p).read_bytes()).hexdigest()==h for p,h in m['files'].items())
+v=imageio.get_reader(root/'delivery/results/video/trained_gaits.mp4');metadata=v.get_meta_data();frames=v.count_frames();v.close();assert frames==1200
+report={'onnx_checkpoint_max_abs_error':err,'onnx_input_shape':['batch',39],'onnx_output_shape':['batch',10],'onnx_parity_samples':100,'frozen_files_verified':len(m['files']),'video_frames':frames,'video_fps':metadata['fps'],'video_duration_s':metadata['duration'],'video_size':list(metadata['size']),'policy_sha256':hashlib.sha256((root/'delivery/results/policy.onnx').read_bytes()).hexdigest(),'mujoco_result':'112/112 steady trials and 5/5 continuous-transition trials; no falls or body-leg contacts'}
+(root/'delivery/results/final_verification.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2))
+PY

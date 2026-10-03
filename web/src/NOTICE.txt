@@ -1,0 +1,68 @@
+MicroDuck Tab5 Lab
+Independent browser-only MuJoCo WASM / ONNX Runtime Web simulator, October 2026.
+Not an official Pollen Robotics or Hugging Face release. No physical robot is connected.
+
+IMPORTANT: This is a mixed-license application. Software and trained weights are
+not licensed the same way as the MicroDuck-derived robot geometry.
+
+MicroDuck model geometry
+Source author: Pollen Robotics.
+https://github.com/pollen-robotics/microduck_rl/tree/8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec
+The pinned README states: "3D model files are licensed under Creative Commons BY-SA-NC."
+That declaration does not specify a CC version. It is preserved without inventing one.
+Attribution, noncommercial and share-alike conditions apply to the inherited and
+derived geometry, including meshes embedded in model.mjb, visual.bin, their gzip
+and split-file representations, and model renderings. See licenses/MODEL-LICENSE.md.
+Modifications: removed head/neck, custom Tab5 enclosure and assembly/proxy geometry,
+screen artwork and visual mesh data, compiled model and browser packaging.
+No blanket Apache-2.0 grant applies to those geometry assets.
+
+MicroDuck software and policy basis
+Copyright 2026 Pollen Robotics. Apache License 2.0.
+https://github.com/pollen-robotics/microduck_rl
+https://huggingface.co/pollen-robotics/microduck-policies/tree/v5
+Parent policy: alpha_walking.onnx, SHA-256
+e36332d383997d51401897734cd3e79cf5038406feddb18b4d57ecfb141daa6c
+The custom 39-observation / 10-action policy is a modified derivative of the
+61-observation / 14-action parent. Its copied weights/normalizer were adapted,
+fine-tuned with CPU PPO, then calibrated in MuJoCo. It is not a from-scratch policy.
+Distributed policy SHA-256:
+f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585
+Full software/policy text: licenses/MicroDuckRL-Apache-2.0.txt.
+
+BAM M6 / XL330 actuator model
+Copyright 2025 Marc Duclusaud & Grégoire Passault. Apache License 2.0.
+https://github.com/Rhoban/bam/tree/62bd8ce12154340be97e06f7f41a0ca8f116d967
+physics.js adapts bam/actuator.py, model.py and mujoco.py to scalar JavaScript.
+Full license: licenses/BAM-Apache-2.0.txt.
+
+MuJoCo 3.10.0
+Copyright DeepMind Technologies Limited. Apache License 2.0.
+https://github.com/google-deepmind/mujoco/tree/3.10.0/wasm
+Full text: licenses/MuJoCo-Apache-2.0.txt.
+Bundled third-party dependencies and build modifications:
+licenses/MuJoCo-ThirdParty-README.txt and the license files identified there.
+
+ONNX Runtime Web 1.30.0
+Copyright (c) Microsoft Corporation. MIT License.
+https://github.com/microsoft/onnxruntime/tree/v1.30.0
+licenses/ONNXRuntime-MIT.txt and licenses/ONNXRuntime-ThirdPartyNotices.txt.
+
+Three.js 0.180.0 and OrbitControls
+Copyright 2010-2025 three.js authors. MIT License.
+https://github.com/mrdoob/three.js/tree/r180
+licenses/Three-MIT.txt.
+
+Lucide 0.468.0
+ISC license, with retained Feather/Cole Bemis attribution.
+https://github.com/lucide-icons/lucide/tree/0.468.0
+licenses/Lucide-LICENSE.txt.
+
+Architecture reference: official MicroDuck Sandbox
+https://huggingface.co/spaces/pollen-robotics/microduck-simulator
+No official sandbox application code, audio, props or decorative assets are copied.
+
+The screen is newly drawn vector artwork based on a supplied simple face reference,
+with original decorative panels. The source photograph is not included. Names are
+used for attribution/compatibility and do not imply endorsement or trademark rights.
+

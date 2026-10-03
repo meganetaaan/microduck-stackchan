@@ -1,0 +1,103 @@
+{
+  "final_model_sha256": "76b76a149b9fb99eb61c2211ea5409175fc5422b651b9cb5f1af170020a0f276",
+  "source_hashes_match": {
+    "model": true,
+    "geometry_report": true,
+    "walk_10s_states.npz": true,
+    "idle_10s_states.npz": true,
+    "body_cage_oriented_STL": true,
+    "rear_cover_oriented_STL": true,
+    "central_mount_oriented_STL": true,
+    "compute_pedestal_oriented_STL": true
+  },
+  "sample_count": 1486,
+  "sample_counts": {
+    "STAND_to_SIT": 101,
+    "STAND_to_FOLD": 101,
+    "SIT_to_FOLD": 101,
+    "feet_flat_crouch_181": 181,
+    "walk_10s": 501,
+    "idle_10s": 501
+  },
+  "new_parts_to_moving_legs_contacts": 0,
+  "minimum_gap_bounds_mm": {
+    "mounting": {
+      "lower": 3.0978060318637954,
+      "upper": 3.0978060318787155
+    },
+    "body": {
+      "lower": 16.457641091205815,
+      "upper": 16.4576410912068
+    },
+    "Tab5": {
+      "lower": 16.300102658172,
+      "upper": 16.30010421666893
+    }
+  },
+  "original_mechanism_exactly_unchanged": true,
+  "Tab5_exactly_unchanged": true,
+  "explicit_collider_leg_pairs_missing": 0,
+  "fixed_original_CAD_clashes": [],
+  "new_part_solid_clashes": [],
+  "STL_inventory": {
+    "expected": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "compute_pedestal_mm.stl",
+      "rear_cover_mm.stl"
+    ],
+    "found": [
+      "body_cage_mm.stl",
+      "central_mount_mm.stl",
+      "compute_pedestal_mm.stl",
+      "rear_cover_mm.stl"
+    ],
+    "missing": [],
+    "unexpected": []
+  },
+  "all_printed_STLs_single_watertight_solids": true,
+  "all_oriented_STLs_pass": true,
+  "solid_density_inertias_verified": true,
+  "printed_mass_kg": 0.08274196164492058,
+  "total_model_mass_kg": 0.6996935471624202,
+  "maximum_exported_collider_uncovered_volume_after_0p00001mm_tolerance_mm3": 1.3458181900209247e-06,
+  "numerics": {
+    "optimizer_status_flags_retained": 353,
+    "max_raw_optimizer_constraint_violation_mm": 5.956310991539482e-05,
+    "max_solved_pair_support_to_feasible_distance_gap_mm": 0.00010452541285399519,
+    "all_independent_group_gap_lower_bounds_positive": true,
+    "explanation": "Solver status flags are retained. Positive independently evaluated AABB/support-plane bounds establish sampled separation regardless of optimizer status; repaired feasible points provide upper bounds. No claim of continuous-path separation."
+  },
+  "stock_plate_bearing_candidates": [
+    {
+      "part": "central_mount",
+      "exact_solid_overlap_mm3": 8.973971461401848e-06,
+      "expanded_1micron_intersection_mm3": 0.1117990692487916,
+      "bearing_contact_candidate": true
+    },
+    {
+      "part": "under_saddle",
+      "exact_solid_overlap_mm3": 7.258262716460759e-07,
+      "expanded_1micron_intersection_mm3": 0.0072315155292637275,
+      "bearing_contact_candidate": true
+    },
+    {
+      "part": "rear_hardware",
+      "exact_solid_overlap_mm3": 0.0,
+      "expanded_1micron_intersection_mm3": 0.0,
+      "bearing_contact_candidate": false
+    }
+  ],
+  "baseline_preserved": {
+    "SIT_original_minimum_ground_Z_mm": -4.440934506806954,
+    "FOLD_original_nonadjacent_convex_overlap_count": 8
+  },
+  "scope_limits": [
+    "Only saved states checked; 303 interpolation, 181 feet-flat crouch, 501 walk and 501 idle states.",
+    "Fixed CAD intersections checked with exact triangle-surface booleans; moving-leg separation uses conservative convex hulls.",
+    "STLs have no embedded units; coordinate dimensions are millimetres.",
+    "Uniform material densities are assumptions; 4 g of unspecified mounting fasteners remains an approximate mass/inertia allowance.",
+    "Strength, bolt preload, frictional anti-rotation, printer tolerances, support strategy, cable routing and actual screw engagement are not validated.",
+    "Pre-existing SIT foot penetration and FOLD original-leg convex overlaps remain unchanged."
+  ]
+}

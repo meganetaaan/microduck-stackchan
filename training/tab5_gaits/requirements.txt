@@ -1,0 +1,5 @@
+# The assembly's CPU requirements are also required.
+onnx==1.20.1
+torch==2.9.1
+# CPU-only torch wheel used in this environment: 2.9.1+cpu
+# Install torch from https://download.pytorch.org/whl/cpu for this CPU route.

@@ -1,0 +1,32 @@
+{
+  "status": "Diagnostic recommendation only; delivered lowcube model/ZIP unchanged",
+  "recommendation": "Fixed front foot-arch cutouts and locally taller side hip windows; retain all leg mechanics and Tab5 size/location",
+  "dimensions_mm": {
+    "front_opening_each_width": 41,
+    "front_opening_each_height": 30,
+    "front_center_bar_width": 50,
+    "front_upper_band_height": 6,
+    "side_upper_window_width": 75,
+    "side_upper_window_added_height": 25
+  },
+  "static_path_clearance_mm": {
+    "303_stock_keyframe_interpolation_samples_shell": 4.27498,
+    "303_stock_keyframe_interpolation_samples_tab5": 11.44092,
+    "181_feet_flat_crouch_samples_shell": 10.5,
+    "181_feet_flat_crouch_samples_tab5": 12.75682
+  },
+  "walking_probe": {
+    "seconds": 10,
+    "forward_m": 0.9973347,
+    "sideways_m": -0.2085985,
+    "fall": false,
+    "shell_leg_contacts_at_200hz": 0
+  },
+  "alternate": "Articulated or removable cosmetic skirts preserve the complete standing outline but must open before sitting/folding; require separate mechanics, interlock and mass validation",
+  "limitations": [
+    "Original SIT is a packaging keyframe, not a validated seated equilibrium or feet-flat squat.",
+    "Original extreme FOLD flags same-leg convex-proxy overlaps even without cladding; resolve against actual CAD or choose a less extreme fold.",
+    "Sampled geometric clearance is not continuous-range, cable/tolerance, dynamic balance, actuator-torque, or real-hardware certification.",
+    "Recommend a feet-flat crouch target around80-85deg knee rather than reaching90deg hard limit; transition controller not tested."
+  ]
+}

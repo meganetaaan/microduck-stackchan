@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1280" viewBox="0 0 720 1280">
+<title>Stack-chan face and MicroDuck-inspired lower robot panel</title>
+<desc>Portrait Tab5 720 by 1280 pixels. Top half: two small white eyes and a short white neutral mouth, redrawn from the supplied reference. Bottom half: purely decorative mechanical panels in warm white, gray and orange.</desc>
+<defs>
+ <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#eeeee8"/><stop offset="1" stop-color="#d4d6d2"/></linearGradient>
+ <linearGradient id="inset" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b7bfbd"/><stop offset="1" stop-color="#d5d9d4"/></linearGradient>
+</defs>
+<!-- Exact upper half is reserved for the face. No labels or UI telemetry. -->
+<rect width="720" height="640" fill="#303137"/>
+<circle cx="215" cy="264" r="16" fill="#fcfcfa"/>
+<circle cx="505" cy="264" r="16" fill="#fcfcfa"/>
+<rect x="277" y="391" width="166" height="23" rx="11.5" fill="#fcfcfa"/>
+<!-- Lower half: broad softened panels repeat the robot's casing language. -->
+<rect y="640" width="720" height="640" fill="#525959"/>
+<path d="M28 665 Q28 648 45 648 H675 Q692 648 692 665 V1235 Q692 1256 671 1256 H49 Q28 1256 28 1235Z" fill="url(#panel)"/>
+<path d="M52 676 H668" stroke="#fafaf5" stroke-width="4"/>
+<path d="M48 1237 H672" stroke="#a2aaa6" stroke-width="5"/>
+<!-- Orange yoke and gray inset have no functional control meaning. -->
+<path d="M76 710 H644 V799 L600 829 H120 L76 799Z" fill="#fc7b16"/>
+<path d="M92 712 H628" stroke="#ffb060" stroke-width="4"/>
+<rect x="122" y="730" width="476" height="62" rx="18" fill="#626a69"/>
+<rect x="138" y="741" width="444" height="4" rx="2" fill="#818b87"/>
+<path d="M117 862 H603 Q627 862 627 886 V1169 Q627 1192 604 1192 H116 Q93 1192 93 1169 V886 Q93 862 117 862Z" fill="url(#inset)" stroke="#a1aaa6" stroke-width="3"/>
+<path d="M116 868 H602" stroke="#f5f6ef" stroke-width="3"/>
+<!-- Low-profile circular panel detail echoes the orange foot hardware. -->
+<circle cx="360" cy="1010" r="102" fill="#7b8581"/>
+<circle cx="360" cy="1007" r="90" fill="#e9ece4"/>
+<circle cx="360" cy="1007" r="66" fill="#c3cbc5"/>
+<circle cx="360" cy="1007" r="48" fill="#eff0e9"/>
+<path d="M299 926 A102 102 0 0 1 421 926" fill="none" stroke="#fc7b16" stroke-width="14" stroke-linecap="round"/>
+<!-- Three shallow vent marks per side, no dense fake UI. -->
+<g fill="#87918c"><rect x="129" y="963" width="78" height="11" rx="5.5"/><rect x="129" y="996" width="78" height="11" rx="5.5"/><rect x="129" y="1029" width="78" height="11" rx="5.5"/><rect x="513" y="963" width="78" height="11" rx="5.5"/><rect x="513" y="996" width="78" height="11" rx="5.5"/><rect x="513" y="1029" width="78" height="11" rx="5.5"/></g>
+<rect x="260" y="1143" width="200" height="9" rx="4.5" fill="#a5aea9"/>
+<g fill="#8c9790"><circle cx="63" cy="690" r="6"/><circle cx="657" cy="690" r="6"/><circle cx="63" cy="1214" r="6"/><circle cx="657" cy="1214" r="6"/></g>
+</svg>

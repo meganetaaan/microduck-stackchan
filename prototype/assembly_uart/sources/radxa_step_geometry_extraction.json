@@ -1,0 +1,508 @@
+{
+  "source": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_3d_stp.zip",
+  "bbox": {
+    "xmin": -0.01347,
+    "ymin": -1.5,
+    "zmin": -4.4841,
+    "xmax": 65.00165,
+    "ymax": 30.00553,
+    "zmax": 8.5,
+    "xlen": 65.01512,
+    "ylen": 31.50553,
+    "zlen": 12.9841
+  },
+  "solids": [
+    {
+      "index": 0,
+      "bbox": {
+        "xmin": -0.01347,
+        "ymin": -1.25,
+        "zmin": -4.4841,
+        "xmax": 65.00165,
+        "ymax": 30.00553,
+        "zmax": 8.5,
+        "xlen": 65.01512,
+        "ylen": 31.25553,
+        "zlen": 12.9841
+      },
+      "volume_mm3": 4675.975552028428
+    },
+    {
+      "index": 1,
+      "bbox": {
+        "xmin": 47.6898,
+        "ymin": 1.909,
+        "zmin": -1.94,
+        "xmax": 48.1698,
+        "ymax": 2.409,
+        "zmax": -1.61,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07920000000000059
+    },
+    {
+      "index": 2,
+      "bbox": {
+        "xmin": 47.6798,
+        "ymin": 1.659,
+        "zmin": -1.95,
+        "xmax": 48.1798,
+        "ymax": 1.909,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 3,
+      "bbox": {
+        "xmin": 47.6798,
+        "ymin": 2.409,
+        "zmin": -1.95,
+        "xmax": 48.1798,
+        "ymax": 2.659,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.043749999999999976
+    },
+    {
+      "index": 4,
+      "bbox": {
+        "xmin": 46.75,
+        "ymin": 7.878,
+        "zmin": -1.94,
+        "xmax": 47.23,
+        "ymax": 8.378,
+        "zmax": -1.61,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07919999999999944
+    },
+    {
+      "index": 5,
+      "bbox": {
+        "xmin": 46.74,
+        "ymin": 7.628,
+        "zmin": -1.95,
+        "xmax": 47.24,
+        "ymax": 7.878,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 6,
+      "bbox": {
+        "xmin": 46.74,
+        "ymin": 8.378,
+        "zmin": -1.95,
+        "xmax": 47.24,
+        "ymax": 8.628,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 7,
+      "bbox": {
+        "xmin": 50.306,
+        "ymin": 20.832,
+        "zmin": 0.01,
+        "xmax": 50.786,
+        "ymax": 21.332,
+        "zmax": 0.34,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07920000000000064
+    },
+    {
+      "index": 8,
+      "bbox": {
+        "xmin": 50.296,
+        "ymin": 21.332,
+        "zmin": 0.0,
+        "xmax": 50.796,
+        "ymax": 21.582,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    },
+    {
+      "index": 9,
+      "bbox": {
+        "xmin": 50.296,
+        "ymin": 20.582,
+        "zmin": 0.0,
+        "xmax": 50.796,
+        "ymax": 20.832,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    },
+    {
+      "index": 10,
+      "bbox": {
+        "xmin": 49.29,
+        "ymin": 20.832,
+        "zmin": 0.01,
+        "xmax": 49.77,
+        "ymax": 21.332,
+        "zmax": 0.34,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07920000000000064
+    },
+    {
+      "index": 11,
+      "bbox": {
+        "xmin": 49.28,
+        "ymin": 21.332,
+        "zmin": 0.0,
+        "xmax": 49.78,
+        "ymax": 21.582,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    },
+    {
+      "index": 12,
+      "bbox": {
+        "xmin": 49.28,
+        "ymin": 20.582,
+        "zmin": 0.0,
+        "xmax": 49.78,
+        "ymax": 20.832,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    },
+    {
+      "index": 13,
+      "bbox": {
+        "xmin": 21.5024,
+        "ymin": 8.005,
+        "zmin": -1.94,
+        "xmax": 21.9824,
+        "ymax": 8.505,
+        "zmax": -1.61,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07919999999999944
+    },
+    {
+      "index": 14,
+      "bbox": {
+        "xmin": 21.4924,
+        "ymin": 8.505,
+        "zmin": -1.95,
+        "xmax": 21.9924,
+        "ymax": 8.755,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 15,
+      "bbox": {
+        "xmin": 21.4924,
+        "ymin": 7.755,
+        "zmin": -1.95,
+        "xmax": 21.9924,
+        "ymax": 8.005,
+        "zmax": -1.6,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.043750000000000136
+    },
+    {
+      "index": 16,
+      "bbox": {
+        "xmin": 14.609,
+        "ymin": 21.604,
+        "zmin": -1.94,
+        "xmax": 15.109,
+        "ymax": 22.084,
+        "zmax": -1.61,
+        "xlen": 0.5,
+        "ylen": 0.48,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07920000000000003
+    },
+    {
+      "index": 17,
+      "bbox": {
+        "xmin": 15.109,
+        "ymin": 21.594,
+        "zmin": -1.95,
+        "xmax": 15.359,
+        "ymax": 22.094,
+        "zmax": -1.6,
+        "xlen": 0.25,
+        "ylen": 0.5,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 18,
+      "bbox": {
+        "xmin": 14.359,
+        "ymin": 21.594,
+        "zmin": -1.95,
+        "xmax": 14.609,
+        "ymax": 22.094,
+        "zmax": -1.6,
+        "xlen": 0.25,
+        "ylen": 0.5,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04374999999999998
+    },
+    {
+      "index": 19,
+      "bbox": {
+        "xmin": 51.322,
+        "ymin": 20.832,
+        "zmin": 0.01,
+        "xmax": 51.802,
+        "ymax": 21.332,
+        "zmax": 0.34,
+        "xlen": 0.48,
+        "ylen": 0.5,
+        "zlen": 0.33
+      },
+      "volume_mm3": 0.07919999999999948
+    },
+    {
+      "index": 20,
+      "bbox": {
+        "xmin": 51.312,
+        "ymin": 21.332,
+        "zmin": 0.0,
+        "xmax": 51.812,
+        "ymax": 21.582,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    },
+    {
+      "index": 21,
+      "bbox": {
+        "xmin": 51.312,
+        "ymin": 20.582,
+        "zmin": 0.0,
+        "xmax": 51.812,
+        "ymax": 20.832,
+        "zmax": 0.35,
+        "xlen": 0.5,
+        "ylen": 0.25,
+        "zlen": 0.35
+      },
+      "volume_mm3": 0.04375
+    }
+  ],
+  "mounting_hole_candidate_faces": [
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        3.549904,
+        3.599942,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 2.1499,
+        "ymin": 2.19994,
+        "zmin": -1.6,
+        "xmax": 4.9499,
+        "ymax": 3.59994,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        3.549904,
+        3.599942,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 2.1499,
+        "ymin": 3.59994,
+        "zmin": -1.6,
+        "xmax": 4.9499,
+        "ymax": 4.99994,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        3.599942,
+        26.450036,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 2.19994,
+        "ymin": 25.05004,
+        "zmin": -1.6,
+        "xmax": 4.99994,
+        "ymax": 26.45004,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        3.599942,
+        26.450036,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 2.19994,
+        "ymin": 26.45004,
+        "zmin": -1.6,
+        "xmax": 4.99994,
+        "ymax": 27.85004,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        61.399928,
+        26.500074,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 59.99993,
+        "ymin": 25.10007,
+        "zmin": -1.6,
+        "xmax": 62.79993,
+        "ymax": 26.50007,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        61.399928,
+        26.500074,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 59.99993,
+        "ymin": 26.50007,
+        "zmin": -1.6,
+        "xmax": 62.79993,
+        "ymax": 27.90007,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        61.399928,
+        3.599942,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 59.99993,
+        "ymin": 2.19994,
+        "zmin": -1.6,
+        "xmax": 62.79993,
+        "ymax": 3.59994,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    },
+    {
+      "type": "CYLINDER",
+      "radius": 1.4,
+      "location": [
+        61.399928,
+        3.599942,
+        0.0
+      ],
+      "bbox": {
+        "xmin": 59.99993,
+        "ymin": 3.59994,
+        "zmin": -1.6,
+        "xmax": 62.79993,
+        "ymax": 4.99994,
+        "zmax": 0.0,
+        "xlen": 2.8,
+        "ylen": 1.4,
+        "zlen": 1.6
+      }
+    }
+  ]
+}

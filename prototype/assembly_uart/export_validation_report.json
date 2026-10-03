@@ -1,0 +1,53 @@
+{
+  "print_orientations": [
+    {
+      "part": "body_cage",
+      "vertex_error_mm": 3.814697265625e-06,
+      "watertight": true,
+      "one_component": true,
+      "bed_Z0": true
+    },
+    {
+      "part": "central_mount",
+      "vertex_error_mm": 1.066240299940009e-06,
+      "watertight": true,
+      "one_component": true,
+      "bed_Z0": true
+    },
+    {
+      "part": "electronics_carrier",
+      "vertex_error_mm": 9.5367431640625e-07,
+      "watertight": true,
+      "one_component": true,
+      "bed_Z0": true
+    },
+    {
+      "part": "protection_tray",
+      "vertex_error_mm": 0.0,
+      "watertight": true,
+      "one_component": true,
+      "bed_Z0": true
+    },
+    {
+      "part": "rear_cover",
+      "vertex_error_mm": 7.105427357601002e-15,
+      "watertight": true,
+      "one_component": true,
+      "bed_Z0": true
+    }
+  ],
+  "GLB_geometry_count": 45,
+  "GLB_bounds_m": [
+    [
+      -0.039000000804662704,
+      -0.03999999910593033,
+      -0.003800000064074993
+    ],
+    [
+      0.0536700002849102,
+      0.03999999910593033,
+      0.12600000202655792
+    ]
+  ],
+  "all_pass": true
+}

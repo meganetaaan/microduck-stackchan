@@ -1,0 +1,6 @@
+{
+  "oldFlipY": true,
+  "correctedFlipY": false,
+  "cause": "Compiled MuJoCo screen V is already top-origin; Three default flip inverted it again",
+  "scope": "Display texture only, physics and original image bytes unchanged"
+}

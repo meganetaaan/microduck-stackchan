@@ -1,0 +1,15 @@
+{
+  "visible_cpu_cores": 9,
+  "ram_total_kib": 10206508,
+  "cuda_devices": 0,
+  "torch": "2.9.1+cpu",
+  "official_training_route": "MuJoCo-Warp PPO requires CUDA; official README estimates 1–2 h with 4096 environments",
+  "official_source": "https://github.com/pollen-robotics/microduck_rl",
+  "source_commit": "8d0db74916a4f833d1d9b95d6a1d7f4d13b9d5ec",
+  "measured_cpu_route": "Full CPU MuJoCo/BAM with 4 processes, native 10-action PPO",
+  "pilot_control_steps": 64000,
+  "pilot_rollout_and_optimization_wall_s_after_startup": 87.33456336,
+  "pilot_control_steps_per_second": 732.8141,
+  "expected_seconds_per_million_steps_at_pilot_rate": 1364.6,
+  "notes": "Throughput varies with contact/motion and concurrent load. No paid GPU resources were provisioned. A brief 8-process benchmark was faster; concurrent training/evaluation caused a worker exit, so subsequent runs are resource-limited to four processes and heavy phases are serialized."
+}

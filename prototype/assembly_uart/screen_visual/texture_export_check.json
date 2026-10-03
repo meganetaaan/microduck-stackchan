@@ -1,0 +1,15 @@
+{
+  "glb_geometry_count": 43,
+  "textured_screen_vertices": 8,
+  "texture_pixels": [
+    720,
+    1280
+  ],
+  "texture_pixel_hash_matches_png": true,
+  "uv_bounds": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+  ]
+}

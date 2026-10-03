@@ -1,0 +1,18 @@
+{
+  "method": "CPU orthographic UV sampling of actual compiled screen geometry and PNG, not a browser render",
+  "geom_id": 55,
+  "mesh_id": 1648,
+  "source_image_sha256": "f2b49af349798c52cd9efa743daf8030a66339223731c4d1a544d14132ff6d98",
+  "compiled_top_v": [
+    0.0
+  ],
+  "compiled_bottom_v": [
+    1.0
+  ],
+  "old_three_flipY": true,
+  "corrected_three_flipY": false,
+  "corrected_image_top_row_at_model_top": true,
+  "corrected_image_bottom_row_at_model_bottom": true,
+  "three_uv_regression_tests_passed": 3,
+  "physics_assets_modified": false
+}

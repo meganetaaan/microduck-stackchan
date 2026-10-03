@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "tests": [
+    "worker initialization",
+    "release heartbeat timeout",
+    "pause freezes time",
+    "resume clears stale motion",
+    "reset returns paused standing state",
+    "unknown commands rejected"
+  ],
+  "runtime": "Node24 with actual browser worker module and ORT WASM; browser WebGL not exercised"
+}

@@ -1,0 +1,12 @@
+{
+  "label": "idle_10s",
+  "method": "Minimum AABB separation in trunk frame; independently conservative for enclosed actual meshes and convex hulls. May underestimate exact gap.",
+  "sample_count": 501,
+  "minimum_lower_bound_mm": 2.000000173026612,
+  "winner": [
+    336,
+    "cube_portrait_mount_0_collision",
+    "shell_guard_legmesh_000"
+  ],
+  "contact_count": 0
+}

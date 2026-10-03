@@ -1,0 +1,174 @@
+{
+  "body_bounds_xyz_mm": [
+    [
+      -39,
+      41
+    ],
+    [
+      -40,
+      40
+    ],
+    [
+      46,
+      126
+    ]
+  ],
+  "outer_corner_radius_mm": 6.0,
+  "wall_mm": 2.4,
+  "side_window_xz_mm": [
+    [
+      -27,
+      29
+    ],
+    [
+      58,
+      114
+    ]
+  ],
+  "side_window_radius_mm": 10.0,
+  "front_aperture_yz_mm": [
+    [
+      -30,
+      30
+    ],
+    [
+      54,
+      118
+    ]
+  ],
+  "front_aperture_radius_mm": 8.0,
+  "rear_aperture_yz_mm": [
+    [
+      -30,
+      30
+    ],
+    [
+      54,
+      118
+    ]
+  ],
+  "rear_aperture_radius_mm": 8.0,
+  "rear_cover_gap_mm": 0.25,
+  "rear_screw_yz_mm": [
+    [
+      -26,
+      60
+    ],
+    [
+      26,
+      60
+    ],
+    [
+      -26,
+      112
+    ],
+    [
+      26,
+      112
+    ]
+  ],
+  "rear_clearance_hole_diameter_mm": 2.4,
+  "rear_nut_pocket_across_flats_mm": 4.3,
+  "rear_nut_pocket_depth_mm": 1.9,
+  "plastic_density_kg_m3": 1240,
+  "steel_density_kg_m3": 7850,
+  "mount_post_bounds_xyz_mm": [
+    [
+      [
+        -10,
+        -6
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        0,
+        43.6
+      ]
+    ],
+    [
+      [
+        6,
+        10
+      ],
+      [
+        -6,
+        6
+      ],
+      [
+        0,
+        43.6
+      ]
+    ]
+  ],
+  "mount_edge_radius_mm": 1.2,
+  "mount_crosshead_bounds_xyz_mm": [
+    [
+      -12,
+      12
+    ],
+    [
+      -6,
+      6
+    ],
+    [
+      40,
+      46
+    ]
+  ],
+  "compute_mass_kg": 0.035,
+  "compute_bounds_xyz_mm": [
+    [
+      -24,
+      -16
+    ],
+    [
+      -32.5,
+      32.5
+    ],
+    [
+      54,
+      84
+    ]
+  ],
+  "mount_fastener_allowance_kg": 0.004,
+  "notes": [
+    "Selected portrait design refinement; prior portrait and landscape files are preserved.",
+    "80x80mm body footprint excludes unchanged 12mm front Tab5 thickness; body height80mm. Tab5 remains at47,0,62mm with camera above and face in screen upper half.",
+    "Broad planar cheeks, R6 outer perimeter and R10 window corners echo original rounded MicroDuck leg casings. Wall2.4mm; transparent empty windows are true solid cutouts.",
+    "PLA density1240kg/m3 is an explicit mass assumption, not a measured printed part. No strength or printer-fit certification.",
+    "Rear cover uses provisional M2 clearance holes and captive-nut pockets; actual screw/nut dimensions and print clearance require a fit coupon. Robot and Tab5 mounting interfaces require measurement before drilling or hardware use.",
+    "Rounded mounting-post feet stay inside prior solid envelopes and increase corner clearance. Mount fastener allowance4g covers unspecified original-plate attachment hardware.",
+    "Tab5 rear mount hole centers derive from official dimension drawing: portraitY\u00b136, Z75 and122mm. M3 screw engagement length is not specified by the drawing and requires measurement.",
+    "Original center post feet have no corresponding stock bolt holes. Proposed saddle clamp uses the existing center slot; load capacity and cable access remain unverified.",
+    "Front Tab5 mating rim ends square at X41mm, with zero X-direction roundover. Existing R6 YZ outline, R8 central aperture, M3 lands and clearance bores are preserved. This is nominal planar contact, not a zero-tolerance press fit or certified rear-component fit."
+  ],
+  "tab5_rear_mount_yz_mm": [
+    [
+      -36,
+      75
+    ],
+    [
+      36,
+      75
+    ],
+    [
+      -36,
+      122
+    ],
+    [
+      36,
+      122
+    ]
+  ],
+  "tab5_rear_clearance_hole_mm": 3.4,
+  "under_saddle_outer_diameter_mm": 8,
+  "under_saddle_thickness_mm": 0.8,
+  "under_saddle_inner_diameter_mm": 2.7,
+  "under_saddle_material": "steel",
+  "central_clamp_thread": "M2",
+  "washer_dimension_source": "https://eshop.wurth.fr/Rondelle-a-grand-diametre-exterieur-DIN-9021-inox-A4-brut-ROND-DIN9021-A4-D27/04129225.sku/fr/FR/EUR/",
+  "front_mating_depth_fillet_mm": 0,
+  "front_mating_plane_x_mm": 41
+}

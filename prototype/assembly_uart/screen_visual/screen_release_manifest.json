@@ -1,0 +1,38 @@
+{
+  "base_archive_sha256": "fcedf50ae1554d98728122ce6e129dd0b30599d3855fa8a3347b0af98f4190a3",
+  "purpose": "Screen-only Stack-chan face and MicroDuck-color lower robot panel",
+  "frozen_physics_files_verified": 1654,
+  "baseline_physics_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "visual_xml_sha256": "9833a3d2d67a20429369db975be53c5f94bad4bcc577f8042fee2aa355ec9e65",
+  "unchanged_original_physics_assets": true,
+  "training_addon_included": false,
+  "changed_documents": {
+    "README.md": {
+      "before": "753bc26cf58422300e86fe4f081ac1257c046fbbc905afc200c8d25e98c0cc1f",
+      "after": "8c6d0c4ed9acd9891a1c41ff55efde3414ee86e14bb8de8d5f1d3c2206ba3c44",
+      "history": "docs/history/v6-screen/README.md"
+    },
+    "README-ASSEMBLY-UART-ja.md": {
+      "before": "14d3d0182eab31df0be35e3d142a84ddc51becd0f5992ef80c802e306644f6e6",
+      "after": "8986eed2dc59c1ec26a8896558c160cd09eb69eb80421dd2076f617aefebdc8a",
+      "history": "docs/history/v6-screen/README-ASSEMBLY-UART-ja.md"
+    }
+  },
+  "new_visual_files": {
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/screen_closeup.png": "cac81563cb1f38ad986356dbf186c8a31bdb1d241b546f559e24579b0150dfad",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/package_screen.py": "042c89963667b40412c26802ed6c4359faf05a7932d7961e90d0c7fa4282a76e",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/screen_design.json": "4ee2ec456beaff847d5a48d4c231f43abd4d6299fae05b15a68f6fd17d361d88",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/texture_export_check.json": "9b3ccf19709dea9e203bc2a8005902b1a49248573c15a3c7c14f4c93add5e04c",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/README.md": "3fff7d7327bfded49317ef4789951dd5896835730df2712152988f118a517756",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/build_screen.py": "f4a2b252892ee7a57bcf2bc65efc0076f55ef6b2b37d6477668ab6dc542ec651",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/upper_assembly_screen.glb": "769932acb60167173ec661758c8780538b7dcd421e104ec46ff9bc50d24192ee",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/render_screen.py": "5e70d3887ac8dbb1f6ffad38a7fefd9d3bdc8338564efbd1dacd03bf6913c54c",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/upper_assembly_screen_export.json": "a3987b4e92681f75d6c5e0947710aca8f25bcaaacde1ef2826091d0b4f374d20",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/screen_robot_views.png": "bd24f1ee0c5d073c123dfd7ffaf4fdb0c6ea1ebbb89f16612fca7d3dffb9e20f",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/assets/stackchan_microduck_screen_720x1280.png": "f2b49af349798c52cd9efa743daf8030a66339223731c4d1a544d14132ff6d98",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/assets/screen_surface.obj": "321826a5dfd9919caabc068f230f1bd6e180d07fa066af4e9ba72ca354301859",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/assets/stackchan_microduck_screen.svg": "06c9d27f73751818f87eb845f901e0697f94b259c4a843405798f5ba4af8d1a6",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/validation/physics_compatibility_report.json": "90426fcb57130f1ef909692d4241ef01f5585c87e194492c70b566e756a2cbcd",
+    "microduck-stackchan/prototype/assembly_uart/screen_visual/validation/verify_physics_compatibility.py": "8b4680aba19e42052d927ecad521c66fa7f16e90484fe18c3b1cc7d5c901c633"
+  }
+}

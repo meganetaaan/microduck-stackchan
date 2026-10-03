@@ -1,0 +1,192 @@
+{
+  "researched_utc": "2026-10-02",
+  "scope": "Provisional MicroDuck plus Tab5 UART assembly. No actual hardware measured.",
+  "radxa_zero_3w": {
+    "source_index": "https://docs.radxa.com/en/zero/zero3/download",
+    "source_step_zip": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_3d_stp.zip",
+    "source_dxf_zip": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_2d_dxf.zip",
+    "source_product_brief": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_product_brief.pdf",
+    "cad_revision": "Official download labels v1.11 production; STEP internal FILE_NAME is ZREO_3W with timestamp 2024-04-25",
+    "product_brief_revision": "1.12, 2026-09-20",
+    "pcb_nominal_mm": [
+      65,
+      30,
+      1.6
+    ],
+    "pcb_dimensions_evidence": "65x30 and four diameter2.8 mounting holes labeled on product-brief mechanical drawing. Thickness1.6 extracted from official STEP cylindrical mounting-hole faces spanning z=-1.6..0.",
+    "coordinates": "Original STEP mm coordinates; PCB nominal x=0..65, y=0..30, top z=0, bottom z=-1.6; connector ports along negative y side; 40-pin header along positive y side.",
+    "mounting_holes_mm": {
+      "diameter": 2.8,
+      "centers_xy": [
+        [
+          3.549904,
+          3.599942
+        ],
+        [
+          3.599942,
+          26.450036
+        ],
+        [
+          61.399928,
+          26.500074
+        ],
+        [
+          61.399928,
+          3.599942
+        ]
+      ],
+      "evidence": "Official STEP radius1.4 through-hole cylinder centers agree with official DXF footprint centers; small asymmetry preserved. Do not replace with assumed Raspberry Pi Zero58x23 pattern. Tolerances not specified."
+    },
+    "cad_all_geometry_bbox_mm": {
+      "min": [
+        -0.013470255037,
+        -1.5000001,
+        -4.484104349629
+      ],
+      "max": [
+        65.001648105842,
+        30.0055281,
+        8.5
+      ],
+      "size": [
+        65.015118360879,
+        31.5055282,
+        12.984104349629
+      ],
+      "evidence": "OCCT BoundingBox on complete imported official STEP shape, including shell geometry. Imported shape validity test is false. Suitable envelope reference, not mass model."
+    },
+    "header": {
+      "grid_x_mm": {
+        "start": 8.32,
+        "step": 2.54,
+        "count": 20
+      },
+      "grid_y_mm": [
+        25.4051,
+        27.9451
+      ],
+      "pin_tip_z_mm": 8.5,
+      "evidence": "Pad coordinates from DXF circles; tips from STEP planes. Exact pin-number-to-coordinate orientation not established confidently. Logical pins16/18 are UART4_RX_M1/UART4_TX_M1 but electrical availability/physical access with Robot HAT is unverified.",
+      "source_pinmap": "https://docs.radxa.com/en/zero/zero3/hardware-design/hardware-interface",
+      "plastic_body_top_face_bbox_mm": {
+        "min": [
+          7.05,
+          24.1351,
+          2.5
+        ],
+        "max": [
+          57.85,
+          29.2151,
+          2.5
+        ]
+      },
+      "plastic_body_plan_mm": [
+        50.8,
+        5.08
+      ],
+      "plastic_top_z_mm": 2.5
+    },
+    "usb_c": {
+      "orientation": "Both along negative-y edge. Plug insertion and cable envelope beyond connector not supplied.",
+      "cad_connector_top_z_mm": 3.16,
+      "cad_port_front_y_mm": -1.5,
+      "cad_port_center_x_mm": [
+        41.57,
+        54.03
+      ],
+      "caveat": "CAD-derived centerline geometry; product-brief mechanical figure has nominal centers41.5 and54.7. Revision/geometry discrepancy requires measurement before port-cutout manufacture."
+    },
+    "official_mass_kg": null,
+    "mass_note": "No official bare-board mass found in reviewed Radxa sources. Any dynamic-model mass is an explicit assumption, not a manufacturer figure.",
+    "coarse_visual_obj": "radxa_zero_3w_official_visual_coarse_mm.obj",
+    "coarse_visual_report": "radxa_coarse_visual_conversion_report.json",
+    "mesh_caveat": "Source has invalid/open or nonmanifold geometry. Visual only; no use for physical mass, collision validation, or printing. No license conclusion drawn."
+  },
+  "tab5": {
+    "source": "https://docs.m5stack.com/en/core/Tab5",
+    "source_dimensions": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/C145_Model_Size_page_01.png",
+    "source_pinmap": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/C145_Pinmap_Overview.png",
+    "source_rear_photo": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/tab5_m5_bus_extension_01.jpg",
+    "source_schematic": "https://m5stack-doc.oss-cn-shenzhen.aliyuncs.com/1132/Tab5_Schematics_PDF.pdf",
+    "bare_product_mm": [
+      128,
+      80,
+      12
+    ],
+    "bare_product_mass_kg": 0.1184,
+    "coordinates": "Rear landscape orthographic dimension view with battery bay left: x right from left edge0..128, y down from top edge0..80. Rear connector mating direction is outward normal to screen plane.",
+    "explicit_module_mount_hole_centers_xy_mm": [
+      [
+        52,
+        18
+      ],
+      [
+        96,
+        18
+      ],
+      [
+        52,
+        62
+      ],
+      [
+        96,
+        62
+      ]
+    ],
+    "m5bus": {
+      "pins": "2x15",
+      "estimated_center_xy_mm": [
+        55,
+        40
+      ],
+      "estimated_housing_mm": [
+        6.5,
+        39
+      ],
+      "long_axis": "parallel to80-mm side",
+      "estimated_pin_grid_mm": {
+        "column_x": [
+          53.73,
+          56.27
+        ],
+        "row1_y": 22.22,
+        "row_step": 2.54,
+        "rows": 15
+      },
+      "orientation": "Rear photo and official LEFT/RIGHT table indicate odd column toward battery bay/lower x and even column toward main PCB/higher x; first rowGND/G16 at top, final rowHVIN/BAT at bottom.",
+      "central_row": "Pins15/16, G7 PC_RX and G6 PC_TX, near y40; requires hardware verification before wiring.",
+      "caveat": "Housing location/dimensions and pin-grid coordinates are drawing-scaled estimates, not labeled connector dimensions. The2.54 grid is inferred. Header insertion depth and mated plug/cable keepout unknown."
+    },
+    "j7_extport2": {
+      "estimated_center_xy_mm": [
+        63.3,
+        40
+      ],
+      "estimated_housing_mm": [
+        5.5,
+        10.5
+      ],
+      "suggested_provisional_visual_box_mm": [
+        6,
+        11
+      ],
+      "location": "Rear face immediately to the main-PCB side of M5Bus; white6-pin receptacle below RS485 termination switch in official rear view. Not an exterior side port.",
+      "schematic_label": "1.25MM_6P",
+      "power_pins": "pin1GND, pin2SYS_VIN/HVIN;6-24V range per Tab5 docs and pinmap",
+      "caveat": "Center/housing size are image-derived only. Exact mating connector series, insertion height, wire colors, and cable envelope not established."
+    },
+    "official_stl_caveat": "Tab5_official.stl was downloaded from M5_Hardware master/Products/C145_Tab5/Structures. Parent inspection reports exploded/disjoint layout,128x556.44x12 overall; must not insert as assembled product."
+  },
+  "microduck_retained_stack": {
+    "source": "https://github.com/pollen-robotics/microduck/blob/main/deploy/audio/i2c3-pihat.dts",
+    "evidence": "Official code states Radxa Zero3W uses Robot HAT I2C on header3/5 and in-robot power comes from battery via HAT. Therefore do not delete HAT/controller/power-board representation merely because bare SBC fits.",
+    "envelope_mass_offset": null,
+    "unknown": "HAT dimensions, board offsets, stacking height, connector occupation, harness service clearance, power-branch access and mass are unverified. Reserve explicit provisional keepout and mass assumptions.",
+    "hardware_files_source": "https://pollen-robotics.com/microduck/press-kit/",
+    "hardware_files_note": "Official press kit says open-source statement covers software; mechanical and electronic design files are not open."
+  },
+  "protection_branch": {
+    "selection": null,
+    "recommendation": "Use an explicitly provisional protection-module keepout. No fuse/holder product or rating selected; do not imply validated branch protection."
+  }
+}

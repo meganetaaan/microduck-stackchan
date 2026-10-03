@@ -1,0 +1,25 @@
+{
+  "variant": "tab5_lowcube",
+  "description": "Lower landscape Tab5 inside a deeper, open-bottom hollow case with side hip/leg cutouts; original leg chain remains unchanged.",
+  "outer_bounds_xyz_m": [[-0.079, 0.041], [-0.066, 0.066], [-0.045, 0.073]],
+  "wall_thickness_m": 0.0015,
+  "shell_material_density_kg_m3": 1240.0,
+  "side_notch_x_range_m": [-0.062, 0.041],
+  "side_notch_top_z_m": 0.010,
+  "tab5_center_m": [0.047, 0.0, 0.031],
+  "tab5_size_xyz_m": [0.012, 0.128, 0.080],
+  "tab5_mass_kg": 0.1184,
+  "mount_center_m": [-0.005, 0.0, 0.030],
+  "mount_size_xyz_m": [0.030, 0.028, 0.010],
+  "mount_mass_kg": 0.020,
+  "compute_center_m": [-0.055, 0.0, 0.031],
+  "compute_size_xyz_m": [0.008, 0.065, 0.030],
+  "compute_mass_kg": 0.035,
+  "assumptions": [
+    "Tab5 landscape width128mm height80mm depth12mm is unchanged; moved down47mm and forward6mm from first prototype.",
+    "Case outer depth120mm, width132mm, height118mm; Tab5 protrudes12mm forward. Whole face+case envelope is132x132x118mm.",
+    "1.5mm uniform PLA walls at1240kg/m3 are a mass estimate, not printability or strength certification. Fasteners/cabling remain in20g mount plus35g compute allowances.",
+    "Open bottom and side hip cutouts are intentional. No solid cube fills the legs or retained pelvis. Front screen aperture is physically open behind the Tab5.",
+    "Bare Tab5 variant retains original base battery. Actual component masses, COM, fastening, cable routing and power remain unverified."
+  ]
+}

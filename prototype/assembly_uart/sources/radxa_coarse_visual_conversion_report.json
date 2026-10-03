@@ -1,0 +1,22 @@
+{
+  "source_url": "https://dl.radxa.com/zero3/docs/hw/3w/radxa_zero_3w_3d_stp.zip",
+  "source_step_sha256": "1eac96aa8804f7270e08610ebd99bf0eccfd26d39d859fae76d119406694ded3",
+  "coordinates": "Original STEP mm coordinates; nominal PCB x=0..65, y=0..30, z=-1.6..0",
+  "conversion": "CadQuery exportStl(tolerance=0.25 mm, angularTolerance=0.8 rad); OBJ welded by rounding coordinates to 1e-5 mm; no geometry repair or transform",
+  "vertices": 43070,
+  "triangles": 86972,
+  "stl_bytes": 4348684,
+  "obj_bytes": 3001794,
+  "visual_only": true,
+  "source_occt_isValid": false,
+  "mesh_min": [
+    0.0,
+    -1.5,
+    -4.482980251312256
+  ],
+  "mesh_max": [
+    65.00164794921875,
+    30.00552749633789,
+    8.5
+  ]
+}

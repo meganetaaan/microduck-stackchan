@@ -1,0 +1,24 @@
+{
+  "video_kind": "faithful_replay_of_completed_full_physics_rollout",
+  "source_trace": "walk_10s_states.npz",
+  "source_trace_sha256": "2ca85aed690c338099fd24295f54014e4e0f7fad92f390b59ba0636ab65b25df",
+  "source_run": "walk_10s.json",
+  "full_physics_model_sha256": "76b76a149b9fb99eb61c2211ea5409175fc5422b651b9cb5f1af170020a0f276",
+  "duration_s": 6,
+  "frame_count": 150,
+  "fps": 25,
+  "source_state_hz": 50,
+  "rendered_indices": "0,2,...,298",
+  "forward_displacement_m_6s": 0.5458647532545381,
+  "lateral_displacement_m_6s": -0.051955870848673244,
+  "max_tilt_deg_6s": 3.405960760993424,
+  "fall_reason": null,
+  "total_mass_kg": 0.6996935471624202,
+  "source_runtime_privacy": {
+    "ORT_DISABLE_TELEMETRY": "1",
+    "set_before_import": true,
+    "source": "https://raw.githubusercontent.com/microsoft/onnxruntime/v1.30.0/docs/Privacy.md",
+    "note": "Official process-lifetime opt-out. No network trace claim is made."
+  },
+  "note": "Only visualization uses the render-only model; source policy rollout used full collisions, gravity and finite BAM torques. No invented trajectory or pose is used."
+}

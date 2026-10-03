@@ -1,0 +1,55 @@
+{
+  "source_scene": "prototype/assembly_uart/scene_tab5_assembly_uart.xml",
+  "scene_sha256": "e2f3094fc87f293347da43599907c23fd5f4f73ac3a0a60f1fce9458dfd0acbf",
+  "clips": [
+    {
+      "gait": "stand",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/stand_seed7000_trace.npz",
+      "sha256": "25f7e6e3a19ff7ff6a58092bcbc0f6a8e94e2a8396cc6a3dfbabd706abcb7402",
+      "source_frames": 300
+    },
+    {
+      "gait": "forward_slow",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/forward_slow_seed7000_trace.npz",
+      "sha256": "289c15b788a8558eac6342058daf6ddbc52cccae8bd36ddf392d6c78aea186db",
+      "source_frames": 300
+    },
+    {
+      "gait": "forward",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/forward_seed7000_trace.npz",
+      "sha256": "fd1801d69c9681935b7621a59532de9a3ad8ced6c0019a6f649658ce3ad1134b",
+      "source_frames": 300
+    },
+    {
+      "gait": "backward",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/backward_seed7000_trace.npz",
+      "sha256": "ffafc05a4b801594c71381b05604f1e6abbadb6ebc6da223c1ef751680b7845f",
+      "source_frames": 300
+    },
+    {
+      "gait": "left",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/left_seed7000_trace.npz",
+      "sha256": "0e28e4e689c1e124efe4709f44f2a021f6f219e22741b044bba5bde9ab83687a",
+      "source_frames": 300
+    },
+    {
+      "gait": "right",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/right_seed7000_trace.npz",
+      "sha256": "78072b0ce71ef523abb013c1b402d77681a67ccec2119279b62cf2dc27258a5d",
+      "source_frames": 300
+    },
+    {
+      "gait": "turn_left",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/turn_left_seed7000_trace.npz",
+      "sha256": "308f250539c8461caabcbcad1da86d0fa0de7eb44e6393ff02887c5a587bbad4",
+      "source_frames": 300
+    },
+    {
+      "gait": "turn_right",
+      "trace": "training/tab5_gaits/calibrated_final_nominal/turn_right_seed7000_trace.npz",
+      "sha256": "74a108c99794e3c8010b9b9b9b3a79caedb26c2ec42fc2081770f1057729e27e",
+      "source_frames": 300
+    }
+  ],
+  "note": "All frames replay qpos recorded by real MuJoCo+BAM simulation; no invented motion"
+}

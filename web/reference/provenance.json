@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.3",
+  "mujoco": "3.10.0",
+  "onnxruntime": "1.30.0",
+  "source_files": {
+    "training/tab5_gaits/delivery/results/policy.onnx": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+    "prototype/assembly_uart/scene_tab5_assembly_uart.xml": "e2f3094fc87f293347da43599907c23fd5f4f73ac3a0a60f1fce9458dfd0acbf",
+    "prototype/assembly_uart/tab5_assembly_uart.xml": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+    "prototype/assembly_uart/screen_visual/scene_tab5_assembly_uart_screen.xml": "73c574a3801fd7cfbe2d2239d32203db57a173ba5cfcd21e05ae146e4005d6c0",
+    "prototype/assembly_uart/screen_visual/tab5_assembly_uart_screen.xml": "9833a3d2d67a20429369db975be53c5f94bad4bcc577f8042fee2aa355ec9e65",
+    "training/tab5_gaits/env.py": "5525329781e7c4d4fe6afefa3b75e96f5ae91b92bdd59c805de5274b3648d501",
+    "microduck_rl/scripts/infer_policy.py": "03bfd0642a880cd379e057536ee819bd1377d4af7b5206a57907d10afd1d4270",
+    "bam/bam/mujoco.py": "62256992ef0d7a4d07e61aff19ff1b930b7e17deb522519f21687764ca02894d",
+    "bam/bam/actuator.py": "6927d7b2341cbaca0e5d872fae4ddce6200056885310d9ee5acaba1f34e09c13",
+    "bam/bam/model.py": "fed54ebf5ccdb1e15d1094e1a1b426a93c29a7dad5944e6861ff0cd023d900ed",
+    "bam/bam/dynamixel/actuator.py": "8d3ed39d68758981204901dd18dcce11dcb107b842067e036d2b8ac7b1411cec",
+    "bam/bam/params/xl330/m6.json": "61c699362fb3fabdde93eeba5e1ad3bf4ef9ca2f71d03e316b1924ff005b20d3"
+  },
+  "policy_input": [
+    "obs"
+  ],
+  "policy_output": [
+    "actions"
+  ]
+}

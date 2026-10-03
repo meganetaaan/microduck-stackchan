@@ -1,0 +1,15 @@
+{
+  "library": "onnxruntime 1.30.0",
+  "affected_scope": "One verification-only helper after training, calibration, evaluation and video generation had completed",
+  "mistake": "The exact command in verification_incident_command.txt imported onnxruntime before setting ORT_DISABLE_TELEMETRY=1. Its comment about receiving the variable was incorrect.",
+  "observed_warning": "Failed to persist telemetry device ID; using an in-memory identifier",
+  "original_process_status": "Exited with code 0; no longer running",
+  "original_network_transmission": "Unknown: no network trace was captured for that process; the warning establishes telemetry initialization, not transmission",
+  "correction": "verify_results.py now sets ORT_DISABLE_TELEMETRY=1 before any ORT import, and the corrected invocation also passes the variable at process startup",
+  "corrected_command": "ORT_DISABLE_TELEMETRY=1 OPENBLAS_NUM_THREADS=1 .venv/bin/python training/tab5_gaits/verify_results.py --folder training/tab5_gaits/delivery",
+  "corrected_result": "All checks passed; zero telemetry.cc warnings in the captured corrected output",
+  "network_trace_attempt": "strace -f -e trace=network -o training/tab5_gaits/corrected_verification_network.trace env ORT_DISABLE_TELEMETRY=1 OPENBLAS_NUM_THREADS=1 .venv/bin/python training/tab5_gaits/verify_results.py --folder training/tab5_gaits/delivery",
+  "trace_result": "Blocked before tracing: PTRACE_TRACEME / PTRACE_SETOPTIONS Operation not permitted. No escalation or workaround attempted.",
+  "network_verification_limit": "No completed network trace is available for either helper; no claim of no transmission is made.",
+  "other_executed_work": "Training, calibration, evaluation and renderer source files set the opt-out before importing ONNX Runtime."
+}

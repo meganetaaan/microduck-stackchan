@@ -1,0 +1,86 @@
+{
+  "scene": "prototype/assembly_uart/scene_tab5_assembly_uart.xml",
+  "out": "training/tab5_gaits/final_seed7",
+  "seed": 7,
+  "envs": 4,
+  "steps": 256,
+  "iterations": 500,
+  "lr": 1e-05,
+  "std": 0.025,
+  "scales": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "calibrated_init": true,
+  "resume": null,
+  "randomize": false,
+  "scene_sha256": "e2f3094fc87f293347da43599907c23fd5f4f73ac3a0a60f1fce9458dfd0acbf",
+  "model_sha256": "d8b7cd0f91c509560be41d13ceafd21f0dfd8dc354e59262cbb388adba45b9ef",
+  "torch": "2.9.1+cpu",
+  "device": "cpu",
+  "obs_dim": 39,
+  "actions": 10,
+  "algorithm": "PPO-clip",
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "clip": 0.15,
+  "epochs": 4,
+  "gait_commands": {
+    "stand": [
+      0,
+      0,
+      0
+    ],
+    "forward_slow": [
+      0.075,
+      0,
+      0
+    ],
+    "forward": [
+      0.12,
+      0,
+      0
+    ],
+    "backward": [
+      -0.15,
+      0,
+      0
+    ],
+    "left": [
+      0,
+      0.07,
+      0
+    ],
+    "right": [
+      0,
+      -0.055,
+      0
+    ],
+    "turn_left": [
+      0,
+      0,
+      0.7
+    ],
+    "turn_right": [
+      0,
+      0,
+      -0.7
+    ]
+  },
+  "anchor_kl_weight": 0.02,
+  "normalizer": "frozen teacher normalizer baked in export",
+  "horizon_s": 8,
+  "physics_dt": 0.005,
+  "control_hz": 50,
+  "teacher_initialization_only": true,
+  "physics": "MuJoCo full assembly + BAM M6 XL330 at 200 Hz",
+  "source_sha256": {
+    "env.py": "d28e13924d0d060cbbedb6ee079b41f5eecf2f29b7c0663958539aca23e87572",
+    "policy.py": "f44070ef95e72ee55b00cfbb9f69b64a6544c0ba4cc3bd671a183883c2361da6",
+    "train_ppo.py": "5d4070d19992274c133c7ff2424d44945ff0fc0f6a33c2f30730c2f1bfc68595",
+    "evaluate.py": "2c375059da8258d1945f8de76280dc54ec12804e8055cb9942f8690a8fe93ea3",
+    "transitions.py": "de23e323f3590c7375cf5ef74519886dd1283a3f03444b1829583707c27068cc"
+  },
+  "compiled_model_sha256": "77186b8380086f5d4c88d4b1cab06254143e38bbf0059d6a43e049d59f04e842"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "microduck-stackchan-web",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "serve": "node scripts/serve.mjs",
+    "serve:pages": "node scripts/serve.mjs --base /microduck-stackchan/",
+    "test:ui": "node scripts/check-ui-input.mjs",
+    "test:worker": "node scripts/check-worker.mjs",
+    "test:parity": "node scripts/check-parity.mjs",
+    "test:long": "node scripts/check-long.mjs",
+    "test:transitions": "node scripts/check-transitions.mjs",
+    "test:paths": "node scripts/check-pages.mjs",
+    "test:browser": "node scripts/check-browser.mjs",
+    "test:all": "npm run build && npm test && npm run test:ui && npm run test:paths && npm run test:worker && npm run test:parity && npm run test:long && npm run test:transitions"
+  },
+  "dependencies": {
+    "@mujoco/mujoco": "3.10.0",
+    "lucide": "0.468.0",
+    "onnxruntime-web": "1.30.0",
+    "three": "0.180.0"
+  },
+  "description": "Browser MuJoCo/ONNX simulator for the validated no-arms MicroDuck Tab5 baseline",
+  "engines": {
+    "node": ">=24"
+  },
+  "devDependencies": {
+    "playwright": "1.51.1"
+  }
+}

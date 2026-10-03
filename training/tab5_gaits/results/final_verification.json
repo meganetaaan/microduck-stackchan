@@ -1,0 +1,26 @@
+{
+  "onnx_checkpoint_max_abs_error": 4.5821070671081543e-07,
+  "onnx_input_shape": [
+    "batch",
+    39
+  ],
+  "onnx_output_shape": [
+    "batch",
+    10
+  ],
+  "onnx_parity_samples": 100,
+  "frozen_files_verified": 1654,
+  "video_frames": 1200,
+  "video_fps": 25.0,
+  "video_duration_s": 48.0,
+  "video_size": [
+    640,
+    368
+  ],
+  "policy_sha256": "f533adcfd76fa7a3c0251d001e192e2c1bde9b58aa09f4d16e70e03065c63585",
+  "runtime_privacy": {
+    "ORT_DISABLE_TELEMETRY": "1",
+    "set_before_import": true,
+    "network_trace_performed": false
+  }
+}

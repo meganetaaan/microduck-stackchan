@@ -1,0 +1,206 @@
+{
+  "units": "mm",
+  "parts": [
+    {
+      "name": "body_cage",
+      "file": "stl_print_oriented/body_cage_print_mm.stl",
+      "rotation_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -86.0,
+        -0.0,
+        41.0
+      ],
+      "print_bounds_mm": [
+        [
+          -40.0,
+          -40.0,
+          0.0
+        ],
+        [
+          40.0,
+          40.0,
+          80.0
+        ]
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "supports_note": "Local supports expected under opening roofs; test slice required"
+    },
+    {
+      "name": "rear_cover",
+      "file": "stl_print_oriented/rear_cover_print_mm.stl",
+      "rotation_matrix": [
+        [
+          6.123233995736766e-17,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -86.0,
+        -0.0,
+        -36.599998474121094
+      ],
+      "print_bounds_mm": [
+        [
+          -31.75,
+          -29.75,
+          0.0
+        ],
+        [
+          31.75,
+          29.75,
+          2.4000015258789134
+        ]
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "supports_note": "Check slicer overhangs and fit; no support-free claim"
+    },
+    {
+      "name": "central_mount",
+      "file": "stl_print_oriented/central_mount_print_mm.stl",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        -0.0,
+        23.0,
+        6.0
+      ],
+      "print_bounds_mm": [
+        [
+          -12.0,
+          -23.0,
+          0.0
+        ],
+        [
+          12.0,
+          23.0,
+          12.000000000000004
+        ]
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "supports_note": "Check slicer overhangs and fit; no support-free claim"
+    },
+    {
+      "name": "compute_pedestal",
+      "file": "stl_print_oriented/compute_pedestal_print_mm.stl",
+      "rotation_matrix": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "translation_mm": [
+        20.0,
+        -0.0,
+        -48.400001525878906
+      ],
+      "print_bounds_mm": [
+        [
+          -4.0,
+          -8.0,
+          0.0
+        ],
+        [
+          4.0,
+          8.0,
+          5.599998474121094
+        ]
+      ],
+      "watertight": true,
+      "connected_components": 1,
+      "supports_note": "Check slicer overhangs and fit; no support-free claim"
+    }
+  ],
+  "note": "Suggested orientations, not slicer-verified G-code or printer-specific profiles."
+}

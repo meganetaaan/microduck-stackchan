@@ -1,0 +1,3463 @@
+{
+  "scene": "prototype/models/scene_tab5_lowcube.xml",
+  "scene_sha256": "f0294ace616d24b0259d4d80a8a7d7414ad33e0c8e2899cafbe6ed34e615d697",
+  "model_sha256": "164f91d50c7cafed9b851c33bbff02a3f4e678b7e932f523d1b65cc30a247e09",
+  "conventions": {
+    "qpos": "17 values: base xyz metres; base quaternion wxyz; left yaw roll pitch knee ankle; right yaw roll pitch knee ankle radians",
+    "trajectory": "181 kinematic configurations, knee -0.00494 to pi/2, symmetric zero yaw/roll; ankle=knee-hip_pitch; solve left foot site x=0 with root upright/base x=y=0; set root z so lower of both sole meshes touches z=0; both sole site orientations identity",
+    "timing": "phase 0..1 only; no speed, torque, contact-force, stability, or dynamic feasibility claim. qpos file generic qpos key is feet-flat crouch trajectory.",
+    "stock_grounded": "Change root z only until lowest sole vertex touches ground; this does not fix foot pitch or other penetrations."
+  },
+  "scope": "All original visual meshes convex hulls. Ignore only same-body/direct parent-child assembled interfaces. Hull overlaps are conservative flags; CAD may be concave and intended interfaces may remain. Ground vertex min is direct mesh geometry.",
+  "samples": {
+    "STAND": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.12,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.0872664626,
+        -0.457924,
+        -0.00494,
+        0.452984,
+        0.0,
+        0.0872664626,
+        0.457924,
+        0.00494,
+        -0.452984
+      ],
+      "joint_degrees": [
+        0.0,
+        -5.000000000016245,
+        -26.23711253774871,
+        -0.28304115079462666,
+        25.954071386954084,
+        0.0,
+        5.000000000016245,
+        26.23711253774871,
+        0.28304115079462666,
+        -25.954071386954084
+      ],
+      "trunk_height_mm": 120.0,
+      "feet_site_pos_mm": [
+        [
+          0.01617081544367542,
+          41.824227524683735,
+          2.8722160931443885
+        ],
+        [
+          0.016170815443684178,
+          -41.82422752468375,
+          2.872216093144364
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999992,
+            -3.4243235577471574e-18,
+            7.842990392835507e-17
+          ],
+          [
+            -3.4243235577471574e-18,
+            0.9961946980917199,
+            0.08715574274794108
+          ],
+          [
+            -7.842990392835507e-17,
+            -0.08715574274794108,
+            0.9961946980917199
+          ]
+        ],
+        [
+          [
+            0.9999999999999993,
+            0.0,
+            -0.0
+          ],
+          [
+            -0.0,
+            0.9961946980917202,
+            -0.08715574274794087
+          ],
+          [
+            0.0,
+            0.08715574274794087,
+            0.9961946980917202
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        2.818000276470295,
+        2.818000656581221
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -6.506905633703242,
+        -0.007515263085663941,
+        112.28730677832257
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "STAND",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 10.49999928602724,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_chin_collision",
+              "leg_body": "hip_l",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_005",
+              "qpos": [
+                0.0,
+                0.0,
+                0.12,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0872664626,
+                -0.457924,
+                -0.00494,
+                0.452984,
+                0.0,
+                0.0872664626,
+                0.457924,
+                0.00494,
+                -0.452984
+              ],
+              "joint_angles_deg": [
+                0.0,
+                -5.000000000016245,
+                -26.23711253774871,
+                -0.28304115079462666,
+                25.954071386954084,
+                0.0,
+                5.000000000016245,
+                26.23711253774871,
+                0.28304115079462666,
+                -25.954071386954084
+              ],
+              "gap_mm": 10.49999928602724,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 6.59738930153253e-12,
+              "mesh_closest_point_trunk_mm": [
+                29.00000071397276,
+                24.52995540744901,
+                -18.397060423572995
+              ],
+              "box_closest_point_trunk_mm": [
+                39.5,
+                24.52995540744901,
+                -18.397060423572995
+              ]
+            },
+            "candidate_pairs": 10,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.819287307079389,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_005",
+              "qpos": [
+                0.0,
+                0.0,
+                0.12,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.0872664626,
+                -0.457924,
+                -0.00494,
+                0.452984,
+                0.0,
+                0.0872664626,
+                0.457924,
+                0.00494,
+                -0.452984
+              ],
+              "joint_angles_deg": [
+                0.0,
+                -5.000000000016245,
+                -26.23711253774871,
+                -0.28304115079462666,
+                25.954071386954084,
+                0.0,
+                5.000000000016245,
+                26.23711253774871,
+                0.28304115079462666,
+                -25.954071386954084
+              ],
+              "gap_mm": 12.819287307079389,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 1.2825296380469808e-12,
+              "mesh_closest_point_trunk_mm": [
+                28.947679857840367,
+                19.82366548311704,
+                -13.367574412913866
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                19.82366548311704,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "SIT": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.5236,
+        1.0472,
+        0.0,
+        0.0,
+        0.0,
+        0.5236,
+        -1.0472,
+        0.0
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        -30.0000701530499,
+        60.0001403060998,
+        0.0,
+        0.0,
+        0.0,
+        30.0000701530499,
+        -60.0001403060998,
+        0.0
+      ],
+      "trunk_height_mm": 70.0,
+      "feet_site_pos_mm": [
+        [
+          49.83076775659126,
+          50.414799999999985,
+          15.559108399001097
+        ],
+        [
+          49.83076775659129,
+          -50.41479999999999,
+          15.5591083990011
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            -3.673205103360555e-06,
+            -1.5700953423169422e-16,
+            -0.9999999999932527
+          ],
+          [
+            -1.5700953423169422e-16,
+            0.9999999999999989,
+            -1.5700895750453102e-16
+          ],
+          [
+            0.9999999999932527,
+            1.5700895750453102e-16,
+            -3.673205103360555e-06
+          ]
+        ],
+        [
+          [
+            -3.673205103693622e-06,
+            7.850476711584713e-17,
+            -0.9999999999932531
+          ],
+          [
+            7.850476711584713e-17,
+            0.9999999999999993,
+            7.850447875226551e-17
+          ],
+          [
+            0.9999999999932531,
+            -7.850447875226551e-17,
+            -3.673205103693622e-06
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        -4.440933268097037,
+        -4.440934506806951
+      ],
+      "ground_mesh_penetrations": [
+        {
+          "geom_id": 28,
+          "geom": "shell_guard_legmesh_013",
+          "body": "ankle_left",
+          "mesh": "sole_left",
+          "minimum_world_z_mm": -4.440933268097037
+        },
+        {
+          "geom_id": 30,
+          "geom": "shell_guard_legmesh_014",
+          "body": "ankle_left",
+          "mesh": "foot_left",
+          "minimum_world_z_mm": -4.440933874625426
+        },
+        {
+          "geom_id": 49,
+          "geom": "shell_guard_legmesh_031",
+          "body": "ankle_right",
+          "mesh": "sole_right",
+          "minimum_world_z_mm": -4.440934506806951
+        },
+        {
+          "geom_id": 52,
+          "geom": "shell_guard_legmesh_033",
+          "body": "ankle_right",
+          "mesh": "foot_right",
+          "minimum_world_z_mm": -4.440934468466718
+        }
+      ],
+      "com_mm": [
+        -2.3871983441724867,
+        -0.007520517608828881,
+        69.1959802204045
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "SIT",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 0.0,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_chin_collision",
+              "leg_body": "ankle_left",
+              "leg_mesh": "sole_left",
+              "leg_geom": "shell_guard_legmesh_013",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.5236,
+                1.0472,
+                0.0,
+                0.0,
+                0.0,
+                0.5236,
+                -1.0472,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -30.0000701530499,
+                60.0001403060998,
+                0.0,
+                0.0,
+                0.0,
+                30.0000701530499,
+                -60.0001403060998,
+                0.0
+              ],
+              "gap_mm": 0.0,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                39.98344659230809,
+                49.8046827490903,
+                -42.41669218209691
+              ],
+              "box_closest_point_trunk_mm": [
+                39.98344659230809,
+                49.8046827490903,
+                -42.41669218209691
+              ],
+              "mujoco_signed_distance_mm": -2.864942200744576
+            },
+            "candidate_pairs": 26,
+            "optimized_pairs": 1,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 11.440919978032628,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "ankle_left",
+              "leg_mesh": "sole_left",
+              "leg_geom": "shell_guard_legmesh_013",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.5236,
+                1.0472,
+                0.0,
+                0.0,
+                0.0,
+                0.5236,
+                -1.0472,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -30.0000701530499,
+                60.0001403060998,
+                0.0,
+                0.0,
+                0.0,
+                30.0000701530499,
+                -60.0001403060998,
+                0.0
+              ],
+              "gap_mm": 11.440919978032628,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                42.03720316315764,
+                49.65072105138014,
+                -20.44091997803263
+              ],
+              "box_closest_point_trunk_mm": [
+                42.03720316315764,
+                49.65072105138014,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 8,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "FOLD": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.07,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.57,
+        1.57,
+        0.0,
+        0.0,
+        0.0,
+        -1.57,
+        -1.57,
+        0.0
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        89.95437383553924,
+        89.95437383553924,
+        0.0,
+        0.0,
+        0.0,
+        -89.95437383553924,
+        -89.95437383553924,
+        0.0
+      ],
+      "trunk_height_mm": 70.0,
+      "feet_site_pos_mm": [
+        [
+          -18.028483284862926,
+          50.4148,
+          22.444969468584436
+        ],
+        [
+          -18.028483284862915,
+          -50.414800000000014,
+          22.444969468584425
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999993,
+            -1.5700924586837744e-16,
+            1.7431527984210492e-32
+          ],
+          [
+            1.5700924586837744e-16,
+            0.9999999999999993,
+            -2.2204460492503123e-16
+          ],
+          [
+            1.7431527984210492e-32,
+            2.2204460492503123e-16,
+            0.9999999999999993
+          ]
+        ],
+        [
+          [
+            0.9999999999999993,
+            7.850462293418873e-17,
+            -7.850462293418871e-17
+          ],
+          [
+            -7.850462293418871e-17,
+            0.9999999999999993,
+            2.2204460492503123e-16
+          ],
+          [
+            7.850462293418873e-17,
+            -2.2204460492503123e-16,
+            0.9999999999999993
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        21.233194926868496,
+        21.2329489749499
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -7.37894921447441,
+        -0.0075205176088276905,
+        77.82422463429245
+      ],
+      "original_nonadjacent_proxy_overlaps": [
+        {
+          "pair": [
+            17,
+            32
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 17,
+            "geom": "shell_guard_legmesh_004",
+            "body": "hip_l",
+            "mesh": "seeed_bearing__configuration__22x16x4"
+          },
+          "b": {
+            "geom_id": 32,
+            "geom": "shell_guard_legmesh_016",
+            "body": "ankle_left",
+            "mesh": "ankle_left"
+          },
+          "shared_interior_radius_mm": 0.45307046945402835,
+          "mujoco_signed_proxy_distance_mm": -0.9063510003884372
+        },
+        {
+          "pair": [
+            20,
+            32
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 20,
+            "geom": "shell_guard_legmesh_006",
+            "body": "upper_leg_left",
+            "mesh": "upper_leg_left"
+          },
+          "b": {
+            "geom_id": 32,
+            "geom": "shell_guard_legmesh_016",
+            "body": "ankle_left",
+            "mesh": "ankle_left"
+          },
+          "shared_interior_radius_mm": 1.0198553484431514,
+          "mujoco_signed_proxy_distance_mm": -2.1052889891163735
+        },
+        {
+          "pair": [
+            22,
+            32
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 22,
+            "geom": "shell_guard_legmesh_008",
+            "body": "upper_leg_left",
+            "mesh": "upper_leg_rigidity_plate"
+          },
+          "b": {
+            "geom_id": 32,
+            "geom": "shell_guard_legmesh_016",
+            "body": "ankle_left",
+            "mesh": "ankle_left"
+          },
+          "shared_interior_radius_mm": 0.4538854219162224,
+          "mujoco_signed_proxy_distance_mm": -0.9080427262542883
+        },
+        {
+          "pair": [
+            24,
+            32
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 24,
+            "geom": "shell_guard_legmesh_010",
+            "body": "upper_leg_left",
+            "mesh": "xl330"
+          },
+          "b": {
+            "geom_id": 32,
+            "geom": "shell_guard_legmesh_016",
+            "body": "ankle_left",
+            "mesh": "ankle_left"
+          },
+          "shared_interior_radius_mm": 1.5172882243055168,
+          "mujoco_signed_proxy_distance_mm": -3.6597883002761398
+        },
+        {
+          "pair": [
+            39,
+            48
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 39,
+            "geom": "shell_guard_legmesh_022",
+            "body": "hip_l_2",
+            "mesh": "seeed_bearing__configuration__22x16x4"
+          },
+          "b": {
+            "geom_id": 48,
+            "geom": "shell_guard_legmesh_030",
+            "body": "ankle_right",
+            "mesh": "ankle_right"
+          },
+          "shared_interior_radius_mm": 0.4530704063149835,
+          "mujoco_signed_proxy_distance_mm": -0.906350803672237
+        },
+        {
+          "pair": [
+            42,
+            48
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 42,
+            "geom": "shell_guard_legmesh_025",
+            "body": "upper_leg_right",
+            "mesh": "upper_leg_rigidity_plate"
+          },
+          "b": {
+            "geom_id": 48,
+            "geom": "shell_guard_legmesh_030",
+            "body": "ankle_right",
+            "mesh": "ankle_right"
+          },
+          "shared_interior_radius_mm": 0.453885345279868,
+          "mujoco_signed_proxy_distance_mm": -0.9080424971792826
+        },
+        {
+          "pair": [
+            43,
+            48
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 43,
+            "geom": "shell_guard_legmesh_026",
+            "body": "upper_leg_right",
+            "mesh": "upper_leg_right"
+          },
+          "b": {
+            "geom_id": 48,
+            "geom": "shell_guard_legmesh_030",
+            "body": "ankle_right",
+            "mesh": "ankle_right"
+          },
+          "shared_interior_radius_mm": 1.0198544394682827,
+          "mujoco_signed_proxy_distance_mm": -2.105288099295353
+        },
+        {
+          "pair": [
+            44,
+            48
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 44,
+            "geom": "shell_guard_legmesh_027",
+            "body": "upper_leg_right",
+            "mesh": "xl330"
+          },
+          "b": {
+            "geom_id": 48,
+            "geom": "shell_guard_legmesh_030",
+            "body": "ankle_right",
+            "mesh": "ankle_right"
+          },
+          "shared_interior_radius_mm": 1.5172880508632076,
+          "mujoco_signed_proxy_distance_mm": -3.6597878965872
+        }
+      ],
+      "new_shell_audit": {
+        "label": "FOLD",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 0.0,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_side_left_collision",
+              "leg_body": "upper_leg_right",
+              "leg_mesh": "xl330",
+              "leg_geom": "shell_guard_legmesh_023",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.57,
+                1.57,
+                0.0,
+                0.0,
+                0.0,
+                -1.57,
+                -1.57,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                89.95437383553924,
+                89.95437383553924,
+                0.0,
+                0.0,
+                0.0,
+                -89.95437383553924,
+                -89.95437383553924,
+                0.0
+              ],
+              "gap_mm": 0.0,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                -10.528487742074626,
+                -65.596153863267,
+                18.265541917259167
+              ],
+              "box_closest_point_trunk_mm": [
+                -10.528487742074626,
+                -65.596153863267,
+                18.265541917259167
+              ],
+              "mujoco_signed_distance_mm": -5.000000046224362
+            },
+            "candidate_pairs": 14,
+            "optimized_pairs": 1,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.756821443057925,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l_2",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_021",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                1.57,
+                1.57,
+                0.0,
+                0.0,
+                0.0,
+                -1.57,
+                -1.57,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                89.95437383553924,
+                89.95437383553924,
+                0.0,
+                0.0,
+                0.0,
+                -89.95437383553924,
+                -89.95437383553924,
+                0.0
+              ],
+              "gap_mm": 12.756821443057925,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 7.460698725481052e-14,
+              "mesh_closest_point_trunk_mm": [
+                28.943967858810094,
+                -19.462347360642333,
+                -13.169961911175974
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -19.462347360642333,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "UPSTREAM_SITSTAND": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.06,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.4079,
+        1.35,
+        0.0,
+        0.0,
+        0.0,
+        0.4079,
+        -1.35,
+        0.0
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        -23.370948463386277,
+        77.34930234266115,
+        0.0,
+        0.0,
+        0.0,
+        23.370948463386277,
+        -77.34930234266115,
+        0.0
+      ],
+      "trunk_height_mm": 60.0,
+      "feet_site_pos_mm": [
+        [
+          44.55116082464366,
+          50.414799999999985,
+          20.355251826509733
+        ],
+        [
+          44.55116082464367,
+          -50.41479999999999,
+          20.355251826509736
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            -0.18601390163356873,
+            0.0,
+            -0.9825471125595225
+          ],
+          [
+            0.0,
+            0.9999999999999991,
+            0.0
+          ],
+          [
+            0.9825471125595225,
+            0.0,
+            -0.18601390163356873
+          ]
+        ],
+        [
+          [
+            -0.18601390163356873,
+            0.0,
+            -0.9825471125595225
+          ],
+          [
+            0.0,
+            0.9999999999999991,
+            0.0
+          ],
+          [
+            0.9825471125595225,
+            0.0,
+            -0.18601390163356873
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        -1.471230544901296,
+        -1.4712317411965579
+      ],
+      "ground_mesh_penetrations": [
+        {
+          "geom_id": 20,
+          "geom": "shell_guard_legmesh_006",
+          "body": "upper_leg_left",
+          "mesh": "upper_leg_left",
+          "minimum_world_z_mm": -4.085551697903078
+        },
+        {
+          "geom_id": 21,
+          "geom": "shell_guard_legmesh_007",
+          "body": "upper_leg_left",
+          "mesh": "xl330",
+          "minimum_world_z_mm": -4.5745842550709455
+        },
+        {
+          "geom_id": 22,
+          "geom": "shell_guard_legmesh_008",
+          "body": "upper_leg_left",
+          "mesh": "upper_leg_rigidity_plate",
+          "minimum_world_z_mm": -2.8774968052734273
+        },
+        {
+          "geom_id": 23,
+          "geom": "shell_guard_legmesh_009",
+          "body": "upper_leg_left",
+          "mesh": "seeed_bearing__configuration__22x16x4",
+          "minimum_world_z_mm": -2.8827323947772463
+        },
+        {
+          "geom_id": 25,
+          "geom": "shell_guard_legmesh_011",
+          "body": "leg",
+          "mesh": "leg",
+          "minimum_world_z_mm": -1.886385891554287
+        },
+        {
+          "geom_id": 28,
+          "geom": "shell_guard_legmesh_013",
+          "body": "ankle_left",
+          "mesh": "sole_left",
+          "minimum_world_z_mm": -1.471230544901296
+        },
+        {
+          "geom_id": 30,
+          "geom": "shell_guard_legmesh_014",
+          "body": "ankle_left",
+          "mesh": "foot_left",
+          "minimum_world_z_mm": -1.5580970903674114
+        },
+        {
+          "geom_id": 40,
+          "geom": "shell_guard_legmesh_023",
+          "body": "upper_leg_right",
+          "mesh": "xl330",
+          "minimum_world_z_mm": -4.574584255070942
+        },
+        {
+          "geom_id": 41,
+          "geom": "shell_guard_legmesh_024",
+          "body": "upper_leg_right",
+          "mesh": "seeed_bearing__configuration__22x16x4",
+          "minimum_world_z_mm": -2.8827323947772463
+        },
+        {
+          "geom_id": 42,
+          "geom": "shell_guard_legmesh_025",
+          "body": "upper_leg_right",
+          "mesh": "upper_leg_rigidity_plate",
+          "minimum_world_z_mm": -2.8774968052734344
+        },
+        {
+          "geom_id": 43,
+          "geom": "shell_guard_legmesh_026",
+          "body": "upper_leg_right",
+          "mesh": "upper_leg_right",
+          "minimum_world_z_mm": -4.0855512221015395
+        },
+        {
+          "geom_id": 46,
+          "geom": "shell_guard_legmesh_029",
+          "body": "leg_2",
+          "mesh": "leg",
+          "minimum_world_z_mm": -1.8863863105508898
+        },
+        {
+          "geom_id": 49,
+          "geom": "shell_guard_legmesh_031",
+          "body": "ankle_right",
+          "mesh": "sole_right",
+          "minimum_world_z_mm": -1.4712317411965579
+        },
+        {
+          "geom_id": 52,
+          "geom": "shell_guard_legmesh_033",
+          "body": "ankle_right",
+          "mesh": "foot_right",
+          "minimum_world_z_mm": -1.558097218714181
+        }
+      ],
+      "com_mm": [
+        -3.430190362948837,
+        -0.007520517608828881,
+        61.022265173568506
+      ],
+      "original_nonadjacent_proxy_overlaps": [
+        {
+          "pair": [
+            18,
+            28
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 18,
+            "geom": "shell_guard_legmesh_005",
+            "body": "hip_l",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 28,
+            "geom": "shell_guard_legmesh_013",
+            "body": "ankle_left",
+            "mesh": "sole_left"
+          },
+          "shared_interior_radius_mm": 0.6480418624986122,
+          "mujoco_signed_proxy_distance_mm": -1.2964984256668615
+        },
+        {
+          "pair": [
+            18,
+            30
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 18,
+            "geom": "shell_guard_legmesh_005",
+            "body": "hip_l",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 30,
+            "geom": "shell_guard_legmesh_014",
+            "body": "ankle_left",
+            "mesh": "foot_left"
+          },
+          "shared_interior_radius_mm": 3.1164554818372316,
+          "mujoco_signed_proxy_distance_mm": -6.324705575078919
+        },
+        {
+          "pair": [
+            18,
+            32
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 18,
+            "geom": "shell_guard_legmesh_005",
+            "body": "hip_l",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 32,
+            "geom": "shell_guard_legmesh_016",
+            "body": "ankle_left",
+            "mesh": "ankle_left"
+          },
+          "shared_interior_radius_mm": 2.037708361838895,
+          "mujoco_signed_proxy_distance_mm": -4.254741874146511
+        },
+        {
+          "pair": [
+            37,
+            48
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 37,
+            "geom": "shell_guard_legmesh_021",
+            "body": "hip_l_2",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 48,
+            "geom": "shell_guard_legmesh_030",
+            "body": "ankle_right",
+            "mesh": "ankle_right"
+          },
+          "shared_interior_radius_mm": 2.0490522951104992,
+          "mujoco_signed_proxy_distance_mm": -4.2547527156098885
+        },
+        {
+          "pair": [
+            37,
+            49
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 37,
+            "geom": "shell_guard_legmesh_021",
+            "body": "hip_l_2",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 49,
+            "geom": "shell_guard_legmesh_031",
+            "body": "ankle_right",
+            "mesh": "sole_right"
+          },
+          "shared_interior_radius_mm": 0.6479823257657511,
+          "mujoco_signed_proxy_distance_mm": -1.296498465047943
+        },
+        {
+          "pair": [
+            37,
+            52
+          ],
+          "group": "same_leg_nonadjacent",
+          "a": {
+            "geom_id": 37,
+            "geom": "shell_guard_legmesh_021",
+            "body": "hip_l_2",
+            "mesh": "hip_l"
+          },
+          "b": {
+            "geom_id": 52,
+            "geom": "shell_guard_legmesh_033",
+            "body": "ankle_right",
+            "mesh": "foot_right"
+          },
+          "shared_interior_radius_mm": 3.1164555659393143,
+          "mujoco_signed_proxy_distance_mm": -6.324657099034585
+        }
+      ],
+      "new_shell_audit": {
+        "label": "UPSTREAM_SITSTAND",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 0.0,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_chin_collision",
+              "leg_body": "ankle_left",
+              "leg_mesh": "sole_left",
+              "leg_geom": "shell_guard_legmesh_013",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.4079,
+                1.35,
+                0.0,
+                0.0,
+                0.0,
+                0.4079,
+                -1.35,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -23.370948463386277,
+                77.34930234266115,
+                0.0,
+                0.0,
+                0.0,
+                23.370948463386277,
+                -77.34930234266115,
+                0.0
+              ],
+              "gap_mm": 0.0,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                40.593722439099096,
+                49.80468274891165,
+                -34.44706913615781
+              ],
+              "box_closest_point_trunk_mm": [
+                40.593722439099096,
+                49.80468274891165,
+                -34.44706913615781
+              ],
+              "mujoco_signed_distance_mm": -7.089033208009929
+            },
+            "candidate_pairs": 32,
+            "optimized_pairs": 1,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 2.8681712223659384,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "ankle_right",
+              "leg_mesh": "sole_right",
+              "leg_geom": "shell_guard_legmesh_031",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.4079,
+                1.35,
+                0.0,
+                0.0,
+                0.0,
+                0.4079,
+                -1.35,
+                0.0
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -23.370948463386277,
+                77.34930234266115,
+                0.0,
+                0.0,
+                0.0,
+                23.370948463386277,
+                -77.34930234266115,
+                0.0
+              ],
+              "gap_mm": 2.8681712223659384,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 7.105427357601002e-15,
+              "mesh_closest_point_trunk_mm": [
+                38.70480741550976,
+                -40.88021294800252,
+                -10.720028244218433
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -40.88021294800252,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 10,
+            "optimized_pairs": 4,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "CROUCH_START": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.11583981398950276,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -0.4577034296292249,
+        -0.00494,
+        0.4527634296292249,
+        0.0,
+        0.0,
+        0.4577034296292249,
+        0.00494,
+        -0.4527634296292249
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        -26.22447478641766,
+        -0.28304115079462666,
+        25.941433635623035,
+        0.0,
+        0.0,
+        26.22447478641766,
+        0.28304115079462666,
+        -25.941433635623035
+      ],
+      "trunk_height_mm": 115.83981398950276,
+      "feet_site_pos_mm": [
+        [
+          1.264999810289552e-13,
+          50.414799999999985,
+          1.2120204936345198
+        ],
+        [
+          1.2909338909804842e-13,
+          -50.41479999999999,
+          1.2120204936345162
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999991,
+            0.0,
+            7.850462293418871e-17
+          ],
+          [
+            -0.0,
+            0.9999999999999991,
+            0.0
+          ],
+          [
+            -7.850462293418871e-17,
+            -0.0,
+            0.9999999999999991
+          ]
+        ],
+        [
+          [
+            0.9999999999999991,
+            1.1775693440128307e-16,
+            3.925231146709436e-17
+          ],
+          [
+            -1.1775693440128307e-16,
+            0.9999999999999991,
+            1.110223024625156e-16
+          ],
+          [
+            -3.925231146709435e-17,
+            -1.110223024625156e-16,
+            0.9999999999999991
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        0.0002459519185862291,
+        -5.329070518200751e-15
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -6.509551274216196,
+        -0.007520517608828881,
+        108.92647175469237
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "CROUCH_START",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 10.499999270507928,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_chin_collision",
+              "leg_body": "hip_l",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_005",
+              "qpos": [
+                0.0,
+                0.0,
+                0.11583981398950276,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.4577034296292249,
+                -0.00494,
+                0.4527634296292249,
+                0.0,
+                0.0,
+                0.4577034296292249,
+                0.00494,
+                -0.4527634296292249
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -26.22447478641766,
+                -0.28304115079462666,
+                25.941433635623035,
+                0.0,
+                0.0,
+                26.22447478641766,
+                0.28304115079462666,
+                -25.941433635623035
+              ],
+              "gap_mm": 10.499999270507928,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 1.2175149777249317e-11,
+              "mesh_closest_point_trunk_mm": [
+                29.000000729492072,
+                24.22502418881838,
+                -17.500000544092796
+              ],
+              "box_closest_point_trunk_mm": [
+                39.5,
+                24.22502418881838,
+                -17.500000544092796
+              ]
+            },
+            "candidate_pairs": 10,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.756821443058563,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l_2",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_021",
+              "qpos": [
+                0.0,
+                0.0,
+                0.11583981398950276,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                -0.4577034296292249,
+                -0.00494,
+                0.4527634296292249,
+                0.0,
+                0.0,
+                0.4577034296292249,
+                0.00494,
+                -0.4527634296292249
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                -26.22447478641766,
+                -0.28304115079462666,
+                25.941433635623035,
+                0.0,
+                0.0,
+                26.22447478641766,
+                0.28304115079462666,
+                -25.941433635623035
+              ],
+              "gap_mm": 12.756821443058563,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                28.943967858809206,
+                -19.462347360605396,
+                -13.16996191117537
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -19.462347360605396,
+                -9.000000000000014
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "CROUCH_80": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.07207798625012482,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.32293146085261115,
+        1.3962634015954636,
+        1.0733319407428525,
+        0.0,
+        0.0,
+        -0.32293146085261115,
+        -1.3962634015954636,
+        -1.0733319407428525
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        18.502609778848782,
+        80.0,
+        61.49739022115122,
+        0.0,
+        0.0,
+        -18.502609778848782,
+        -80.0,
+        -61.49739022115122
+      ],
+      "trunk_height_mm": 72.07798625012482,
+      "feet_site_pos_mm": [
+        [
+          -3.248296288963087e-14,
+          50.41479999999999,
+          1.2120204936345198
+        ],
+        [
+          -3.9635843956260625e-15,
+          -50.41479999999999,
+          1.2120204936345094
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999991,
+            -1.5700924586837742e-16,
+            2.614729197631574e-32
+          ],
+          [
+            1.5700924586837742e-16,
+            0.9999999999999991,
+            -3.330669073875468e-16
+          ],
+          [
+            2.614729197631574e-32,
+            3.330669073875468e-16,
+            0.9999999999999991
+          ]
+        ],
+        [
+          [
+            0.9999999999999991,
+            7.850462293418871e-17,
+            -7.850462293418871e-17
+          ],
+          [
+            -7.850462293418871e-17,
+            0.9999999999999991,
+            3.0814879110195767e-33
+          ],
+          [
+            7.850462293418871e-17,
+            3.0814879110195767e-33,
+            0.9999999999999991
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        0.0002459519185782355,
+        -4.440892098500626e-15
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -7.609234096358373,
+        -0.0075205176088276905,
+        73.36837664677371
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "CROUCH_80",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 4.054415745923728,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_side_left_collision",
+              "leg_body": "upper_leg_right",
+              "leg_mesh": "upper_leg_right",
+              "leg_geom": "shell_guard_legmesh_026",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07207798625012482,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.32293146085261115,
+                1.3962634015954636,
+                1.0733319407428525,
+                0.0,
+                0.0,
+                -0.32293146085261115,
+                -1.3962634015954636,
+                -1.0733319407428525
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                18.502609778848782,
+                80.0,
+                61.49739022115122,
+                0.0,
+                0.0,
+                -18.502609778848782,
+                -80.0,
+                -61.49739022115122
+              ],
+              "gap_mm": 4.054415745923728,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 3.019806626980426e-14,
+              "mesh_closest_point_trunk_mm": [
+                -29.485885916179047,
+                -64.28784621203727,
+                5.951138701925285
+              ],
+              "box_closest_point_trunk_mm": [
+                -29.485885916179047,
+                -64.5,
+                10.000000000000007
+              ]
+            },
+            "candidate_pairs": 22,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.756821443057925,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l_2",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_021",
+              "qpos": [
+                0.0,
+                0.0,
+                0.07207798625012482,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.32293146085261115,
+                1.3962634015954636,
+                1.0733319407428525,
+                0.0,
+                0.0,
+                -0.32293146085261115,
+                -1.3962634015954636,
+                -1.0733319407428525
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                18.502609778848782,
+                80.0,
+                61.49739022115122,
+                0.0,
+                0.0,
+                -18.502609778848782,
+                -80.0,
+                -61.49739022115122
+              ],
+              "gap_mm": 12.756821443057925,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 7.460698725481052e-14,
+              "mesh_closest_point_trunk_mm": [
+                28.943967858810094,
+                -19.462347360642333,
+                -13.169961911175974
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -19.462347360642333,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "CROUCH_85": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.06858855213784351,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3843169701582761,
+        1.4835298641951802,
+        1.0992128940369041,
+        0.0,
+        0.0,
+        -0.3843169701582761,
+        -1.4835298641951802,
+        -1.0992128940369041
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        22.019740385324425,
+        85.0,
+        62.98025961467558,
+        0.0,
+        0.0,
+        -22.019740385324425,
+        -85.0,
+        -62.98025961467558
+      ],
+      "trunk_height_mm": 68.58855213784351,
+      "feet_site_pos_mm": [
+        [
+          1.0678006290564289e-14,
+          50.414799999999985,
+          1.2120204936345094
+        ],
+        [
+          1.0678006290564289e-14,
+          -50.41479999999999,
+          1.2120204936345094
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999991,
+            0.0,
+            -1.5700924586837742e-16
+          ],
+          [
+            0.0,
+            0.9999999999999991,
+            0.0
+          ],
+          [
+            1.5700924586837742e-16,
+            0.0,
+            0.9999999999999991
+          ]
+        ],
+        [
+          [
+            0.9999999999999991,
+            0.0,
+            -1.5700924586837742e-16
+          ],
+          [
+            0.0,
+            0.9999999999999991,
+            0.0
+          ],
+          [
+            1.5700924586837742e-16,
+            0.0,
+            0.9999999999999991
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        0.0002459519185737946,
+        -4.440892098500626e-15
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -7.603639358112059,
+        -0.007520517608828881,
+        70.55325073979574
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "CROUCH_85",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 2.0470782834034793,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_side_left_collision",
+              "leg_body": "upper_leg_right",
+              "leg_mesh": "upper_leg_right",
+              "leg_geom": "shell_guard_legmesh_026",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06858855213784351,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3843169701582761,
+                1.4835298641951802,
+                1.0992128940369041,
+                0.0,
+                0.0,
+                -0.3843169701582761,
+                -1.4835298641951802,
+                -1.0992128940369041
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                22.019740385324425,
+                85.0,
+                62.98025961467558,
+                0.0,
+                0.0,
+                -22.019740385324425,
+                -85.0,
+                -62.98025961467558
+              ],
+              "gap_mm": 2.0470782834034793,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                -27.984392841191095,
+                -64.39296039191952,
+                7.955722127331002
+              ],
+              "box_closest_point_trunk_mm": [
+                -27.984392841191095,
+                -64.5,
+                10.000000000000007
+              ]
+            },
+            "candidate_pairs": 22,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.756821443057925,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l_2",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_021",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06858855213784351,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.3843169701582761,
+                1.4835298641951802,
+                1.0992128940369041,
+                0.0,
+                0.0,
+                -0.3843169701582761,
+                -1.4835298641951802,
+                -1.0992128940369041
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                22.019740385324425,
+                85.0,
+                62.98025961467558,
+                0.0,
+                0.0,
+                -22.019740385324425,
+                -85.0,
+                -62.98025961467558
+              ],
+              "gap_mm": 12.756821443057925,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 7.460698725481052e-14,
+              "mesh_closest_point_trunk_mm": [
+                28.943967858810094,
+                -19.462347360642333,
+                -13.169961911175974
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -19.462347360642333,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    },
+    "CROUCH_90": {
+      "qpos": [
+        0.0,
+        0.0,
+        0.06503716212216934,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.45151688637945026,
+        1.5707963267948966,
+        1.1192794404154462,
+        0.0,
+        0.0,
+        -0.45151688637945026,
+        -1.5707963267948966,
+        -1.1192794404154462
+      ],
+      "joint_degrees": [
+        0.0,
+        0.0,
+        25.870011968430425,
+        90.0,
+        64.12998803156957,
+        0.0,
+        0.0,
+        -25.870011968430425,
+        -90.0,
+        -64.12998803156957
+      ],
+      "trunk_height_mm": 65.03716212216933,
+      "feet_site_pos_mm": [
+        [
+          -3.9635843956260625e-15,
+          50.414799999999985,
+          1.2120204936345371
+        ],
+        [
+          2.975309508281166e-15,
+          -50.414799999999985,
+          1.2120204936345371
+        ]
+      ],
+      "feet_site_rotation": [
+        [
+          [
+            0.9999999999999991,
+            -7.850462293418871e-17,
+            -7.850462293418871e-17
+          ],
+          [
+            7.850462293418871e-17,
+            0.9999999999999991,
+            -3.0814879110195767e-33
+          ],
+          [
+            7.850462293418871e-17,
+            -3.0814879110195767e-33,
+            0.9999999999999991
+          ]
+        ],
+        [
+          [
+            0.9999999999999991,
+            7.850462293418871e-17,
+            -7.850462293418871e-17
+          ],
+          [
+            -7.850462293418871e-17,
+            0.9999999999999991,
+            3.0814879110195767e-33
+          ],
+          [
+            7.850462293418871e-17,
+            3.0814879110195767e-33,
+            0.9999999999999991
+          ]
+        ]
+      ],
+      "feet_min_z_mm": [
+        0.0002459519186031045,
+        2.3092638912203256e-14
+      ],
+      "ground_mesh_penetrations": [],
+      "com_mm": [
+        -7.581384849270112,
+        -0.007520517608828881,
+        67.70488601275383
+      ],
+      "original_nonadjacent_proxy_overlaps": [],
+      "new_shell_audit": {
+        "label": "CROUCH_90",
+        "sample_count": 1,
+        "groups": {
+          "shell": {
+            "minimum_gap_mm": 0.0,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "cube_side_left_collision",
+              "leg_body": "upper_leg_right",
+              "leg_mesh": "upper_leg_right",
+              "leg_geom": "shell_guard_legmesh_026",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06503716212216934,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45151688637945026,
+                1.5707963267948966,
+                1.1192794404154462,
+                0.0,
+                0.0,
+                -0.45151688637945026,
+                -1.5707963267948966,
+                -1.1192794404154462
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                25.870011968430425,
+                90.0,
+                64.12998803156957,
+                0.0,
+                0.0,
+                -25.870011968430425,
+                -90.0,
+                -64.12998803156957
+              ],
+              "gap_mm": 0.0,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                -25.942255045275488,
+                -64.50579308257821,
+                10.000000000000007
+              ],
+              "box_closest_point_trunk_mm": [
+                -25.942255045275488,
+                -64.50579308257821,
+                10.000000000000007
+              ],
+              "mujoco_signed_distance_mm": -0.11061640876846471
+            },
+            "candidate_pairs": 22,
+            "optimized_pairs": 1,
+            "optimizer_failures": []
+          },
+          "tab5": {
+            "minimum_gap_mm": 12.75682144305881,
+            "all_pairs_at_least_20mm": false,
+            "winner": {
+              "sample_index": 0,
+              "time_s": null,
+              "panel": "tab5_collision",
+              "leg_body": "hip_l_2",
+              "leg_mesh": "hip_l",
+              "leg_geom": "shell_guard_legmesh_021",
+              "qpos": [
+                0.0,
+                0.0,
+                0.06503716212216934,
+                1.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.45151688637945026,
+                1.5707963267948966,
+                1.1192794404154462,
+                0.0,
+                0.0,
+                -0.45151688637945026,
+                -1.5707963267948966,
+                -1.1192794404154462
+              ],
+              "joint_angles_deg": [
+                0.0,
+                0.0,
+                25.870011968430425,
+                90.0,
+                64.12998803156957,
+                0.0,
+                0.0,
+                -25.870011968430425,
+                -90.0,
+                -64.12998803156957
+              ],
+              "gap_mm": 12.75682144305881,
+              "optimizer_success": true,
+              "optimizer_status": 0,
+              "constraint_violation_mm": 0.0,
+              "mesh_closest_point_trunk_mm": [
+                28.943967858809092,
+                -19.462347360632556,
+                -13.169961911175788
+              ],
+              "box_closest_point_trunk_mm": [
+                41.0,
+                -19.462347360632556,
+                -9.0
+              ]
+            },
+            "candidate_pairs": 4,
+            "optimized_pairs": 2,
+            "optimizer_failures": []
+          }
+        }
+      }
+    }
+  },
+  "original_proxy_sweep": [
+    {
+      "sample": 0,
+      "knee_degrees": -0.28304115079462666,
+      "root_z_mm": 115.83981398950276,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 1,
+      "knee_degrees": 0.21853130004312127,
+      "root_z_mm": 115.66023160194734,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 2,
+      "knee_degrees": 0.7201037508808692,
+      "root_z_mm": 115.4792425673764,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 3,
+      "knee_degrees": 1.2216762017186171,
+      "root_z_mm": 115.29685031210283,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 4,
+      "knee_degrees": 1.723248652556365,
+      "root_z_mm": 115.11305828858866,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 5,
+      "knee_degrees": 2.224821103394113,
+      "root_z_mm": 114.92786997536469,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 6,
+      "knee_degrees": 2.7263935542318607,
+      "root_z_mm": 114.74128887694937,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 7,
+      "knee_degrees": 3.2279660050696086,
+      "root_z_mm": 114.55331852376702,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 8,
+      "knee_degrees": 3.729538455907357,
+      "root_z_mm": 114.36396247206451,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 9,
+      "knee_degrees": 4.231110906745105,
+      "root_z_mm": 114.17322430382782,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 10,
+      "knee_degrees": 4.732683357582853,
+      "root_z_mm": 113.98110762669734,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 11,
+      "knee_degrees": 5.234255808420601,
+      "root_z_mm": 113.78761607388205,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 12,
+      "knee_degrees": 5.735828259258348,
+      "root_z_mm": 113.59275330407328,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 13,
+      "knee_degrees": 6.237400710096097,
+      "root_z_mm": 113.39652300135707,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 14,
+      "knee_degrees": 6.738973160933845,
+      "root_z_mm": 113.1989288751259,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 15,
+      "knee_degrees": 7.240545611771592,
+      "root_z_mm": 112.9999746599893,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 16,
+      "knee_degrees": 7.74211806260934,
+      "root_z_mm": 112.79966411568347,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 17,
+      "knee_degrees": 8.243690513447088,
+      "root_z_mm": 112.59800102698011,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 18,
+      "knee_degrees": 8.745262964284835,
+      "root_z_mm": 112.39498920359408,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 19,
+      "knee_degrees": 9.246835415122584,
+      "root_z_mm": 112.19063248009,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 20,
+      "knee_degrees": 9.748407865960333,
+      "root_z_mm": 111.98493471578804,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 21,
+      "knee_degrees": 10.24998031679808,
+      "root_z_mm": 111.77789979466854,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 22,
+      "knee_degrees": 10.751552767635827,
+      "root_z_mm": 111.56953162527547,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 23,
+      "knee_degrees": 11.253125218473576,
+      "root_z_mm": 111.35983414061909,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 24,
+      "knee_degrees": 11.754697669311323,
+      "root_z_mm": 111.14881129807719,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 25,
+      "knee_degrees": 12.256270120149072,
+      "root_z_mm": 110.93646707929553,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 26,
+      "knee_degrees": 12.75784257098682,
+      "root_z_mm": 110.72280549008703,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 27,
+      "knee_degrees": 13.259415021824568,
+      "root_z_mm": 110.50783056032958,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 28,
+      "knee_degrees": 13.760987472662315,
+      "root_z_mm": 110.29154634386325,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 29,
+      "knee_degrees": 14.262559923500064,
+      "root_z_mm": 110.0739569183856,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 30,
+      "knee_degrees": 14.76413237433781,
+      "root_z_mm": 109.85506638534646,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 31,
+      "knee_degrees": 15.265704825175561,
+      "root_z_mm": 109.6348788698409,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 32,
+      "knee_degrees": 15.767277276013308,
+      "root_z_mm": 109.41339852050145,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 33,
+      "knee_degrees": 16.268849726851055,
+      "root_z_mm": 109.1906295093886,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 34,
+      "knee_degrees": 16.770422177688804,
+      "root_z_mm": 108.96657603188035,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 35,
+      "knee_degrees": 17.271994628526553,
+      "root_z_mm": 108.74124230656021,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 36,
+      "knee_degrees": 17.773567079364298,
+      "root_z_mm": 108.51463257510392,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 37,
+      "knee_degrees": 18.275139530202047,
+      "root_z_mm": 108.28675110216467,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 38,
+      "knee_degrees": 18.776711981039796,
+      "root_z_mm": 108.05760217525719,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 39,
+      "knee_degrees": 19.27828443187754,
+      "root_z_mm": 107.82719010464011,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 40,
+      "knee_degrees": 19.779856882715293,
+      "root_z_mm": 107.59551922319685,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 41,
+      "knee_degrees": 20.28142933355304,
+      "root_z_mm": 107.3625938863152,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 42,
+      "knee_degrees": 20.783001784390784,
+      "root_z_mm": 107.12841847176517,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 43,
+      "knee_degrees": 21.284574235228536,
+      "root_z_mm": 106.89299737957533,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 44,
+      "knee_degrees": 21.78614668606628,
+      "root_z_mm": 106.65633503190749,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 45,
+      "knee_degrees": 22.28771913690403,
+      "root_z_mm": 106.41843587292973,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 46,
+      "knee_degrees": 22.78929158774178,
+      "root_z_mm": 106.17930436868778,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 47,
+      "knee_degrees": 23.290864038579524,
+      "root_z_mm": 105.93894500697441,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 48,
+      "knee_degrees": 23.792436489417273,
+      "root_z_mm": 105.69736229719747,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 49,
+      "knee_degrees": 24.294008940255022,
+      "root_z_mm": 105.45456077024565,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 50,
+      "knee_degrees": 24.79558139109277,
+      "root_z_mm": 105.21054497835262,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 51,
+      "knee_degrees": 25.29715384193052,
+      "root_z_mm": 104.965319494959,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 52,
+      "knee_degrees": 25.798726292768265,
+      "root_z_mm": 104.71888891457257,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 53,
+      "knee_degrees": 26.300298743606014,
+      "root_z_mm": 104.4712578526265,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 54,
+      "knee_degrees": 26.801871194443763,
+      "root_z_mm": 104.22243094533479,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 55,
+      "knee_degrees": 27.30344364528151,
+      "root_z_mm": 103.97241284954661,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 56,
+      "knee_degrees": 27.805016096119257,
+      "root_z_mm": 103.72120824259761,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 57,
+      "knee_degrees": 28.306588546957006,
+      "root_z_mm": 103.46882182215897,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 58,
+      "knee_degrees": 28.80816099779475,
+      "root_z_mm": 103.21525830608472,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 59,
+      "knee_degrees": 29.3097334486325,
+      "root_z_mm": 102.96052243225557,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 60,
+      "knee_degrees": 29.811305899470252,
+      "root_z_mm": 102.70461895842155,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 61,
+      "knee_degrees": 30.312878350308,
+      "root_z_mm": 102.44755266204061,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 62,
+      "knee_degrees": 30.81445080114575,
+      "root_z_mm": 102.18932834011582,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 63,
+      "knee_degrees": 31.316023251983488,
+      "root_z_mm": 101.92995080902897,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 64,
+      "knee_degrees": 31.817595702821237,
+      "root_z_mm": 101.66942490437151,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 65,
+      "knee_degrees": 32.319168153658985,
+      "root_z_mm": 101.40775548077285,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 66,
+      "knee_degrees": 32.82074060449674,
+      "root_z_mm": 101.1449474117253,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 67,
+      "knee_degrees": 33.32231305533449,
+      "root_z_mm": 100.88100558940582,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 68,
+      "knee_degrees": 33.82388550617224,
+      "root_z_mm": 100.61593492449472,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 69,
+      "knee_degrees": 34.325457957009974,
+      "root_z_mm": 100.34974034599097,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 70,
+      "knee_degrees": 34.82703040784772,
+      "root_z_mm": 100.08242680102366,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 71,
+      "knee_degrees": 35.32860285868548,
+      "root_z_mm": 99.81399925466054,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 72,
+      "knee_degrees": 35.83017530952323,
+      "root_z_mm": 99.54446268971199,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 73,
+      "knee_degrees": 36.331747760360976,
+      "root_z_mm": 99.27382210653171,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 74,
+      "knee_degrees": 36.833320211198725,
+      "root_z_mm": 99.00208252281311,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 75,
+      "knee_degrees": 37.33489266203647,
+      "root_z_mm": 98.72924897338166,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 76,
+      "knee_degrees": 37.836465112874215,
+      "root_z_mm": 98.45532650998265,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 77,
+      "knee_degrees": 38.338037563711964,
+      "root_z_mm": 98.18032020106493,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 78,
+      "knee_degrees": 38.83961001454971,
+      "root_z_mm": 97.9042351315593,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 79,
+      "knee_degrees": 39.34118246538746,
+      "root_z_mm": 97.62707640265282,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 80,
+      "knee_degrees": 39.84275491622521,
+      "root_z_mm": 97.34884913155724,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 81,
+      "knee_degrees": 40.34432736706295,
+      "root_z_mm": 97.06955845127304,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 82,
+      "knee_degrees": 40.8458998179007,
+      "root_z_mm": 96.78920951034705,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 83,
+      "knee_degrees": 41.34747226873845,
+      "root_z_mm": 96.50780747262547,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 84,
+      "knee_degrees": 41.8490447195762,
+      "root_z_mm": 96.22535751699999,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 85,
+      "knee_degrees": 42.35061717041395,
+      "root_z_mm": 95.94186483714839,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 86,
+      "knee_degrees": 42.8521896212517,
+      "root_z_mm": 95.65733464126842,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 87,
+      "knee_degrees": 43.35376207208944,
+      "root_z_mm": 95.371772151805,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 88,
+      "knee_degrees": 43.85533452292719,
+      "root_z_mm": 95.08518260517064,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 89,
+      "knee_degrees": 44.356906973764936,
+      "root_z_mm": 94.79757125145832,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 90,
+      "knee_degrees": 44.858479424602685,
+      "root_z_mm": 94.50894335414702,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 91,
+      "knee_degrees": 45.36005187544044,
+      "root_z_mm": 94.21930418979909,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 92,
+      "knee_degrees": 45.86162432627819,
+      "root_z_mm": 93.92865904774955,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 93,
+      "knee_degrees": 46.363196777115924,
+      "root_z_mm": 93.63701322978649,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 94,
+      "knee_degrees": 46.86476922795367,
+      "root_z_mm": 93.34437204982275,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 95,
+      "knee_degrees": 47.36634167879143,
+      "root_z_mm": 93.05074083355777,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 96,
+      "knee_degrees": 47.86791412962918,
+      "root_z_mm": 92.75612491812993,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 97,
+      "knee_degrees": 48.369486580466926,
+      "root_z_mm": 92.4605296517582,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 98,
+      "knee_degrees": 48.871059031304675,
+      "root_z_mm": 92.16396039337312,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 99,
+      "knee_degrees": 49.372631482142424,
+      "root_z_mm": 91.86642251223641,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 100,
+      "knee_degrees": 49.874203932980166,
+      "root_z_mm": 91.56792138754881,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 101,
+      "knee_degrees": 50.375776383817914,
+      "root_z_mm": 91.26846240804505,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 102,
+      "knee_degrees": 50.87734883465566,
+      "root_z_mm": 90.96805097157622,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 103,
+      "knee_degrees": 51.37892128549341,
+      "root_z_mm": 90.66669248467817,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 104,
+      "knee_degrees": 51.88049373633116,
+      "root_z_mm": 90.36439236212556,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 105,
+      "knee_degrees": 52.38206618716891,
+      "root_z_mm": 90.06115602647071,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 106,
+      "knee_degrees": 52.88363863800665,
+      "root_z_mm": 89.75698890756678,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 107,
+      "knee_degrees": 53.3852110888444,
+      "root_z_mm": 89.45189644207407,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 108,
+      "knee_degrees": 53.88678353968215,
+      "root_z_mm": 89.14588407294886,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 109,
+      "knee_degrees": 54.3883559905199,
+      "root_z_mm": 88.8389572489138,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 110,
+      "knee_degrees": 54.889928441357654,
+      "root_z_mm": 88.53112142390887,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 111,
+      "knee_degrees": 55.3915008921954,
+      "root_z_mm": 88.22238205652185,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 112,
+      "knee_degrees": 55.89307334303314,
+      "root_z_mm": 87.91274460939746,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 113,
+      "knee_degrees": 56.394645793870886,
+      "root_z_mm": 87.60221454862346,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 114,
+      "knee_degrees": 56.896218244708635,
+      "root_z_mm": 87.29079734309332,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 115,
+      "knee_degrees": 57.39779069554639,
+      "root_z_mm": 86.97849846384311,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 116,
+      "knee_degrees": 57.89936314638414,
+      "root_z_mm": 86.66532338336245,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 117,
+      "knee_degrees": 58.40093559722189,
+      "root_z_mm": 86.35127757487673,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 118,
+      "knee_degrees": 58.90250804805964,
+      "root_z_mm": 86.0363665116001,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 119,
+      "knee_degrees": 59.40408049889737,
+      "root_z_mm": 85.7205956659569,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 120,
+      "knee_degrees": 59.90565294973513,
+      "root_z_mm": 85.40397050877014,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 121,
+      "knee_degrees": 60.40722540057288,
+      "root_z_mm": 85.08649650841468,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 122,
+      "knee_degrees": 60.908797851410625,
+      "root_z_mm": 84.76817912993376,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 123,
+      "knee_degrees": 61.410370302248374,
+      "root_z_mm": 84.4490238341156,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 124,
+      "knee_degrees": 61.91194275308612,
+      "root_z_mm": 84.12903607652925,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 125,
+      "knee_degrees": 62.413515203923865,
+      "root_z_mm": 83.80822130651563,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 126,
+      "knee_degrees": 62.915087654761614,
+      "root_z_mm": 83.48658496613217,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 127,
+      "knee_degrees": 63.41666010559936,
+      "root_z_mm": 83.16413248904803,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 128,
+      "knee_degrees": 63.91823255643711,
+      "root_z_mm": 82.84086929938627,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 129,
+      "knee_degrees": 64.41980500727486,
+      "root_z_mm": 82.51680081051045,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 130,
+      "knee_degrees": 64.92137745811262,
+      "root_z_mm": 82.19193242375165,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 131,
+      "knee_degrees": 65.42294990895036,
+      "root_z_mm": 81.86626952707246,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 132,
+      "knee_degrees": 65.9245223597881,
+      "root_z_mm": 81.53981749366355,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 133,
+      "knee_degrees": 66.42609481062586,
+      "root_z_mm": 81.212581680469,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 134,
+      "knee_degrees": 66.9276672614636,
+      "root_z_mm": 80.88456742663497,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 135,
+      "knee_degrees": 67.42923971230135,
+      "root_z_mm": 80.55578005187766,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 136,
+      "knee_degrees": 67.9308121631391,
+      "root_z_mm": 80.22622485476431,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 137,
+      "knee_degrees": 68.43238461397685,
+      "root_z_mm": 79.89590711090166,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 138,
+      "knee_degrees": 68.93395706481459,
+      "root_z_mm": 79.56483207102613,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 139,
+      "knee_degrees": 69.43552951565233,
+      "root_z_mm": 79.23300495898798,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 140,
+      "knee_degrees": 69.93710196649009,
+      "root_z_mm": 78.90043096962293,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 141,
+      "knee_degrees": 70.43867441732783,
+      "root_z_mm": 78.56711526650328,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 142,
+      "knee_degrees": 70.94024686816559,
+      "root_z_mm": 78.23306297955942,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 143,
+      "knee_degrees": 71.44181931900334,
+      "root_z_mm": 77.89827920256309,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 144,
+      "knee_degrees": 71.94339176984107,
+      "root_z_mm": 77.56276899046213,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 145,
+      "knee_degrees": 72.44496422067883,
+      "root_z_mm": 77.22653735655602,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 146,
+      "knee_degrees": 72.94653667151657,
+      "root_z_mm": 76.8895892695002,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 147,
+      "knee_degrees": 73.44810912235432,
+      "root_z_mm": 76.55192965012664,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 148,
+      "knee_degrees": 73.94968157319208,
+      "root_z_mm": 76.21356336806679,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 149,
+      "knee_degrees": 74.45125402402982,
+      "root_z_mm": 75.87449523816153,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 150,
+      "knee_degrees": 74.95282647486756,
+      "root_z_mm": 75.53473001664224,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 151,
+      "knee_degrees": 75.4543989257053,
+      "root_z_mm": 75.19427239706414,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 152,
+      "knee_degrees": 75.95597137654306,
+      "root_z_mm": 74.85312700597385,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 153,
+      "knee_degrees": 76.45754382738082,
+      "root_z_mm": 74.51129839828837,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 154,
+      "knee_degrees": 76.95911627821856,
+      "root_z_mm": 74.1687910523629,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 155,
+      "knee_degrees": 77.46068872905632,
+      "root_z_mm": 73.82560936472223,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 156,
+      "knee_degrees": 77.96226117989406,
+      "root_z_mm": 73.48175764442719,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 157,
+      "knee_degrees": 78.4638336307318,
+      "root_z_mm": 73.1372401070462,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 158,
+      "knee_degrees": 78.96540608156955,
+      "root_z_mm": 72.79206086819778,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 159,
+      "knee_degrees": 79.4669785324073,
+      "root_z_mm": 72.44622393662753,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 160,
+      "knee_degrees": 79.96855098324505,
+      "root_z_mm": 72.09973320677904,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 161,
+      "knee_degrees": 80.4701234340828,
+      "root_z_mm": 71.75259245081352,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 162,
+      "knee_degrees": 80.97169588492054,
+      "root_z_mm": 71.40480531002964,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 163,
+      "knee_degrees": 81.47326833575829,
+      "root_z_mm": 71.05637528562858,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 164,
+      "knee_degrees": 81.97484078659603,
+      "root_z_mm": 70.70730572876458,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 165,
+      "knee_degrees": 82.47641323743379,
+      "root_z_mm": 70.35759982981386,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 166,
+      "knee_degrees": 82.97798568827153,
+      "root_z_mm": 70.00726060678915,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 167,
+      "knee_degrees": 83.47955813910929,
+      "root_z_mm": 69.65629089281674,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 168,
+      "knee_degrees": 83.98113058994703,
+      "root_z_mm": 69.3046933225859,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 169,
+      "knee_degrees": 84.48270304078477,
+      "root_z_mm": 68.95247031766905,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 170,
+      "knee_degrees": 84.98427549162253,
+      "root_z_mm": 68.59962407059975,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 171,
+      "knee_degrees": 85.48584794246027,
+      "root_z_mm": 68.2461565275824,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 172,
+      "knee_degrees": 85.98742039329802,
+      "root_z_mm": 67.89206936969256,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 173,
+      "knee_degrees": 86.48899284413578,
+      "root_z_mm": 67.5373639924099,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 174,
+      "knee_degrees": 86.9905652949735,
+      "root_z_mm": 67.18204148330662,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 175,
+      "knee_degrees": 87.49213774581126,
+      "root_z_mm": 66.82610259769153,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 176,
+      "knee_degrees": 87.99371019664902,
+      "root_z_mm": 66.46954773198593,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 177,
+      "knee_degrees": 88.49528264748676,
+      "root_z_mm": 66.11237689457744,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 178,
+      "knee_degrees": 88.99685509832452,
+      "root_z_mm": 65.75458967386571,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 179,
+      "knee_degrees": 89.49842754916226,
+      "root_z_mm": 65.39618520317553,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    },
+    {
+      "sample": 180,
+      "knee_degrees": 90.0,
+      "root_z_mm": 65.03716212216933,
+      "original_nonadjacent_proxy_overlaps": [],
+      "ground_mesh_penetrations": []
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "selected_design": "Portrait Tab5 print concept with planar front interface",
+  "body_width_depth_height_mm": [
+    80,
+    80,
+    80
+  ],
+  "body_wall_mm": 2.4,
+  "outer_corner_radius_mm": 6,
+  "side_window_radius_mm": 10,
+  "print_part_count": 4,
+  "printed_mass_g": 84.51768343365804,
+  "total_model_mass_g": 701.469269402311,
+  "validation_summary": "validation_summary.json",
+  "sampled_minimum_clearance_mm": 3.097374323527916,
+  "sampled_minimum_part": "lower clamp hardware",
+  "prior_portrait_minimum_mm": 2.8829749886643934,
+  "tested_state_count": 1486,
+  "final_tests_passed": {
+    "new_print_design": 4,
+    "preserved_portrait": 4,
+    "original_model_tests": 2
+  },
+  "walk": {
+    "simulated_s": 10.000000000000163,
+    "forward_displacement_m": 0.9576829237173704,
+    "lateral_displacement_m": -0.10422808174434772,
+    "max_tilt_deg": 3.3535837513885274,
+    "fall_reason": null,
+    "shell_leg_contact_samples": 0
+  },
+  "idle": {
+    "simulated_s": 10.000000000000163,
+    "max_tilt_deg": 1.6408893132235745,
+    "fall_reason": null,
+    "shell_leg_contact_samples": 0
+  },
+  "limits": [
+    "Trial-print concept, not measured hardware fit or structural certification.",
+    "Tab5 M3 engagement, printed pilot/fastener fit, slot-clamp load capacity and cable access require physical verification.",
+    "Discrete simulated poses and short local policy rollouts, not every continuous configuration or balanced sitting/folding."
+  ],
+  "video": "walking_demo.mp4 faithfully replays first6s of completed full-model policy rollout; source hashes in walking_demo.json",
+  "front_mating_depth_fillet_mm": 0,
+  "front_mating_plane_x_mm": 41,
+  "revision_delta_mass_g": 1.7757222398909756
+}

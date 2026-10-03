@@ -1,0 +1,16 @@
+# Local dependencies, generated outputs and credentials
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+.openai/
+.DS_Store
+web/dist/
+web/.preview/
+runs/
+new_evaluation/
+microduck_rl/
+bam/
+policies/alpha_walking.onnx

@@ -1,0 +1,654 @@
+{
+  "scene": "prototype/diagnostics/scene_lowcube_cutout_candidate.xml",
+  "candidate_model_sha256": "794df89ffe070f78f9262a7f44e9e09f0e8437d8e11462249dca5b985f28d03c",
+  "report": {
+    "label": "feet_flat_crouch_181",
+    "sample_count": 181,
+    "groups": {
+      "shell": {
+        "minimum_gap_mm": 10.499999270507928,
+        "all_pairs_at_least_20mm": false,
+        "winner": {
+          "sample_index": 0,
+          "time_s": null,
+          "panel": "cube_chin_center_collision",
+          "leg_body": "hip_l",
+          "leg_mesh": "hip_l",
+          "leg_geom": "shell_guard_legmesh_005",
+          "qpos": [
+            0.0,
+            0.0,
+            0.11583981398950276,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.4577034296292249,
+            -0.00494,
+            0.4527634296292249,
+            0.0,
+            0.0,
+            0.4577034296292249,
+            0.00494,
+            -0.4527634296292249
+          ],
+          "joint_angles_deg": [
+            0.0,
+            0.0,
+            -26.22447478641766,
+            -0.28304115079462666,
+            25.941433635623035,
+            0.0,
+            0.0,
+            26.22447478641766,
+            0.28304115079462666,
+            -25.941433635623035
+          ],
+          "gap_mm": 10.499999270507928,
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "constraint_violation_mm": 1.2175149777249317e-11,
+          "mesh_closest_point_trunk_mm": [
+            29.000000729492072,
+            24.22502418881838,
+            -17.500000544092796
+          ],
+          "box_closest_point_trunk_mm": [
+            39.5,
+            24.22502418881838,
+            -17.500000544092796
+          ]
+        },
+        "candidate_pairs": 4116,
+        "optimized_pairs": 992,
+        "optimizer_failures": []
+      },
+      "tab5": {
+        "minimum_gap_mm": 12.756821443057774,
+        "all_pairs_at_least_20mm": false,
+        "winner": {
+          "sample_index": 1,
+          "time_s": null,
+          "panel": "tab5_collision",
+          "leg_body": "hip_l_2",
+          "leg_mesh": "hip_l",
+          "leg_geom": "shell_guard_legmesh_021",
+          "qpos": [
+            0.0,
+            0.0,
+            0.11566023160194734,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.4531928083603082,
+            0.0038140907044160923,
+            0.45700689906472425,
+            0.0,
+            0.0,
+            0.4531928083603082,
+            -0.0038140907044160923,
+            -0.45700689906472425
+          ],
+          "joint_angles_deg": [
+            0.0,
+            0.0,
+            -25.966035224726788,
+            0.21853130004312127,
+            26.18456652476991,
+            0.0,
+            0.0,
+            25.966035224726788,
+            -0.21853130004312127,
+            -26.18456652476991
+          ],
+          "gap_mm": 12.756821443057774,
+          "optimizer_success": true,
+          "optimizer_status": 0,
+          "constraint_violation_mm": 5.080380560684716e-13,
+          "mesh_closest_point_trunk_mm": [
+            28.943967858810286,
+            -19.462347360607552,
+            -13.169961911176053
+          ],
+          "box_closest_point_trunk_mm": [
+            41.0,
+            -19.462347360607552,
+            -8.999999999999986
+          ]
+        },
+        "candidate_pairs": 724,
+        "optimized_pairs": 362,
+        "optimizer_failures": []
+      }
+    }
+  },
+  "mechanism_all_exactly_equal": true,
+  "mechanism_comparison": [
+    {
+      "joint": "left_hip_yaw",
+      "body": "yaw2roll",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "left_hip_roll",
+      "body": "hip_l",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "left_hip_pitch",
+      "body": "upper_leg_left",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "left_knee",
+      "body": "leg",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "left_ankle",
+      "body": "ankle_left",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "right_hip_yaw",
+      "body": "bearing_roll",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "right_hip_roll",
+      "body": "hip_l_2",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "right_hip_pitch",
+      "body": "upper_leg_right",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "right_knee",
+      "body": "leg_2",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "joint": "right_ankle",
+      "body": "ankle_right",
+      "checks": {
+        "jnt_type": true,
+        "jnt_axis": true,
+        "jnt_pos": true,
+        "jnt_range": true,
+        "jnt_limited": true,
+        "body_pos": true,
+        "body_quat": true,
+        "body_mass": true,
+        "body_inertia": true,
+        "body_ipos": true,
+        "body_iquat": true,
+        "same_parent_name": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_000",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_001",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_002",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_003",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_004",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_005",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_006",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_007",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_008",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_009",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_010",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_011",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_012",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_013",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_014",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_015",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_016",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_017",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_018",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_019",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_020",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_021",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_022",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_023",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_024",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_025",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_026",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_027",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_028",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_029",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_030",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_031",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_032",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    },
+    {
+      "geom": "shell_guard_legmesh_033",
+      "checks": {
+        "geom_pos": true,
+        "geom_quat": true,
+        "geom_size": true,
+        "geom_type": true,
+        "same_mesh": true
+      }
+    }
+  ],
+  "scope": "181 bounded feet-flat kinematic configurations; convex mesh-to-box optimization independent of contact filtering. No simulation/control/stability/continuous collision guarantee."
+}

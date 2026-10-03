@@ -1,0 +1,25 @@
+{
+  "all_181_original_overlap_flags": 0,
+  "all_181_original_ground_penetrations": 0,
+  "max_foot_rotation_matrix_residual": 1.5543122344752192e-15,
+  "max_foot_site_x_error_m": 1.5436779264906861e-16,
+  "foot_site_y_m": [
+    0.05041479999999998,
+    -0.05041479999999998
+  ],
+  "candidate_com_x_range_mm": [
+    -7.867248093729878,
+    -6.749768103199156
+  ],
+  "tab5_unchanged_checks": {
+    "body_pos": true,
+    "body_quat": true,
+    "body_mass": true,
+    "body_inertia": true,
+    "geom_pos": true,
+    "geom_quat": true,
+    "geom_size": true,
+    "geom_type": true
+  },
+  "warning": "Foot sites are approx +/-50.415 mm sideways instead of stock STAND +/-41.824 mm because hip roll is zero. No claim of continuous transition from rolled stock stance. Candidate COM x projection lies inside the sole bounding rectangle but this is not contact-wrench or static/dynamic balance proof."
+}

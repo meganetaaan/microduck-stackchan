@@ -1,0 +1,384 @@
+{
+  "candidate": "prototype/diagnostics/scene_lowcube_cutout_candidate.xml",
+  "scope": "101 samples per linear joint-space interpolation, clearance only, not a feasible balance-controlled movement",
+  "reports": [
+    {
+      "label": "STAND_to_SIT",
+      "sample_count": 101,
+      "groups": {
+        "shell": {
+          "minimum_gap_mm": 4.493544237047804,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 93,
+            "time_s": null,
+            "panel": "cube_chin_center_collision",
+            "leg_body": "ankle_left",
+            "leg_mesh": "sole_left",
+            "leg_geom": "shell_guard_legmesh_013",
+            "qpos": [
+              0.0,
+              0.0,
+              0.0735,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.006108652381999996,
+              -0.5190026799999999,
+              0.9735502,
+              0.03170887999999998,
+              0.0,
+              0.006108652381999996,
+              0.5190026799999999,
+              -0.9735502,
+              -0.03170887999999998
+            ],
+            "joint_angles_deg": [
+              0.0,
+              -0.3500000000011369,
+              -29.736663119978818,
+              55.7803176041172,
+              1.8167849970867846,
+              0.0,
+              0.3500000000011369,
+              29.736663119978818,
+              -55.7803176041172,
+              -1.8167849970867846
+            ],
+            "gap_mm": 4.493544237047804,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "mesh_closest_point_trunk_mm": [
+              41.50359754250114,
+              29.464466600840307,
+              -45.082869146693646
+            ],
+            "box_closest_point_trunk_mm": [
+              41.0,
+              25.0,
+              -45.0
+            ]
+          },
+          "candidate_pairs": 2440,
+          "optimized_pairs": 154,
+          "optimizer_failures": []
+        },
+        "tab5": {
+          "minimum_gap_mm": 11.440919978032628,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 100,
+            "time_s": null,
+            "panel": "tab5_collision",
+            "leg_body": "ankle_left",
+            "leg_mesh": "sole_left",
+            "leg_geom": "shell_guard_legmesh_013",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "joint_angles_deg": [
+              0.0,
+              0.0,
+              -30.0000701530499,
+              60.0001403060998,
+              0.0,
+              0.0,
+              0.0,
+              30.0000701530499,
+              -60.0001403060998,
+              0.0
+            ],
+            "gap_mm": 11.440919978032628,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "mesh_closest_point_trunk_mm": [
+              42.03720316315764,
+              49.65072105138014,
+              -20.44091997803263
+            ],
+            "box_closest_point_trunk_mm": [
+              42.03720316315764,
+              49.65072105138014,
+              -9.0
+            ]
+          },
+          "candidate_pairs": 456,
+          "optimized_pairs": 2,
+          "optimizer_failures": []
+        }
+      }
+    },
+    {
+      "label": "STAND_to_FOLD",
+      "sample_count": 101,
+      "groups": {
+        "shell": {
+          "minimum_gap_mm": 4.425092170516229,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 100,
+            "time_s": null,
+            "panel": "cube_side_left_collision",
+            "leg_body": "upper_leg_right",
+            "leg_mesh": "upper_leg_right",
+            "leg_geom": "shell_guard_legmesh_026",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "joint_angles_deg": [
+              0.0,
+              0.0,
+              89.95437383553924,
+              89.95437383553924,
+              0.0,
+              0.0,
+              0.0,
+              -89.95437383553924,
+              -89.95437383553924,
+              0.0
+            ],
+            "gap_mm": 4.425092170516229,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "mesh_closest_point_trunk_mm": [
+              -17.819787387632328,
+              -64.33243660028896,
+              30.578081499547807
+            ],
+            "box_closest_point_trunk_mm": [
+              -17.819787387632328,
+              -64.5,
+              34.99999999999999
+            ]
+          },
+          "candidate_pairs": 2616,
+          "optimized_pairs": 140,
+          "optimizer_failures": []
+        },
+        "tab5": {
+          "minimum_gap_mm": 12.756821443057925,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 100,
+            "time_s": null,
+            "panel": "tab5_collision",
+            "leg_body": "hip_l_2",
+            "leg_mesh": "hip_l",
+            "leg_geom": "shell_guard_legmesh_021",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.57,
+              1.57,
+              0.0,
+              0.0,
+              0.0,
+              -1.57,
+              -1.57,
+              0.0
+            ],
+            "joint_angles_deg": [
+              0.0,
+              0.0,
+              89.95437383553924,
+              89.95437383553924,
+              0.0,
+              0.0,
+              0.0,
+              -89.95437383553924,
+              -89.95437383553924,
+              0.0
+            ],
+            "gap_mm": 12.756821443057925,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 7.460698725481052e-14,
+            "mesh_closest_point_trunk_mm": [
+              28.943967858810094,
+              -19.462347360642333,
+              -13.169961911175974
+            ],
+            "box_closest_point_trunk_mm": [
+              41.0,
+              -19.462347360642333,
+              -9.0
+            ]
+          },
+          "candidate_pairs": 404,
+          "optimized_pairs": 202,
+          "optimizer_failures": []
+        }
+      }
+    },
+    {
+      "label": "SIT_to_FOLD",
+      "sample_count": 101,
+      "groups": {
+        "shell": {
+          "minimum_gap_mm": 4.274979585651608,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 5,
+            "time_s": null,
+            "panel": "cube_chin_center_collision",
+            "leg_body": "ankle_right",
+            "leg_mesh": "sole_right",
+            "leg_geom": "shell_guard_legmesh_031",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.4189199999999999,
+              1.07334,
+              0.0,
+              0.0,
+              0.0,
+              0.4189199999999999,
+              -1.07334,
+              0.0
+            ],
+            "joint_angles_deg": [
+              0.0,
+              0.0,
+              -24.00234795362044,
+              61.49785198257178,
+              0.0,
+              0.0,
+              0.0,
+              24.00234795362044,
+              -61.49785198257178,
+              0.0
+            ],
+            "gap_mm": 4.274979585651608,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 2.1316282072803006e-14,
+            "mesh_closest_point_trunk_mm": [
+              40.69170957661022,
+              -29.27497373412721,
+              -45.00707320722412
+            ],
+            "box_closest_point_trunk_mm": [
+              40.69170957661022,
+              -25.0,
+              -45.0
+            ]
+          },
+          "candidate_pairs": 3200,
+          "optimized_pairs": 196,
+          "optimizer_failures": []
+        },
+        "tab5": {
+          "minimum_gap_mm": 11.440919978032628,
+          "all_pairs_at_least_20mm": false,
+          "winner": {
+            "sample_index": 0,
+            "time_s": null,
+            "panel": "tab5_collision",
+            "leg_body": "ankle_left",
+            "leg_mesh": "sole_left",
+            "leg_geom": "shell_guard_legmesh_013",
+            "qpos": [
+              0.0,
+              0.0,
+              0.07,
+              1.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              -0.5236,
+              1.0472,
+              0.0,
+              0.0,
+              0.0,
+              0.5236,
+              -1.0472,
+              0.0
+            ],
+            "joint_angles_deg": [
+              0.0,
+              0.0,
+              -30.0000701530499,
+              60.0001403060998,
+              0.0,
+              0.0,
+              0.0,
+              30.0000701530499,
+              -60.0001403060998,
+              0.0
+            ],
+            "gap_mm": 11.440919978032628,
+            "optimizer_success": true,
+            "optimizer_status": 0,
+            "constraint_violation_mm": 0.0,
+            "mesh_closest_point_trunk_mm": [
+              42.03720316315764,
+              49.65072105138014,
+              -20.44091997803263
+            ],
+            "box_closest_point_trunk_mm": [
+              42.03720316315764,
+              49.65072105138014,
+              -9.0
+            ]
+          },
+          "candidate_pairs": 510,
+          "optimized_pairs": 2,
+          "optimizer_failures": []
+        }
+      }
+    }
+  ]
+}

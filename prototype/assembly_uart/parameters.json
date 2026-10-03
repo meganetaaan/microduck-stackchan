@@ -1,0 +1,22 @@
+{
+  "schema": 1,
+  "body_source": "../portrait_print/tab5_portrait_print.xml",
+  "status": "Provisional component assembly; no measured hardware fit",
+  "power": "protected switched 2S to Tab5 J7 GND1 HVIN2; no USB power",
+  "serial": "3.3V UART direct; Tab5 M5Bus16 GPIO6 TX to Radxa16 UART4 RX; Tab5 M5Bus15 GPIO7 RX from Radxa18 UART4 TX; common GND",
+  "mass_scale": 1.0,
+  "mass_uncertainty_scale_range": [
+    0.7,
+    1.5
+  ],
+  "feedthrough_center_xy_mm": [
+    -20,
+    0
+  ],
+  "feedthrough_hole_diameter_mm": 7.0,
+  "notes": [
+    "Connector families, source branch location, fuse rating, cable gauge and HVIN autostart remain unknown.",
+    "Wires are rigidly fixed routing envelopes, not simulated flexible cables.",
+    "Full original leg mechanics and portrait Tab5 placement remain unchanged."
+  ]
+}
